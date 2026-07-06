@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 239443324,
+  "telegram_offset": 239443327,
   "channels": {},
   "awaiting_backfill": {},
   "queue": [],
@@ -8,5 +8,5 @@
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-07-06T12:05:11.231075+00:00"
+  "last_run": "2026-07-06T12:09:11.623655+00:00"
 }
