@@ -1,0 +1,12 @@
+{
+  "telegram_offset": 239443324,
+  "channels": {},
+  "awaiting_backfill": {},
+  "queue": [],
+  "daily": {
+    "date": "",
+    "count": 0
+  },
+  "greeted": true,
+  "last_run": "2026-07-06T12:05:11.231075+00:00"
+}
