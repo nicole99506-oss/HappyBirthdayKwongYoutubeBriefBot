@@ -96,7 +96,7 @@ def _brief_html(entry: dict, channel_title: str, link_channel: bool = True) -> s
     return f"""<article class="brief">
 <div class="slug">{ch_html} · {date} · <b>watch → 2 min read</b></div>
 <h2><a href="{_e(entry['url'])}" target="_blank" rel="noopener">{_e(entry['title'])}</a></h2>
-<p class="tldr"><strong>TL;DR</strong> — {_e(s.get('tldr',''))}</p>
+<p class="tldr"><strong>The Gist</strong> — {_e(s.get('tldr',''))}</p>
 <details><summary>Read the briefing</summary><div class="body">
 <h3>Summary</h3>{paras}
 <h3>Highlights</h3><ul>{hl}</ul>
