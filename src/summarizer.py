@@ -28,12 +28,16 @@ def client() -> genai.Client:
 
 SUMMARY_PROMPT = """You are writing a briefing for a sophisticated reader who follows
 global political economy closely. Watch this video and produce a JSON object with
-exactly these fields (all values in English):
+exactly these fields.
 
-- "tldr": one sentence (max 30 words) capturing the single most important takeaway.
-- "summary": 2-3 tight paragraphs (180-260 words total) covering the core argument,
-  key evidence/data cited, and the speaker's conclusion. Write like the Economist:
-  dense, precise, no filler.
+LANGUAGE RULE: First detect the video's primary spoken language. If it is Chinese
+(Mandarin or Cantonese), write ALL field values in Traditional Chinese (繁體中文).
+For any other language, write ALL field values in English. Never mix languages.
+
+- "tldr": one sentence (max 30 words / 40 Chinese characters) capturing the single most important takeaway.
+- "summary": 2-3 tight paragraphs (180-260 words in English, or 300-450 characters
+  in Chinese) covering the core argument, key evidence/data cited, and the speaker's
+  conclusion. Write like the Economist: dense, precise, no filler.
 - "highlights": 3-5 bullet strings, each one concrete claim, number, or quote-worthy
   point from the video.
 - "key_concepts": 2-4 objects of {"term": ..., "explanation": ...} -- frameworks,
@@ -76,7 +80,8 @@ A new video was just summarized. Its key concepts and highlights:
 
 Update the tree: place new concepts under the most fitting existing branch, create a
 new top-level branch only when genuinely new territory, merge duplicates, keep node
-names under 6 words. Keep the whole tree under {max_nodes} nodes -- if needed,
+names under 6 words (or 10 Chinese characters). Write node names in the same
+language as the incoming concepts. Keep the whole tree under {max_nodes} nodes -- if needed,
 consolidate leaf nodes into their parents. Return ONLY the updated JSON tree.
 """
 

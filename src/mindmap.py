@@ -35,6 +35,10 @@ def save_tree(channel_id: str, tree: dict) -> None:
 
 
 def _wrap(label: str, width: int = 18) -> str:
+    # CJK text has no spaces; wrap by character count in that case
+    if any("\u4e00" <= ch <= "\u9fff" for ch in label):
+        w = max(6, width // 2)
+        return "\n".join(label[i:i + w] for i in range(0, len(label), w))
     return "\n".join(textwrap.wrap(label, width)) or label
 
 
@@ -44,15 +48,15 @@ def render(channel_id: str, tree: dict) -> str:
             "rankdir": "LR", "bgcolor": PAPER, "splines": "curved",
             "nodesep": "0.25", "ranksep": "0.9", "pad": "0.4",
             "label": tree.get("name", ""), "labelloc": "t",
-            "fontname": "Helvetica-Bold", "fontsize": "22", "fontcolor": INK,
+            "fontname": "Noto Sans CJK TC", "fontsize": "22", "fontcolor": INK,
         },
-        node_attr={"fontname": "Helvetica", "fontcolor": "white", "style": "filled,rounded",
+        node_attr={"fontname": "Noto Sans CJK TC", "fontcolor": "white", "style": "filled,rounded",
                    "shape": "box", "penwidth": "0", "margin": "0.15,0.08"},
         edge_attr={"arrowhead": "none", "penwidth": "1.6"},
     )
     root_id = "n0"
     g.node(root_id, _wrap(tree.get("name", "Channel"), 14),
-           fillcolor=INK, fontsize="16", fontname="Helvetica-Bold")
+           fillcolor=INK, fontsize="16")
 
     counter = [0]
 
