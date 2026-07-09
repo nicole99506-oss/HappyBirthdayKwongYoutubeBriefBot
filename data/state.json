@@ -12,40 +12,16 @@
         "h-EXyG5PaaE",
         "oce2Mhw7qwA",
         "mn8gbjg322Q",
-        "5WVB56JBYdw"
+        "5WVB56JBYdw",
+        "7nu6M76TLN0",
+        "oYswnw8GC-g",
+        "nK0BFa4sQXg",
+        "M95RG4GMk6A"
       ]
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "7nu6M76TLN0",
-      "title": "【聲音專欄】世界杯首輪球王美斯首場即帽子戲法 ． 阿根廷足球點解咁勁？ 點解有咁多好似 美斯、馬勒當那 呢啲球王？ #利世民",
-      "published": "2026-06-19T01:16:00Z",
-      "url": "https://www.youtube.com/watch?v=7nu6M76TLN0",
-      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
-    },
-    {
-      "video_id": "oYswnw8GC-g",
-      "title": "【獨家‼️快過追光者‼️】備份蘋果．記錄香港．開幕",
-      "published": "2026-06-19T03:25:25Z",
-      "url": "https://www.youtube.com/watch?v=oYswnw8GC-g",
-      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
-    },
-    {
-      "video_id": "nK0BFa4sQXg",
-      "title": "【禁毒女團】今次最大敗筆唔係衰在玩 AI 而係⋯⋯ #利世民 #日常政治學 #利世民",
-      "published": "2026-07-05T20:33:50Z",
-      "url": "https://www.youtube.com/watch?v=nK0BFa4sQXg",
-      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
-    },
-    {
-      "video_id": "M95RG4GMk6A",
-      "title": "【東升西降死亡交叉？】中美脫勾去全球化邊個先係最大輸家？美國自給自足能力竟然高過中國？ #利世民 #實用經濟學",
-      "published": "2026-07-07T07:50:57Z",
-      "url": "https://www.youtube.com/watch?v=M95RG4GMk6A",
-      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
-    },
     {
       "video_id": "FenfEbxeTnk",
       "title": "生產力零增長．澳洲上調最低工資的爭議 #利世民 #大寶雪梨來鴻",
@@ -84,9 +60,9 @@
   ],
   "daily": {
     "date": "2026-07-10",
-    "count": 1
+    "count": 5
   },
   "greeted": true,
-  "last_run": "2026-07-09T20:11:38.745123+00:00",
+  "last_run": "2026-07-09T21:44:57.442373+00:00",
   "last_error_notified": "2026-07-09"
 }
