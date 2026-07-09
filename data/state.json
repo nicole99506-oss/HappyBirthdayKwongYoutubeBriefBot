@@ -1,17 +1,121 @@
 {
-  "telegram_offset": 239443354,
-  "channels": {},
-  "awaiting_backfill": {
+  "telegram_offset": 239443355,
+  "channels": {
     "UCrQ2dUU2C_dtkbav78GoUEg": {
       "title": "利世民",
-      "thumb": "https://yt3.ggpht.com/hkSZ8B9Z4P0pNFdmmhTGRQwHESB285aFNk8X7KBNpLsMgugjkg-O-wZuZpw3H94gTWCu-CEl4A=s240-c-k-c0x00ffffff-no-rj"
+      "thumb": "https://yt3.ggpht.com/hkSZ8B9Z4P0pNFdmmhTGRQwHESB285aFNk8X7KBNpLsMgugjkg-O-wZuZpw3H94gTWCu-CEl4A=s240-c-k-c0x00ffffff-no-rj",
+      "added_at": "",
+      "backfill": "30d",
+      "seen": [
+        "TRznw8N_qpQ"
+      ]
     }
   },
-  "queue": [],
+  "awaiting_backfill": {},
+  "queue": [
+    {
+      "video_id": "O_USp88RC8s",
+      "title": "SpaceX 食糊先定長揸？Elon Musk 捉緊嘅一盤大棋 #利世民 #實用經濟學",
+      "published": "2026-06-12T23:14:11Z",
+      "url": "https://www.youtube.com/watch?v=O_USp88RC8s",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "h-EXyG5PaaE",
+      "title": "沒有出世紙，如何向英國 Home Office 證明親子關係？在法律上，甚麼關係才算「父母與子女關係」？ #利世民",
+      "published": "2026-06-14T04:14:36Z",
+      "url": "https://www.youtube.com/watch?v=h-EXyG5PaaE",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "oce2Mhw7qwA",
+      "title": "【英國．在家教育】個案數字激增背．法律紅線收緊 ‼️ #利世民",
+      "published": "2026-06-15T10:00:03Z",
+      "url": "https://www.youtube.com/watch?v=oce2Mhw7qwA",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "mn8gbjg322Q",
+      "title": "【現代煉金術的底層邏輯】全球總負債 318 萬億美元．誰是最終債主？世界金融秩序何去何從？ 利世民",
+      "published": "2026-06-16T04:47:51Z",
+      "url": "https://www.youtube.com/watch?v=mn8gbjg322Q",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "5WVB56JBYdw",
+      "title": "澳洲 AI 發展有冇得搞？工人友善AI 會唔會只係一廂情願？ #利世民 #大寶雪梨來鴻",
+      "published": "2026-06-17T04:53:38Z",
+      "url": "https://www.youtube.com/watch?v=5WVB56JBYdw",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "7nu6M76TLN0",
+      "title": "【聲音專欄】世界杯首輪球王美斯首場即帽子戲法 ． 阿根廷足球點解咁勁？ 點解有咁多好似 美斯、馬勒當那 呢啲球王？ #利世民",
+      "published": "2026-06-19T01:16:00Z",
+      "url": "https://www.youtube.com/watch?v=7nu6M76TLN0",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "oYswnw8GC-g",
+      "title": "【獨家‼️快過追光者‼️】備份蘋果．記錄香港．開幕",
+      "published": "2026-06-19T03:25:25Z",
+      "url": "https://www.youtube.com/watch?v=oYswnw8GC-g",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "nK0BFa4sQXg",
+      "title": "【禁毒女團】今次最大敗筆唔係衰在玩 AI 而係⋯⋯ #利世民 #日常政治學 #利世民",
+      "published": "2026-07-05T20:33:50Z",
+      "url": "https://www.youtube.com/watch?v=nK0BFa4sQXg",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "M95RG4GMk6A",
+      "title": "【東升西降死亡交叉？】中美脫勾去全球化邊個先係最大輸家？美國自給自足能力竟然高過中國？ #利世民 #實用經濟學",
+      "published": "2026-07-07T07:50:57Z",
+      "url": "https://www.youtube.com/watch?v=M95RG4GMk6A",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "FenfEbxeTnk",
+      "title": "生產力零增長．澳洲上調最低工資的爭議 #利世民 #大寶雪梨來鴻",
+      "published": "2026-07-08T17:07:16Z",
+      "url": "https://www.youtube.com/watch?v=FenfEbxeTnk",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "D5Tq_0IZZFU",
+      "title": "【文件解密】軟對抗手冊．北京為何無法信任香港公務員 #利世民 #日常政治學",
+      "published": "2026-06-05T08:18:41+00:00",
+      "url": "https://www.youtube.com/watch?v=D5Tq_0IZZFU",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "eWrOuUG6m0I",
+      "title": "【生仔要考牌？】Save Lily ＋ Save Danny 事件反映出的兩翼觀點 #在家分娩 #在家教育 #利世民 #日常政治學",
+      "published": "2026-06-03T03:33:51+00:00",
+      "url": "https://www.youtube.com/watch?v=eWrOuUG6m0I",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "rOMGLpGgn0o",
+      "title": "澳洲一國黨的迅速崛起．韓森是何許人也？反移民浪潮背後的主觀情緒 #利世民 #日常政治學",
+      "published": "2026-06-03T01:41:36+00:00",
+      "url": "https://www.youtube.com/watch?v=rOMGLpGgn0o",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    },
+    {
+      "video_id": "zJ2aGpW6r8k",
+      "title": "美國對台軍售背後的政治考慮．中、美、台關係的長期變化 #利世民",
+      "published": "2026-06-02T05:27:41+00:00",
+      "url": "https://www.youtube.com/watch?v=zJ2aGpW6r8k",
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+    }
+  ],
   "daily": {
     "date": "2026-07-09",
-    "count": 0
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-09T07:26:24.849114+00:00"
+  "last_run": "2026-07-09T07:30:39.626618+00:00"
 }
