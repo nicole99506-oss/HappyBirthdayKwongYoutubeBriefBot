@@ -42,6 +42,28 @@ def _summary_json_path(cid: str, vid: str) -> str:
     return os.path.join(d, f"{vid}.json")
 
 
+
+
+def _notify_error_once(st: dict, err: Exception) -> None:
+    """Telegram-notify about summarization errors at most once per day."""
+    from datetime import datetime, timezone
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if st.get("last_error_notified") == today:
+        return
+    st["last_error_notified"] = today
+    try:
+        tg.send_message(config.TELEGRAM_CHAT_ID,
+                        "⚠️ Summaries are failing and will be retried automatically. "
+                        f"Latest error: {str(err)[:300]}\n\n"
+                        "If this repeats, check the Actions log — a likely fix is "
+                        "setting the GEMINI_MODEL repository variable to a current "
+                        "model name.", markdown=False)
+    except Exception as e2:
+        print(f"[notify] {e2}")
+
+
+
+
 def process_queue(st: dict) -> None:
     budget_run = config.MAX_VIDEOS_PER_RUN
     processed = 0
@@ -66,10 +88,17 @@ def process_queue(st: dict) -> None:
         except Exception as e:
             print(f"[summarize] {item['video_id']}: {e}")
             traceback.print_exc()
-            # skip this video, do not retry forever
-            ch["seen"].append(item["video_id"])
-            st["queue"].pop(0)
-            continue
+            # Keep the video in the queue and retry on later runs; only give up
+            # after 3 failed attempts. Stop this run entirely so one systemic
+            # failure (e.g. a retired model name) can never burn the queue.
+            item["fails"] = item.get("fails", 0) + 1
+            if item["fails"] >= 3:
+                print(f"[summarize] giving up on {item['video_id']} after 3 attempts")
+                ch["seen"].append(item["video_id"])
+                st["queue"].pop(0)
+                continue
+            _notify_error_once(st, e)
+            break
 
         st["queue"].pop(0)
         ch["seen"].append(item["video_id"])
