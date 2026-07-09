@@ -21,7 +21,8 @@
       "title": "【現代煉金術的底層邏輯】全球總負債 318 萬億美元．誰是最終債主？世界金融秩序何去何從？ 利世民",
       "published": "2026-06-16T04:47:51Z",
       "url": "https://www.youtube.com/watch?v=mn8gbjg322Q",
-      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg",
+      "fails": 1
     },
     {
       "video_id": "5WVB56JBYdw",
@@ -95,10 +96,10 @@
     }
   ],
   "daily": {
-    "date": "2026-07-09",
-    "count": 4
+    "date": "2026-07-10",
+    "count": 0
   },
   "greeted": true,
-  "last_run": "2026-07-09T14:08:26.299833+00:00",
+  "last_run": "2026-07-09T16:34:29.783550+00:00",
   "last_error_notified": "2026-07-09"
 }
