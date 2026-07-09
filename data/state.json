@@ -18,7 +18,8 @@
       "title": "SpaceX 食糊先定長揸？Elon Musk 捉緊嘅一盤大棋 #利世民 #實用經濟學",
       "published": "2026-06-12T23:14:11Z",
       "url": "https://www.youtube.com/watch?v=O_USp88RC8s",
-      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
+      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg",
+      "fails": 1
     },
     {
       "video_id": "h-EXyG5PaaE",
@@ -117,5 +118,6 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-09T07:30:39.626618+00:00"
+  "last_run": "2026-07-09T11:34:48.136332+00:00",
+  "last_error_notified": "2026-07-09"
 }
