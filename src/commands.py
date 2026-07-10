@@ -9,6 +9,7 @@ HELP = """*Happy Birthday Kwong* 🎂 — your global political economy digest
 /list — channels being followed
 /status — queue, quota and today's count
 /syncdrive — re-upload every past briefing to Google Drive
+/rebuildmap — rebuild every channel's knowledge map from all briefings
 /help — this message
 
 When you add a channel I will ask how much history to backfill. New uploads are
@@ -121,6 +122,12 @@ def _handle_message(st: dict, msg: dict) -> None:
         tg.send_message(chat_id,
                         "🔄 Scheduled: every past briefing will be re-uploaded to "
                         "Google Drive during this run. Large libraries take a few minutes.")
+
+    elif cmd == "/rebuildmap":
+        st["rebuild_maps"] = True
+        tg.send_message(chat_id,
+                        "🧠 Scheduled: knowledge maps will be rebuilt from all stored "
+                        "briefings during this run.")
 
     elif cmd == "/status":
         remaining = state_mod.daily_remaining(st)

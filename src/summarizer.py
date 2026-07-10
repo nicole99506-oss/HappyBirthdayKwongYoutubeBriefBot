@@ -4,6 +4,7 @@ Gemini reads the YouTube URL directly (video + audio), so videos WITHOUT
 captions work too -- no downloading, no Whisper, no bot walls.
 """
 import json
+import time
 
 from google import genai
 from google.genai import types
@@ -24,6 +25,24 @@ def client() -> genai.Client:
     if _client is None:
         _client = genai.Client(api_key=config.GEMINI_API_KEY)
     return _client
+
+
+def _generate(**kwargs):
+    """generate_content with retries: 429 -> QuotaExhausted; 5xx (e.g. 503
+    'model overloaded') -> wait and retry up to 3 times before giving up."""
+    last = None
+    for attempt in range(3):
+        try:
+            return client().models.generate_content(**kwargs)
+        except genai_errors.ClientError as e:
+            if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
+                raise QuotaExhausted(str(e)) from e
+            raise
+        except genai_errors.ServerError as e:
+            last = e
+            print(f"[gemini] server error (attempt {attempt + 1}/3), retrying: {e}")
+            time.sleep(20 * (attempt + 1))
+    raise last
 
 
 SUMMARY_PROMPT = """You are writing a briefing for a sophisticated reader who follows
@@ -49,22 +68,17 @@ Target total reading time: 1-2 minutes. Return ONLY the JSON object.
 
 
 def summarize_video(url: str) -> dict:
-    try:
-        resp = client().models.generate_content(
-            model=config.GEMINI_MODEL,
-            contents=types.Content(parts=[
-                types.Part(file_data=types.FileData(file_uri=url)),
-                types.Part(text=SUMMARY_PROMPT),
-            ]),
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                temperature=0.3,
-            ),
-        )
-    except genai_errors.ClientError as e:
-        if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
-            raise QuotaExhausted(str(e)) from e
-        raise
+    resp = _generate(
+        model=config.GEMINI_MODEL,
+        contents=types.Content(parts=[
+            types.Part(file_data=types.FileData(file_uri=url)),
+            types.Part(text=SUMMARY_PROMPT),
+        ]),
+        config=types.GenerateContentConfig(
+            response_mime_type="application/json",
+            temperature=0.3,
+        ),
+    )
     return json.loads(resp.text)
 
 
@@ -101,7 +115,7 @@ def merge_into_tree(channel_title: str, tree: dict | None, summary: dict) -> dic
         max_nodes=config.MINDMAP_MAX_NODES,
     )
     try:
-        resp = client().models.generate_content(
+        resp = _generate(
             model=config.GEMINI_MODEL,
             contents=prompt,
             config=types.GenerateContentConfig(
@@ -112,13 +126,51 @@ def merge_into_tree(channel_title: str, tree: dict | None, summary: dict) -> dic
         new_tree = json.loads(resp.text)
         if isinstance(new_tree, dict) and new_tree.get("name"):
             return new_tree
-    except genai_errors.ClientError as e:
-        if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
-            raise QuotaExhausted(str(e)) from e
-        raise
     except (json.JSONDecodeError, TypeError):
         pass
     return tree  # never lose the old tree on a bad response
+
+
+REBUILD_PROMPT = """You are building a knowledge tree for the YouTube channel "{channel}"
+from the briefings of ALL its videos, listed chronologically below.
+
+Tree shape: {{"name": <topic>, "children": [<same shape>...]}}. Root name must be
+"{channel}". Organize the channel's worldview into 4-7 top-level thematic branches,
+each with the key concepts and claims beneath it. Keep node names under 6 words
+(or 10 Chinese characters), written in the same language as the briefings. Keep the
+whole tree under {max_nodes} nodes. Return ONLY the JSON tree.
+
+Briefings:
+{concepts}
+"""
+
+
+def build_tree_from_scratch(channel_title: str, entries: list[dict]) -> dict | None:
+    concepts = [{
+        "date": e.get("published", "")[:10],
+        "tldr": e.get("data", {}).get("tldr", ""),
+        "key_concepts": e.get("data", {}).get("key_concepts", []),
+    } for e in entries]
+    prompt = REBUILD_PROMPT.format(
+        channel=channel_title,
+        concepts=json.dumps(concepts, ensure_ascii=False),
+        max_nodes=config.MINDMAP_MAX_NODES,
+    )
+    try:
+        resp = _generate(
+            model=config.GEMINI_MODEL,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                temperature=0.2,
+            ),
+        )
+        tree = json.loads(resp.text)
+        if isinstance(tree, dict) and tree.get("name"):
+            return tree
+    except (json.JSONDecodeError, TypeError):
+        pass
+    return None
 
 
 def summary_to_markdown(video: dict, channel_title: str, s: dict) -> str:

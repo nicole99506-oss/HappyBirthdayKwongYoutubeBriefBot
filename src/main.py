@@ -204,6 +204,25 @@ def main() -> int:
             except Exception as e:
                 print(f"[drive full-sync notify] {e}")
 
+    if st.pop("rebuild_maps", False):
+        for cid, ch in st["channels"].items():
+            try:
+                entries = _all_entries(cid)
+                if not entries:
+                    continue
+                tree = summarizer.build_tree_from_scratch(ch["title"], entries)
+                if tree:
+                    mindmap.save_tree(cid, tree)
+                    png = mindmap.render(cid, tree)
+                    tg.send_photo(config.TELEGRAM_CHAT_ID, png,
+                                  caption=f"🧠 {ch['title']} — knowledge map rebuilt "
+                                          f"from {len(entries)} briefings")
+            except summarizer.QuotaExhausted:
+                print("[rebuildmap] quota reached")
+                break
+            except Exception as e:
+                print(f"[rebuildmap] {ch['title']}: {e}")
+
     try:
         site.build(st)
     except Exception as e:
