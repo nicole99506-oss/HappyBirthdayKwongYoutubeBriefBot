@@ -10,6 +10,7 @@ import os
 import shutil
 
 from . import config
+from .drive_sync import build_pack, START_HERE
 
 CSS = """
 :root{
@@ -155,11 +156,27 @@ def build(st: dict) -> None:
     with open(os.path.join(config.DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write("".join(parts))
 
+    # ---- NotebookLM packs (downloadable .md) + prompt page ----
+    packs_dir = os.path.join(config.DOCS_DIR, "packs")
+    os.makedirs(packs_dir, exist_ok=True)
+    with open(os.path.join(config.DOCS_DIR, "notebooklm.html"), "w", encoding="utf-8") as f:
+        f.write(HEAD.format(title="NotebookLM Guide — Happy Birthday Kwong", css=CSS)
+                + '<nav class="chips"><a class="chip" href="index.html">← All briefings</a></nav>'
+                + '<div class="daterule">NotebookLM · how to go deep</div>'
+                + '<article class="brief"><div class="body"><pre style="white-space:pre-wrap;'
+                + 'font-family:inherit;font-size:16px;line-height:1.6">'
+                + _e(START_HERE) + "</pre></div></article>" + FOOT)
+
     # ---- per-channel pages ----
     for cid, title in titles.items():
         ch_entries = [e for e in entries if e["channel_id"] == cid]
+        chron = sorted(ch_entries, key=lambda e: e["published"])
+        with open(os.path.join(packs_dir, f"{cid}.md"), "w", encoding="utf-8") as f:
+            f.write(build_pack(title, chron))
         parts = [HEAD.format(title=f"{title} — Happy Birthday Kwong", css=CSS)]
-        parts.append(f'<nav class="chips"><a class="chip" href="index.html">← All briefings</a></nav>')
+        parts.append('<nav class="chips"><a class="chip" href="index.html">← All briefings</a>'
+                     f'<a class="chip" href="packs/{cid}.md" download="NotebookLM Pack — {_e(title)}.md">⬇ Download NotebookLM Pack</a>'
+                     '<a class="chip" href="notebooklm.html">NotebookLM guide</a></nav>')
         parts.append(f'<div class="daterule">{_e(title)} · knowledge map</div>')
         if os.path.exists(os.path.join(mm_dir, f"{cid}.png")):
             parts.append(f'<img class="mindmap" src="mindmaps/{cid}.png" alt="Mind map of {_e(title)}">')
