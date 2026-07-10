@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 239443360,
+  "telegram_offset": 239443361,
   "channels": {
     "UCrQ2dUU2C_dtkbav78GoUEg": {
       "title": "利世民",
@@ -23,20 +23,214 @@
         "rOMGLpGgn0o",
         "zJ2aGpW6r8k"
       ]
-    }
-  },
-  "awaiting_backfill": {
+    },
     "UCAHr-sT0AjrD3sBwr1eRUNg": {
       "title": "Mark Meldrum",
-      "thumb": "https://yt3.ggpht.com/p4wLe14SisKTH0247Ra0jQlDfQcoSqV1udXzVjijt9ElWe2yigN6mW5enksJpASKq2L9KhJMWy0=s240-c-k-c0x00ffffff-no-rj"
+      "thumb": "https://yt3.ggpht.com/p4wLe14SisKTH0247Ra0jQlDfQcoSqV1udXzVjijt9ElWe2yigN6mW5enksJpASKq2L9KhJMWy0=s240-c-k-c0x00ffffff-no-rj",
+      "added_at": "",
+      "backfill": "30d",
+      "seen": [
+        "Y2xgth9O1cc"
+      ]
     }
   },
-  "queue": [],
+  "awaiting_backfill": {},
+  "queue": [
+    {
+      "video_id": "z_wFnJydXRE",
+      "title": "Pre-Market - June 12, 2026",
+      "published": "2026-06-12T13:35:23Z",
+      "url": "https://www.youtube.com/watch?v=z_wFnJydXRE",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "myu-dRzusqI",
+      "title": "NASDAQ 100 to new highs - this is not over yet!!",
+      "published": "2026-06-14T15:44:51Z",
+      "url": "https://www.youtube.com/watch?v=myu-dRzusqI",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "hPmwxdVxxBQ",
+      "title": "Gen Digital - Spotlight Company",
+      "published": "2026-06-15T18:38:50Z",
+      "url": "https://www.youtube.com/watch?v=hPmwxdVxxBQ",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "cuh0vIhu-Bo",
+      "title": "AXT - Spotlight Company",
+      "published": "2026-06-15T18:59:24Z",
+      "url": "https://www.youtube.com/watch?v=cuh0vIhu-Bo",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "yFgiRAccDcY",
+      "title": "Innodata - Spotlight Company",
+      "published": "2026-06-15T19:06:02Z",
+      "url": "https://www.youtube.com/watch?v=yFgiRAccDcY",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "wpfrvfJq5-A",
+      "title": "APPLOVIN - Spotlight Company",
+      "published": "2026-06-15T19:11:00Z",
+      "url": "https://www.youtube.com/watch?v=wpfrvfJq5-A",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "4FKU2bK16gM",
+      "title": "ONDAS - Spotlight Company",
+      "published": "2026-06-15T19:13:48Z",
+      "url": "https://www.youtube.com/watch?v=4FKU2bK16gM",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "bIqoj9BRaQk",
+      "title": "Coreweave  - Spotlight Company",
+      "published": "2026-06-15T19:16:53Z",
+      "url": "https://www.youtube.com/watch?v=bIqoj9BRaQk",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "5tBsq2oR8Dw",
+      "title": "SunRun - Spotlight Company",
+      "published": "2026-06-16T11:40:33Z",
+      "url": "https://www.youtube.com/watch?v=5tBsq2oR8Dw",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "DaeJ3qqK2yU",
+      "title": "Vertiv - Spotlight Company",
+      "published": "2026-06-16T11:40:36Z",
+      "url": "https://www.youtube.com/watch?v=DaeJ3qqK2yU",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "jZ_d5lb7eek",
+      "title": "AXALTA - Spotlight Company",
+      "published": "2026-06-16T11:40:42Z",
+      "url": "https://www.youtube.com/watch?v=jZ_d5lb7eek",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "S1CHf5s-p9k",
+      "title": "Micron - Spotlight Company",
+      "published": "2026-06-16T15:09:07Z",
+      "url": "https://www.youtube.com/watch?v=S1CHf5s-p9k",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "3Jn161ebYsA",
+      "title": "Major Drilling - Spotlight Company",
+      "published": "2026-06-16T17:58:12Z",
+      "url": "https://www.youtube.com/watch?v=3Jn161ebYsA",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "OlToma7aqqw",
+      "title": "RocketLab - Spotlight Company",
+      "published": "2026-06-16T18:37:40Z",
+      "url": "https://www.youtube.com/watch?v=OlToma7aqqw",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "FlWWR405A8M",
+      "title": "Circle - Spotlight Company",
+      "published": "2026-06-17T11:44:56Z",
+      "url": "https://www.youtube.com/watch?v=FlWWR405A8M",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "3yzZpZ7g2zU",
+      "title": "Datadog - Spotlight Company",
+      "published": "2026-06-17T12:30:13Z",
+      "url": "https://www.youtube.com/watch?v=3yzZpZ7g2zU",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "lIqQmrTqtck",
+      "title": "Credo & AsteraLabs - Spotlight Companies",
+      "published": "2026-06-17T13:42:03Z",
+      "url": "https://www.youtube.com/watch?v=lIqQmrTqtck",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "tEX0lszwnz4",
+      "title": "Fluence & EOS   Spotlight Companies",
+      "published": "2026-06-17T13:43:12Z",
+      "url": "https://www.youtube.com/watch?v=tEX0lszwnz4",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "7bweKFlpycQ",
+      "title": "Out of ZQ, AI Infrastructure questions, and spotlight company - Amkor Technology (AMKR)",
+      "published": "2026-06-21T15:56:49Z",
+      "url": "https://www.youtube.com/watch?v=7bweKFlpycQ",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "_sQ1uIUKEr4",
+      "title": "Pre-Market - Jun 23, 2026",
+      "published": "2026-06-23T13:46:41Z",
+      "url": "https://www.youtube.com/watch?v=_sQ1uIUKEr4",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "OVLg1KeHgVk",
+      "title": "Amkor - Spotlight Company",
+      "published": "2026-06-24T13:57:10Z",
+      "url": "https://www.youtube.com/watch?v=OVLg1KeHgVk",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "adCBcoDBINU",
+      "title": "Micron earnings, EUV bottleneck, and NASDAQ valuation is fair",
+      "published": "2026-06-28T14:03:26Z",
+      "url": "https://www.youtube.com/watch?v=adCBcoDBINU",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "bU6s4zy7Ay4",
+      "title": "Demographics not Economics, Token attention?, and Spotlight Company Ciena Corp.",
+      "published": "2026-07-05T15:29:23Z",
+      "url": "https://www.youtube.com/watch?v=bU6s4zy7Ay4",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "k7nZpsSn5CE",
+      "title": "Ciena - Spotlight Company",
+      "published": "2026-07-08T11:44:34Z",
+      "url": "https://www.youtube.com/watch?v=k7nZpsSn5CE",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "XRCOGdQKhUg",
+      "title": "2026 AI Token Pricing: Anthropic's Profitability Mistake? #ainews  #finance  #technews",
+      "published": "2026-07-10T13:35:54Z",
+      "url": "https://www.youtube.com/watch?v=XRCOGdQKhUg",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "Tovk_iHn_LE",
+      "title": "2026 AI Bubble: Is It Bursting? Q3 Revenue Growth Explained #aistocks #marketupdates #semiconductors",
+      "published": "2026-07-10T15:52:48Z",
+      "url": "https://www.youtube.com/watch?v=Tovk_iHn_LE",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "Ff8K6wy_DjI",
+      "title": "2026 Long NASDAQ: My Top Stock Picks and Strategy #nasdaq  #sp500  #micron  #aistocks",
+      "published": "2026-07-10T17:16:56Z",
+      "url": "https://www.youtube.com/watch?v=Ff8K6wy_DjI",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    }
+  ],
   "daily": {
-    "date": "2026-07-10",
-    "count": 10
+    "date": "2026-07-11",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-10T17:46:46.293366+00:00",
+  "last_run": "2026-07-10T17:49:15.920658+00:00",
   "last_error_notified": "2026-07-09"
 }
