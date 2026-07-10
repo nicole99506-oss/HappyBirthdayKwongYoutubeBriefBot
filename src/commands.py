@@ -8,6 +8,7 @@ HELP = """*Happy Birthday Kwong* 🎂 — your global political economy digest
 /remove `<@handle or number from /list>` — unfollow
 /list — channels being followed
 /status — queue, quota and today's count
+/syncdrive — re-upload every past briefing to Google Drive
 /help — this message
 
 When you add a channel I will ask how much history to backfill. New uploads are
@@ -28,9 +29,36 @@ def process_updates(st: dict) -> bool:
         changed = True
         if "callback_query" in u:
             _handle_callback(st, u["callback_query"])
+        elif "message" in u and "new_chat_members" in u["message"]:
+            _welcome_new_members(u["message"])
         elif "message" in u and "text" in u["message"]:
             _handle_message(st, u["message"])
     return changed
+
+
+WELCOME = """🎂 Welcome, {name}!
+
+This is your private global political economy wire, built for you by Nicole.
+Every new video from your channels lands here as a two-minute briefing —
+The Gist, the argument, the numbers, the concepts worth keeping — followed by
+an evolving knowledge map of the channel's worldview.
+
+Scroll up to see everything it has already digested for you.
+Type /help to take the wheel, or just sit back: the briefings come to you."""
+
+
+def _welcome_new_members(msg: dict) -> None:
+    chat_id = msg["chat"]["id"]
+    if not allowed(chat_id):
+        return
+    for member in msg.get("new_chat_members", []):
+        if member.get("is_bot"):
+            continue
+        name = member.get("first_name") or "friend"
+        try:
+            tg.send_message(chat_id, WELCOME.format(name=name), markdown=False)
+        except Exception as e:
+            print(f"[welcome] {e}")
 
 
 def _handle_message(st: dict, msg: dict) -> None:
@@ -87,6 +115,12 @@ def _handle_message(st: dict, msg: dict) -> None:
                                              key=lambda kv: kv[1]["title"].lower()), 1):
             lines.append(f"{i}. {ch['title']}  ({len(ch.get('seen', []))} videos digested)")
         tg.send_message(chat_id, "\n".join(lines))
+
+    elif cmd == "/syncdrive":
+        st["drive_full_sync"] = True
+        tg.send_message(chat_id,
+                        "🔄 Scheduled: every past briefing will be re-uploaded to "
+                        "Google Drive during this run. Large libraries take a few minutes.")
 
     elif cmd == "/status":
         remaining = state_mod.daily_remaining(st)

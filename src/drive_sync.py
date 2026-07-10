@@ -141,3 +141,13 @@ def sync_channel(channel_title: str, entries: list[dict], latest: dict | None) -
         upsert_doc(name, latest["markdown"], folder)
     upsert_doc(f"_NotebookLM Pack — {channel_title}",
                build_pack(channel_title, entries), folder)
+
+
+def sync_channel_full(channel_title: str, entries: list[dict]) -> None:
+    """Upload EVERY per-video doc plus the pack (used by /syncdrive recovery)."""
+    folder = ensure_folder(channel_title)
+    for e in entries:
+        name = f"{e['published'][:10]} — {e['title'][:80]}"
+        upsert_doc(name, e["markdown"], folder)
+    upsert_doc(f"_NotebookLM Pack — {channel_title}",
+               build_pack(channel_title, entries), folder)

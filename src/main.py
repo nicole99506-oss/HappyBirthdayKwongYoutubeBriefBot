@@ -187,6 +187,22 @@ def main() -> int:
             drive_sync.sync_start_here()
         except Exception as e:
             print(f"[drive start-here] {e}")
+        if st.pop("drive_full_sync", False):
+            done = 0
+            for cid, ch in st["channels"].items():
+                try:
+                    entries = _all_entries(cid)
+                    if entries:
+                        drive_sync.sync_channel_full(ch["title"], entries)
+                        done += len(entries)
+                except Exception as e:
+                    print(f"[drive full-sync] {ch['title']}: {e}")
+            try:
+                tg.send_message(config.TELEGRAM_CHAT_ID,
+                                f"✅ Drive sync complete — {done} briefing(s) uploaded.",
+                                markdown=False)
+            except Exception as e:
+                print(f"[drive full-sync notify] {e}")
 
     try:
         site.build(st)
