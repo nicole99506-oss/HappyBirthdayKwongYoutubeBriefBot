@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 239443357,
+  "telegram_offset": 239443358,
   "channels": {
     "UCrQ2dUU2C_dtkbav78GoUEg": {
       "title": "利世民",
@@ -32,6 +32,6 @@
     "count": 10
   },
   "greeted": true,
-  "last_run": "2026-07-10T17:31:25.346703+00:00",
+  "last_run": "2026-07-10T17:40:30.632457+00:00",
   "last_error_notified": "2026-07-09"
 }
