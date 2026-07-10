@@ -20,25 +20,18 @@
         "FenfEbxeTnk",
         "D5Tq_0IZZFU",
         "eWrOuUG6m0I",
-        "rOMGLpGgn0o"
+        "rOMGLpGgn0o",
+        "zJ2aGpW6r8k"
       ]
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "zJ2aGpW6r8k",
-      "title": "美國對台軍售背後的政治考慮．中、美、台關係的長期變化 #利世民",
-      "published": "2026-06-02T05:27:41+00:00",
-      "url": "https://www.youtube.com/watch?v=zJ2aGpW6r8k",
-      "channel_id": "UCrQ2dUU2C_dtkbav78GoUEg"
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-07-10",
-    "count": 9
+    "count": 10
   },
   "greeted": true,
-  "last_run": "2026-07-10T05:30:32.295585+00:00",
+  "last_run": "2026-07-10T08:49:23.184101+00:00",
   "last_error_notified": "2026-07-09"
 }
