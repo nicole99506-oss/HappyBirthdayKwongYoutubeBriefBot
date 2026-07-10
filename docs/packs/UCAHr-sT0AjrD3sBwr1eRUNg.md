@@ -39,3 +39,40 @@ Geopolitical friction in the Strait of Hormuz and structural US fiscal deficits 
 
 
 ---
+
+# Pre-Market - June 12, 2026
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-06-12  
+**Link:** https://www.youtube.com/watch?v=z_wFnJydXRE
+
+> **The Gist** — The speaker analyzes current macroeconomic trends, options trading mechanics, and geopolitical factors, emphasizing that successful investing relies on robust fundamental theses rather than technical chart patterns.
+
+## Summary
+
+In this market briefing, the speaker addresses several key dynamics in the global political economy, starting with the divergence between ETFs and underlying stock movements, which he attributes to unhedged currency exposure. On macroeconomics, he predicts that while the Federal Reserve will not implement further rate hikes, it will continue with its balance sheet runoff of $50 billion per month. Geopolitically, he discusses the impact of the Strait of Hormuz's potential closure on oil, predicting WTI prices will stabilize between $77 and $83 over the next three months, driven by shipping route recalibrations.
+
+The speaker also critiques the business case for rare earth mining, arguing that investment in this sector should be viewed through a national security lens rather than pure operational profitability, as government financing will drive the space. He expresses optimism for the IPO market, citing upcoming listings like SpaceX, OpenAI, and Anthropic as key sentiment drivers.
+
+Finally, the speaker delivers a detailed tutorial on options trading, arguing that technical analysis and charting are 'nonsense' compared to understanding Greeks like Delta, Implied Volatility (IV), Theta, and Gamma. He concludes with a sharp political assessment, warning that the 'rigged' narrative surrounding US elections will persist regardless of the outcome, presenting a long-term structural risk to the American political system.
+
+## Highlights
+
+- Predicts WTI oil prices will remain elevated between $77 and $83 per barrel over the next three months due to shipping route adjustments.
+- Argues that rare earth mining investments should be based on national security funding rather than standard business profitability.
+- Dismisses technical charting (e.g., Fibonacci, Bollinger Bands) as backward-looking 'nonsense,' advocating instead for Delta and Implied Volatility analysis.
+- Identifies upcoming IPOs from SpaceX, OpenAI, and Anthropic as crucial indicators for the return of investor confidence.
+- Warns of structural political risk in the US, stating that the 'rigged' election narrative will persist regardless of the actual voting outcomes.
+
+## Key Concepts
+
+- **Currency Exposure** — The risk of financial loss due to exchange rate fluctuations when holding assets denominated in foreign currencies.
+- **Greeks (Options)** — Financial measures (Delta, Gamma, Theta, Vega) that quantify the sensitivity of an option's price to changes in underlying parameters.
+- **Survivorship Bias** — The logical error of focusing on successful outcomes while ignoring failures, common in social media trading advice.
+
+## Why It Matters
+
+Understanding the intersection of geopolitical friction, state-sponsored resource security, and advanced financial derivatives is essential for navigating the increasingly volatile modern macroeconomic landscape.
+
+
+---
