@@ -1,0 +1,46 @@
+{
+  "name": "Simon Universe丨國際關係教室",
+  "children": [
+    {
+      "name": "Semiconductor Geopolitics",
+      "children": [
+        {
+          "name": "Friend-shoring",
+          "children": [
+            {
+              "name": "Supply Chain Resilience"
+            },
+            {
+              "name": "India Assembly Investments"
+            }
+          ]
+        },
+        {
+          "name": "Balkanization of Tech",
+          "children": [
+            {
+              "name": "Competing Geopolitical Blocs"
+            },
+            {
+              "name": "Global GDP Impact"
+            }
+          ]
+        },
+        {
+          "name": "Silicon Shield",
+          "children": [
+            {
+              "name": "Taiwan Semiconductor Dominance"
+            },
+            {
+              "name": "US CHIPS Act Subsidies"
+            },
+            {
+              "name": "TSMC Arizona Fab Challenges"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
