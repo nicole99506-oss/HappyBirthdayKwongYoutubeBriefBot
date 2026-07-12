@@ -22,7 +22,8 @@
         "FlWWR405A8M",
         "OlToma7aqqw",
         "3Jn161ebYsA",
-        "9vppJx8Td1E"
+        "9vppJx8Td1E",
+        "IlSonoKgrqk"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -78,9 +79,9 @@
   "queue": [],
   "daily": {
     "date": "2026-07-12",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-07-12T14:09:58.906864+00:00",
+  "last_run": "2026-07-12T15:14:26.729799+00:00",
   "last_error_notified": "2026-07-11"
 }

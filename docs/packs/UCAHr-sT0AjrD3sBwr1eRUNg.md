@@ -112,3 +112,38 @@ Sudden demographic contractions in the US labor force, particularly among Hispan
 
 
 ---
+
+# On again - again, Fed's Working Groups, Cattle and Hogs, and welcome Q2 earnings
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-12  
+**Link:** https://www.youtube.com/watch?v=IlSonoKgrqk
+
+> **The Gist** — Rising US interest expenses, a shrinking cattle herd, and structural fiscal deficits present persistent inflationary pressures, challenging the Federal Reserve's capacity to maintain price stability.
+
+## Summary
+
+The speaker delivers a sobering assessment of the US macroeconomic landscape, highlighting a looming fiscal crisis driven by escalating interest expenses on the national debt. With the average interest rate on US debt rising to 3.409%, the projected annual interest expense is set to reach $1.4 trillion. This creates a dangerous feedback loop where the Federal Reserve's rate hikes to combat inflation increase the government's deficit spending, thereby fueling further long-term inflationary pressures. The speaker argues that western democracies have entered a populist phase where growing entitlement spending (Medicare, Medicaid, Social Security) will inevitably lead to downgrades of US debt by the early 2030s.
+
+In the real economy, the agricultural sector faces severe supply constraints. The US cattle herd has contracted to 86.2 million head, its lowest level since 1951, while beef cow numbers are at their lowest since 1961. This supply crunch is exacerbated by a suspension of Mexican feeder cattle imports due to a screwworm outbreak, ensuring beef prices remain elevated. Conversely, hog prices are depressed due to record-high breeding productivity and Mexican retaliatory tariffs. Ultimately, the speaker concludes that structural fiscal deficits and supply-side constraints will force the Federal Reserve to eventually subordinate its inflation targets to manage the sheer scale of government debt.
+
+## Highlights
+
+- The average interest rate on US national debt has risen to 3.409%, pushing projected annual interest expenses toward an unprecedented $1.4 trillion.
+- The US cattle herd has contracted to 86.2 million head, the smallest inventory recorded since 1951, ensuring prolonged upward pressure on beef prices.
+- Feeder cattle imports from Mexico have been suspended due to a New World screwworm outbreak, further choking US beef supply chains.
+- The speaker argues that western democracies are trapped in a populist cycle of deficit-financed entitlement spending that will trigger debt downgrades by 2030.
+- S&P 500 forward four-quarter operating earnings are valued at $371.09, representing a forward P/E multiple of approximately 20.4x.
+
+## Key Concepts
+
+- **Fiscal Dominance** — A scenario where monetary policy is constrained because interest rate hikes excessively increase the government's debt-servicing costs, rendering inflation control secondary.
+- **Unpleasant Monetarist Arithmetic** — The economic theory that tight monetary policy today, without fiscal discipline, eventually forces higher inflation tomorrow to inflate away government debt.
+- **Solow Paradox** — The observation that massive technological investments, such as AI, are visible everywhere except in official productivity statistics due to measurement lags.
+
+## Why It Matters
+
+The intersection of structural fiscal deficits, rising debt-servicing costs, and agricultural supply shocks threatens to permanently elevate the neutral interest rate, reshaping global asset allocation.
+
+
+---
