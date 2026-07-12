@@ -41,6 +41,38 @@
           ]
         }
       ]
+    },
+    {
+      "name": "China's Advanced Manufacturing Pivot",
+      "children": [
+        {
+          "name": "New Quality Productive Forces",
+          "children": [
+            {
+              "name": "Green Tech State Subsidies"
+            }
+          ]
+        },
+        {
+          "name": "Supply-Side Structural Imbalance",
+          "children": [
+            {
+              "name": "Depressed Domestic Consumption"
+            },
+            {
+              "name": "Real Estate Sector Downshift"
+            }
+          ]
+        },
+        {
+          "name": "Deflationary Export Spillover",
+          "children": [
+            {
+              "name": "US and EU Tariff Responses"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

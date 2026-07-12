@@ -36,3 +36,37 @@ This shift marks the end of the neoliberal era of hyper-globalization, signaling
 
 
 ---
+
+# 英國新政府外交考驗、中國AI競爭、太平洋安全重組｜Simon Universe｜國際關係教室 099｜每日新聞｜🇬🇧🤖🌏
+
+**Channel:** Simon Universe丨國際關係教室  
+**Published:** 2026-07-12  
+**Link:** https://www.youtube.com/watch?v=jBCU7PfO8_A
+
+> **The Gist** — China's strategic pivot toward advanced manufacturing to offset its property crisis risks exacerbating global trade tensions through systemic overcapacity in green technologies.
+
+## Summary
+
+Beijing is aggressively redirecting capital away from the depressed real estate sector—historically accounting for a quarter of GDP—and channeling it into high-tech manufacturing, specifically electric vehicles, lithium-ion batteries, and solar panels. This strategy, termed "New Quality Productive Forces," aims to climb the value chain and secure long-term productivity growth. However, by prioritizing supply-side subsidies over domestic consumption stimulation, China is generating massive industrial overcapacity that its domestic market cannot absorb.
+
+Consequently, cheap Chinese exports are flooding global markets, triggering defensive protectionist responses from the US and the EU, including hefty tariffs. While this state-directed investment model successfully establishes dominant global market shares in critical transition technologies, it risks a prolonged deflationary spiral at home and a highly fragmented global trading system abroad. Ultimately, without structural reforms to boost household income and domestic demand, China's manufacturing-led growth model faces severe diminishing returns and escalating geopolitical pushback.
+
+## Highlights
+
+- China's real estate sector, previously driving 25-30% of GDP growth, has permanently downshifted, forcing Beijing to seek alternative economic engines.
+- State-directed credit to manufacturing has surged, with industrial loans growing by over 20% annually to fund the 'New Three' green industries.
+- The European Union and the United States have responded with tariffs of up to 100% on Chinese EVs to protect domestic industrial bases.
+- Domestic consumption remains depressed at just 53% of GDP, significantly below the global average of 72%, limiting internal absorption of manufactured goods.
+
+## Key Concepts
+
+- **New Quality Productive Forces** — Beijing's economic strategy focusing on innovation-driven growth, advanced manufacturing, and green technologies to replace traditional debt-fueled real estate development.
+- **Supply-Side Structural Imbalance** — An economic condition where state subsidies artificially inflate manufacturing capacity while domestic household consumption remains too weak to absorb the resulting output.
+- **Deflationary Export Spillover** — The phenomenon where domestic overcapacity forces producers to export excess goods at ultra-low prices, exporting deflationary pressures to international trading partners.
+
+## Why It Matters
+
+This structural shift redefines the global trade order, forcing Western economies to choose between cheap green transition inputs and protecting their sovereign industrial bases.
+
+
+---

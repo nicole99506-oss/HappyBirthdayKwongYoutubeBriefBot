@@ -46,7 +46,8 @@
         "moLaPkXLwxo",
         "QrMVwYhhEwc",
         "OdHA9Y4KskI",
-        "V69z2IhjDII"
+        "V69z2IhjDII",
+        "jBCU7PfO8_A"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -76,10 +77,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-07-11",
-    "count": 4
+    "date": "2026-07-12",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-12T07:09:04.593640+00:00",
+  "last_run": "2026-07-12T09:11:56.555866+00:00",
   "last_error_notified": "2026-07-11"
 }
