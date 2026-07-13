@@ -24,7 +24,8 @@
         "3Jn161ebYsA",
         "9vppJx8Td1E",
         "IlSonoKgrqk",
-        "W-RkeTlGN40"
+        "W-RkeTlGN40",
+        "vTePXkr7Y5Q"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -81,14 +82,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "vTePXkr7Y5Q",
-      "title": "2026 Tech Earnings: Market Direction & Financial Forecast",
-      "published": "2026-07-13T15:41:05+00:00",
-      "url": "https://www.youtube.com/watch?v=vTePXkr7Y5Q",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 1
-    },
-    {
       "video_id": "FmpkSPA-A2A",
       "title": "2026 S&P 500 Earnings EXPLODE: Doubling in 2 Years!",
       "published": "2026-07-13T20:08:11+00:00",
@@ -98,9 +91,9 @@
   ],
   "daily": {
     "date": "2026-07-14",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-07-13T20:25:29.355817+00:00",
+  "last_run": "2026-07-13T21:17:03.608985+00:00",
   "last_error_notified": "2026-07-13"
 }

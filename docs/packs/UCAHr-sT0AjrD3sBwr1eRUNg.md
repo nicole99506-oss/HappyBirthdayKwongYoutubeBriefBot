@@ -147,3 +147,36 @@ The intersection of structural fiscal deficits, rising debt-servicing costs, and
 
 
 ---
+
+# 2026 Tech Earnings: Market Direction & Financial Forecast
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-13  
+**Link:** https://www.youtube.com/watch?v=vTePXkr7Y5Q
+
+> **The Gist** — While financial sector earnings dominate the current week, the market's true direction will be determined by upcoming big tech earnings, which are expected to beat estimates by 8-10%.
+
+## Summary
+
+The current week's corporate earnings landscape is heavily concentrated on the financial sector, featuring major institutions such as JPMorgan Chase, Goldman Sachs, and Citigroup. While these financial reports provide a critical baseline for assessing macroeconomic health, the speaker argues that they are unlikely to trigger significant market volatility or disappointment. Instead, the broader equity market is poised to wait for the following week, when major technology giants begin reporting, to establish a clear and sustainable directional trend.
+
+Historical patterns and recent economic data suggest that corporate earnings will remain highly resilient. Despite persistent macroeconomic headwinds, there are no indicators from the previous quarter pointing to systemic earnings disappointments across key sectors. On average, S&P 500 companies are projected to outperform consensus expectations by approximately 8% to 10%, aligning closely with the robust earnings beat rates observed over the past several quarters. This consistent outperformance underscores both resilient corporate profit margins and conservative analyst modeling, suggesting that the upcoming earnings season will support current market valuations rather than disrupt them.
+
+## Highlights
+
+- Big tech earnings in the upcoming week are expected to serve as the primary catalyst for defining the market's near-term direction.
+- The current week's earnings focus is dominated by major financial institutions, including JPMorgan Chase, Goldman Sachs, and Wells Fargo.
+- S&P 500 companies are projected to beat consensus earnings estimates by an average of 8% to 10%, consistent with recent quarters.
+- Recent macroeconomic indicators show no signs of systemic weakness that would lead to widespread corporate earnings disappointments.
+
+## Key Concepts
+
+- **Earnings Beat Rate** — The percentage by which a company's actual quarterly earnings per share exceed consensus analyst estimates.
+- **Market Direction Catalyst** — A significant event, such as big tech earnings, that triggers a decisive trend in broader equity indices.
+
+## Why It Matters
+
+Robust corporate earnings, particularly in the tech sector, remain the primary pillar supporting elevated equity valuations amidst high interest rates and global macroeconomic uncertainty.
+
+
+---
