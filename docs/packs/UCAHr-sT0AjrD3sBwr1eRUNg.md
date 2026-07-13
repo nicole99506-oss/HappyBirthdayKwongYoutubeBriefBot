@@ -180,3 +180,39 @@ Robust corporate earnings, particularly in the tech sector, remain the primary p
 
 
 ---
+
+# 2026 S&P 500 Earnings EXPLODE: Doubling in 2 Years!
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-13  
+**Link:** https://www.youtube.com/watch?v=FmpkSPA-A2A
+
+> **The Gist** — S&P 500 forward four-quarter operating earnings have doubled over the past two years to $371.09, pushing the forward P/E ratio to 20.41x.
+
+## Summary
+
+The S&P 500's forward four-quarter operating earnings have reached an extraordinary $371.09, representing a near-doubling of corporate profitability over a mere two-year horizon. This rapid expansion has defied mainstream consensus; predicting such a trajectory two years ago, when earnings hovered around $185, would have been dismissed as wildly unrealistic by market participants. The sheer velocity of this earnings growth highlights the unprecedented post-pandemic corporate pricing power and operational efficiency.
+
+With the index closing at 7,575.39, this earnings figure yields a forward price-to-earnings (P/E) multiple of 20.41x. This represents a slight expansion in valuation from the 20.17x multiple recorded in the preceding week. The data highlights the robust fundamental earnings power underlying the index's current levels, even as valuation multiples remain historically elevated.
+
+Ultimately, the dramatic surge in forward earnings underscores the resilience of corporate margins and revenue generation in the face of macroeconomic headwinds. While a 20.41x forward multiple reflects highly optimistic market pricing, it is firmly anchored by actual, realized corporate earnings growth rather than pure speculative expansion, challenging the narrative of an asset bubble entirely detached from fundamentals.
+
+## Highlights
+
+- S&P 500 forward four-quarter operating earnings have surged to $371.09.
+- Corporate earnings have effectively doubled over the past two years from approximately $185.
+- The forward P/E ratio stands at 20.41x, up slightly from 20.17x the previous week.
+- The rapid earnings trajectory defied historical expectations, where such growth would have been deemed highly improbable.
+
+## Key Concepts
+
+- **Forward Operating Earnings** — An estimate of expected core operating profits over the next four quarters, excluding one-time charges.
+- **Forward P/E Ratio** — A valuation metric comparing the current market price to estimated future earnings, indicating investor willingness to pay per dollar of expected profit.
+- **Multiple Expansion** — An increase in the price-to-earnings ratio, indicating that stock prices are rising faster than underlying earnings growth.
+
+## Why It Matters
+
+Unprecedented corporate earnings growth justifies elevated equity valuations, suggesting that despite macroeconomic tightening, corporate profitability remains a powerful anchor for global financial markets.
+
+
+---

@@ -25,7 +25,8 @@
         "9vppJx8Td1E",
         "IlSonoKgrqk",
         "W-RkeTlGN40",
-        "vTePXkr7Y5Q"
+        "vTePXkr7Y5Q",
+        "FmpkSPA-A2A"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -80,20 +81,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "FmpkSPA-A2A",
-      "title": "2026 S&P 500 Earnings EXPLODE: Doubling in 2 Years!",
-      "published": "2026-07-13T20:08:11+00:00",
-      "url": "https://www.youtube.com/watch?v=FmpkSPA-A2A",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-07-14",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-07-13T21:17:03.608985+00:00",
+  "last_run": "2026-07-13T22:12:08.386558+00:00",
   "last_error_notified": "2026-07-13"
 }
