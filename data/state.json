@@ -48,7 +48,8 @@
         "QrMVwYhhEwc",
         "OdHA9Y4KskI",
         "V69z2IhjDII",
-        "jBCU7PfO8_A"
+        "jBCU7PfO8_A",
+        "j2ULCVzBkkM"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -78,19 +79,12 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "j2ULCVzBkkM",
-      "title": "美伊衝突再升級、IMF下調增長、AI投資回報受審視｜Simon Universe｜每日國際新聞",
-      "published": "2026-07-13T09:00:09+00:00",
-      "url": "https://www.youtube.com/watch?v=j2ULCVzBkkM",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
       "video_id": "W-RkeTlGN40",
       "title": "2026 Fed Needs Real Time Data, Not Surveys",
       "published": "2026-07-13T12:46:30+00:00",
       "url": "https://www.youtube.com/watch?v=W-RkeTlGN40",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
+      "fails": 1
     },
     {
       "video_id": "7Z1YyIGUNOQ",
@@ -98,13 +92,20 @@
       "published": "2026-07-13T13:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=7Z1YyIGUNOQ",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "vTePXkr7Y5Q",
+      "title": "2026 Tech Earnings: Market Direction & Financial Forecast",
+      "published": "2026-07-13T15:41:05+00:00",
+      "url": "https://www.youtube.com/watch?v=vTePXkr7Y5Q",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
     }
   ],
   "daily": {
     "date": "2026-07-13",
-    "count": 0
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-13T13:07:38.666563+00:00",
+  "last_run": "2026-07-13T15:56:36.059515+00:00",
   "last_error_notified": "2026-07-13"
 }
