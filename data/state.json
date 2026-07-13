@@ -23,7 +23,8 @@
         "OlToma7aqqw",
         "3Jn161ebYsA",
         "9vppJx8Td1E",
-        "IlSonoKgrqk"
+        "IlSonoKgrqk",
+        "W-RkeTlGN40"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -49,7 +50,8 @@
         "OdHA9Y4KskI",
         "V69z2IhjDII",
         "jBCU7PfO8_A",
-        "j2ULCVzBkkM"
+        "j2ULCVzBkkM",
+        "7Z1YyIGUNOQ"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -79,21 +81,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "W-RkeTlGN40",
-      "title": "2026 Fed Needs Real Time Data, Not Surveys",
-      "published": "2026-07-13T12:46:30+00:00",
-      "url": "https://www.youtube.com/watch?v=W-RkeTlGN40",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 2
-    },
-    {
-      "video_id": "7Z1YyIGUNOQ",
-      "title": "香港、中國如何捲入伊朗影子金融？美國為何仍難以迫使伊朗讓步？｜「好佬怕爛佬」背後的霍爾木茲海峽、革命衛隊與伊朗生存之道｜Simon Universe｜國際關係教室 94｜大學堂｜🇺🇸 🇮🇷",
-      "published": "2026-07-13T13:00:06+00:00",
-      "url": "https://www.youtube.com/watch?v=7Z1YyIGUNOQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "vTePXkr7Y5Q",
       "title": "2026 Tech Earnings: Market Direction & Financial Forecast",
       "published": "2026-07-13T15:41:05+00:00",
@@ -103,9 +90,9 @@
   ],
   "daily": {
     "date": "2026-07-14",
-    "count": 0
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-13T17:46:47.714084+00:00",
+  "last_run": "2026-07-13T19:10:26.064343+00:00",
   "last_error_notified": "2026-07-13"
 }
