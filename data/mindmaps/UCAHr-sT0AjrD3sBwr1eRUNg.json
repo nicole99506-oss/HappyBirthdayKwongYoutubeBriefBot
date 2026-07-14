@@ -14,6 +14,23 @@
           "name": "Demographic Shocks"
         }
       ]
+    },
+    {
+      "name": "Productivity and Monetary Policy",
+      "children": [
+        {
+          "name": "Total Factor Productivity"
+        },
+        {
+          "name": "Techno-Optimism"
+        },
+        {
+          "name": "Technology Diffusion Rates"
+        },
+        {
+          "name": "AI and Interest Rates"
+        }
+      ]
     }
   ]
 }

@@ -216,3 +216,37 @@ Unprecedented corporate earnings growth justifies elevated equity valuations, su
 
 
 ---
+
+# 2026 AI's Productivity Boost: Smarter Decisions, Better Jobs
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-14  
+**Link:** https://www.youtube.com/watch?v=vQvyh5K81Bk
+
+> **The Gist** — The debate over whether AI-driven productivity gains can justify lower interest rates without triggering inflation risks being co-opted by politically motivated, pre-determined policy conclusions.
+
+## Summary
+
+The debate over artificial intelligence's impact on macroeconomic variables is increasingly politicized, with policy groups potentially structured to validate pre-determined conclusions. Specifically, former Federal Reserve Governor Kevin Warsh's campaign for the Fed chairmanship has long rested on the premise that AI-driven productivity gains will allow the central bank to maintain lower interest rates without stoking inflation. This "techno-optimist" view is heavily represented in key advisory circles, notably by figures like Marc Andreessen, who argue that AI is inherently deflationary and productivity-exploding, constrained only by regulatory hurdles.
+
+However, critics urge caution, pointing to a lack of empirical validation. While economists like Charles I. Jones provide rigorous growth-theory modeling on transformative AI, their projections remain bound by arithmetic constraints regarding GDP automation potential and total factor productivity (TFP) diffusion rates. The core tension lies between speculative, long-term technological optimism and the immediate, hard data required for monetary policy. If policymakers prematurely cut rates based on anticipated but unproven AI productivity gains, they risk reigniting inflationary pressures under the guise of technological progress.
+
+## Highlights
+
+- Kevin Warsh's central policy thesis argues that AI-driven productivity will permit lower interest rates without triggering inflation.
+- Marc Andreessen's Techno-Optimist Manifesto posits that AI is fundamentally deflationary and constrained primarily by government regulation.
+- Economist Charles I. Jones provides the mathematical rigor, modeling explosive growth scenarios based on GDP automation and TFP diffusion rates.
+- Critics warn that the policy group appears constructed to support a prior conclusion rather than objectively analyzing current productivity data.
+
+## Key Concepts
+
+- **Total Factor Productivity (TFP)** — A measure of economic efficiency calculating output relative to the combined inputs of labor and capital, often driven by technological innovation.
+- **Techno-Optimism** — The belief that technological progress, particularly AI, will naturally solve major economic challenges like inflation and stagnant growth.
+- **Diffusion Rate** — The speed at which a new technology is adopted across an economy, directly impacting how quickly productivity gains are realized.
+
+## Why It Matters
+
+Prematurely easing monetary policy based on unproven AI productivity gains could destabilize global inflation targets and undermine central bank credibility.
+
+
+---
