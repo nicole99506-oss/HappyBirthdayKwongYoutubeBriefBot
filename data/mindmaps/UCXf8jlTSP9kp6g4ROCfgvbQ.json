@@ -39,6 +39,9 @@
               "name": "TSMC Arizona Fab Challenges"
             }
           ]
+        },
+        {
+          "name": "AI基建通脹"
         }
       ]
     },
@@ -71,6 +74,25 @@
               "name": "US and EU Tariff Responses"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "地緣衝突與能源安全",
+      "children": [
+        {
+          "name": "霍爾木茲海峽危機",
+          "children": [
+            {
+              "name": "過境通行原則"
+            }
+          ]
+        },
+        {
+          "name": "混合威脅生態"
+        },
+        {
+          "name": "歐洲防空網絡"
         }
       ]
     }
