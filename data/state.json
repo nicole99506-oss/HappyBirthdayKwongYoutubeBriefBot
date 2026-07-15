@@ -84,12 +84,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "f0HnQobYaPA",
+      "title": "2026 US Debt Crisis: Why It's Worse Than You Think",
+      "published": "2026-07-15T11:39:08+00:00",
+      "url": "https://www.youtube.com/watch?v=f0HnQobYaPA",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
+      "fails": 1
+    }
+  ],
   "daily": {
     "date": "2026-07-15",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-15T11:06:39.733800+00:00",
-  "last_error_notified": "2026-07-13"
+  "last_run": "2026-07-15T12:26:06.532170+00:00",
+  "last_error_notified": "2026-07-15"
 }
