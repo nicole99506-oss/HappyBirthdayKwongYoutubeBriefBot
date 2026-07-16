@@ -86,12 +86,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "2MqyjUhm9v4",
+      "title": "DigitalOcean Price Overreaction",
+      "published": "2026-07-16T01:18:32+00:00",
+      "url": "https://www.youtube.com/watch?v=2MqyjUhm9v4",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
+      "fails": 1
+    }
+  ],
   "daily": {
     "date": "2026-07-16",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-16T06:07:50.413357+00:00",
-  "last_error_notified": "2026-07-15"
+  "last_run": "2026-07-16T08:32:33.543997+00:00",
+  "last_error_notified": "2026-07-16"
 }
