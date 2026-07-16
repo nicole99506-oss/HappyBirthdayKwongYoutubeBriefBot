@@ -65,7 +65,15 @@
           "name": "Supply-Side Structural Imbalance",
           "children": [
             {
-              "name": "Depressed Domestic Consumption"
+              "name": "Depressed Domestic Consumption",
+              "children": [
+                {
+                  "name": "資產負債表衰退"
+                },
+                {
+                  "name": "信用傳導受阻"
+                }
+              ]
             },
             {
               "name": "Real Estate Sector Downshift"
@@ -77,6 +85,9 @@
           "children": [
             {
               "name": "US and EU Tariff Responses"
+            },
+            {
+              "name": "名義與實際增長背離"
             }
           ]
         }
