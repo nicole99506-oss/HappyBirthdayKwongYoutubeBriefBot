@@ -28,7 +28,8 @@
         "vTePXkr7Y5Q",
         "FmpkSPA-A2A",
         "vQvyh5K81Bk",
-        "f0HnQobYaPA"
+        "f0HnQobYaPA",
+        "2MqyjUhm9v4"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -58,7 +59,8 @@
         "7Z1YyIGUNOQ",
         "osNfOQIQCwU",
         "WqqgBcXxnjY",
-        "9aPOuZGXPJ4"
+        "9aPOuZGXPJ4",
+        "nYtbwQCKI5o"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -86,21 +88,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "2MqyjUhm9v4",
-      "title": "DigitalOcean Price Overreaction",
-      "published": "2026-07-16T01:18:32+00:00",
-      "url": "https://www.youtube.com/watch?v=2MqyjUhm9v4",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 1
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-07-16",
-    "count": 1
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-07-16T08:32:33.543997+00:00",
+  "last_run": "2026-07-16T10:29:13.493054+00:00",
   "last_error_notified": "2026-07-16"
 }
