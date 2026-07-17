@@ -286,3 +286,39 @@ This structural shift redefines the global trade order, forcing Western economie
 
 
 ---
+
+# 每日國際新聞｜烏克蘭防長遭撤、台積電加碼美國、羅興亞船難恐逾500死｜Simon Universe 國際關係教室
+
+**Channel:** Simon Universe丨國際關係教室  
+**Published:** 2026-07-17  
+**Link:** https://www.youtube.com/watch?v=VYHWUmzFdfU
+
+> **The Gist** — US export controls on advanced semiconductor technology are forcing a bifurcation of the global chip supply chain, accelerating China's domestic indigenization efforts despite severe technological bottlenecks.
+
+## Summary
+
+The global semiconductor industry is undergoing a structural realignment driven by geopolitical competition rather than market efficiency. The United States has weaponized its dominance in semiconductor design and electronic design automation (EDA) software, leveraging unilateral and multilateral export controls—most notably restricting ASML's extreme ultraviolet (EUV) lithography shipments—to choke off China's access to leading-edge nodes. This strategy aims to preserve a "large a lead as possible" in artificial intelligence and military capabilities, fundamentally altering the borderless efficiency model that defined the industry for three decades.
+
+In response, Beijing is executing a massive import-substitution strategy, pouring hundreds of billions of dollars into its "Big Fund" to foster domestic champions like SMIC and Huawei. While Chinese firms have successfully commercialized legacy nodes and achieved surprising workarounds in 7nm chips using older DUV equipment, they face diminishing returns and severe yield issues without access to EUV technology. Consequently, the industry is bifurcating into a highly subsidized, Western-aligned advanced ecosystem and a heavily protected, mature-node Chinese ecosystem.
+
+Ultimately, these capital-intensive decoupling efforts threaten to trigger structural overcapacity in legacy chips while driving up production costs for advanced semiconductors globally. As TSMC, Intel, and Samsung build out redundant, geopolitically secure fabrication facilities in the US and Europe, the global economy must prepare for a permanent inflationary premium on high-tech hardware.
+
+## Highlights
+
+- The US has restricted ASML from exporting its advanced Extreme Ultraviolet (EUV) and high-end Deep Ultraviolet (DUV) lithography machines to Chinese customers.
+- China's National Integrated Circuit Industry Investment Fund (Big Fund) has raised over $47 billion in its third phase to achieve semiconductor self-sufficiency.
+- SMIC successfully manufactured 7nm-class chips for Huawei using multi-patterning on older DUV systems, though experts question the commercial viability and yield rates.
+- TSMC's expansion into Arizona and Germany represents a shift from cost-optimized centralization to geopolitically resilient decentralization, raising capital expenditure requirements.
+
+## Key Concepts
+
+- **Weaponized Interdependence** — The practice of states leveraging centralized nodes in global networks (like financial systems or supply chains) to exert geopolitical pressure on adversaries.
+- **Lithography Bottleneck** — The extreme difficulty of replicating ASML's EUV technology, which acts as a physical gatekeeper to manufacturing chips below the 5-nanometer threshold.
+- **Legacy Nodes** — Semiconductor fabrication processes (typically 28nm and above) used for automotive, industrial, and IoT applications, currently dominated by Chinese capacity expansion.
+
+## Why It Matters
+
+This technological schism marks the end of hyper-globalization, signaling a new era where national security imperatives permanently supersede market efficiency in global supply chains.
+
+
+---

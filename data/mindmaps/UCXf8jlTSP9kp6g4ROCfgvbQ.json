@@ -23,6 +23,15 @@
             },
             {
               "name": "Global GDP Impact"
+            },
+            {
+              "name": "Weaponized Interdependence"
+            },
+            {
+              "name": "Lithography Bottleneck"
+            },
+            {
+              "name": "Legacy Nodes"
             }
           ]
         },
@@ -36,7 +45,7 @@
               "name": "US CHIPS Act Subsidies"
             },
             {
-              "name": "TSMC Arizona Fab Challenges"
+              "name": "TSMC Global Expansion"
             },
             {
               "name": "南韓晶片出口"
@@ -64,6 +73,9 @@
           "children": [
             {
               "name": "Green Tech State Subsidies"
+            },
+            {
+              "name": "China Big Fund"
             }
           ]
         },
