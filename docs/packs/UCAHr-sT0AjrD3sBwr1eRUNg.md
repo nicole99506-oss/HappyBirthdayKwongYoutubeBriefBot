@@ -322,3 +322,39 @@ This case illustrates how algorithmic and headline-driven market environments fr
 
 
 ---
+
+# Pre-Market - July 17, 2026
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-17  
+**Link:** https://www.youtube.com/watch?v=jLJ2WrWdfZk
+
+> **The Gist** — Market sentiment is currently dominated by behavioral narratives rather than fundamentals, advising traders to remain sidelined during the prevailing negative volatility.
+
+## Summary
+
+The speaker argues that financial markets are currently operating on two distinct layers: the fundamental layer and the behavioral layer. Currently, the behavioral layer—driven by negative narratives and headline sentiment—is dominating, particularly in the tech and AI sectors. Despite some assets showing attractive fundamental valuations, the speaker cautions against contrarian buying, advising traders to keep "hands off the keyboard" until the narrative shifts, likely with the onset of major tech earnings.
+
+On the macroeconomic front, the speaker highlights structural complexities in the labor and commodity markets. He notes that US labor strength is subtly maintained by high replacement hiring, citing Bank of America's need to hire 1,300 people monthly just to maintain a neutral headcount. In commodities, he remains bullish on copper, predicting prices of $7 to $8 per pound by the end of the decade due to supply constraints, while remaining cautious on silver due to increased recycling supply.
+
+Finally, the briefing touches on a cynical geopolitical framework, suggesting that political leadership is often transactional rather than policy-driven. He posits that "immorality plus power equals riches," suggesting that political figures exploit systemic loopholes for personal gain, which ultimately injects further volatility into global markets.
+
+## Highlights
+
+- Financial markets are currently driven by behavioral narratives and headline sentiment rather than fundamental valuations, making contrarian buying highly risky.
+- Copper is projected to reach $7 to $8 per pound by the end of the decade due to structural supply bottlenecks.
+- US labor market strength is partially masked by high replacement hiring, with institutions like Bank of America needing 1,300 hires monthly just to maintain flat headcount.
+- The speaker introduces a cynical geopolitical framework: 'Immorality + Power = Riches,' highlighting the transactional nature of political leadership.
+
+## Key Concepts
+
+- **Behavioral vs. Fundamental Market Layers** — The division between asset pricing based on intrinsic value (fundamentals) versus pricing driven by prevailing narratives and crowd psychology (behavioral).
+- **Replacement Hiring Dynamics** — The phenomenon where high hiring volume is required merely to offset retirements and voluntary departures, masking flat net job growth.
+- **Land and Expand Strategy** — A business growth strategy focused on acquiring a customer with a small deal and then growing the account size over time.
+
+## Why It Matters
+
+Understanding the divergence between narrative-driven market sentiment and structural economic realities is crucial for navigating heightened geopolitical and macroeconomic volatility.
+
+
+---

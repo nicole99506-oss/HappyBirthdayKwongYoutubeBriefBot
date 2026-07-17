@@ -29,7 +29,9 @@
         "FmpkSPA-A2A",
         "vQvyh5K81Bk",
         "f0HnQobYaPA",
-        "2MqyjUhm9v4"
+        "2MqyjUhm9v4",
+        "1uKckgBSCNQ",
+        "jLJ2WrWdfZk"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -61,7 +63,8 @@
         "WqqgBcXxnjY",
         "9aPOuZGXPJ4",
         "nYtbwQCKI5o",
-        "VYHWUmzFdfU"
+        "VYHWUmzFdfU",
+        "O7Zs_1PGoZE"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -91,28 +94,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "1uKckgBSCNQ",
-      "title": "2026 US Debt Crisis Government Spending & Future Economic Woes",
-      "published": "2026-07-17T11:16:55+00:00",
-      "url": "https://www.youtube.com/watch?v=1uKckgBSCNQ",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 2
-    },
-    {
-      "video_id": "O7Zs_1PGoZE",
-      "title": "「購買歐洲」能否抵擋BYD的大舉進軍？中國製造正乘海盜船而來！｜供應鏈風險｜Simon Universe｜國際關係教室 96｜大學堂｜🇨🇳 🇪🇺｜比亞迪｜奇瑞｜歐盟｜電動車｜貿易壁壘｜中國模式｜",
-      "published": "2026-07-17T10:36:12+00:00",
-      "url": "https://www.youtube.com/watch?v=O7Zs_1PGoZE",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
-      "video_id": "jLJ2WrWdfZk",
-      "title": "Pre-Market - July 17, 2026",
-      "published": "2026-07-17T11:48:20+00:00",
-      "url": "https://www.youtube.com/watch?v=jLJ2WrWdfZk",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
-    },
-    {
       "video_id": "Rbvz96_vCiM",
       "title": "2026 DigitalOcean's Share Repurchase  Non Dilutive Explained!",
       "published": "2026-07-17T11:52:53+00:00",
@@ -122,9 +103,9 @@
   ],
   "daily": {
     "date": "2026-07-17",
-    "count": 1
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-07-17T12:48:09.604573+00:00",
+  "last_run": "2026-07-17T14:29:00.133130+00:00",
   "last_error_notified": "2026-07-17"
 }

@@ -76,6 +76,17 @@
             },
             {
               "name": "China Big Fund"
+            },
+            {
+              "name": "比亞迪模式",
+              "children": [
+                {
+                  "name": "垂直整合"
+                },
+                {
+                  "name": "迪鏈平台"
+                }
+              ]
             }
           ]
         },
@@ -102,7 +113,15 @@
           "name": "Deflationary Export Spillover",
           "children": [
             {
-              "name": "US and EU Tariff Responses"
+              "name": "US and EU Tariff Responses",
+              "children": [
+                {
+                  "name": "最後實質加工原則"
+                },
+                {
+                  "name": "購買歐洲條款"
+                }
+              ]
             },
             {
               "name": "名義與實際增長背離"
