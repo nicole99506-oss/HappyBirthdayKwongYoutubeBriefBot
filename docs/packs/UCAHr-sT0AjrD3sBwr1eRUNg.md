@@ -394,3 +394,40 @@ This transaction illustrates how tech firms are actively restructuring zero-cost
 
 
 ---
+
+# (de)flation - EUV bottleneck still - Kimi K3 meh moment - and higher for markets!
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-19  
+**Link:** https://www.youtube.com/watch?v=wHFPcd2KmCM
+
+> **The Gist** — June's cooling inflation data and ASML's projected surge in EUV lithography demand highlight a shifting macroeconomic landscape, balancing disinflationary pressures against robust semiconductor capital expenditure.
+
+## Summary
+
+The briefing analyzes recent US economic indicators alongside semiconductor industry developments, focusing on ASML's outlook. June's inflation data surprised on the downside, with core CPI flat month-over-month and headline CPI dropping to 3.0% (or -0.1% unadjusted), driven primarily by falling energy and food prices. This disinflationary trend suggests the Federal Reserve's tightening cycle is successfully cooling the economy, although the labor market remains structurally tight due to demographic shifts, requiring Bank of America to hire 1,300 people monthly just to maintain a neutral headcount.
+
+In the technology sector, ASML's Q2 2026 results and forward guidance reveal robust demand for Extreme Ultraviolet (EUV) lithography. Memory manufacturers are accelerating capacity expansion to support high-bandwidth memory (HBM) for AI applications. Because advanced nodes require increased lithography intensity—up to five or six layers—wafer output per machine is effectively reduced, necessitating more EUV systems. ASML plans to ship approximately 65 low-NA EUV machines in 2026 and targets a 30% capacity increase to around 85 machines by 2027.
+
+Ultimately, the market exhibits a style rotation away from overvalued momentum tech stocks toward small-cap value and defensive sectors like utilities. While some analysts interpret this as the bursting of an AI bubble, the underlying structural demand for hardware suggests a healthy correction rather than a systemic collapse, even as geopolitical tensions and election-year politics complicate the Federal Reserve's rate-cut timeline.
+
+## Highlights
+
+- US Core CPI was flat (0.0% MoM) in June, bringing the year-over-year rate down to 2.6%, well below expectations.
+- ASML expects to ship approximately 65 low-NA EUV machines in 2026, with plans to expand capacity by 30% to roughly 85 machines in 2027.
+- Advanced memory nodes require up to 5-6 lithography layers, reducing effective wafer throughput per machine and driving higher system demand.
+- The US Treasury yield curve exhibits a bear flattener in the 2-to-10-year segment, while the 3-month-to-10-year segment shows a bull steepener.
+- Market factor exposure indicates a breakdown in momentum, with small-cap value outperforming large-cap growth.
+
+## Key Concepts
+
+- **Lithography Intensity** — The number of lithographic exposures or layers required per wafer, which increases with advanced semiconductor nodes, boosting machine demand.
+- **Constant Maturity Yields** — Extrapolated yields on Treasury securities of fixed maturities, representing what a newly issued bond would yield if sold at par.
+- **Super Core Inflation** — A measure of inflation that excludes food, energy, and shelter costs, often used to gauge underlying services sector price pressures.
+
+## Why It Matters
+
+The intersection of cooling US inflation and persistent capital expenditure in semiconductor infrastructure underscores a complex transition where technology-driven productivity gains must navigate geopolitical supply chain constraints.
+
+
+---
