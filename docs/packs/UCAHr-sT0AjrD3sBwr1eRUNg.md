@@ -431,3 +431,39 @@ The intersection of cooling US inflation and persistent capital expenditure in s
 
 
 ---
+
+# 2026 Is the Yield Curve Warning Us? 📉📈
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-20  
+**Link:** https://www.youtube.com/watch?v=SSQjklhZ7LA
+
+> **The Gist** — The US yield curve exhibits divergent trends year-to-date, with a bear flattener in the 2-to-10-year spread alongside a bull steepener in the 3-month-to-10-year segment.
+
+## Summary
+
+An analysis of the US Treasury yield curve reveals contrasting dynamics depending on the maturities observed. Comparing July 17th data to the start of the year, the 2-to-10-year yield curve has undergone a "bear flattener" transition, indicating that short-term yields have risen faster than long-term yields. Conversely, the 3-month-to-10-year yield curve has experienced a "bull steepener" shift year-to-date, reflecting different market expectations at the very short end of the curve.
+
+These structural shifts occur against a backdrop of sticky inflation data. Based on recent Personal Consumption Expenditures (PCE) and Consumer Price Index (CPI) metrics, the speaker notes there is virtually no probability of a Federal Reserve rate cut in July. Meanwhile, the Effective Federal Funds Rate (EFFR) exhibits minor volatility, hovering between 3.62% and 3.63%, a departure from its previously static behavior.
+
+Ultimately, these divergent yield curve movements highlight the complex interplay between short-term monetary policy expectations and long-term growth and inflation outlooks. The lack of near-term rate cuts suggests that the front end of the curve will remain elevated, complicating the macroeconomic outlook for fixed-income investors and broader capital markets.
+
+## Highlights
+
+- The 2-to-10-year yield curve has experienced a bear flattener since the beginning of the year.
+- The 3-month-to-10-year yield curve has conversely seen a bull steepener year-to-date.
+- Recent PCE and CPI data suggest almost zero probability of a Federal Reserve rate cut in July.
+- The Effective Federal Funds Rate is showing minor fluctuations, trading between 3.62% and 3.63%.
+
+## Key Concepts
+
+- **Bear Flattener** — A yield curve shift where short-term interest rates rise faster than long-term rates, typically signaling tightening monetary policy.
+- **Bull Steepener** — A yield curve shift where short-term rates fall faster than long-term rates, often anticipating stimulative monetary policy.
+- **Effective Federal Funds Rate** — The interest rate at which depository institutions lend reserve balances to other depository institutions overnight.
+
+## Why It Matters
+
+Divergent yield curve signals and sticky inflation complicate the Federal Reserve's path toward monetary easing, directly impacting global capital flows and borrowing costs.
+
+
+---
