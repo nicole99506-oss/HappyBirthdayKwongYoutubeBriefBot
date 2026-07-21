@@ -69,7 +69,8 @@
         "nYtbwQCKI5o",
         "VYHWUmzFdfU",
         "O7Zs_1PGoZE",
-        "hMXEqIZ7s9E"
+        "hMXEqIZ7s9E",
+        "AN2UuUVqgLU"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -100,10 +101,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-07-20",
-    "count": 2
+    "date": "2026-07-21",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-21T06:42:54.237320+00:00",
+  "last_run": "2026-07-21T09:16:59.533604+00:00",
   "last_error_notified": "2026-07-17"
 }
