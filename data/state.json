@@ -106,7 +106,7 @@
       "published": "2026-07-21T12:00:28+00:00",
       "url": "https://www.youtube.com/watch?v=lQl_ismd8YQ",
       "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 1
+      "fails": 2
     }
   ],
   "daily": {
@@ -114,6 +114,6 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-21T12:49:43.271247+00:00",
+  "last_run": "2026-07-21T14:52:16.203594+00:00",
   "last_error_notified": "2026-07-21"
 }
