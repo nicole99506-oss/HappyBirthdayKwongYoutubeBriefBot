@@ -43,6 +43,9 @@
         },
         {
           "name": "Fiscal Consolidation"
+        },
+        {
+          "name": "Populist Risk"
         }
       ]
     },
@@ -57,6 +60,12 @@
         },
         {
           "name": "Capped Call"
+        },
+        {
+          "name": "Investment-Grade Bonds"
+        },
+        {
+          "name": "Yield Spread"
         }
       ]
     }

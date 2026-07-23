@@ -467,3 +467,37 @@ Divergent yield curve signals and sticky inflation complicate the Federal Reserv
 
 
 ---
+
+# 2026 Stop Lending to the Government? 🏛️ vs 🏢
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-23  
+**Link:** https://www.youtube.com/watch?v=DVlgekCnw-I
+
+> **The Gist** — Investors should lend to corporations rather than governments, as corporate bonds offer higher yields and corporations provide superior, non-populist stewardship of capital.
+
+## Summary
+
+The speaker argues against lending money to governments, advocating instead for investing in corporate debt. By comparing yields, the speaker notes that while a 20-year government bond sits at approximately 5.05%, an investment-grade (IG) corporate bond of similar duration can yield around 5.8%. This yield spread represents a significant premium for investors willing to shift their capital from public treasury instruments to private corporate debt.
+
+Beyond the yield differential, the core of the argument rests on governance and capital allocation efficiency. The speaker asserts that corporations possess superior leadership and act as far better stewards of capital than any government administration. Unlike governments, which are often driven by populist policies and political cycles, corporations operate under market discipline and are structurally incentivized to optimize efficiency. Ultimately, the speaker concludes that because the real economy is fundamentally driven by corporate activity, lending to corporations is a more logical and productive deployment of capital.
+
+## Highlights
+
+- Avoid lending to governments; instead, allocate capital to corporate debt for superior returns and stewardship.
+- A 20-year government bond yields around 5.05%, whereas an investment-grade corporate bond can yield approximately 5.8%.
+- Corporations offer superior leadership and better capital management compared to populist government administrations.
+- The real economy is ultimately driven by corporations, making them the logical destination for debt investment.
+
+## Key Concepts
+
+- **Investment-Grade (IG) Bonds** — Debt securities rated BBB- or higher, indicating a relatively low risk of default compared to high-yield bonds.
+- **Yield Spread** — The difference in yield between two different debt instruments, typically reflecting the difference in risk and credit quality.
+- **Populist Risk** — The risk that political leaders enact economically suboptimal policies to appeal to the general public, undermining fiscal discipline.
+
+## Why It Matters
+
+As sovereign debt levels swell globally, evaluating the risk-adjusted returns of corporate credit versus government bonds is crucial for institutional asset allocation and capital preservation.
+
+
+---
