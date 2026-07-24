@@ -11,10 +11,7 @@
               "name": "Supply Chain Resilience"
             },
             {
-              "name": "India Assembly Investments"
-            },
-            {
-              "name": "北美免稅框架"
+              "name": "Regional Investment Hubs"
             }
           ]
         },
@@ -31,10 +28,7 @@
               "name": "Weaponized Interdependence"
             },
             {
-              "name": "Lithography Bottleneck"
-            },
-            {
-              "name": "Legacy Nodes"
+              "name": "Supply Chain Bottlenecks"
             }
           ]
         },
@@ -81,6 +75,9 @@
               "name": "China Big Fund"
             },
             {
+              "name": "New Three"
+            },
+            {
               "name": "比亞迪模式",
               "children": [
                 {
@@ -90,12 +87,7 @@
                   "name": "迪鏈平台"
                 },
                 {
-                  "name": "旋轉門效應",
-                  "children": [
-                    {
-                      "name": "匈牙利投資調查"
-                    }
-                  ]
+                  "name": "旋轉門效應"
                 }
               ]
             }
@@ -105,6 +97,9 @@
           "name": "Supply-Side Structural Imbalance",
           "children": [
             {
+              "name": "Industrial Overcapacity"
+            },
+            {
               "name": "Depressed Domestic Consumption",
               "children": [
                 {
@@ -112,6 +107,9 @@
                 },
                 {
                   "name": "信用傳導受阻"
+                },
+                {
+                  "name": "Consumption-led Rebalancing"
                 }
               ]
             },
@@ -156,28 +154,13 @@
       "name": "地緣衝突與能源安全",
       "children": [
         {
-          "name": "霍爾木茲海峽危機",
-          "children": [
-            {
-              "name": "過境通行原則"
-            }
-          ]
+          "name": "霍爾木茲海峽危機"
         },
         {
-          "name": "混合威脅生態",
-          "children": [
-            {
-              "name": "氣隙系統"
-            }
-          ]
+          "name": "混合威脅生態"
         },
         {
-          "name": "歐洲防空網絡",
-          "children": [
-            {
-              "name": "防空不對稱"
-            }
-          ]
+          "name": "歐洲防空網絡"
         },
         {
           "name": "歐盟戰略擴員"
@@ -186,32 +169,27 @@
           "name": "戰略石油儲備"
         },
         {
-          "name": "美軍第五艦隊安全"
+          "name": "戰爭險保費溢價"
         },
         {
-          "name": "歐烏無人機共產"
-        },
-        {
-          "name": "戰爭險保費溢價",
-          "children": [
-            {
-              "name": "黑海糧食通道"
-            }
-          ]
-        },
-        {
-          "name": "中東停火試點",
-          "children": [
-            {
-              "name": "黎巴嫩南部接管"
-            }
-          ]
+          "name": "中東停火試點"
         },
         {
           "name": "消耗戰"
         },
         {
-          "name": "法治考驗"
+          "name": "法治考驗",
+          "children": [
+            {
+              "name": "主權豁免"
+            }
+          ]
+        },
+        {
+          "name": "鈾濃縮雙重用途"
+        },
+        {
+          "name": "中美亞太角力"
         }
       ]
     }

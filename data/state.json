@@ -76,7 +76,9 @@
         "AN2UuUVqgLU",
         "1MvpwiGQmIs",
         "4grexXbYsEw",
-        "Vn7IJHO-9hs"
+        "Vn7IJHO-9hs",
+        "lfgKI78PcCw",
+        "0S9AhttwTnI"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -108,9 +110,9 @@
   "queue": [],
   "daily": {
     "date": "2026-07-24",
-    "count": 1
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-07-24T06:12:11.234106+00:00",
+  "last_run": "2026-07-24T08:43:13.775205+00:00",
   "last_error_notified": "2026-07-22"
 }
