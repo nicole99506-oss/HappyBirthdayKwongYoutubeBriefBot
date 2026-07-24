@@ -68,6 +68,17 @@
           "name": "Yield Spread"
         }
       ]
+    },
+    {
+      "name": "Technology Monetization",
+      "children": [
+        {
+          "name": "Free-Tier Throttling"
+        },
+        {
+          "name": "Monetization Transition"
+        }
+      ]
     }
   ]
 }
