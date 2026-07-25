@@ -79,6 +79,23 @@
           "name": "Monetization Transition"
         }
       ]
+    },
+    {
+      "name": "Semiconductor Manufacturing",
+      "children": [
+        {
+          "name": "High Bandwidth Memory (HBM)"
+        },
+        {
+          "name": "Lithography Intensity"
+        },
+        {
+          "name": "Low-NA EUV"
+        },
+        {
+          "name": "Semiconductor Capex"
+        }
+      ]
     }
   ]
 }

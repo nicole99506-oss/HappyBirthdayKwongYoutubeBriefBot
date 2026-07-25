@@ -536,3 +536,37 @@ As AI companies face massive infrastructure costs, the transition from free tier
 
 
 ---
+
+# 2026 Memory Supply Surge - Micron, Samsung & SK Hynix Investments
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-25  
+**Link:** https://www.youtube.com/watch?v=ayrIv3yNoPc
+
+> **The Gist** — Surging demand for HBM and DDR memory is accelerating global semiconductor capacity expansion, driving a projected 75% revenue increase in memory-related lithography equipment.
+
+## Summary
+
+The global semiconductor equipment market is experiencing a significant surge in demand, primarily driven by the rapid expansion of memory technologies like DDR and High Bandwidth Memory (HBM). To meet this demand, major chipmakers are accelerating their capacity expansion plans, which directly translates to increased orders for advanced lithography systems. The speaker notes that memory-related revenue is projected to grow by 75% this year, fueled by the transition to advanced nodes that require higher lithography intensity across both Extreme Ultraviolet (EUV) and Deep Ultraviolet (DUV) immersion technologies.
+
+This capital expenditure boom is reflected in massive global commitments. Micron has expanded its planned investment in New York by $50 billion, while South Korean giants Samsung and SK Hynix have announced major capacity expansions. Consequently, equipment manufacturers are seeing robust long-term order books. Low-NA EUV production capacity is scaling to approximately 65 machines, and visibility extends well into 2027 and 2028, with 2027 EUV orders already materializing to add 30% more capacity compared to 2026. This sustained demand underscores a broader industry transition toward advanced packaging and memory architectures essential for AI workloads.
+
+## Highlights
+
+- Memory-related lithography equipment revenue is projected to grow by 75% this year, driven by DDR and HBM demand.
+- The manufacturer plans to build approximately 65 Low-NA EUV machines to meet near-term demand.
+- EUV orders for 2027 are already being booked, representing a 30% capacity increase over 2026.
+- Major memory players are scaling up capex, including Micron adding $50 billion to its New York plans, alongside Samsung and SK Hynix expansions in South Korea.
+
+## Key Concepts
+
+- **High Bandwidth Memory (HBM)** — A high-speed computer memory interface used in AI accelerators and supercomputers to achieve ultra-fast data transfer rates.
+- **Lithography Intensity** — The increased number of lithographic exposures required per wafer as semiconductor manufacturing transitions to smaller, more complex advanced process nodes.
+- **Low-NA EUV** — Extreme Ultraviolet lithography systems with a 0.33 Numerical Aperture, used to print the intricate features of advanced microchips.
+
+## Why It Matters
+
+The aggressive capacity expansions by global memory giants highlight how the AI infrastructure race is reshaping semiconductor supply chains and driving long-term geopolitical capital expenditure.
+
+
+---
