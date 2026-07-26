@@ -570,3 +570,40 @@ The aggressive capacity expansions by global memory giants highlight how the AI 
 
 
 ---
+
+# Hyperliquid intro, and Earnings Debrief for T, VZ, GOOG, and INTC
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-07-26  
+**Link:** https://www.youtube.com/watch?v=AEd8re5e-u8
+
+> **The Gist** — AI-driven productivity gains could trigger long-term deflation by 2030, complicating the US debt crisis, while tech giants face margin pressures from massive AI capital expenditures.
+
+## Summary
+
+In this weekly market outlook, the speaker analyzes recent macroeconomic indicators and corporate earnings, highlighting a potential structural shift driven by artificial intelligence. Canadian inflation cooled faster than anticipated, while US oil inventories showed unexpected builds, contributing to a sharp drop in crude prices. Concurrently, a parallel upward shift in the US yield curve by approximately 15 basis points highlights growing fiscal pressures, as rising interest rates elevate debt-servicing costs and widen deficits.
+
+The core macroeconomic thesis posits that by 2030, widespread adoption of AI as "intelligence as a service" will unleash a massive supply-side productivity boom. Because AI lowers barriers to entry and rapidly commoditizes cognitive tasks, intense competition will compress corporate margins and drive down prices. Consequently, nominal GDP growth is projected to fall below real GDP growth, ushering in a period of structural deflation. This deflationary environment poses a severe threat to US fiscal sustainability, as tax revenues—which depend on nominal GDP—will stagnate while nominal debt obligations continue to mount.
+
+In corporate earnings, telecom giants AT&T and Verizon demonstrated robust cash flows and attractive yields. Conversely, tech behemoths face a dual-edged sword. Alphabet reported stellar revenue growth but signaled a massive surge in CapEx to fund AI infrastructure, utilizing third-party "neo-clouds" as a costly bridging strategy. Meanwhile, Intel's bottom line was severely impacted by a $12.5 billion mark-to-market loss on escrowed shares tied to its CHIPS Act agreement with the US government.
+
+## Highlights
+
+- Canadian headline inflation fell to 2.8% in June, dropping below the Bank of Canada's 2.0% target on core measures.
+- The US Treasury yield curve experienced a rare parallel upward shift of approximately 15 basis points across most maturities.
+- Alphabet's CapEx guidance for 2026 was raised to $195–205 billion, with further significant increases expected in 2027 to support AI infrastructure.
+- Intel reported a massive $15.1 billion net loss, driven by a $12.5 billion mark-to-market accounting loss on shares escrowed for its CHIPS Act agreement.
+- The 3:2:1 crack spread calculation demonstrates that refineries currently enjoy highly profitable spreads of around $49.47 per barrel.
+
+## Key Concepts
+
+- **Intelligence as a Service** — The commoditization of cognitive tasks via AI, lowering barriers to entry and competing away corporate profit margins across service industries.
+- **3:2:1 Crack Spread** — A pricing formula representing the profit margin of refining three barrels of crude oil into two barrels of gasoline and one barrel of distillate.
+- **Nominal vs. Real GDP Divergence** — A macroeconomic condition where supply-driven productivity gains cause prices to fall, resulting in real GDP outpacing nominal GDP growth.
+
+## Why It Matters
+
+If AI-driven productivity gains trigger structural deflation, the resulting divergence between real and nominal GDP will severely undermine the US government's ability to service its rapidly expanding national debt.
+
+
+---
