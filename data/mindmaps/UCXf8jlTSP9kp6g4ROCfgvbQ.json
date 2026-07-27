@@ -5,15 +5,7 @@
       "name": "Semiconductor Geopolitics",
       "children": [
         {
-          "name": "Friend-shoring",
-          "children": [
-            {
-              "name": "Supply Chain Resilience"
-            },
-            {
-              "name": "Regional Investment Hubs"
-            }
-          ]
+          "name": "Friend-shoring"
         },
         {
           "name": "Balkanization of Tech",
@@ -22,13 +14,7 @@
               "name": "Competing Geopolitical Blocs"
             },
             {
-              "name": "Global GDP Impact"
-            },
-            {
               "name": "Weaponized Interdependence"
-            },
-            {
-              "name": "Supply Chain Bottlenecks"
             }
           ]
         },
@@ -40,25 +26,11 @@
             },
             {
               "name": "US CHIPS Act Subsidies"
-            },
-            {
-              "name": "TSMC Global Expansion"
-            },
-            {
-              "name": "南韓晶片出口"
             }
           ]
         },
         {
-          "name": "AI基建通脹",
-          "children": [
-            {
-              "name": "科技預算擠壓"
-            },
-            {
-              "name": "ASML與AI需求"
-            }
-          ]
+          "name": "AI基建通脹"
         }
       ]
     },
@@ -78,18 +50,7 @@
               "name": "New Three"
             },
             {
-              "name": "比亞迪模式",
-              "children": [
-                {
-                  "name": "垂直整合"
-                },
-                {
-                  "name": "迪鏈平台"
-                },
-                {
-                  "name": "旋轉門效應"
-                }
-              ]
+              "name": "比亞迪模式"
             }
           ]
         },
@@ -104,12 +65,6 @@
               "children": [
                 {
                   "name": "資產負債表衰退"
-                },
-                {
-                  "name": "信用傳導受阻"
-                },
-                {
-                  "name": "Consumption-led Rebalancing"
                 }
               ]
             },
@@ -131,12 +86,10 @@
                   "name": "購買歐洲條款"
                 },
                 {
-                  "name": "數位服務法 (DSA)",
-                  "children": [
-                    {
-                      "name": "跨境合規監管"
-                    }
-                  ]
+                  "name": "數位服務法 (DSA)"
+                },
+                {
+                  "name": "跨境合規與成本"
                 }
               ]
             },
@@ -145,6 +98,9 @@
             },
             {
               "name": "關鍵礦物限制"
+            },
+            {
+              "name": "出口管制"
             }
           ]
         }
@@ -166,13 +122,7 @@
           "name": "歐盟戰略擴員"
         },
         {
-          "name": "戰略石油儲備"
-        },
-        {
-          "name": "戰爭險保費溢價"
-        },
-        {
-          "name": "中東停火試點"
+          "name": "能源與運輸安全"
         },
         {
           "name": "消耗戰"
@@ -192,7 +142,7 @@
           "name": "中美亞太角力"
         },
         {
-          "name": "烏克蘭軍事改革"
+          "name": "熔斷機制"
         }
       ]
     },
@@ -215,6 +165,12 @@
         },
         {
           "name": "印度體制改革抗議"
+        },
+        {
+          "name": "國際刑事法院爭議"
+        },
+        {
+          "name": "南非彈劾聆訊"
         }
       ]
     }
