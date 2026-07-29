@@ -86,7 +86,8 @@
         "LUZsSTAUbUc",
         "1FaGF8H9HD8",
         "tOUQHaTP_N8",
-        "clMc4hzi0UI"
+        "clMc4hzi0UI",
+        "id2hGqsv1TY"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -117,10 +118,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-07-28",
-    "count": 2
+    "date": "2026-07-29",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-07-29T04:24:14.189348+00:00",
+  "last_run": "2026-07-29T07:12:10.221985+00:00",
   "last_error_notified": "2026-07-24"
 }
