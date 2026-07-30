@@ -116,12 +116,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "bqnpTrQpEWg",
+      "title": "每日國際新聞｜美沙特聯合空襲伊拉克民兵伊朗還擊約旦美軍 南韓股市暴跌觸發熔斷人工智能泡沫憂慮再現｜Simon Universe",
+      "published": "2026-07-30T04:00:01+00:00",
+      "url": "https://www.youtube.com/watch?v=bqnpTrQpEWg",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    }
+  ],
   "daily": {
-    "date": "2026-07-29",
-    "count": 1
+    "date": "2026-07-30",
+    "count": 0
   },
   "greeted": true,
-  "last_run": "2026-07-30T06:02:21.601299+00:00",
-  "last_error_notified": "2026-07-24"
+  "last_run": "2026-07-30T08:42:01.882280+00:00",
+  "last_error_notified": "2026-07-30"
 }
