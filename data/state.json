@@ -87,7 +87,9 @@
         "1FaGF8H9HD8",
         "tOUQHaTP_N8",
         "clMc4hzi0UI",
-        "id2hGqsv1TY"
+        "id2hGqsv1TY",
+        "bqnpTrQpEWg",
+        "gDas4Hms0V0"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -116,28 +118,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "bqnpTrQpEWg",
-      "title": "每日國際新聞｜美沙特聯合空襲伊拉克民兵伊朗還擊約旦美軍 南韓股市暴跌觸發熔斷人工智能泡沫憂慮再現｜Simon Universe",
-      "published": "2026-07-30T04:00:01+00:00",
-      "url": "https://www.youtube.com/watch?v=bqnpTrQpEWg",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
-      "video_id": "gDas4Hms0V0",
-      "title": "AI 牛市開始退潮？人工智能產業有什麼金融風險？長鑫、SK海力士與NVIDIA｜產業風險｜Simon Universe｜國際關係教室 100｜大學堂｜🇺🇸🇨🇳🇰🇷｜OpenAI｜半導體｜循環融資｜",
-      "published": "2026-07-30T09:45:06+00:00",
-      "url": "https://www.youtube.com/watch?v=gDas4Hms0V0",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-07-30",
-    "count": 0
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-07-30T10:53:48.734825+00:00",
+  "last_run": "2026-07-30T12:26:30.231068+00:00",
   "last_error_notified": "2026-07-30"
 }
