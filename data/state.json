@@ -41,7 +41,8 @@
         "DVlgekCnw-I",
         "IZYleBPKHdc",
         "ayrIv3yNoPc",
-        "AEd8re5e-u8"
+        "AEd8re5e-u8",
+        "9JrC-af9L5A"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -120,21 +121,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "9JrC-af9L5A",
-      "title": "AI trade full speed ahead, earnings from AAPL, AXTI, AMZN, MFST, and META",
-      "published": "2026-08-02T15:02:28+00:00",
-      "url": "https://www.youtube.com/watch?v=9JrC-af9L5A",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 2
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-08-03",
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-08-02T16:15:58.857946+00:00",
+  "last_run": "2026-08-02T17:15:55.023027+00:00",
   "last_error_notified": "2026-08-02"
 }
