@@ -93,7 +93,8 @@
         "gDas4Hms0V0",
         "NLB6XgXucCc",
         "NHcZGLt5fMs",
-        "Hvne04r79q4"
+        "Hvne04r79q4",
+        "hPXTt8jw2Bo"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -122,21 +123,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "hPXTt8jw2Bo",
-      "title": "每日國際新聞｜特朗普宣布暫緩打擊伊朗尋求協議 俄羅斯莫斯科餐廳炸彈襲擊三死廿一傷｜Simon Universe",
-      "published": "2026-08-04T04:00:07+00:00",
-      "url": "https://www.youtube.com/watch?v=hPXTt8jw2Bo",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-08-04",
-    "count": 0
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-08-04T07:10:32.662393+00:00",
+  "last_run": "2026-08-04T09:45:59.498795+00:00",
   "last_error_notified": "2026-08-04"
 }
