@@ -94,7 +94,8 @@
         "NLB6XgXucCc",
         "NHcZGLt5fMs",
         "Hvne04r79q4",
-        "hPXTt8jw2Bo"
+        "hPXTt8jw2Bo",
+        "84XMk-gL6zE"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -125,10 +126,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-08-04",
+    "date": "2026-08-05",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-08-05T06:41:22.024453+00:00",
+  "last_run": "2026-08-05T09:23:38.278599+00:00",
   "last_error_notified": "2026-08-04"
 }
