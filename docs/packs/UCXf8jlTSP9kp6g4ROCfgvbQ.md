@@ -1036,3 +1036,39 @@ This systemic trade imbalance accelerates the fragmentation of the global econom
 
 
 ---
+
+# 中國電商SHEIN 希音擬赴港上市，SHEIN 憑什麼佔據歐美市場，成為超快時尚之王？｜新疆棉｜Simon Universe｜國際關係教室 101｜大學堂｜🇨🇳🇭🇰｜強迫勞動｜IPO｜香港IPO｜
+
+**Channel:** Simon Universe丨國際關係教室  
+**Published:** 2026-08-05  
+**Link:** https://www.youtube.com/watch?v=u02sTZvg5ZE
+
+> **The Gist** — US export controls on advanced semiconductors are accelerating global supply chain fragmentation, forcing China to build domestic alternatives while squeezing Western chipmakers' revenues.
+
+## Summary
+
+The United States' aggressive expansion of export controls on advanced semiconductor technology and manufacturing equipment marks a permanent shift from market-driven globalization to weaponized interdependence. By restricting companies like Nvidia and ASML from selling cutting-edge AI chips and extreme ultraviolet (EUV) lithography machines to China, Washington aims to maintain as large a lead as possible in critical technologies. This strategy seeks to freeze China's military-AI capabilities but carries profound collateral damage for Western tech firms, which face the loss of their largest growth market.
+
+In response, Beijing is pouring hundreds of billions of dollars into domestic semiconductor self-reliance, focusing heavily on legacy nodes (28nm and above) where they can dominate global supply. This has led to a bifurcated global tech ecosystem: one led by the US and its allies utilizing advanced, highly restricted nodes, and another increasingly self-sufficient Chinese ecosystem dominating mature-node production.
+
+Ultimately, these unilateral restrictions are accelerating the decoupling of high-tech supply chains. While the US may achieve short-term tactical delays in China's AI progression, the long-term consequence is a highly fragmented global market, increased capital expenditure for redundant supply chains, and heightened geopolitical friction over Taiwan's critical fabrication facilities.
+
+## Highlights
+
+- US export controls target not just current capabilities, but China's future capacity to design and manufacture next-generation AI chips.
+- China is retaliating by dominating legacy chip production (28nm+), threatening to flood global markets and create new dependencies for Western automakers.
+- Western semiconductor equipment manufacturers estimate a 15-20% revenue loss due to restricted access to the Chinese market.
+- The weaponization of the semiconductor supply chain has forced US allies like Japan and the Netherlands into reluctant alignment with Washington's export regime.
+
+## Key Concepts
+
+- **Weaponized Interdependence** — The strategic exploitation of centralized network nodes, such as chip design or lithography, by a state to exert geopolitical leverage over adversaries.
+- **Legacy Nodes** — Semiconductor manufacturing processes (typically 28nm or larger) used in automotive, industrial, and consumer electronics, distinct from advanced AI chips.
+- **Bifurcated Supply Chain** — The split of global technology production into two distinct, non-interoperable ecosystems dominated separately by the United States and China.
+
+## Why It Matters
+
+This tech schism redraws the map of global trade, forcing multinational corporations to choose sides and structurally elevating global inflation through supply chain duplication.
+
+
+---
