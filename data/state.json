@@ -97,7 +97,8 @@
         "hPXTt8jw2Bo",
         "84XMk-gL6zE",
         "u02sTZvg5ZE",
-        "Iimk7Gb0Ykg"
+        "Iimk7Gb0Ykg",
+        "kgv2Fv_dsms"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -128,10 +129,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-08-06",
+    "date": "2026-08-07",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-08-07T05:08:44.789510+00:00",
+  "last_run": "2026-08-07T06:18:21.548983+00:00",
   "last_error_notified": "2026-08-04"
 }
