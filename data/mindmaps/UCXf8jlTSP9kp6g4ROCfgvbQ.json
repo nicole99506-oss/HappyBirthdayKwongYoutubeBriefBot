@@ -8,29 +8,10 @@
           "name": "Friend-shoring"
         },
         {
-          "name": "Balkanization of Tech",
-          "children": [
-            {
-              "name": "Competing Geopolitical Blocs"
-            },
-            {
-              "name": "Weaponized Interdependence"
-            },
-            {
-              "name": "Bifurcated Supply Chain"
-            }
-          ]
+          "name": "Balkanization of Tech"
         },
         {
-          "name": "Silicon Shield",
-          "children": [
-            {
-              "name": "Taiwan Semiconductor Dominance"
-            },
-            {
-              "name": "US CHIPS Act Subsidies"
-            }
-          ]
+          "name": "Silicon Shield"
         },
         {
           "name": "AI基建與融資"
@@ -104,18 +85,16 @@
       "name": "地緣衝突與能源安全",
       "children": [
         {
-          "name": "霍爾木茲海峽危機",
-          "children": [
-            {
-              "name": "美伊衝突與談判"
-            }
-          ]
+          "name": "霍爾木茲海峽與美伊衝突"
         },
         {
           "name": "混合威脅生態",
           "children": [
             {
-              "name": "俄烏無人機與後方襲擊"
+              "name": "無人機與後方襲擊"
+            },
+            {
+              "name": "工具化移民"
             }
           ]
         },
@@ -129,10 +108,7 @@
           "name": "能源與運輸安全",
           "children": [
             {
-              "name": "黑海航運安全"
-            },
-            {
-              "name": "古巴電力危機"
+              "name": "黑海航運與古巴電力"
             }
           ]
         },
@@ -160,20 +136,10 @@
       "name": "全球治理與社會變革",
       "children": [
         {
-          "name": "公共衛生與氣候疫病",
-          "children": [
-            {
-              "name": "原料藥監管"
-            }
-          ]
+          "name": "公共衛生與原料藥監管"
         },
         {
-          "name": "數位監管與隱私",
-          "children": [
-            {
-              "name": "端對端加密"
-            }
-          ]
+          "name": "數位監管與加密技術"
         },
         {
           "name": "聯合國改革"
@@ -188,21 +154,16 @@
           "name": "歐美經濟分歧"
         },
         {
-          "name": "貨幣地緣政治",
-          "children": [
-            {
-              "name": "協調匯市干預"
-            },
-            {
-              "name": "套利交易"
-            }
-          ]
+          "name": "貨幣地緣政治與套利"
         },
         {
           "name": "太平洋島國動態"
         },
         {
           "name": "跨國企業策略調整"
+        },
+        {
+          "name": "移民正規化與拉力因素"
         }
       ]
     }
