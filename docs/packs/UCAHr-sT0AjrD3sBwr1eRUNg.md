@@ -607,3 +607,40 @@ If AI-driven productivity gains trigger structural deflation, the resulting dive
 
 
 ---
+
+# Bull run and low jobs, earnings from PLTR, AMD, ANET, and APP
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-08-09  
+**Link:** https://www.youtube.com/watch?v=-E3eEi7EeoE
+
+> **The Gist** — The weekly market outlook highlights strong manufacturing data, anomalous US vehicle sales, robust Canadian employment, and mixed corporate earnings from tech giants like Palantir, AMD, Arista, and AppLovin.
+
+## Summary
+
+This weekly market outlook analyzes recent macroeconomic indicators and corporate earnings to assess the health of the US and Canadian economies. In macro news, US ISM Manufacturing PMI beat expectations at 55.6, while a massive spike in total vehicle sales to 24.1 million was flagged as a highly questionable anomaly. Conversely, US nonfarm payrolls contracted by 23,000, though the unemployment rate remained stable at 4.1%. Meanwhile, Canada's labor market significantly outperformed the US, adding 75,100 jobs and pushing its unemployment rate down to 6.4%.
+
+In corporate earnings, the speaker evaluates the high valuations of major tech firms. Palantir posted impressive 92.8% year-over-year revenue growth, but its steep valuation (47.8x Price/Sales) and heavy reliance on share-based compensation (24% of net income) raise sustainability concerns. AMD showed strong 50% revenue growth driven by its data center segment, yet faces potential margin pressures from rising high-bandwidth memory costs. Arista Networks and AppLovin both delivered solid results, with AppLovin standing out due to its exceptional 65.8% net income margin and active share buybacks.
+
+The speaker concludes that while equity markets have rallied sharply—with the S&P 500 trading at a forward multiple of 20.26x—the rapid gains may invite volatility from leveraged players. He advises caution, suggesting that a slower, steadier upward trajectory would be more sustainable as the market navigates high interest rates and shifting economic data.
+
+## Highlights
+
+- US ISM Manufacturing PMI rose to 55.6 in July, beating expectations of 54.0 and indicating expansion.
+- Canada added 75,100 jobs in July, significantly outperforming the US on both a relative and absolute basis.
+- Palantir reported 92.8% year-over-year revenue growth, but trades at a premium valuation of 47.8x Price/Sales.
+- AMD's data center revenue grew 107% year-over-year, now accounting for 58% of its total revenue.
+- AppLovin achieved a remarkable 65.8% net income margin, supported by a decreasing share count from buybacks.
+
+## Key Concepts
+
+- **Rule of 40** — A SaaS metric stating a company's combined growth rate and profit margin should exceed 40%.
+- **Operating Leverage** — A business mechanism where revenue growth outpaces operating expense growth, leading to disproportionate profit increases.
+- **Share-Based Compensation (SBC)** — Employee compensation using stock, which can dilute existing shareholders and distort free cash flow calculations.
+
+## Why It Matters
+
+Understanding these macroeconomic shifts and corporate valuation metrics is critical for anticipating central bank policy decisions and identifying market vulnerabilities in a high-interest-rate environment.
+
+
+---
