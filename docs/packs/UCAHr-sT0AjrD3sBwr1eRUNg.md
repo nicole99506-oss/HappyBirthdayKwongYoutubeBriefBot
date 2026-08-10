@@ -644,3 +644,40 @@ Understanding these macroeconomic shifts and corporate valuation metrics is crit
 
 
 ---
+
+# Globex Live - Aug 9, 2026
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-08-09  
+**Link:** https://www.youtube.com/watch?v=SSNqPx5w880
+
+> **The Gist** — Mark Meldrum analyzes current market indicators, explains the mechanics of option delta and carry trades, and critiques Coherent's valuation ahead of key CPI and PPI data releases.
+
+## Summary
+
+In this market update, financial educator Mark Meldrum reviews global market indicators across forex, energy, metals, and futures, noting that geopolitical tensions in the Middle East remain a key background risk. He addresses several viewer questions, starting with a technical explanation of why he targets a 16-delta option when selling puts, explaining that it represents one standard deviation from the mean in a normal distribution, leaving 16% probability in the lower tail.
+
+Meldrum performs a real-time valuation critique of Coherent (COHR), correcting a viewer's price-to-sales estimate of 3.5 to over 9. By calculating the company's enterprise value (approximately $76 billion) against its EBITDA, he demonstrates that the stock trades at an extremely high multiple of around 190x, driven by thin operating margins of roughly 10%, making its current valuation highly questionable.
+
+Finally, he demystifies the carry trade, defining it simply as borrowing at a low interest rate to invest at a higher rate while isolating a single risk factor. He contrasts currency carry trades with intra-curve basis trades used by hedge funds, emphasizing that successful execution requires isolating either currency or duration risk rather than taking on a bundle of unhedged risks.
+
+## Highlights
+
+- Explains that a 16-delta option corresponds to one standard deviation, representing the 16% probability in the tail of a normal distribution.
+- Critiques Coherent's valuation, calculating an EV/EBITDA multiple of roughly 190x based on a $76 billion enterprise value and thin 10% operating margins.
+- Identifies upcoming CPI and PPI releases as the week's primary risk events for interest rate duration.
+- Defines a true carry trade as borrowing at a low rate and investing at a higher rate while strictly isolating a single risk factor, such as currency or duration.
+- Discusses the basis trade as a common intra-curve carry trade where hedge funds buy 10-year Treasuries and finance them through short-term repo markets.
+
+## Key Concepts
+
+- **16 Delta** — An option delta representing a 16% probability of expiring in-the-money, roughly corresponding to one standard deviation in a normal distribution.
+- **Carry Trade** — An investment strategy of borrowing in a low-interest-rate currency or instrument to fund a higher-yielding asset, capturing the spread.
+- **Basis Trade** — An intra-curve carry trade where investors buy long-term bonds and finance them in short-term repo markets to capture yield spreads.
+
+## Why It Matters
+
+Understanding the precise mechanics of valuation multiples, option Greeks, and carry trades is essential for navigating macro volatility driven by central bank policies and geopolitical risks.
+
+
+---

@@ -66,6 +66,9 @@
         },
         {
           "name": "Yield Spread"
+        },
+        {
+          "name": "EV/EBITDA Valuation"
         }
       ]
     },
@@ -94,6 +97,20 @@
         },
         {
           "name": "Semiconductor Capex"
+        }
+      ]
+    },
+    {
+      "name": "Fixed Income and Derivatives",
+      "children": [
+        {
+          "name": "Carry Trade"
+        },
+        {
+          "name": "Basis Trade"
+        },
+        {
+          "name": "Option Delta"
         }
       ]
     }
