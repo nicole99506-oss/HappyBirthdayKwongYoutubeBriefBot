@@ -681,3 +681,40 @@ Understanding the precise mechanics of valuation multiples, option Greeks, and c
 
 
 ---
+
+# Silicon Data GPU Indexes, and CRWV, NBIS and LITE earnings
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-08-16  
+**Link:** https://www.youtube.com/watch?v=Ki2sDtkX6g0
+
+> **The Gist** — Despite cooling inflation and weak retail sales, the massive capex and high leverage of AI cloud providers like CoreWeave reveal structural profitability risks amid falling GPU rental rates.
+
+## Summary
+
+US macro data shows cooling inflation, with headline CPI at 0.1% MoM (0.88% annualized) and PPI flat, alongside a sharp contraction in retail sales (-0.6% MoM) and deteriorating consumer sentiment (51.0). This macro cooling supports expectations of impending Fed rate cuts, though the speaker notes a disconnect between official data and real-world corporate experiences.
+
+A deep financial dive into specialized AI cloud providers—specifically CoreWeave and Nebius—exposes severe structural vulnerabilities behind their headline revenue growth. CoreWeave's revenue grew 112% YoY to $2.57B, yet its operating margin turned negative, with interest and depreciation devouring 79% of revenue. Nebius mirrored this with 454% revenue growth but a -30% operating margin. Both firms are burning massive cash, heavily reliant on debt (CoreWeave's debt-to-equity is 7x), and highly sensitive to GPU depreciation.
+
+The speaker concludes that the AI infrastructure buildout is heading toward systemic overcapacity. Silicon Data's forward curves show GPU rental rates trending downward, which threatens these highly leveraged players with catastrophic asset impairments, as CoreWeave has only 6.5 cents of equity per dollar of assets.
+
+## Highlights
+
+- US headline CPI cooled to 0.1% MoM (0.88% annualized), while retail sales missed expectations significantly, dropping 0.6% MoM.
+- CoreWeave's Q2 revenue rose 112% YoY to $2.57B, but its operating margin fell to -1.9%, with interest and depreciation consuming 79% of revenue.
+- CoreWeave carries $35.3B in debt against just $5B in equity, representing a precarious 7x debt-to-equity ratio and leaving no margin for asset impairment.
+- Nebius reported 454% YoY revenue growth to $582M, but operates at a -30% operating margin with an astronomical EV/EBITDA multiple of 209.5x.
+- Silicon Data's forward curves show GPU rental rates trending downward, signaling impending overcapacity and margin compression across the AI cloud sector.
+
+## Key Concepts
+
+- **Negative Operating Leverage** — A financial state where a company's costs grow faster than its revenues, causing profit margins to shrink despite rising sales.
+- **Asset Light Model (AI Cloud)** — A partnership model where an orchestrator provides software and customers, while partners own the physical data centers and hardware.
+- **Power Usage Effectiveness (PUE)** — A metric measuring data center energy efficiency; lower PUE means more power goes directly to IT equipment rather than cooling.
+
+## Why It Matters
+
+The highly leveraged, capex-heavy AI infrastructure boom risks triggering a systemic credit event if overcapacity forces massive asset write-downs among specialized cloud providers.
+
+
+---
