@@ -109,7 +109,8 @@
         "bdV0dPgh0GQ",
         "YsVnDn4uxdw",
         "XyvbgqodeXU",
-        "GTuhrop-rqY"
+        "GTuhrop-rqY",
+        "d84h_jKoOzw"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -140,10 +141,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-08-14",
-    "count": 2
+    "date": "2026-08-16",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-08-16T14:58:58.875932+00:00",
+  "last_run": "2026-08-16T15:18:47.223817+00:00",
   "last_error_notified": "2026-08-13"
 }
