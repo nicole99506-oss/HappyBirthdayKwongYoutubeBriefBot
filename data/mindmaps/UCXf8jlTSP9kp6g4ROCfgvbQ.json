@@ -14,18 +14,10 @@
           "name": "Silicon Shield"
         },
         {
-          "name": "AI基建與融資",
-          "children": [
-            {
-              "name": "聯合貸款"
-            }
-          ]
+          "name": "AI基建與融資"
         },
         {
-          "name": "Legacy Nodes"
-        },
-        {
-          "name": "影像感測器 (CIS)"
+          "name": "成熟製程與感測器"
         }
       ]
     },
@@ -36,13 +28,10 @@
           "name": "New Quality Productive Forces",
           "children": [
             {
-              "name": "Green Tech State Subsidies"
-            },
-            {
               "name": "China Big Fund"
             },
             {
-              "name": "新能源與比亞迪模式"
+              "name": "綠能與補貼政策"
             }
           ]
         },
@@ -64,12 +53,7 @@
           "name": "Deflationary Export Spillover",
           "children": [
             {
-              "name": "US and EU Tariff Responses",
-              "children": [
-                {
-                  "name": "關稅與合規壁壘"
-                }
-              ]
+              "name": "US and EU Tariff Responses"
             },
             {
               "name": "名義與實際增長背離"
@@ -88,23 +72,10 @@
       "name": "地緣衝突與能源安全",
       "children": [
         {
-          "name": "霍爾木茲海峽與美伊衝突",
-          "children": [
-            {
-              "name": "霍爾木茲海峽控制權"
-            },
-            {
-              "name": "海上封鎖"
-            }
-          ]
+          "name": "霍爾木茲海峽與美伊衝突"
         },
         {
-          "name": "混合威脅生態",
-          "children": [
-            {
-              "name": "無人機戰術"
-            }
-          ]
+          "name": "混合威脅生態"
         },
         {
           "name": "歐洲防空網絡"
@@ -113,12 +84,7 @@
           "name": "歐盟戰略擴員"
         },
         {
-          "name": "能源與運輸安全",
-          "children": [
-            {
-              "name": "再生能源轉型"
-            }
-          ]
+          "name": "能源與運輸安全"
         },
         {
           "name": "消耗戰"
@@ -130,12 +96,7 @@
           "name": "鈾濃縮雙重用途"
         },
         {
-          "name": "中美亞太角力",
-          "children": [
-            {
-              "name": "美軍航母調防"
-            }
-          ]
+          "name": "中美亞太角力"
         },
         {
           "name": "熔斷機制"
@@ -145,6 +106,9 @@
         },
         {
           "name": "土耳其與庫爾德和解"
+        },
+        {
+          "name": "地緣政治外交"
         }
       ]
     },
@@ -155,12 +119,7 @@
           "name": "公共衛生與原料藥監管"
         },
         {
-          "name": "數位監管與加密技術",
-          "children": [
-            {
-              "name": "隱形浮水印"
-            }
-          ]
+          "name": "數位監管與安全"
         },
         {
           "name": "聯合國改革"
@@ -172,7 +131,15 @@
           "name": "國際刑事法院爭議"
         },
         {
-          "name": "歐美經濟分歧"
+          "name": "全球經濟與實質GDP",
+          "children": [
+            {
+              "name": "歐美經濟分歧"
+            },
+            {
+              "name": "實質國內生產總值"
+            }
+          ]
         },
         {
           "name": "貨幣地緣政治與套利"
@@ -190,16 +157,15 @@
           "name": "全球追稅與資本管制"
         },
         {
-          "name": "轉型正義與威權審判"
+          "name": "威權統治與人權"
         },
         {
-          "name": "俄國政治控制"
-        },
-        {
-          "name": "性別迫害"
-        },
-        {
-          "name": "環太平洋火山地震帶"
+          "name": "氣候與地質災害",
+          "children": [
+            {
+              "name": "氣候應急響應"
+            }
+          ]
         }
       ]
     }
