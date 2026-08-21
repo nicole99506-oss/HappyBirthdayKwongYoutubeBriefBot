@@ -718,3 +718,38 @@ The highly leveraged, capex-heavy AI infrastructure boom risks triggering a syst
 
 
 ---
+
+# Pre-Market - Aug 21, 2026
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-08-21  
+**Link:** https://www.youtube.com/watch?v=KEoL8udWuPY
+
+> **The Gist** — The speaker predicts a massive US Treasury bond buyback program that will debase the US dollar, creating a generational bullish setup for gold amidst structural US debt issues.
+
+## Summary
+
+The speaker outlines a bearish long-term outlook for the US economy, arguing that a lack of political courage to address the ballooning $40 trillion national debt will lead to the debasement of the US dollar. He predicts the US Treasury will initiate a massive bond buyback program—effectively printing money—to artificially suppress interest rates. While academic theory suggests this will fuel inflation and lower real yields, the speaker notes it creates a "generational setup" for gold and precious metals, though investors should wait for official confirmation before going fully bullish.
+
+Additionally, the speaker analyzes corporate and market dynamics, focusing on the AI CapEx cycle and specific equities. He warns of a looming wave of data center impairments by 2028–2030 as over 700 planned facilities come online without sufficient consumer revenue to justify the massive capital expenditure. In individual stock analysis, he contrasts AppLovin's strong fundamentals—highlighting its 65% net income margin and aggressive share buybacks—with CoreWeave, which he labels structurally unprofitable due to high debt and a lack of retained earnings, predicting an inevitable dilutive equity issuance.
+
+## Highlights
+
+- Predicts the US Treasury will announce a massive bond buyback program to suppress interest rates, debasing the US dollar and fueling gold.
+- Warns of over 700 global data centers in the pipeline, predicting massive asset impairments by 2028–2030 due to unsustainable AI CapEx.
+- Argues the US is following Japan's economic trajectory, marking the gradual decline of the US empire due to a lack of political will to tackle debt.
+- Identifies $70 as the demand destruction level for silver in China, above which recycling increases and industrial use becomes uneconomic.
+- Contrasts AppLovin's highly profitable business model (65% net income margin) with CoreWeave's weak balance sheet, predicting dilutive share issuance for the latter.
+
+## Key Concepts
+
+- **Operation Twist** — A monetary policy where a treasury or central bank buys long-term bonds and sells short-term bills to alter the yield curve.
+- **Carry Trade** — An investment strategy of borrowing money at a low interest rate to invest in an asset that provides a higher rate of return.
+- **Pricing Power** — A company's ability to raise prices without reducing demand for its products, which is currently diminishing across major retail sectors.
+
+## Why It Matters
+
+This analysis highlights how sovereign debt monetization and aggressive fiscal interventions risk debasing reserve currencies, shifting global capital toward hard assets like gold.
+
+
+---
