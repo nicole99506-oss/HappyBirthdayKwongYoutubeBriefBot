@@ -753,3 +753,40 @@ This analysis highlights how sovereign debt monetization and aggressive fiscal i
 
 
 ---
+
+# Canada walks away, Treasury's Twist, and Democrat's threat
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-08-23  
+**Link:** https://www.youtube.com/watch?v=jvKOJDIc6t0
+
+> **The Gist** — The US Treasury's expansion of long-term bond buybacks aims to manage rising yields, while escalating US-Canada trade tariffs threaten to disrupt North American supply chains.
+
+## Summary
+
+This week's market outlook highlights a stark divergence in North American economic indicators and escalating trade tensions. Canada's inflation rate rose unexpectedly to 3.0% year-over-year, dampening rate-cut expectations and strengthening the Canadian dollar. Conversely, the US experienced deflationary pressures in trade prices alongside a sharp 12.4% drop in housing starts, signaling a cooling domestic economy despite modest gains in industrial production.
+
+The core macro development is the US Treasury's announcement to double its long-end bond buybacks from $2 billion to $4 billion per operation starting September 9. This tactical move, mimicking "Operation Twist," aims to suppress long-term yields by issuing short-term T-bills to retire long-term debt. While critics argue this is inflationary due to liquidity injections, the speaker contends that in an already over-liquified system, the primary effect will be a compression of nominal and real yields, which historically supports gold.
+
+Geopolitically, the collapse of US-Canada trade talks has triggered a major dispute. The US is imposing 50% tariffs on $20 billion of Canadian goods, prompting Canada to promise dollar-for-dollar retaliation on September 8. This protectionist shift, combined with looming domestic political investigations into the Trump administration, introduces substantial policy uncertainty that could trigger market volatility ahead of the upcoming FOMC meeting.
+
+## Highlights
+
+- Canada's headline inflation rate rose to 3.0% YoY in July, beating expectations of 2.9% and strengthening the Canadian dollar to the 1.37 range.
+- The US Treasury is doubling its nominal long-end liquidity support buybacks from $2 billion to at least $4 billion per operation starting September 9.
+- The US is imposing 50% tariffs on $20 billion worth of Canadian goods, with Canada planning dollar-for-dollar retaliatory trade measures on September 8.
+- US crude oil inventories rose by 4.4 million barrels for the week ending August 14, defying expectations of a drawdown.
+- Small-cap value stocks continue to outperform the S&P 500, up 12.8% relative to the index year-to-date.
+
+## Key Concepts
+
+- **Operation Twist** — A policy tool where a treasury or central bank buys long-term bonds while selling short-term debt to flatten the yield curve.
+- **Fiscal Dominance** — An economic condition where monetary policy is constrained and driven primarily by the government's fiscal funding and debt servicing requirements.
+- **Real Yields** — The nominal interest rate minus the rate of inflation, serving as a key driver for non-yielding safe-haven assets like gold.
+
+## Why It Matters
+
+The intersection of aggressive fiscal debt management, protectionist tariff escalations, and monetary policy divergence highlights growing structural instability in the global financial system.
+
+
+---
