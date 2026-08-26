@@ -158,12 +158,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "guc58NKdUrY",
+      "title": "每日國際新聞｜美國正式撤銷敘利亞資助恐怖主義列名 海地幫派血洗肯斯科夫釀至少三十人死亡｜Simon Universe",
+      "published": "2026-08-26T04:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=guc58NKdUrY",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    }
+  ],
   "daily": {
-    "date": "2026-08-25",
-    "count": 2
+    "date": "2026-08-26",
+    "count": 0
   },
   "greeted": true,
-  "last_run": "2026-08-26T06:50:00.577212+00:00",
-  "last_error_notified": "2026-08-21"
+  "last_run": "2026-08-26T07:40:01.769296+00:00",
+  "last_error_notified": "2026-08-26"
 }
