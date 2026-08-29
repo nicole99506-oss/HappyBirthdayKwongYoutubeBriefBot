@@ -133,7 +133,9 @@
         "guc58NKdUrY",
         "jzFffQugvKc",
         "HpNE_hVWJCs",
-        "0IYLXMtE9ig"
+        "0IYLXMtE9ig",
+        "h6gppCXtUus",
+        "U1QGIDEBu5M"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -162,28 +164,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "h6gppCXtUus",
-      "title": "美國司法部查封中國黑客平台：QTFY、i-Soon揭開北京「網絡僱傭兵」市場| 網絡雇傭兵｜Simon Universe｜國際關係教室 110｜大學堂｜🇺🇸🇨🇳｜網絡安全隱患｜國家機密｜間諜｜",
-      "published": "2026-08-28T11:30:17+00:00",
-      "url": "https://www.youtube.com/watch?v=h6gppCXtUus",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
-    },
-    {
-      "video_id": "U1QGIDEBu5M",
-      "title": "每日國際新聞｜尼泊爾西藏邊境冰川崩塌釀洪災近三百死 伊朗與阿曼就霍爾木茲海峽收益達成協議｜Simon Universe",
-      "published": "2026-08-28T04:00:20+00:00",
-      "url": "https://www.youtube.com/watch?v=U1QGIDEBu5M",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    }
-  ],
+  "queue": [],
   "daily": {
-    "date": "2026-08-28",
-    "count": 1
+    "date": "2026-08-29",
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-08-28T15:41:27.106142+00:00",
+  "last_run": "2026-08-29T00:10:58.132941+00:00",
   "last_error_notified": "2026-08-28"
 }
