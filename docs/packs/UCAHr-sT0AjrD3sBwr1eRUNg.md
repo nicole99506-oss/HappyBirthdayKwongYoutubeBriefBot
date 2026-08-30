@@ -790,3 +790,40 @@ The intersection of aggressive fiscal debt management, protectionist tariff esca
 
 
 ---
+
+# Warsh's warning, NOT 65B barrels of oil, and NVDA and MRVL earnings
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-08-30  
+**Link:** https://www.youtube.com/watch?v=r7FcGUP609A
+
+> **The Gist** — Despite sticky US inflation and labor market cooling, massive cloud AI capital expenditure and resilient corporate earnings continue to support equity valuations, while complex geopolitical oil deals yield minimal near-term impact.
+
+## Summary
+
+US inflation remains stubbornly sticky, with Core PCE YoY flat at 3.3% and the six-month annualized rate rising to 4.1%, well above the Federal Reserve's 2% target. This persistent price pressure, coupled with a downward revision of 79,000 to non-farm payrolls, signals a stagflationary undertone. However, real private domestic final purchases (PDFS) surged by 4.2% in Q2, indicating robust underlying domestic demand despite a declining personal savings rate.
+
+Geopolitical energy maneuvers, specifically the US-Venezuela Orinoco oil agreement, are heavily discounted. While headlines boast of access to 65 billion barrels, low recovery factors (8-12%) for extra-heavy crude and high break-even costs ($60-$80 per barrel) mean actual commercial yields will be marginal and delayed by up to 15 years, rendering the deal more political theater than a structural supply shock.
+
+In contrast, the technology sector exhibits secular strength. Hyperscaler capital expenditure is projected to rise from $800 billion in 2026 to $1.3 trillion in 2027, driven by insatiable AI demand. This capital wave supports elevated valuations for hardware leaders like Nvidia and Marvell, the latter securing a lucrative custom silicon deal with Google. Consequently, the S&P 500's forward multiple of 20.4x remains supported by robust earnings growth, despite rising short-term yields.
+
+## Highlights
+
+- US Core PCE inflation YoY remained unchanged at 3.3%, while the six-month annualized trend accelerated to 4.1%, cementing the case for a hawkish Fed stance.
+- Preliminary annual benchmark revisions to US non-farm payrolls slashed 79,000 jobs, with the private sector losing 178,000, indicating a weaker labor market than previously reported.
+- The top five cloud hyperscalers are projected to scale capital expenditures aggressively from $800 billion in 2026 to $1.3 trillion by 2027 to satisfy AI demand.
+- Marvell Technology's 8-K filing revealed a custom silicon partnership with Google, granting the tech giant warrants for nearly 60 million shares at a strike price of $206.58.
+- The Venezuelan Orinoco oil deal's 65-billion-barrel headline is commercially misleading, as extra-heavy crude recovery factors of 8-12% imply only 5.2 to 7.8 billion barrels are realistically recoverable.
+
+## Key Concepts
+
+- **Operating Leverage** — A financial efficiency metric where revenue growth outpaces operating expense growth, significantly expanding net income margins during demand expansions.
+- **Cost Oil** — The portion of produced oil used to recover capital and operating expenses before profits are split in joint-venture energy concessions.
+- **Private Domestic Final Sales (PDFS)** — A measure of core economic demand that excludes government spending and net exports, reflecting true private sector health.
+
+## Why It Matters
+
+The widening divergence between sticky consumer inflation and aggressive corporate AI capital expenditure complicates the Federal Reserve's monetary path, forcing a choice between defending the inflation target or accommodating secular tech growth.
+
+
+---
