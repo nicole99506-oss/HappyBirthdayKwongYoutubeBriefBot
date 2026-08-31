@@ -166,12 +166,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "CG2RC4d2tmM",
+      "title": "每日國際新聞｜美國同委內瑞拉達成六百五十億桶石油協議 挪威八十九歲國王哈拉爾病逝哈孔繼位｜Simon Universe",
+      "published": "2026-08-31T04:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=CG2RC4d2tmM",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    }
+  ],
   "daily": {
     "date": "2026-08-31",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-08-31T00:28:18.776217+00:00",
-  "last_error_notified": "2026-08-28"
+  "last_run": "2026-08-31T05:58:56.094053+00:00",
+  "last_error_notified": "2026-08-31"
 }
