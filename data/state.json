@@ -171,12 +171,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "Sq3k-Vfv0uY",
+      "title": "中國好感反超美國！外國人為何突然轉軚？會改變中美選邊站嗎？｜軟實力與對沖｜Simon Universe｜國際關係教室｜🇨🇳🇺🇸",
+      "published": "2026-09-02T11:15:40+00:00",
+      "url": "https://www.youtube.com/watch?v=Sq3k-Vfv0uY",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    }
+  ],
   "daily": {
-    "date": "2026-09-02",
-    "count": 2
+    "date": "2026-09-03",
+    "count": 0
   },
   "greeted": true,
-  "last_run": "2026-09-02T09:55:19.297067+00:00",
-  "last_error_notified": "2026-09-01"
+  "last_run": "2026-09-02T17:32:33.986490+00:00",
+  "last_error_notified": "2026-09-02"
 }
