@@ -179,7 +179,14 @@
       "published": "2026-09-03T04:00:24+00:00",
       "url": "https://www.youtube.com/watch?v=mxndarm24v8",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
+      "fails": 2
+    },
+    {
+      "video_id": "5Ivwnb-08JQ",
+      "title": "中國地方債14.3萬億變6.5萬億：化債成功，還是把債務搬家？| 隱性債務｜Simon Universe｜國際關係教室 112｜大學堂｜ 🇨🇳 ｜",
+      "published": "2026-09-03T09:49:53+00:00",
+      "url": "https://www.youtube.com/watch?v=5Ivwnb-08JQ",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
@@ -187,6 +194,6 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-09-03T08:55:35.683535+00:00",
+  "last_run": "2026-09-03T13:14:26.103418+00:00",
   "last_error_notified": "2026-09-03"
 }
