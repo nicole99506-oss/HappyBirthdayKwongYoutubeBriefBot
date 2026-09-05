@@ -39,3 +39,40 @@ This analysis demystifies the BRICS bloc, showing that global multipolarity is s
 
 
 ---
+
+# One Empire, Three Wars: Africa, the Sahel, and Iran — with Gerald Horne & Kit Klarenberg
+
+**Channel:** BettBeat Media  
+**Published:** 2026-09-05  
+**Link:** https://www.youtube.com/watch?v=WJ4PyHqU3Ao
+
+> **The Gist** — The panel discusses the decline of Western imperial influence in Africa and West Asia, highlighting the rise of multipolarity and the proxy roles played by countries like Ukraine.
+
+## Summary
+
+The panel analyzes the precipitous decline of U.S. and French imperial influence across Africa and West Asia, arguing that Western powers are increasingly relying on desperate, covert tactics to maintain control. Journalist Kit Klarenberg highlights the Pentagon's launch of "Drongo Company," a new psychological operations unit in Africa, as well as France's reliance on Ukraine as a military proxy. Ukraine is reportedly marketing its battle-tested drone warfare and assassination capabilities to Western powers, actively assisting Al-Qaeda-affiliated groups in Mali to destabilize revolutionary governments.
+
+Professor Gerald Horne contextualizes these developments historically, explaining the post-WWII division of imperial labor where France maintained economic hegemony via the CFA Franc while the U.S. provided strategic backing. However, this arrangement is collapsing due to popular anti-imperialist movements in the Sahel (Mali, Burkina Faso, Niger) supported by Russia and China. Horne also notes the contradictions in U.S. foreign policy, such as using African nations as dumping grounds for deportees while simultaneously attempting to counter Chinese economic dominance.
+
+The speakers conclude that the era of Western unipolarity is ending. This transition is marked by the consolidation of alternative security and economic frameworks, such as the Shanghai Cooperation Organization (SCO), and the rise of regional powers like Iran and China, which are successfully resisting Western sanctions and military pressure.
+
+## Highlights
+
+- The Pentagon has launched "Drongo Company," a new psychological operations unit aimed at influencing African audiences amid declining Western prestige.
+- Ukraine is acting as a sub-imperial proxy for France in the Sahel, reportedly training Al-Qaeda-affiliated militants in Mali in drone warfare.
+- The Alliance of Sahel States (Mali, Burkina Faso, Niger) represents a significant anti-imperialist shift, backed by Russian and Chinese security cooperation.
+- The historical French economic hegemony in West Africa via the CFA Franc is rapidly disintegrating as local populations reject neo-colonial structures.
+- The expansion of the Shanghai Cooperation Organization (SCO) demonstrates the growing integration of Central Asia and the Global South away from U.S. hegemony.
+
+## Key Concepts
+
+- **Drongo Company** — A newly established U.S. military psychological operations unit designed to conduct deceptive influence campaigns across the African continent.
+- **CFA Franc** — A French-controlled colonial currency system established post-WWII to maintain economic dominance and resource extraction in West and Central Africa.
+- **Sub-imperial Proxy** — A secondary state actor that executes military or strategic objectives on behalf of a dominant imperial power in a foreign theater.
+
+## Why It Matters
+
+This shift signals the collapse of post-colonial Western hegemony in Africa and the Middle East, accelerating the global transition toward a multipolar world order.
+
+
+---
