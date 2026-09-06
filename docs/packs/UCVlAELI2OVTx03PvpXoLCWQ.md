@@ -76,3 +76,40 @@ This shift signals the collapse of post-colonial Western hegemony in Africa and 
 
 
 ---
+
+# We Live Under a Different System Now — Bryce Greene & Aaron Good
+
+**Channel:** BettBeat Media  
+**Published:** 2026-09-06  
+**Link:** https://www.youtube.com/watch?v=9AMvnHDCJns
+
+> **The Gist** — Systemic US imperial decline is driven by bipartisan commitment to full-spectrum dominance and the normalization of "usable" tactical nuclear weapons, rather than individual presidential actions.
+
+## Summary
+
+The panel critiques "Trump-washing"—the tendency of media to attribute the decline of the US empire solely to Donald Trump. They argue instead for systemic continuity, showing how the Bush, Obama, Trump, and Biden administrations have consistently pursued aggressive Middle East policies, particularly targeting Syria and Iran, driven by deep-seated institutional structures and corporate interests rather than individual presidents.
+
+A major focus is the dangerous normalization of "tactical" or "usable" nuclear weapons in geopolitical discourse. The speakers trace this shift back to the Clinton and Obama administrations, which earmarked massive funding to modernize nuclear doctrines. This transition from Mutually Assured Destruction (counter-value) to counter-force doctrines fosters a delusional belief among planners that a nuclear exchange can be controlled and won, despite tactical nukes being far more powerful than the Hiroshima bomb.
+
+Ultimately, the US's pursuit of "full-spectrum dominance" and its unconditional support for the "Greater Israel" project have led to severe strategic overreach. With depleted interceptor stockpiles and eroded soft power, the US faces an unsustainable military position in West Asia. The speakers conclude that the empire's refusal to behave as a "normal country" adhering to international law is accelerating its own dialectical decline.
+
+## Highlights
+
+- Bipartisan continuity in US foreign policy is illustrated by the Biden administration preparing for attacks on Iran similar to those planned under Trump.
+- Modern "tactical" nuclear weapons are often 10 to 100 times more powerful than the atomic bombs dropped on Hiroshima and Nagasaki.
+- The US nuclear doctrine has shifted since the 1990s from Mutually Assured Destruction (counter-value) to a highly destabilizing counter-force doctrine.
+- Bipartisan US support for Israel is structurally reinforced by mega-donors funding both parties, such as Sheldon Adelson for Republicans and Haim Saban for Democrats.
+- Scientific estimates suggest detonating as few as 100 Hiroshima-sized nuclear weapons could trigger a catastrophic global nuclear winter.
+
+## Key Concepts
+
+- **Trump-washing** — The media practice of blaming systemic imperial failures and aggressive foreign policies entirely on Donald Trump, obscuring bipartisan institutional continuity.
+- **Counter-force Doctrine** — A military strategy targeting an opponent's nuclear arsenal and military infrastructure rather than civilian cities, falsely suggesting a nuclear war can be won.
+- **Full-spectrum Dominance** — The military concept of achieving total control over all dimensions of the battlespace, including land, air, maritime, space, and cyberspace.
+
+## Why It Matters
+
+The normalization of tactical nuclear weapons and systemic overreach in West Asia signal a highly volatile transition away from unipolar US hegemony toward a multipolar world order.
+
+
+---
