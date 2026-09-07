@@ -48,7 +48,8 @@
         "Ki2sDtkX6g0",
         "KEoL8udWuPY",
         "jvKOJDIc6t0",
-        "r7FcGUP609A"
+        "r7FcGUP609A",
+        "DqODkGJwLpU"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -182,14 +183,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "DqODkGJwLpU",
-      "title": "OpenAI failure fantasy, AVGO earnings, NQ 45,000",
-      "published": "2026-09-07T14:56:50+00:00",
-      "url": "https://www.youtube.com/watch?v=DqODkGJwLpU",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 1
-    },
-    {
       "video_id": "WhiD4eHyd80",
       "title": "移民加拿大需苦等十年？問題出在何處？｜國家吸納能力｜Simon Universe｜國際關係教室｜🇨🇦",
       "published": "2026-09-07T11:00:31+00:00",
@@ -198,10 +191,10 @@
     }
   ],
   "daily": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-09-07T15:58:55.480656+00:00",
+  "last_run": "2026-09-07T19:29:21.792506+00:00",
   "last_error_notified": "2026-09-07"
 }

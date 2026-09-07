@@ -827,3 +827,38 @@ The widening divergence between sticky consumer inflation and aggressive corpora
 
 
 ---
+
+# OpenAI failure fantasy, AVGO earnings, NQ 45,000
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-09-07  
+**Link:** https://www.youtube.com/watch?v=DqODkGJwLpU
+
+> **The Gist** — Despite mixed macroeconomic signals and rising US debt interest, strong corporate earnings and AI demand suggest the equity market rally has further room to run before any eventual correction.
+
+## Summary
+
+The speaker analyzes recent US and Canadian economic indicators, highlighting a surprisingly robust US jobs report for August with non-farm payrolls adding 162k jobs and an increased labor participation rate. While service sector activity remains strong, persistent price pressures in services and a flattening yield curve signal underlying macroeconomic complexity. Additionally, the escalating interest expense on US national debt—now exceeding $1.2 trillion annually—presents a severe long-term fiscal challenge that may eventually constrain monetary policy.
+
+In corporate developments, Broadcom's Q3 results underscore the massive scale of AI infrastructure spending, with AI-related semiconductor revenue reaching $16.7 billion. Despite growing media concerns over a potential AI bubble burst, the speaker argues that the underlying demand for compute and advanced packaging remains structurally sound. Even if market leaders like OpenAI face near-term financing hurdles, the demand for AI inference and training would simply transition to other hyperscalers. Consequently, the S&P 500 is projected to potentially breach the 10,000 mark, driven by continued earnings acceleration, before experiencing a significant, healthy valuation correction back to the 5,500–6,000 range.
+
+## Highlights
+
+- US non-farm payrolls added 162k jobs in August, with the private sector three-month average sliding to 75k.
+- The Netherlands central bank physically repatriated 27 tons of gold (and reallocated 59 tons to London) from North America, citing increased geopolitical unrest.
+- Broadcom reported Q3 net revenue of approximately $30 billion, driven by $16.7 billion in AI-related semiconductor sales.
+- US annualized interest expense on national debt is rapidly escalating toward $1.4 trillion, creating an unsustainable fiscal burden.
+- The S&P 500 forward multiple stands at 20.26x, with the index projected to potentially reach 10,000 before a major AI-driven correction.
+
+## Key Concepts
+
+- **XPU (Dedicated Accelerator)** — Custom silicon chips tailored for specific customer workloads, offering higher efficiency than general-purpose GPUs for dedicated AI tasks.
+- **Bayesian Updating** — A statistical framework of constantly updating the probability of an economic thesis as new quarterly data and corporate guidance emerge.
+- **RPO (Remaining Performance Obligations)** — The sum of contracted revenue that has not yet been recognized, serving as a key metric for future corporate growth.
+
+## Why It Matters
+
+The structural shift toward AI infrastructure and rising sovereign debt service costs are redefining global capital flows, as evidenced by European central banks quietly repatriating gold reserves.
+
+
+---

@@ -29,6 +29,9 @@
         },
         {
           "name": "AI and Interest Rates"
+        },
+        {
+          "name": "Bayesian Updating"
         }
       ]
     },
@@ -69,6 +72,9 @@
         },
         {
           "name": "EV/EBITDA Valuation"
+        },
+        {
+          "name": "RPO (Remaining Performance Obligations)"
         }
       ]
     },
@@ -97,6 +103,9 @@
         },
         {
           "name": "Semiconductor Capex"
+        },
+        {
+          "name": "XPU (Dedicated Accelerator)"
         }
       ]
     },
