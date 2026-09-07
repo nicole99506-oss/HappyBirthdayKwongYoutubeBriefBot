@@ -187,7 +187,8 @@
       "title": "移民加拿大需苦等十年？問題出在何處？｜國家吸納能力｜Simon Universe｜國際關係教室｜🇨🇦",
       "published": "2026-09-07T11:00:31+00:00",
       "url": "https://www.youtube.com/watch?v=WhiD4eHyd80",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     }
   ],
   "daily": {
@@ -195,6 +196,6 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-09-07T19:29:21.792506+00:00",
+  "last_run": "2026-09-07T22:12:51.540540+00:00",
   "last_error_notified": "2026-09-07"
 }
