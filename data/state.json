@@ -150,7 +150,8 @@
         "Obzxu9GLOzo",
         "VejJhxZJ-p4",
         "TqGeBwVBwQQ",
-        "Nd2cepDQASs"
+        "Nd2cepDQASs",
+        "WhiD4eHyd80"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -181,21 +182,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "WhiD4eHyd80",
-      "title": "移民加拿大需苦等十年？問題出在何處？｜國家吸納能力｜Simon Universe｜國際關係教室｜🇨🇦",
-      "published": "2026-09-07T11:00:31+00:00",
-      "url": "https://www.youtube.com/watch?v=WhiD4eHyd80",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-09-08",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-09-08T00:24:20.159225+00:00",
+  "last_run": "2026-09-08T04:50:11.704146+00:00",
   "last_error_notified": "2026-09-08"
 }
