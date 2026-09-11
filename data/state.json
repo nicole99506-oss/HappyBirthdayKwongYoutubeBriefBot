@@ -156,7 +156,9 @@
         "QLS7cKEzxJI",
         "9HPBy6c-dcU",
         "hcPpUN5Y0Ts",
-        "XIEhQh8V7-I"
+        "XIEhQh8V7-I",
+        "C2Zha5zlI6g",
+        "EtkD2n5fCqU"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -189,10 +191,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-09-10",
-    "count": 1
+    "date": "2026-09-11",
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-09-11T05:10:17.138613+00:00",
+  "last_run": "2026-09-11T09:38:40.769664+00:00",
   "last_error_notified": "2026-09-08"
 }
