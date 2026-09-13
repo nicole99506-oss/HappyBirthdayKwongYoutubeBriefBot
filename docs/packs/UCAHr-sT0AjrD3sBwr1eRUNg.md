@@ -862,3 +862,40 @@ The structural shift toward AI infrastructure and rising sovereign debt service 
 
 
 ---
+
+# Threats and Bribes, Oil Y'all, ORCL and ADBE earnings
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-09-13  
+**Link:** https://www.youtube.com/watch?v=eDvE0MV-h8I
+
+> **The Gist** — Persistent inflation and rising interest rates signal a prolonged tightening cycle, while corporate earnings reveal underlying margin pressures from high-cost growth sectors.
+
+## Summary
+
+The speaker argues that recent PPI and CPI data indicate persistent inflationary pressures, primarily driven by energy costs, which cannot be easily resolved by interest rate hikes alone without destroying demand. Consequently, the Federal Reserve is poised to embark on a multi-rate hike tightening cycle rather than a single 'one-and-done' increase, as reflected in rising bond yields and mortgage rates surpassing 6.7%.
+
+On the corporate front, recent earnings reports from tech giants Oracle and Adobe expose structural vulnerabilities. Oracle's impressive year-over-year cloud growth masks sequential declines in software, hardware, and services, leading to a significant contraction in gross margins. Similarly, Adobe's record revenues are offset by rising subscription costs associated with its freemium AI model, Firefly, which suffers from low conversion rates of only 5% to 6%.
+
+Ultimately, the combination of negative real after-tax wages for consumers, escalating national debt projections reaching $50 trillion by 2030, and geopolitical tensions—such as Saudi oil production cuts and Chinese-Iranian cooperation—creates a challenging macroeconomic environment that will continue to pressure equity valuations and sustain high capital costs.
+
+## Highlights
+
+- The U.S. national debt is projected to hit $41 trillion by January and reach $50 trillion by 2030, significantly increasing interest expenses as a percentage of GDP.
+- Saudi Arabia's oil production fell to a three-decade low of 6 million barrels per day in August, exacerbating its Q2 budget deficit to $42.7 billion.
+- Oracle's gross margin fell from 71% to 65% sequentially, representing a 600 basis point drop due to rising cloud infrastructure costs.
+- Adobe's freemium AI model, Firefly, has a low paid conversion rate of only 5% to 6%, driving up customer acquisition costs faster than subscription revenues.
+- The market is pricing in a 100% probability of a 25 basis point Fed rate hike, signaling the start of a broader tightening cycle.
+
+## Key Concepts
+
+- **Supercore Inflation** — A measure of inflation that excludes food, energy, and shelter, focusing primarily on core services to gauge underlying wage-driven inflation.
+- **Second Derivative of Growth** — The rate of change of the growth rate itself; a negative second derivative indicates that while growth continues, it is slowing down.
+- **Orchestration Layer** — A software layer that coordinates multiple underlying AI models, charging users a margin above the raw token costs of those models.
+
+## Why It Matters
+
+The intersection of sticky inflation, rising sovereign debt service costs, and geopolitical realignment threatens to permanently elevate the global cost of capital and dampen equity market returns.
+
+
+---
