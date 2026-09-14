@@ -14,12 +14,7 @@
           "name": "Silicon Shield"
         },
         {
-          "name": "AI基建與科技主權",
-          "children": [
-            {
-              "name": "超級人工智能"
-            }
-          ]
+          "name": "AI基建與科技主權"
         },
         {
           "name": "成熟製程與週期波動"
@@ -30,12 +25,7 @@
       "name": "China's Advanced Manufacturing Pivot",
       "children": [
         {
-          "name": "New Quality Productive Forces",
-          "children": [
-            {
-              "name": "產業基金與補貼政策"
-            }
-          ]
+          "name": "New Quality Productive Forces"
         },
         {
           "name": "Supply-Side Structural Imbalance",
@@ -141,18 +131,21 @@
           "name": "全球治理與國際法",
           "children": [
             {
-              "name": "主權爭議與法律原則"
+              "name": "主權爭議與法律原則",
+              "children": [
+                {
+                  "name": "專屬經濟區與島礁"
+                },
+                {
+                  "name": "法理與現實雙軌"
+                }
+              ]
             },
             {
               "name": "數位與數據治理"
             },
             {
-              "name": "氣候協同治理",
-              "children": [
-                {
-                  "name": "厄爾尼諾現象"
-                }
-              ]
+              "name": "氣候協同治理"
             }
           ]
         },
@@ -177,42 +170,15 @@
               "name": "香港政制與社會轉型"
             },
             {
-              "name": "星港發展模式",
-              "children": [
-                {
-                  "name": "發展型國家"
-                },
-                {
-                  "name": "擠入效應"
-                },
-                {
-                  "name": "機會成本"
-                }
-              ]
+              "name": "星港發展模式"
             }
           ]
         },
         {
-          "name": "跨國企業策略調整",
-          "children": [
-            {
-              "name": "無稀土磁鐵技術"
-            }
-          ]
+          "name": "跨國企業策略調整"
         },
         {
-          "name": "地緣經濟碎片化",
-          "children": [
-            {
-              "name": "關稅分裂與二級制裁"
-            },
-            {
-              "name": "捉鯨魚策略"
-            },
-            {
-              "name": "報復性關稅"
-            }
-          ]
+          "name": "地緣經濟碎片化"
         },
         {
           "name": "商業航太發展"
