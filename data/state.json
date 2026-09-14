@@ -190,12 +190,28 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "hNUzxLRP9ec",
+      "title": "中國當眾傳紙警告菲律賓，十年前南海仲裁後仍「未解決」？｜國際法與權力政治｜Simon Universe｜國際關係教室｜🌊",
+      "published": "2026-09-14T11:15:28+00:00",
+      "url": "https://www.youtube.com/watch?v=hNUzxLRP9ec",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    },
+    {
+      "video_id": "UlokzGBj-6k",
+      "title": "每日國際新聞｜金磚國家峰會通過聯合聲明籲中東克制 也門胡塞武裝奪得曼德海峽控制權｜Simon Universe",
+      "published": "2026-09-14T04:00:08+00:00",
+      "url": "https://www.youtube.com/watch?v=UlokzGBj-6k",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    }
+  ],
   "daily": {
     "date": "2026-09-14",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-09-14T06:14:15.611607+00:00",
-  "last_error_notified": "2026-09-08"
+  "last_run": "2026-09-14T12:53:22.113551+00:00",
+  "last_error_notified": "2026-09-14"
 }
