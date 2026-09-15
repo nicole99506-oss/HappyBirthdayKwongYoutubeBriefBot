@@ -161,7 +161,8 @@
         "C2Zha5zlI6g",
         "EtkD2n5fCqU",
         "hNUzxLRP9ec",
-        "UlokzGBj-6k"
+        "UlokzGBj-6k",
+        "2xwm-LBDUbI"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -192,21 +193,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "2xwm-LBDUbI",
-      "title": "每日國際新聞｜波蘭烏克蘭邊境列車遭俄軍無人機擊中 瑞典大選中間偏左險勝極右翼受挫｜Simon Universe",
-      "published": "2026-09-15T04:00:24+00:00",
-      "url": "https://www.youtube.com/watch?v=2xwm-LBDUbI",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    }
-  ],
+  "queue": [],
   "daily": {
-    "date": "2026-09-15",
-    "count": 2
+    "date": "2026-09-16",
+    "count": 0
   },
   "greeted": true,
-  "last_run": "2026-09-15T14:22:31.114911+00:00",
+  "last_run": "2026-09-15T18:22:44.551450+00:00",
   "last_error_notified": "2026-09-15"
 }
