@@ -200,7 +200,7 @@
       "published": "2026-09-15T19:25:19+00:00",
       "url": "https://www.youtube.com/watch?v=aO_cdY5yAgU",
       "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 1
+      "fails": 2
     }
   ],
   "daily": {
@@ -208,6 +208,6 @@
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-09-15T21:24:38.265570+00:00",
+  "last_run": "2026-09-15T23:35:20.489907+00:00",
   "last_error_notified": "2026-09-15"
 }
