@@ -163,7 +163,8 @@
         "EtkD2n5fCqU",
         "hNUzxLRP9ec",
         "UlokzGBj-6k",
-        "2xwm-LBDUbI"
+        "2xwm-LBDUbI",
+        "TYQLGyNLl2k"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -194,12 +195,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "03Bggot70GY",
+      "title": "每日國際新聞｜特朗普同中國一致拒絕人工智能減速 巴西最高法院莫拉伊斯捲貪腐風暴｜Simon Universe",
+      "published": "2026-09-16T04:30:28+00:00",
+      "url": "https://www.youtube.com/watch?v=03Bggot70GY",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    }
+  ],
   "daily": {
     "date": "2026-09-16",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-09-16T06:38:39.840355+00:00",
-  "last_error_notified": "2026-09-15"
+  "last_run": "2026-09-16T12:06:04.533111+00:00",
+  "last_error_notified": "2026-09-16"
 }
