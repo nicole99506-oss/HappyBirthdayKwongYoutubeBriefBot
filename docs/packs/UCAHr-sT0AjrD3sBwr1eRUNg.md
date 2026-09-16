@@ -899,3 +899,39 @@ The intersection of sticky inflation, rising sovereign debt service costs, and g
 
 
 ---
+
+# Non-Market Q&A - Sep 15, 2026
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-09-15  
+**Link:** https://www.youtube.com/watch?v=aO_cdY5yAgU
+
+> **The Gist** — Financial educator Mark Meldrum shares candid insights on entrepreneurship, the limits of corporate life, Canadian tax policy, and why he chose to sell his successful CFA prep business.
+
+## Summary
+
+In this Q&A session, financial educator Dr. Mark Meldrum reflects on his career path, explaining that his avoidance of corporate roles stemmed from starting his own business immediately after university. He notes that corporations often hesitate to hire former entrepreneurs due to perceived management difficulties. Discussing his decision to sell his prominent CFA prep business to Wiley, Meldrum cites personal sacrifices, the need to offer his employees upward mobility, and his growing dissatisfaction with the CFA Institute's perceived dilution of curriculum quality.
+
+Meldrum also addresses macroeconomic and political themes, critiquing Canadian fiscal policy. He asserts that Canada's combined top marginal tax rate of 53.5% acts as "state-sanctioned confiscation" of wealth, stating he would only repatriate capital if the combined rate fell to 40% or lower. Furthermore, he challenges conventional narratives on social policy, arguing that rapid immigration and excessive diversity can erode the cultural cohesion necessary to sustain robust social safety nets, contrasting highly diverse nations with more homogeneous Nordic models.
+
+Finally, he offers practical advice on trading and career development, emphasizing that successful trading relies on strict adherence to a process and the psychological willingness to accept losses. He defends the value of being a polymath, or "jack of all trades," arguing that broad curiosity is highly valuable in an era where artificial intelligence can easily handle specialized, master-level tasks.
+
+## Highlights
+
+- Explains that repatriating capital to Canada would require a combined top marginal tax rate of 40% or lower, compared to the current 53.5%.
+- Attributes his sale of his CFA prep business to Wiley to curriculum dilution by the CFA Institute and a desire to reclaim personal time.
+- Argues that successful trading is defined by process discipline and the psychological capacity to accept frequent market-driven humiliation.
+- Asserts that high levels of diversity can weaken social cohesion, making broad public support for welfare states more difficult to maintain.
+
+## Key Concepts
+
+- **Classical Liberalism** — A political ideology advocating for social liberalism alongside fiscal conservatism, emphasizing individual lifestyle freedom without state-funded financial dependency.
+- **Social Cohesion** — The interpersonal bonds and shared values within a population that facilitate collective action, mutual trust, and support for public welfare systems.
+- **Process-Oriented Trading** — An investment approach prioritizing systematic execution and risk management over predicting outcomes, requiring emotional detachment from individual losses.
+
+## Why It Matters
+
+Meldrum's perspective highlights how high tax burdens and rapid demographic shifts can drive capital flight and reshape the domestic political economy of Western nations.
+
+
+---
