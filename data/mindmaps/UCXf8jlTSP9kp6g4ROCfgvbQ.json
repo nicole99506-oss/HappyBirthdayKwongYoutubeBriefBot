@@ -18,6 +18,9 @@
           "children": [
             {
               "name": "知識蒸餾"
+            },
+            {
+              "name": "實體人工智能"
             }
           ]
         },
@@ -33,24 +36,13 @@
           "name": "New Quality Productive Forces"
         },
         {
-          "name": "Supply-Side Structural Imbalance",
-          "children": [
-            {
-              "name": "Industrial Overcapacity"
-            },
-            {
-              "name": "房地產與債務衰退"
-            }
-          ]
+          "name": "產能過剩與債務衰退"
         },
         {
           "name": "Deflationary Export Spillover",
           "children": [
             {
               "name": "貿易摩擦與出口管制"
-            },
-            {
-              "name": "名義與實際增長背離"
             }
           ]
         }
@@ -127,6 +119,9 @@
             },
             {
               "name": "金磚新德里宣言"
+            },
+            {
+              "name": "聯繫成員國"
             }
           ]
         }
@@ -153,7 +148,12 @@
               ]
             },
             {
-              "name": "氣候協同治理"
+              "name": "氣候協同治理",
+              "children": [
+                {
+                  "name": "超級厄爾尼諾"
+                }
+              ]
             },
             {
               "name": "司法公信力危機"
