@@ -166,7 +166,8 @@
         "2xwm-LBDUbI",
         "TYQLGyNLl2k",
         "03Bggot70GY",
-        "z_m0hXcqsgs"
+        "z_m0hXcqsgs",
+        "EohpxjWaMSI"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -199,10 +200,10 @@
   "awaiting_backfill": {},
   "queue": [],
   "daily": {
-    "date": "2026-09-17",
-    "count": 2
+    "date": "2026-09-18",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-09-18T06:10:05.084184+00:00",
+  "last_run": "2026-09-18T11:08:45.587699+00:00",
   "last_error_notified": "2026-09-16"
 }
