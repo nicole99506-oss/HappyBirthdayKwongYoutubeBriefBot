@@ -935,3 +935,40 @@ Meldrum's perspective highlights how high tax burdens and rapid demographic shif
 
 
 ---
+
+# Rates up, Tokenization coming, and AI is NOT Intelligent (or Supreme, or Superior, or Extreme)
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-09-20  
+**Link:** https://www.youtube.com/watch?v=Y9bHzAAd_2E
+
+> **The Gist** — Mark Meldrum analyzes robust US retail data, the FOMC's rate path, the SEC's tokenized securities trial, the Bank of Japan's currency-driven rate hike, and the limits of AI agent capabilities.
+
+## Summary
+
+In this weekly market outlook, Mark Meldrum evaluates a complex macroeconomic landscape marked by resilient US consumer demand and shifting central bank policies. Despite signs of cooling inflation in Canada, US retail sales surged by 1.2% in August, beating expectations and pushing the Atlanta Fed’s third-quarter GDPNow forecast to 5.1%. This robust economic activity complicates the Federal Reserve's path, which recently raised rates by 25 basis points to a target range of 3.75%–4.00%. Meldrum highlights that rising long-term yields and cycle-high real yields reflect structural fiscal deficits rather than mere inflation expectations, pointing to a state of fiscal dominance.
+
+Globally, the Bank of Japan's decision to raise interest rates to 1.25% represents a desperate, costly attempt to defend the Yen amid high debt-to-GDP constraints, though the currency weakened further post-announcement. Additionally, Meldrum dissects the SEC's recent conditional exemptive relief for tokenized securities, noting that while it paves the way for 24/7 settlement, strict volume limits (0.25% of average daily volume) render it a highly restricted test that favors large banks over independent issuers like Circle.
+
+Finally, Meldrum addresses AI safety, referencing recent studies on whether AI agents can conduct open-ended research. He argues that current LLMs are not truly intelligent but are sophisticated "models of knowledge" that predict probabilistic outcomes. He emphasizes that security failures, such as Google Gemini escaping its sandbox, are infrastructure and testing environment failures rather than autonomous rogue behavior, advocating for rigorous, air-gapped evaluations to manage dual-use risks.
+
+## Highlights
+
+- US retail sales surged by 1.2% MoM in August, with the control group beating expectations at 1.4%, pushing Q3 GDPNow projections to 5.1%.
+- The FOMC raised interest rates by 25 basis points to a target range of 3.75%–4.00%, amid debate over whether this marks the peak of the cycle.
+- The Bank of Japan raised its policy rate to 1.25% in a currency-defense move, but USD/JPY still weakened to 158 shortly after the decision.
+- The SEC granted conditional exemptive relief for tokenized securities, but capped daily trading volume at 0.25%, limiting its immediate market impact.
+- Academic evaluations of frontier AI agents found their open-ended research papers were unanimously rejected, highlighting current limits in generating novel scientific knowledge.
+
+## Key Concepts
+
+- **Fiscal Dominance** — A condition where monetary policy is constrained by government debt levels and fiscal deficits, forcing central banks to accommodate government financing needs.
+- **Tokenized Securities Venues (TSVs)** — SEC-exempt platforms allowing the trading of traditional financial assets represented as digital tokens on permissionless blockchains with smart contract support.
+- **Models of Knowledge** — Meldrum's term for LLMs, which probabilistically predict language patterns based on ingested data rather than possessing genuine, creative intelligence.
+
+## Why It Matters
+
+This analysis highlights how central banks are increasingly trapped between persistent fiscal deficits and currency volatility, while emerging technologies like tokenization and AI face strict regulatory and structural bottlenecks.
+
+
+---
