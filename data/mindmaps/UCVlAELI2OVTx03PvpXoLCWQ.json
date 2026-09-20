@@ -1,4 +1,44 @@
 {
   "name": "BettBeat Media",
-  "children": []
+  "children": [
+    {
+      "name": "US Imperial Decline",
+      "children": [
+        {
+          "name": "Crackpot Realism"
+        },
+        {
+          "name": "Psychological Colonization"
+        },
+        {
+          "name": "Human Cost of Empire"
+        }
+      ]
+    },
+    {
+      "name": "Military-Industrial Complex",
+      "children": [
+        {
+          "name": "Capital Accumulation Focus"
+        },
+        {
+          "name": "Operation Prosperity Guardian"
+        },
+        {
+          "name": "Tactical Nuclear Strategy"
+        }
+      ]
+    },
+    {
+      "name": "Global Financial Hegemony",
+      "children": [
+        {
+          "name": "Petrodollar Recycling"
+        },
+        {
+          "name": "Decline of Petrodollar"
+        }
+      ]
+    }
+  ]
 }
