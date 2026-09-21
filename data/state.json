@@ -170,7 +170,9 @@
         "z_m0hXcqsgs",
         "EohpxjWaMSI",
         "rouPksFvJkY",
-        "Sa_STI_mYO8"
+        "Sa_STI_mYO8",
+        "HRd5tuY_96E",
+        "_thUuSzWUA0"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -205,9 +207,9 @@
   "queue": [],
   "daily": {
     "date": "2026-09-21",
-    "count": 1
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-09-21T06:22:39.117791+00:00",
+  "last_run": "2026-09-21T13:09:22.017737+00:00",
   "last_error_notified": "2026-09-20"
 }
