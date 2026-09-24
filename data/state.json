@@ -176,7 +176,8 @@
         "S30hv7urXHM",
         "VT7a0-QABA4",
         "FuDbTE6EmJQ",
-        "BTQ_bXZGBjM"
+        "BTQ_bXZGBjM",
+        "8htYkpihOUQ"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -210,26 +211,26 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "8htYkpihOUQ",
-      "title": "沒有中國的全球化：如果美國當年拒絕中國加入世貿，特朗普還要見習近平嗎？｜如果世貿只有香港・如果 TikTok 只能中國使用｜沈旭暉・平行時空・EP04",
-      "published": "2026-09-24T08:44:33+00:00",
-      "url": "https://www.youtube.com/watch?v=8htYkpihOUQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
       "video_id": "sZIbJseT5Ww",
       "title": "中國開始反制裁美國？北京令公司「跟美國」都變成風險｜長臂管轄｜Simon Universe｜國際關係教室｜⚖️",
       "published": "2026-09-24T04:00:16+00:00",
       "url": "https://www.youtube.com/watch?v=sZIbJseT5Ww",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    },
+    {
+      "video_id": "LnfPfhIX-v0",
+      "title": "如果特朗普是意大利人？｜30年前已出現「意大利特朗普」：梟雄大亨貝魯斯科尼政治遺產盤點｜沈旭暉・平行時空・EP05",
+      "published": "2026-09-24T17:14:30+00:00",
+      "url": "https://www.youtube.com/watch?v=LnfPfhIX-v0",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-09-24T15:08:10.314087+00:00",
+  "last_run": "2026-09-24T19:10:18.255429+00:00",
   "last_error_notified": "2026-09-24"
 }
