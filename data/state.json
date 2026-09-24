@@ -216,7 +216,7 @@
       "published": "2026-09-24T04:00:16+00:00",
       "url": "https://www.youtube.com/watch?v=sZIbJseT5Ww",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
+      "fails": 2
     },
     {
       "video_id": "LnfPfhIX-v0",
@@ -231,6 +231,6 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-09-24T19:10:18.255429+00:00",
+  "last_run": "2026-09-24T22:12:24.854016+00:00",
   "last_error_notified": "2026-09-24"
 }
