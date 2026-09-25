@@ -178,7 +178,8 @@
         "FuDbTE6EmJQ",
         "BTQ_bXZGBjM",
         "8htYkpihOUQ",
-        "sZIbJseT5Ww"
+        "sZIbJseT5Ww",
+        "LnfPfhIX-v0"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -210,21 +211,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "LnfPfhIX-v0",
-      "title": "如果特朗普是意大利人？｜30年前已出現「意大利特朗普」：梟雄大亨貝魯斯科尼政治遺產盤點｜沈旭暉・平行時空・EP05",
-      "published": "2026-09-24T17:14:30+00:00",
-      "url": "https://www.youtube.com/watch?v=LnfPfhIX-v0",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-09-25",
     "count": 2
   },
   "greeted": true,
-  "last_run": "2026-09-25T05:15:33.538632+00:00",
+  "last_run": "2026-09-25T10:12:18.225787+00:00",
   "last_error_notified": "2026-09-25"
 }
