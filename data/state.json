@@ -177,7 +177,8 @@
         "VT7a0-QABA4",
         "FuDbTE6EmJQ",
         "BTQ_bXZGBjM",
-        "8htYkpihOUQ"
+        "8htYkpihOUQ",
+        "sZIbJseT5Ww"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -211,26 +212,19 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "sZIbJseT5Ww",
-      "title": "中國開始反制裁美國？北京令公司「跟美國」都變成風險｜長臂管轄｜Simon Universe｜國際關係教室｜⚖️",
-      "published": "2026-09-24T04:00:16+00:00",
-      "url": "https://www.youtube.com/watch?v=sZIbJseT5Ww",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
       "video_id": "LnfPfhIX-v0",
       "title": "如果特朗普是意大利人？｜30年前已出現「意大利特朗普」：梟雄大亨貝魯斯科尼政治遺產盤點｜沈旭暉・平行時空・EP05",
       "published": "2026-09-24T17:14:30+00:00",
       "url": "https://www.youtube.com/watch?v=LnfPfhIX-v0",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     }
   ],
   "daily": {
     "date": "2026-09-25",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-09-24T22:12:24.854016+00:00",
-  "last_error_notified": "2026-09-24"
+  "last_run": "2026-09-25T00:35:06.561479+00:00",
+  "last_error_notified": "2026-09-25"
 }
