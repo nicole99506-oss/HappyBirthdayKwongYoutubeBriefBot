@@ -217,7 +217,7 @@
       "published": "2026-09-24T17:14:30+00:00",
       "url": "https://www.youtube.com/watch?v=LnfPfhIX-v0",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
+      "fails": 2
     }
   ],
   "daily": {
@@ -225,6 +225,6 @@
     "count": 2
   },
   "greeted": true,
-  "last_run": "2026-09-25T00:35:06.561479+00:00",
+  "last_run": "2026-09-25T05:15:33.538632+00:00",
   "last_error_notified": "2026-09-25"
 }
