@@ -182,7 +182,10 @@
         "LnfPfhIX-v0",
         "zC_L--wdhmc",
         "V7g6myu_aRY",
-        "nGKBcbVAUrI"
+        "nGKBcbVAUrI",
+        "D42q5Vh7S7c",
+        "Ud9UUVo73Bg",
+        "VTwDzEFikOQ"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -216,33 +219,12 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "D42q5Vh7S7c",
-      "title": "特朗普靠習近平拉票，不會反效果嗎？北京最喜歡和特朗普打交道？｜劉夢熊 x 沈旭暉｜校長會客室・夢熊外交・EP02 🇨🇳🇺🇸",
-      "published": "2026-09-27T09:40:32+00:00",
-      "url": "https://www.youtube.com/watch?v=D42q5Vh7S7c",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
-      "video_id": "Ud9UUVo73Bg",
-      "title": "習近平訪美得到甚麼？中國經濟下行，沒有美國不行？｜劉夢熊 x 沈旭暉｜校長會客室・夢熊外交・EP01 🇨🇳🇺🇸",
-      "published": "2026-09-27T04:00:08+00:00",
-      "url": "https://www.youtube.com/watch?v=Ud9UUVo73Bg",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
-      "video_id": "VTwDzEFikOQ",
-      "title": "董建華父子=與那國島 + 釣魚台島主？如果國民黨戰勝國共內戰｜陳冠中的平行時空｜董浩雲呼風喚雨｜江浙幫二代 Jimmy 與 Henry｜沈旭暉・平行時空・EP07 🇹🇼🇯🇵🇭🇰",
-      "published": "2026-09-25T06:45:47+00:00",
-      "url": "https://www.youtube.com/watch?v=VTwDzEFikOQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "kj76MG1lv2w",
       "title": "沖繩親中政客落馬之外：如果琉球沒有亡國？｜亞洲五小龍・中國白手套・台灣緩衝國・日本的香港｜沈旭暉・平行時空・EP08 🇯🇵🇨🇳🇹🇼🇭🇰",
       "published": "2026-09-24T15:25:38+00:00",
       "url": "https://www.youtube.com/watch?v=kj76MG1lv2w",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     },
     {
       "video_id": "Cm3pYU6IeBY",
@@ -254,9 +236,9 @@
   ],
   "daily": {
     "date": "2026-09-28",
-    "count": 0
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-09-27T21:59:27.617546+00:00",
-  "last_error_notified": "2026-09-27"
+  "last_run": "2026-09-28T00:24:42.439776+00:00",
+  "last_error_notified": "2026-09-28"
 }
