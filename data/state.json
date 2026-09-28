@@ -52,7 +52,8 @@
         "DqODkGJwLpU",
         "eDvE0MV-h8I",
         "aO_cdY5yAgU",
-        "Y9bHzAAd_2E"
+        "Y9bHzAAd_2E",
+        "Cm3pYU6IeBY"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -185,7 +186,8 @@
         "nGKBcbVAUrI",
         "D42q5Vh7S7c",
         "Ud9UUVo73Bg",
-        "VTwDzEFikOQ"
+        "VTwDzEFikOQ",
+        "kj76MG1lv2w"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -217,28 +219,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "kj76MG1lv2w",
-      "title": "沖繩親中政客落馬之外：如果琉球沒有亡國？｜亞洲五小龍・中國白手套・台灣緩衝國・日本的香港｜沈旭暉・平行時空・EP08 🇯🇵🇨🇳🇹🇼🇭🇰",
-      "published": "2026-09-24T15:25:38+00:00",
-      "url": "https://www.youtube.com/watch?v=kj76MG1lv2w",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
-      "video_id": "Cm3pYU6IeBY",
-      "title": "10 year yields are September's meme stock",
-      "published": "2026-09-27T15:21:01+00:00",
-      "url": "https://www.youtube.com/watch?v=Cm3pYU6IeBY",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-09-28",
-    "count": 2
+    "count": 4
   },
   "greeted": true,
-  "last_run": "2026-09-28T05:29:51.418524+00:00",
+  "last_run": "2026-09-28T11:59:50.410960+00:00",
   "last_error_notified": "2026-09-28"
 }

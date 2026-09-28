@@ -972,3 +972,40 @@ This analysis highlights how central banks are increasingly trapped between pers
 
 
 ---
+
+# 10 year yields are September's meme stock
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-09-27  
+**Link:** https://www.youtube.com/watch?v=Cm3pYU6IeBY
+
+> **The Gist** — Rising US Treasury yields and a runaway national debt trajectory threaten to trigger fiscal dominance, even as a highly concentrated stock market remains propped up by the AI trade.
+
+## Summary
+
+In this market outlook, the speaker highlights a stark divergence between robust macroeconomic indicators and deteriorating fiscal health in the United States. September S&P Global PMI flash data revealed exceptional strength, with the composite index hitting a 62-month high of 58.4, driven by surging new orders and employment. However, this economic momentum has also reignited inflationary pressures, with input prices rising at their fastest pace since October 2022. This persistent inflation is compounded by highly expansionary fiscal policy, rendering the Federal Reserve's gradual interest rate hikes largely ineffective.
+
+The core of the structural threat lies in the sovereign debt trajectory. US government debt is projected to expand from its current $40 trillion to $50 trillion by 2030. The weighted average interest rate on this debt stands at 3.49%, translating to an annualized interest expense of $1.385 trillion, or 4.27% of GDP. Should interest rates normalize to historical averages of 4.53%, interest expenses would surge to $1.8 trillion (5.59% of GDP), creating a severe risk of fiscal dominance where monetary policy is subordinated to debt servicing needs.
+
+Meanwhile, equity markets exhibit extreme concentration. While the S&P 500 trades near all-time highs at a forward P/E of 20.33x, seven of its eleven sectors are near or in correction territory. The index's performance is heavily distorted by a few mega-cap technology stocks riding the artificial intelligence wave, masking widespread underlying economic fragility.
+
+## Highlights
+
+- S&P Global US Composite PMI reached a 62-month high of 58.4 in September, but input prices surged at the fastest rate since October 2022.
+- The US national debt is on a runaway trajectory, projected to reach $50 trillion by August 2030 at current growth rates.
+- Annualized US government interest expense has reached $1.385 trillion (4.27% of GDP), with a weighted average interest rate of 3.49%.
+- The 10-year Treasury yield reached an intraday high of 5.217% on Thursday, marking its highest level since July 2007.
+- Stock market gains are highly concentrated, with seven out of eleven S&P 500 sectors currently near or in correction territory.
+
+## Key Concepts
+
+- **Fiscal Dominance** — An economic condition where monetary policy is constrained because raising interest rates to fight inflation would trigger a sovereign debt default or crisis.
+- **Effective Yield** — The actual return on a bond, combining its coupon rate and purchase price, which reflects the true cost of capital for borrowers.
+- **Market Concentration** — A state where a few mega-cap sectors or stocks dominate index performance, masking weakness in the broader economy.
+
+## Why It Matters
+
+The unsustainable trajectory of US sovereign debt and rising yields threaten the global status of the US dollar and increase the risk of a systemic credit event.
+
+
+---
