@@ -187,7 +187,8 @@
         "D42q5Vh7S7c",
         "Ud9UUVo73Bg",
         "VTwDzEFikOQ",
-        "kj76MG1lv2w"
+        "kj76MG1lv2w",
+        "9FpkRU4R36Y"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -221,19 +222,12 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "9FpkRU4R36Y",
-      "title": "伊斯蘭北約橫空出世｜五國結盟，十年後新中東霸主？沙特牽頭取代美國？核武保護全體穆斯林？｜沈旭暉・平行時空・EP09 🇸🇦🇵🇰🇹🇷🇪🇬",
-      "published": "2026-09-29T12:00:08+00:00",
-      "url": "https://www.youtube.com/watch?v=9FpkRU4R36Y",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
       "video_id": "ginET39qgek",
       "title": "俄羅斯會開闢第二戰線 入侵東歐？北約、波蘭與烏克蘭的危險訊號｜沈旭暉 x 軍武器研台長 Larry｜校長會客室・軍武器研・EP01 🇷🇺🇺🇦🇵🇱🇱🇹🇪🇪🇱🇻",
       "published": "2026-09-29T13:17:07+00:00",
       "url": "https://www.youtube.com/watch?v=ginET39qgek",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     },
     {
       "video_id": "qADcrutoF24",
@@ -248,6 +242,6 @@
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-09-29T20:11:08.478127+00:00",
+  "last_run": "2026-09-29T23:45:58.512552+00:00",
   "last_error_notified": "2026-09-29"
 }
