@@ -219,12 +219,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "9FpkRU4R36Y",
+      "title": "伊斯蘭北約橫空出世｜五國結盟，十年後新中東霸主？沙特牽頭取代美國？核武保護全體穆斯林？｜沈旭暉・平行時空・EP09 🇸🇦🇵🇰🇹🇷🇪🇬",
+      "published": "2026-09-29T12:00:08+00:00",
+      "url": "https://www.youtube.com/watch?v=9FpkRU4R36Y",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    }
+  ],
   "daily": {
-    "date": "2026-09-28",
-    "count": 4
+    "date": "2026-09-29",
+    "count": 0
   },
   "greeted": true,
-  "last_run": "2026-09-29T09:01:29.908192+00:00",
-  "last_error_notified": "2026-09-28"
+  "last_run": "2026-09-29T15:36:49.278790+00:00",
+  "last_error_notified": "2026-09-29"
 }
