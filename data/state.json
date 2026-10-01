@@ -223,12 +223,28 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "Jvd-4yNkiXM",
+      "title": "沙特爛尾鬼城 沙漠新香港 可否復活？｜我的沙特考察・正反大辯論｜沈旭暉・平行時空・EP11 🇸🇦🇭🇰",
+      "published": "2026-10-01T07:45:52+00:00",
+      "url": "https://www.youtube.com/watch?v=Jvd-4yNkiXM",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    },
+    {
+      "video_id": "aSugf1yyZ3s",
+      "title": "中國民國立國2年無人承認？列強為何不想大清帝國崩潰？｜蕭若元 x 沈旭暉｜校長會客室・近代中國外交講堂・EP01 🇹🇼",
+      "published": "2026-10-01T04:00:21+00:00",
+      "url": "https://www.youtube.com/watch?v=aSugf1yyZ3s",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    }
+  ],
   "daily": {
     "date": "2026-10-01",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-01T02:23:40.204976+00:00",
-  "last_error_notified": "2026-09-30"
+  "last_run": "2026-10-01T09:06:45.134851+00:00",
+  "last_error_notified": "2026-10-01"
 }
