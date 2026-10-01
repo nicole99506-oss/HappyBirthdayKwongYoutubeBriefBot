@@ -191,7 +191,8 @@
         "9FpkRU4R36Y",
         "ginET39qgek",
         "qADcrutoF24",
-        "ZL_KLoAhEYI"
+        "ZL_KLoAhEYI",
+        "Jvd-4yNkiXM"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -225,26 +226,25 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "Jvd-4yNkiXM",
-      "title": "沙特爛尾鬼城 沙漠新香港 可否復活？｜我的沙特考察・正反大辯論｜沈旭暉・平行時空・EP11 🇸🇦🇭🇰",
-      "published": "2026-10-01T07:45:52+00:00",
-      "url": "https://www.youtube.com/watch?v=Jvd-4yNkiXM",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
       "video_id": "aSugf1yyZ3s",
       "title": "中國民國立國2年無人承認？列強為何不想大清帝國崩潰？｜蕭若元 x 沈旭暉｜校長會客室・近代中國外交講堂・EP01 🇹🇼",
       "published": "2026-10-01T04:00:21+00:00",
       "url": "https://www.youtube.com/watch?v=aSugf1yyZ3s",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "YNJg_p4jH4Q",
+      "title": "中國貨幣戰爭第一罪人：明太祖朱元璋？｜趙善軒 x 沈旭暉｜校長會客室・中國王朝的全球化・EP01",
+      "published": "2026-10-01T14:05:43+00:00",
+      "url": "https://www.youtube.com/watch?v=YNJg_p4jH4Q",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
     "date": "2026-10-02",
-    "count": 0
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-01T16:23:06.081611+00:00",
+  "last_run": "2026-10-01T21:17:57.023308+00:00",
   "last_error_notified": "2026-10-01"
 }
