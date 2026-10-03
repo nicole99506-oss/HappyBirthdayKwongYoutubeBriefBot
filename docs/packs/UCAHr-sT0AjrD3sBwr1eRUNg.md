@@ -1009,3 +1009,40 @@ The unsustainable trajectory of US sovereign debt and rising yields threaten the
 
 
 ---
+
+# Pre-Market - Oct 2, 2026
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-10-02  
+**Link:** https://www.youtube.com/watch?v=duNviNrUPgs
+
+> **The Gist** — The speaker analyzes the latest US jobs report, market valuations in tech and AI, and the mechanics of bond yields, emphasizing that macroeconomic realities will eventually cool overextended sectors.
+
+## Summary
+
+In this comprehensive market update, the speaker evaluates the implications of the latest US jobs report, which showed non-farm payrolls adding 29,000 jobs, the unemployment rate ticking up to 4.2%, and muted average hourly earnings growth of 0.1%. This data suggests a cooling labor market with reduced inflationary pressures, triggering a rally in US Treasuries and gold as expectations for future interest rate hikes moderate.
+
+The analysis heavily critiques current market valuations, particularly within the artificial intelligence infrastructure and cybersecurity sectors. The speaker argues that while companies in these spaces currently boast strong financials, their astronomical multiples are unsustainable over a five-to-ten-year horizon. Specific short positions, such as CrowdStrike, are highlighted as valuation-driven plays, with the warning that these companies cannot realistically grow into their current multiples.
+
+Furthermore, the speaker addresses the mechanics of the bond market and sovereign debt, drawing comparisons between the fiscal challenges of France and the US. He concludes by discussing valuation methodologies, labeling Discounted Cash Flow (DCF) analysis as a poor tool for price discovery but a highly valuable framework for auditing and tracking the accuracy of one's underlying business assumptions over time.
+
+## Highlights
+
+- The US labor market showed signs of cooling with non-farm payrolls increasing by 29,000 and the unemployment rate rising to 4.2%.
+- The speaker maintains a short position on CrowdStrike, arguing that its valuation has decoupled from fundamental business growth.
+- France's interest expense is projected to exceed its budget deficit, highlighting growing sovereign debt pressures in Europe.
+- Discounted Cash Flow (DCF) models are characterized as a 'colossal waste of time' for price discovery, but highly useful for auditing underlying assumptions.
+- The AI infrastructure build-out (GPUs, memory, cooling) is described as cyclical and bound to eventually face oversupply.
+
+## Key Concepts
+
+- **Operating Leverage** — A financial metric measuring how a change in revenue translates into a change in operating income, highly relevant in cyclical manufacturing sectors.
+- **Optionality** — The value of having choices without asymmetric downside, allowing decision-makers to pivot and claim victory regardless of the eventual outcome.
+- **DCF Assumption Auditing** — Using discounted cash flow models not to target a price, but to systematically track and adjust business assumptions against actual earnings.
+
+## Why It Matters
+
+Understanding the interplay between cooling labor data, overextended tech valuations, and sovereign debt constraints is critical for navigating the transition from high-inflation monetary tightening to a slower-growth global economy.
+
+
+---

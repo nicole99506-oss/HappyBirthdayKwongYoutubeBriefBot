@@ -53,7 +53,8 @@
         "eDvE0MV-h8I",
         "aO_cdY5yAgU",
         "Y9bHzAAd_2E",
-        "Cm3pYU6IeBY"
+        "Cm3pYU6IeBY",
+        "duNviNrUPgs"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -228,14 +229,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "duNviNrUPgs",
-      "title": "Pre-Market - Oct 2, 2026",
-      "published": "2026-10-02T11:46:36+00:00",
-      "url": "https://www.youtube.com/watch?v=duNviNrUPgs",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 2
-    },
-    {
       "video_id": "VFSZ91bIrlQ",
       "title": "特朗普會賣台？美國放棄台灣？｜美國智庫正反學者大激辯・台灣疑美論｜沈旭暉・平行時空・EP12 🇺🇸🇹🇼",
       "published": "2026-10-02T11:00:10+00:00",
@@ -252,9 +245,9 @@
   ],
   "daily": {
     "date": "2026-10-03",
-    "count": 0
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-02T18:00:55.979405+00:00",
+  "last_run": "2026-10-03T00:43:20.372404+00:00",
   "last_error_notified": "2026-10-02"
 }
