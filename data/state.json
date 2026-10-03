@@ -196,7 +196,8 @@
         "Jvd-4yNkiXM",
         "aSugf1yyZ3s",
         "YNJg_p4jH4Q",
-        "VFSZ91bIrlQ"
+        "VFSZ91bIrlQ",
+        "T77Ojj_GFHA"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -230,18 +231,26 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "T77Ojj_GFHA",
-      "title": "英國又收難民？收緊移民之際，工黨為何重開安置計劃？｜移民政治｜Simon Lab｜國際關係101｜🇬🇧",
-      "published": "2026-10-02T15:00:29+00:00",
-      "url": "https://www.youtube.com/watch?v=T77Ojj_GFHA",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "video_id": "KKOWdepjbU8",
+      "title": "英國再入歐盟？首相最新預言｜彈出彈入 重新申請被刁難？脫歐公投10年好了，還是差了？脫歐留歐全國辯論2.0｜沈旭暉・平行時空・EP13 🇬🇧🇪🇺",
+      "published": "2026-10-02T09:25:57+00:00",
+      "url": "https://www.youtube.com/watch?v=KKOWdepjbU8",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    },
+    {
+      "video_id": "Ub07mlUeioU",
+      "title": "The Time for Polite Protest Is Over | Ajamu Baraka & Dimitri Lascaris",
+      "published": "2026-10-03T09:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=Ub07mlUeioU",
+      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     }
   ],
   "daily": {
     "date": "2026-10-03",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-10-03T05:45:59.996070+00:00",
-  "last_error_notified": "2026-10-02"
+  "last_run": "2026-10-03T10:40:29.246596+00:00",
+  "last_error_notified": "2026-10-03"
 }
