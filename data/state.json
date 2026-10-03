@@ -237,7 +237,7 @@
       "published": "2026-10-03T09:00:30+00:00",
       "url": "https://www.youtube.com/watch?v=Ub07mlUeioU",
       "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ",
-      "fails": 1
+      "fails": 2
     },
     {
       "video_id": "jchQcwP5684",
@@ -266,6 +266,6 @@
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-10-03T18:25:52.274089+00:00",
+  "last_run": "2026-10-03T21:28:24.774445+00:00",
   "last_error_notified": "2026-10-03"
 }
