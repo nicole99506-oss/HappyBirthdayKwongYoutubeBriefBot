@@ -198,7 +198,8 @@
         "YNJg_p4jH4Q",
         "VFSZ91bIrlQ",
         "T77Ojj_GFHA",
-        "KKOWdepjbU8"
+        "KKOWdepjbU8",
+        "jchQcwP5684"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -233,19 +234,12 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "jchQcwP5684",
-      "title": "以色列險遭9/11 恐襲機師疑似阿爾蓋達支持者｜突發評論・沈旭暉 🇮🇱🇦🇪🇴🇲",
-      "published": "2026-10-03T14:18:56+00:00",
-      "url": "https://www.youtube.com/watch?v=jchQcwP5684",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
-    },
-    {
       "video_id": "hchp_jttihk",
       "title": "高市早苗要求聯合國刪除戰敗條款失敗，日本人在乎嗎？｜ 沈旭暉 x 張彧暋｜校長會客室・日本御宅族的世界觀・EP01 🇯🇵🇺🇳🇨🇳",
       "published": "2026-10-02T22:11:56+00:00",
       "url": "https://www.youtube.com/watch?v=hchp_jttihk",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     },
     {
       "video_id": "gp_54Nahd-8",
@@ -257,9 +251,9 @@
   ],
   "daily": {
     "date": "2026-10-04",
-    "count": 0
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-04T03:33:24.033992+00:00",
+  "last_run": "2026-10-04T10:04:29.257748+00:00",
   "last_error_notified": "2026-10-04"
 }
