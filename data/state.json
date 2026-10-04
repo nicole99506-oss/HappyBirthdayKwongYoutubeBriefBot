@@ -225,26 +225,20 @@
         "Phvnx5x56y8",
         "WJ4PyHqU3Ao",
         "9AMvnHDCJns",
-        "52TLeo4aqIg"
+        "52TLeo4aqIg",
+        "Ub07mlUeioU"
       ]
     }
   },
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "Ub07mlUeioU",
-      "title": "The Time for Polite Protest Is Over | Ajamu Baraka & Dimitri Lascaris",
-      "published": "2026-10-03T09:00:30+00:00",
-      "url": "https://www.youtube.com/watch?v=Ub07mlUeioU",
-      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ",
-      "fails": 2
-    },
-    {
       "video_id": "jchQcwP5684",
       "title": "以色列險遭9/11 恐襲機師疑似阿爾蓋達支持者｜突發評論・沈旭暉 🇮🇱🇦🇪🇴🇲",
       "published": "2026-10-03T14:18:56+00:00",
       "url": "https://www.youtube.com/watch?v=jchQcwP5684",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     },
     {
       "video_id": "hchp_jttihk",
@@ -266,6 +260,6 @@
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-10-03T21:28:24.774445+00:00",
-  "last_error_notified": "2026-10-03"
+  "last_run": "2026-10-04T00:05:27.283332+00:00",
+  "last_error_notified": "2026-10-04"
 }
