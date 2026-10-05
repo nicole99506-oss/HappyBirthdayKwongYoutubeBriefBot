@@ -54,7 +54,8 @@
         "aO_cdY5yAgU",
         "Y9bHzAAd_2E",
         "Cm3pYU6IeBY",
-        "duNviNrUPgs"
+        "duNviNrUPgs",
+        "6nFBYxAzZGw"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -201,7 +202,8 @@
         "KKOWdepjbU8",
         "jchQcwP5684",
         "hchp_jttihk",
-        "gp_54Nahd-8"
+        "gp_54Nahd-8",
+        "i7x1jpf-5T4"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -234,21 +236,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "6nFBYxAzZGw",
-      "title": "Growing credit risk, Anthropic's leaked S1, and MU earnings",
-      "published": "2026-10-04T16:05:49+00:00",
-      "url": "https://www.youtube.com/watch?v=6nFBYxAzZGw",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg",
-      "fails": 2
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-10-05",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-10-05T05:43:07.867524+00:00",
+  "last_run": "2026-10-05T12:42:46.750261+00:00",
   "last_error_notified": "2026-10-05"
 }
