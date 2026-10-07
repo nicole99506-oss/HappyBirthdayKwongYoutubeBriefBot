@@ -19,13 +19,16 @@
       "name": "China's Advanced Manufacturing Pivot",
       "children": [
         {
-          "name": "New Quality Productive Forces"
+          "name": "新質生產力與新基建"
         },
         {
-          "name": "產能過剩與債務衰退"
+          "name": "產能過剩與資本錯配"
         },
         {
-          "name": "Deflationary Export Spillover"
+          "name": "通縮外溢效應"
+        },
+        {
+          "name": "內需不足與預防性儲蓄"
         }
       ]
     },
@@ -107,15 +110,7 @@
           ]
         },
         {
-          "name": "極地戰略與防務准入",
-          "children": [
-            {
-              "name": "戰略節點與准入權"
-            },
-            {
-              "name": "金穹計劃與導彈防禦"
-            }
-          ]
+          "name": "極地戰略與防務准入"
         }
       ]
     },
@@ -155,18 +150,7 @@
               "name": "特里芬難題"
             },
             {
-              "name": "歷史貨幣與財政變革",
-              "children": [
-                {
-                  "name": "信用貨幣與通脹規律"
-                },
-                {
-                  "name": "白銀流入與稅制改革"
-                },
-                {
-                  "name": "數目字管理與國家治理"
-                }
-              ]
+              "name": "歷史貨幣與財政變革"
             }
           ]
         },
@@ -188,26 +172,13 @@
           "name": "跨國企業策略調整"
         },
         {
-          "name": "地緣經濟與安全定價",
-          "children": [
-            {
-              "name": "貿易增加值 (TiVA)"
-            }
-          ]
+          "name": "地緣經濟與安全定價"
         },
         {
           "name": "商業航太發展"
         },
         {
-          "name": "人口與移民政策",
-          "children": [
-            {
-              "name": "海外安置與境內庇護"
-            },
-            {
-              "name": "邊境管制與政治阻力"
-            }
-          ]
+          "name": "人口與移民政策"
         }
       ]
     }

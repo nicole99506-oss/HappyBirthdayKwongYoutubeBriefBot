@@ -207,7 +207,9 @@
         "3VZdd44DCS0",
         "PvK0CHzmzmE",
         "90soWVLvhGg",
-        "G6XxChAqyoE"
+        "G6XxChAqyoE",
+        "yiPsRN-pOII",
+        "mLNrKC2CyZs"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -240,28 +242,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "yiPsRN-pOII",
-      "title": "澳洲大幅收緊移民政策 留學入籍此路不通？澳洲本土主義復興｜沈旭暉 x James｜校長會客室・澳洲通訊・EP01 🇦🇺",
-      "published": "2026-10-07T04:00:09+00:00",
-      "url": "https://www.youtube.com/watch?v=yiPsRN-pOII",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
-    },
-    {
-      "video_id": "mLNrKC2CyZs",
-      "title": "中國再救經濟？從2008四萬億救市方案，到2026「六張網」｜Investment-led Growth 投資主導型增長｜算力｜人工智能｜電力網｜中國救市｜ 馮敬恩・大學堂｜國際關係教室｜ 🇺🇸🇨🇳｜",
-      "published": "2026-10-07T00:00:28+00:00",
-      "url": "https://www.youtube.com/watch?v=mLNrKC2CyZs",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    }
-  ],
+  "queue": [],
   "daily": {
-    "date": "2026-10-07",
-    "count": 3
+    "date": "2026-10-08",
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-10-07T15:56:33.356545+00:00",
+  "last_run": "2026-10-07T20:51:32.762491+00:00",
   "last_error_notified": "2026-10-07"
 }
