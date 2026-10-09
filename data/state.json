@@ -213,7 +213,8 @@
         "jNNz3bupxrs",
         "hRAS1-NWIqs",
         "pujKsjKF5K0",
-        "-qlZZW0Q0kc"
+        "-qlZZW0Q0kc",
+        "-MSvtgavAOA"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -246,20 +247,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "-MSvtgavAOA",
-      "title": "俄軍冷血作戰祖師 蘇聯元帥朱可夫｜沈旭暉 x 湛國揚｜校長會客室・軍武地球・EP02 🇷🇺🇩🇪🇯🇵",
-      "published": "2026-10-09T04:00:09+00:00",
-      "url": "https://www.youtube.com/watch?v=-MSvtgavAOA",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    }
-  ],
+  "queue": [],
   "daily": {
-    "date": "2026-10-09",
-    "count": 2
+    "date": "2026-10-10",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-09T10:26:46.218505+00:00",
+  "last_run": "2026-10-09T17:05:48.576649+00:00",
   "last_error_notified": "2026-10-07"
 }
