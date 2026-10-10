@@ -247,12 +247,21 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "2AlvT9JVpxo",
+      "title": "葡萄牙人的屯門海戰：要殖民的是香港不是澳門？｜趙善軒 x 沈旭暉｜校長會客室・中國王朝的全球化・EP02",
+      "published": "2026-10-10T04:00:20+00:00",
+      "url": "https://www.youtube.com/watch?v=2AlvT9JVpxo",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    }
+  ],
   "daily": {
     "date": "2026-10-10",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-10T01:11:29.487931+00:00",
-  "last_error_notified": "2026-10-07"
+  "last_run": "2026-10-10T07:06:08.123571+00:00",
+  "last_error_notified": "2026-10-10"
 }
