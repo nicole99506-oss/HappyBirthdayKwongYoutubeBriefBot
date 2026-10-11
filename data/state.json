@@ -251,12 +251,28 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "G_Cn33-C1LM",
+      "title": "曼城被裁定嚴重違規，為何變成英國首相的外交壓力？ #國際關係  #地緣政治",
+      "published": "2026-10-11T11:23:34+00:00",
+      "url": "https://www.youtube.com/watch?v=G_Cn33-C1LM",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
+    },
+    {
+      "video_id": "fyVw9yq3Gyo",
+      "title": "劍橋的墮落 黑人教授Jason Arday之死， 敲響名校喪鐘？｜英國教育DEI爭議、學術醜聞與文化大革命｜沈旭暉・平行時空・EP19 🇬🇧🇺🇸",
+      "published": "2026-10-11T10:00:34+00:00",
+      "url": "https://www.youtube.com/watch?v=fyVw9yq3Gyo",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    }
+  ],
   "daily": {
     "date": "2026-10-11",
     "count": 4
   },
   "greeted": true,
-  "last_run": "2026-10-11T08:59:06.451244+00:00",
-  "last_error_notified": "2026-10-10"
+  "last_run": "2026-10-11T15:13:44.824399+00:00",
+  "last_error_notified": "2026-10-11"
 }
