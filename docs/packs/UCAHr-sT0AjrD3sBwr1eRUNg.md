@@ -1046,3 +1046,39 @@ Understanding the interplay between cooling labor data, overextended tech valuat
 
 
 ---
+
+# Gross vs Net revenue, double hit to yields, and SNOW short explained
+
+**Channel:** Mark Meldrum  
+**Published:** 2026-10-11  
+**Link:** https://www.youtube.com/watch?v=8gFALSRqKxg
+
+> **The Gist** — Despite resilient US GDP estimates, narrowing market breadth, elevated long-term yields, and extreme valuations in tech stocks like Snowflake suggest cautious positioning via valuation shorts.
+
+## Summary
+
+Recent macroeconomic indicators highlight an economy navigating persistent inflation expectations and shifting rate expectations. While the US ISM Services PMI remains expansionary and Q3 GDPNow forecasts sit at a solid 3.6%, market breadth is historically narrow, with only 30% of S&P 500 components above their 50-day moving averages at recent highs. High-yield spreads and 30-year Treasury yields continue to reflect elevated cost-of-capital pressures, compounding corporate refinancing risks across speculative credit tiers.
+
+A critical valuation distortion appears in momentum tech stocks, exemplified by Snowflake (SNOW). Despite robust headline revenue growth, Snowflake’s persistent GAAP operating losses, shrinking remaining performance obligations (RPO), and excessive stock-based compensation—exceeding 30% of total revenue—make its enterprise valuation unstably lofty. Accounting nuances under ASC 606, such as gross versus net revenue recognition seen between Anthropic and OpenAI, further illustrate how headline-driven algorithmic trading distorts market pricing.
+
+Consequently, prudent portfolio management requires balancing long equity exposure with targeted valuation shorts in hyper-valued, SBC-heavy tech firms. As Q3 earnings season commences with major financial institutions, investors must look past adjusted Non-GAAP reporting to evaluate true free cash flow and structural profitability amid tight financial conditions.
+
+## Highlights
+
+- US Q3 GDPNow estimate adjusted down to 3.6%, while Canada posted a sharp loss of 68.3k jobs in September.
+- The S&P 500 reached record highs with only ~30% of components above their 50-day moving average, marking the weakest market breadth for a record high since 1990.
+- Snowflake’s stock-based compensation accounts for over 30% of guided FY27 revenue (~$1.9B), severely diluting shareholders and skewing Non-GAAP profitability metrics.
+- ASC 606 accounting rule distinctions between gross (Anthropic) and net (OpenAI) revenue reporting caused algorithmic headline selling in tech.
+
+## Key Concepts
+
+- **Valuation Short** — A short position used as a relative hedge against high-beta overvalued equities rather than an absolute directional bet.
+- **ASC 606** — Revenue recognition standard determining whether a company acts as a principal (gross revenue) or agent (net revenue).
+- **Stock-Based Compensation Dilution** — Non-cash employee pay that artificially inflates operating cash flow while continually diluting existing equity holders.
+
+## Why It Matters
+
+Understanding how Non-GAAP accounting masks true capital intensity is crucial as tight monetary policy exposes overvalued, high-dilution equities.
+
+
+---

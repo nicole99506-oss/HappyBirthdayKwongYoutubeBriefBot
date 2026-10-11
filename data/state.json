@@ -55,7 +55,8 @@
         "Y9bHzAAd_2E",
         "Cm3pYU6IeBY",
         "duNviNrUPgs",
-        "6nFBYxAzZGw"
+        "6nFBYxAzZGw",
+        "8gFALSRqKxg"
       ]
     },
     "UCXf8jlTSP9kp6g4ROCfgvbQ": {
@@ -218,7 +219,9 @@
         "2AlvT9JVpxo",
         "PzrpwGNnEh0",
         "afJzDzRfTbk",
-        "bFroXbQKEXQ"
+        "bFroXbQKEXQ",
+        "G_Cn33-C1LM",
+        "fyVw9yq3Gyo"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -251,35 +254,12 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [
-    {
-      "video_id": "G_Cn33-C1LM",
-      "title": "曼城被裁定嚴重違規，為何變成英國首相的外交壓力？ #國際關係  #地緣政治",
-      "published": "2026-10-11T11:23:34+00:00",
-      "url": "https://www.youtube.com/watch?v=G_Cn33-C1LM",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
-      "video_id": "fyVw9yq3Gyo",
-      "title": "劍橋的墮落 黑人教授Jason Arday之死， 敲響名校喪鐘？｜英國教育DEI爭議、學術醜聞與文化大革命｜沈旭暉・平行時空・EP19 🇬🇧🇺🇸",
-      "published": "2026-10-11T10:00:34+00:00",
-      "url": "https://www.youtube.com/watch?v=fyVw9yq3Gyo",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
-      "video_id": "8gFALSRqKxg",
-      "title": "Gross vs Net revenue, double hit to yields, and SNOW short explained",
-      "published": "2026-10-11T16:32:14+00:00",
-      "url": "https://www.youtube.com/watch?v=8gFALSRqKxg",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
-    }
-  ],
+  "queue": [],
   "daily": {
     "date": "2026-10-12",
-    "count": 0
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-10-11T19:33:50.969938+00:00",
+  "last_run": "2026-10-11T23:11:15.517194+00:00",
   "last_error_notified": "2026-10-11"
 }
