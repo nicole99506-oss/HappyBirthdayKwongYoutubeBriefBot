@@ -224,7 +224,8 @@
         "fyVw9yq3Gyo",
         "L1QEqSUm-Vk",
         "_uE1oJFjivE",
-        "u8KaQEXoM-U"
+        "u8KaQEXoM-U",
+        "RdrA47Xkwhw"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -259,19 +260,12 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "RdrA47Xkwhw",
-      "title": "如果一個死人統治一個國家：伊朗最高精神領袖還在人間？如果形同傀儡，誰在掌權？｜屍體統治學，死人統治模式真的存在｜沈旭暉・平行時空・EP21 🇮🇷🇷🇺🇧🇹🇨🇳",
-      "published": "2026-10-13T10:00:06+00:00",
-      "url": "https://www.youtube.com/watch?v=RdrA47Xkwhw",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
       "video_id": "z9lgN1a7qYw",
       "title": "小粉紅最新「出征」對象：蔡康永家族與太平輪慘劇｜東方鐵達尼號傳奇｜沈旭暉 x 傅立言｜校長會客室・台灣通訊・EP01 🇹🇼",
       "published": "2026-10-13T04:00:25+00:00",
       "url": "https://www.youtube.com/watch?v=z9lgN1a7qYw",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     },
     {
       "video_id": "_Sam7dj3PCM",
@@ -289,10 +283,10 @@
     }
   ],
   "daily": {
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-10-14T13:06:20.065113+00:00",
+  "last_run": "2026-10-14T18:00:28.578967+00:00",
   "last_error_notified": "2026-10-14"
 }
