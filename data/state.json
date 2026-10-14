@@ -265,7 +265,7 @@
       "published": "2026-10-13T04:00:25+00:00",
       "url": "https://www.youtube.com/watch?v=z9lgN1a7qYw",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 1
+      "fails": 2
     },
     {
       "video_id": "_Sam7dj3PCM",
@@ -287,6 +287,6 @@
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-10-14T18:00:28.578967+00:00",
+  "last_run": "2026-10-14T21:03:28.927779+00:00",
   "last_error_notified": "2026-10-14"
 }
