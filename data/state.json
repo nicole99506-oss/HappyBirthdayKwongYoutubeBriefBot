@@ -223,7 +223,8 @@
         "G_Cn33-C1LM",
         "fyVw9yq3Gyo",
         "L1QEqSUm-Vk",
-        "_uE1oJFjivE"
+        "_uE1oJFjivE",
+        "u8KaQEXoM-U"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -258,14 +259,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "u8KaQEXoM-U",
-      "title": "中國正在準備對台動武？中國的海底情報戰：台海・關島・澳洲｜海底通訊電纜｜人工智能｜台海戰爭｜五眼聯盟｜對台動武｜聲納｜情報｜ 馮敬恩・大學堂｜國際關係教室｜ 🇺🇸🇨🇳｜",
-      "published": "2026-10-12T01:29:40+00:00",
-      "url": "https://www.youtube.com/watch?v=u8KaQEXoM-U",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
       "video_id": "RdrA47Xkwhw",
       "title": "如果一個死人統治一個國家：伊朗最高精神領袖還在人間？如果形同傀儡，誰在掌權？｜屍體統治學，死人統治模式真的存在｜沈旭暉・平行時空・EP21 🇮🇷🇷🇺🇧🇹🇨🇳",
       "published": "2026-10-13T10:00:06+00:00",
@@ -285,6 +278,6 @@
     "count": 0
   },
   "greeted": true,
-  "last_run": "2026-10-13T23:56:21.858110+00:00",
+  "last_run": "2026-10-14T02:17:13.954407+00:00",
   "last_error_notified": "2026-10-13"
 }
