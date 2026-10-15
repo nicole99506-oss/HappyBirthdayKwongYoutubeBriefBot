@@ -226,7 +226,9 @@
         "_uE1oJFjivE",
         "u8KaQEXoM-U",
         "RdrA47Xkwhw",
-        "z9lgN1a7qYw"
+        "z9lgN1a7qYw",
+        "_Sam7dj3PCM",
+        "NPAq5ugKRvc"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -261,26 +263,12 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "_Sam7dj3PCM",
-      "title": "菲律賓海軍爆冷擊敗解放軍？美國智庫 CSIS 如何向馬尼拉獻計｜台灣有事就是菲律賓有事・被低估的人口過億大國｜沈旭暉・平行時空・EP22 🇵🇭🇨🇳🇺🇸🇦🇺🇹🇼",
-      "published": "2026-10-14T06:30:08+00:00",
-      "url": "https://www.youtube.com/watch?v=_Sam7dj3PCM",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "fails": 2
-    },
-    {
-      "video_id": "NPAq5ugKRvc",
-      "title": "澳洲「極右女皇」漢森會上台嗎？｜昔日排華先驅，今日捲土重來，澳洲本土主義為何復興？澳洲版特朗普、法拉奇、瑪琳勒龐？｜沈旭暉 x James｜校長會客室・澳洲通訊・EP02・字幕圖像版 🇦🇺",
-      "published": "2026-10-14T04:00:03+00:00",
-      "url": "https://www.youtube.com/watch?v=NPAq5ugKRvc",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "Low4htOI5Ks",
       "title": "外國人出Post判死刑 同鄉舉報截圖足以致命｜沙特現代化的平行時空・王儲與保守教士的權力鬥爭｜沈旭暉・平行時空・EP23 🇸🇦🇱🇰🇮🇷🇵🇰🇹🇭",
       "published": "2026-10-15T10:00:11+00:00",
       "url": "https://www.youtube.com/watch?v=Low4htOI5Ks",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "fails": 1
     },
     {
       "video_id": "XIEJzI5AubE",
@@ -298,10 +286,10 @@
     }
   ],
   "daily": {
-    "date": "2026-10-15",
-    "count": 0
+    "date": "2026-10-16",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-15T12:03:26.452516+00:00",
+  "last_run": "2026-10-15T16:23:10.137265+00:00",
   "last_error_notified": "2026-10-15"
 }
