@@ -233,7 +233,9 @@
         "XIEJzI5AubE",
         "7kni40MKCf8",
         "smQ6C4x_AqM",
-        "-9o0p0XLm6w"
+        "-9o0p0XLm6w",
+        "YQMFgu27fkM",
+        "tWNSrFZDqe8"
       ]
     },
     "UCVlAELI2OVTx03PvpXoLCWQ": {
@@ -269,9 +271,9 @@
   "queue": [],
   "daily": {
     "date": "2026-10-17",
-    "count": 3
+    "count": 5
   },
   "greeted": true,
-  "last_run": "2026-10-17T05:33:27.131856+00:00",
+  "last_run": "2026-10-17T09:38:48.368944+00:00",
   "last_error_notified": "2026-10-16"
 }
