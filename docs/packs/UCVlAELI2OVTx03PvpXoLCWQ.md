@@ -150,3 +150,38 @@ The structural decline of US hegemony and the petrodollar system forces a volati
 
 
 ---
+
+# The Reinvention of Professor Jiang
+
+**Channel:** BettBeat Media  
+**Published:** 2026-10-17  
+**Link:** https://www.youtube.com/watch?v=68bhqnYisZM
+
+> **The Gist** — Commentators Kareem and Dimitri Lascaris expose Professor Jiang Xueqin as an opportunistic political chameleon whose contradictory stances across media platforms reveal a grifter strategy.
+
+## Summary
+
+Hosts Kareem and Dimitri Lascaris examine the media trajectory of Professor Jiang Xueqin, highlighting how his public ideological stance shifts dramatically depending on his target audience. Across various platform appearances, Jiang has variously presented himself as a leftist anti-imperialist, a defender of Western meritocracy, an admirer of Israeli economic innovation, and a proponent of racial essentialism.
+
+The hosts document Jiang's past writings and podcast appearances, contrasting his 2012 essays praising Israeli startup culture and a 2017 CNN op-ed condemning Chinese media tyranny with his recent statements on far-right podcasts endorsing white supremacy. Concurrently, when appearing on anti-imperialist channels, Jiang framed his Ivy League education as an 'MK Ultra' indoctrination program and portrayed China as a refuge from Western racism.
+
+Lascaris and Kareem conclude that Jiang's ideological reversals reflect unprincipled audience-building strategies aimed at maximizing reach, while cautioning viewers that his conspiratorial frameworks ultimately pacify genuine political activism.
+
+## Highlights
+
+- Jiang Xueqin's media history reveals stark ideological contradictions, moving from pro-Israel op-eds in 2012 to anti-Zionist commentary on independent shows.
+- During an appearance with far-right commentator Nick Fuentes, Jiang made explicit pro-white supremacist and anti-Black statements.
+- Jiang's 2017 CNN op-ed accusing Chinese media of enabling tyranny contrasts sharply with his recent framing of China as an anti-imperialist sanctuary.
+- The hosts analyze how Jiang's shifting rhetoric functions as an opportunistic strategy to gain influence across disparate media ecosystems.
+
+## Key Concepts
+
+- **Audience Capture** — Dynamically altering one's political positions to match the specific biases and expectations of different host platforms.
+- **False Dialectic** — Framing geopolitical conflicts as binary, elite-controlled struggles, which demoralizes and discourages grass-roots political activism.
+
+## Why It Matters
+
+This critique underscores the prevalence of unvetted commentators in alternative media who exploit fragmented ideological ecosystems to build influence through contradictory narratives.
+
+
+---
