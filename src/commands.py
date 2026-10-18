@@ -37,13 +37,12 @@ def process_updates(st: dict) -> bool:
 
 WELCOME = """🎂 Welcome, {name}!
 
-This is your private global political economy wire, built for you by Nicole.
-Every new video from your channels lands here as a two-minute briefing —
-The Gist, the argument, the numbers, the concepts worth keeping — followed by
-a concise summary of each new video.
+This is your YouTube summary bot, built for you by Nicole.
+New videos from your tracked channels are checked automatically.
+To conserve Gemini's free quota, the bot sends concise summaries only,
+with conservative daily limits.
 
-Scroll up to see everything it has already digested for you.
-Type /help to take the wheel, or just sit back: the briefings come to you."""
+Type /help to see commands."""
 
 
 def _welcome_new_members(msg: dict) -> None:
