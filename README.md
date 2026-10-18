@@ -1,97 +1,82 @@
-# Happy Birthday Kwong — YouTube Brief Bot
+# Happy Birthday Kwong — YouTube Summary Bot
 
-A Telegram bot that follows YouTube channels, creates AI-generated video briefings, and maintains a searchable reading site and knowledge maps.
+A small Telegram bot that follows YouTube channels, summarizes new videos with Gemini, and sends the summaries to Telegram.
 
-> This README documents the current repository based on the code inspected. It does not imply that every optional integration has been tested end to end.
+The current workflow is intentionally conservative: **one video per run, no more than four summaries per Singapore calendar day, and scheduled runs spaced three hours apart**. Gemini quota and rate limits vary by account and model, so these safeguards reduce risk but cannot guarantee that a provider will never return a limit error.
 
 ## What it does
 
-1. **Discover videos** — checks channel RSS feeds for new uploads.
-2. **Manage channels** — handles Telegram commands for adding/removing channels and requesting historical backfills.
-3. **Summarize videos** — uses the Google Gemini API to create structured briefings.
-4. **Deliver briefings** — sends summaries to Telegram and can send updated knowledge-map images.
-5. **Keep history** — stores summary JSON files and persistent bot state in the repository.
-6. **Publish a reading site** — rebuilds a static site from saved summaries.
-7. **Optional Google Drive sync** — syncs channel summaries when Drive configuration is enabled.
-8. **Respect usage limits** — configuration includes per-run and per-day processing caps intended to limit free-tier usage.
+1. Reads new-upload RSS feeds for tracked YouTube channels.
+2. Keeps a queue so videos can be processed gradually.
+3. Makes one Gemini generation request per video.
+4. Sends a concise summary to Telegram.
+5. Persists only the bot state needed to remember channels, seen video IDs, the queue, and daily counters.
+
+It no longer generates mind maps, saves per-video summary archives, syncs Google Drive, or rebuilds a reading website.
 
 ## Repository layout
 
-The repository currently contains both root-level Python modules and a `src/` directory with similarly named modules. Treat this as a cleanup item: **do not delete or move either copy until the GitHub Actions entry point and import paths have been verified.**
+- `.github/workflows/digest.yml` — scheduled GitHub Actions workflow.
+- `src/main.py` — orchestration and queue processing.
+- `src/config.py` — secrets, model, daily cap, timezone, and data paths.
+- `src/commands.py` — Telegram commands and channel management.
+- `src/summarizer.py` — one short Gemini request and Telegram formatting.
+- `src/telegram_api.py` — Telegram Bot API helper.
+- `src/youtube.py` — RSS polling and YouTube channel/backfill lookup.
+- `src/state.py` — persistent state only.
+- `requirements.txt` — minimal Python dependencies.
+- `data/state.json` — persistent bot state committed by the workflow.
 
-| Path | Purpose |
-| --- | --- |
-| `src/main.py` / `main.py` | Main orchestration: discover uploads, process the queue, send results, and rebuild the site. |
-| `src/config.py` / `config.py` | Environment variables, model selection, paths, and usage limits. |
-| `src/commands.py` / `commands.py` | Telegram bot commands and callbacks. |
-| `src/summarizer.py` / `summarizer.py` | Gemini video summarization and formatting. |
-| `src/telegram_api.py` / `telegram_api.py` | Telegram API helpers. |
-| `src/youtube.py` / `youtube.py` | YouTube RSS, channel lookup, and historical video discovery. |
-| `src/state.py` / `state.py` | Persistent state, channel tracking, queue, and daily counters. |
-| `src/mindmap.py` / `mindmap.py` | Knowledge-tree storage and image rendering. |
-| `src/site.py` / `site.py` | Static reading-site generation. |
-| `src/drive_sync.py` / `drive_sync.py` | Optional Google Drive synchronization. |
-| `requirements.txt` | Python dependencies. |
-| `.github/workflows/` | GitHub Actions automation; inspect the actual workflow before changing the run command or schedule. |
-
-Some paths may differ or be absent in a particular revision. Use the actual files on the default branch as the source of truth.
+Some legacy Python modules and previously generated files may remain in the repository for now. The active workflow runs `python -m src.main`; legacy modules are not part of the active execution path. They can be removed after a separate review confirms they are not referenced elsewhere.
 
 ## Setup
 
-### 1. Python dependencies
+In **Repository → Settings → Secrets and variables → Actions**, configure:
 
-Install the dependencies listed in `requirements.txt`:
+| Secret | Purpose |
+| --- | --- |
+| `TELEGRAM_BOT_TOKEN` | Telegram bot token |
+| `TELEGRAM_CHAT_ID` | Chat that receives summaries |
+| `GEMINI_API_KEY` | Gemini API key |
+| `YOUTUBE_API_KEY` | YouTube Data API key for channel lookup and historical backfill |
 
-```bash
-python -m pip install -r requirements.txt
-```
+Optional repository variable: `GEMINI_MODEL`. The default is `gemini-2.5-flash-lite`; if this model is not enabled for your API project, set this variable to a currently available model supported by your account.
 
-### 2. GitHub Actions secrets
+Never commit API keys, Telegram tokens, service-account JSON, or a populated `.env` file.
 
-Open **Repository → Settings → Secrets and variables → Actions**. Configure the secrets used by the workflow:
+## Usage limits and failure handling
 
-| Secret | Required? | Purpose |
-| --- | --- | --- |
-| `TELEGRAM_BOT_TOKEN` | Yes | Telegram bot authentication token. |
-| `TELEGRAM_CHAT_ID` | Yes | Destination chat for briefings and bot notifications. |
-| `GEMINI_API_KEY` | Yes | Gemini API access for summaries. |
-| `YOUTUBE_API_KEY` | Required by current startup checks | YouTube Data API access for channel resolution/backfill. |
-| `GDRIVE_SERVICE_ACCOUNT_JSON` | Optional | Service-account JSON for Drive sync. |
-| `GDRIVE_FOLDER_ID` | Optional | Destination Drive folder. |
+- Scheduled workflow runs every three hours.
+- Each run processes at most one video.
+- The workflow forces free mode and sets a maximum of four successful summaries per Singapore day.
+- The prompt and output are deliberately short.
+- A quota/rate-limit response pauses further Gemini calls until the next Singapore day.
+- Other generation errors are not retried in a tight loop; the queued video remains for a later run.
+- A failed Telegram delivery leaves the video queued instead of marking it as successfully delivered.
 
-Optional repository variables/environment settings referenced by the code include `GEMINI_MODEL` and `ALLOWED_CHAT_IDS`. Check `config.py` for the current defaults and other settings.
+These controls reduce requests and retry storms. They cannot override Google's account-specific quotas, guarantee availability, or fully prevent a single long video from exceeding an input-token limit.
 
-**Security:** never commit API keys, bot tokens, service-account credentials, or a populated `.env` file. Rotate any credential that has accidentally been exposed.
+## Telegram commands
 
-## Runtime and usage limits
+- `/add @handle` — follow a channel and choose how much history to backfill.
+- `/remove <number or channel>` — stop following a channel.
+- `/list` — list followed channels.
+- `/status` — inspect queue and daily summary count.
+- `/help` — show help.
 
-The code includes a per-run processing limit, a daily video cap, and logic to defer queued videos when the cap is reached or Gemini reports quota exhaustion. Exact values and timezone are defined in `config.py`; review that file before changing the schedule or limits.
+Historical backfills may enqueue many videos; they are processed slowly under the same daily cap.
 
-A configured free-tier guard is a precaution, not a guarantee about a provider's account or billing configuration. Confirm provider limits and billing settings separately.
+## Troubleshooting
 
-## Where data is stored
+1. Open **GitHub → Actions → Digest run** and inspect the latest run logs.
+2. Confirm the required secrets are configured correctly.
+3. For Gemini 429 / `RESOURCE_EXHAUSTED`, wait until the next Singapore day and check the active quota in Google AI Studio.
+4. For model-not-found errors, verify `GEMINI_MODEL` is available to the API project.
+5. If a workflow run fails, inspect the first error in the logs; do not repeatedly click rerun after a quota error.
 
-The code writes summary JSON files under the configured summary directory and maintains a state file for tracked channels, seen video IDs, pending items, and daily counters. The generated reading site and knowledge maps are built from this stored data. Exact paths are defined in `config.py`.
+## Maintenance principles
 
-Because the workflow may commit updated state/data back to the repository, check the Actions workflow and `.gitignore` before changing persistence behaviour. Avoid committing credentials or other private data.
-
-## Troubleshooting checklist
-
-1. Open **Actions** and inspect the latest workflow run and its logs.
-2. Confirm all required secrets exist and are named exactly as the code expects.
-3. For Telegram failures, verify the bot token, destination chat ID, and that the bot can message that chat.
-4. For Gemini errors, distinguish quota/rate-limit errors (often HTTP 429) from temporary service/model errors (often HTTP 5xx such as 503).
-5. Check whether the video remains in the queue or has been marked as seen after a failure.
-6. Confirm the workflow is running the intended module under `src/` or the repository root; duplicate modules currently make this especially important.
-
-## Safe maintenance order
-
-1. Confirm which workflow and Python entry point are actually used.
-2. Compare the root-level modules with `src/` and identify the active copy.
-3. Add or update tests before changing runtime logic.
-4. Only then remove duplicated files or reorganize the package.
-5. Test a workflow run and verify real Telegram delivery after each functional change.
-
-## Project documents
-
-- [Project structure and maintenance notes](docs/PROJECT_GUIDE.md)
+1. Keep the scheduled interval and daily cap conservative until several days of successful runs are observed.
+2. Do not add a second Gemini call for formatting or knowledge maps.
+3. Keep the summary prompt short and avoid processing the same video twice.
+4. Review the active `src/` code before deleting legacy root-level modules.
