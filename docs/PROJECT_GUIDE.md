@@ -36,7 +36,7 @@ The active entry point is `python -m src.main`, launched by `.github/workflows/d
 
 ## Cost and rate-limit safeguards
 
-- Schedule spacing: three hours between scheduled runs.
+- Schedule spacing: six hours between scheduled runs.
 - Per-run cap: one video.
 - Daily cap: four successful summaries per Singapore calendar day.
 - Prompt/output: one short JSON field, maximum 500 output tokens.
