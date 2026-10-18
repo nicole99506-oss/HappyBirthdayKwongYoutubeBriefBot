@@ -18,11 +18,11 @@ ALLOWED_CHAT_IDS = [
 # GEMINI_MODEL only if this model is unavailable for your account.
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "").strip() or "gemini-2.5-flash-lite"
 
-# Conservative free-usage guardrails: one video per run and four per local day.
+# Usage guardrails: one video per run, with a one-hour minimum between Gemini requests.
 FREE_MODE = os.environ.get("FREE_MODE", "false").lower() == "true"
 MAX_VIDEOS_PER_RUN = int(os.environ.get("MAX_VIDEOS_PER_RUN", "1"))
 DAILY_VIDEO_CAP = int(os.environ.get("DAILY_VIDEO_CAP", "0"))
-MIN_HOURS_BETWEEN_GEMINI_REQUESTS = int(os.environ.get("MIN_HOURS_BETWEEN_GEMINI_REQUESTS", "2"))
+MIN_HOURS_BETWEEN_GEMINI_REQUESTS = int(os.environ.get("MIN_HOURS_BETWEEN_GEMINI_REQUESTS", "1"))
 
 DATA_DIR = "data"
 STATE_PATH = os.path.join(DATA_DIR, "state.json")
