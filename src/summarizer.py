@@ -1,10 +1,5 @@
-"""Gemini-powered summarization.
-
-Gemini reads the YouTube URL directly (video + audio), so videos WITHOUT
-captions work too -- no downloading, no Whisper, no bot walls.
-"""
+"""Minimal single-request YouTube video summarization."""
 import json
-import time
 
 from google import genai
 from google.genai import types
@@ -16,8 +11,7 @@ _client = None
 
 
 class QuotaExhausted(Exception):
-    """Raised when the free-tier quota is used up. Never costs money -- the
-    request simply fails and we retry on a later run."""
+    """Gemini reported a quota or rate-limit error."""
 
 
 def client() -> genai.Client:
@@ -27,193 +21,47 @@ def client() -> genai.Client:
     return _client
 
 
-def _generate(**kwargs):
-    """generate_content with retries: 429 -> QuotaExhausted; 5xx (e.g. 503
-    'model overloaded') -> wait and retry up to 3 times before giving up."""
-    last = None
-    for attempt in range(3):
-        try:
-            return client().models.generate_content(**kwargs)
-        except genai_errors.ClientError as e:
-            if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
-                raise QuotaExhausted(str(e)) from e
-            raise
-        except genai_errors.ServerError as e:
-            last = e
-            print(f"[gemini] server error (attempt {attempt + 1}/3), retrying: {e}")
-            time.sleep(20 * (attempt + 1))
-    raise last
-
-
-SUMMARY_PROMPT = """You are writing a briefing for a sophisticated reader who follows
-global political economy closely. Watch this video and produce a JSON object with
-exactly these fields.
-
-LANGUAGE RULE: First detect the video's primary spoken language. If it is Chinese
-(Mandarin or Cantonese), write ALL field values in Traditional Chinese (繁體中文).
-For any other language, write ALL field values in English. Never mix languages.
-
-- "tldr": one sentence (max 30 words / 40 Chinese characters) capturing the single most important takeaway.
-- "summary": 2-3 tight paragraphs (180-260 words in English, or 300-450 characters
-  in Chinese) covering the core argument, key evidence/data cited, and the speaker's
-  conclusion. Write like the Economist: dense, precise, no filler.
-- "highlights": 3-5 bullet strings, each one concrete claim, number, or quote-worthy
-  point from the video.
-- "key_concepts": 2-4 objects of {"term": ..., "explanation": ...} -- frameworks,
-  jargon, or mechanisms a reader should learn from this video. Explanation max 25 words.
-- "why_it_matters": one sentence connecting this to the bigger macro/geopolitical picture.
-
-Target total reading time: 1-2 minutes. Return ONLY the JSON object.
+SUMMARY_PROMPT = """Summarize this YouTube video for a busy reader.
+First detect the main spoken language.
+If it is Mandarin or Cantonese Chinese, write in Traditional Chinese.
+Otherwise write in English.
+Return ONLY a JSON object with one field: "summary".
+Write one concise but useful summary: about 180-280 Chinese characters
+or 100-150 English words. Cover the central claim, the most important
+reasoning or evidence, and the conclusion. Do not add a title, bullets,
+key concepts, recommendations, or extra fields. Do not invent details.
 """
 
 
 def summarize_video(url: str) -> dict:
-    resp = _generate(
-        model=config.GEMINI_MODEL,
-        contents=types.Content(parts=[
-            types.Part(file_data=types.FileData(file_uri=url)),
-            types.Part(text=SUMMARY_PROMPT),
-        ]),
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            temperature=0.3,
-        ),
-    )
+    """Make exactly one generation request; never retry automatically."""
+    try:
+        resp = client().models.generate_content(
+            model=config.GEMINI_MODEL,
+            contents=types.Content(parts=[
+                types.Part(file_data=types.FileData(file_uri=url)),
+                types.Part(text=SUMMARY_PROMPT),
+            ]),
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                temperature=0.2,
+                max_output_tokens=500,
+            ),
+        )
+    except genai_errors.ClientError as e:
+        if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
+            raise QuotaExhausted(str(e)) from e
+        raise
+    # Deliberately no retries: the next scheduled run can try again after a delay.
     return json.loads(resp.text)
 
 
-MERGE_PROMPT = """You maintain a knowledge tree for the YouTube channel "{channel}".
-The tree is a JSON object: {{"name": <topic>, "children": [<same shape>...]}}.
-Root name must stay "{channel}".
-
-Current tree:
-{tree}
-
-A new video was just summarized. Its key concepts and highlights:
-{concepts}
-
-Update the tree: place new concepts under the most fitting existing branch, create a
-new top-level branch only when genuinely new territory, merge duplicates, keep node
-names under 6 words (or 10 Chinese characters). Write node names in the same
-language as the incoming concepts. Keep the whole tree under {max_nodes} nodes -- if needed,
-consolidate leaf nodes into their parents. Return ONLY the updated JSON tree.
-"""
-
-
-def merge_into_tree(channel_title: str, tree: dict | None, summary: dict) -> dict:
-    if tree is None:
-        tree = {"name": channel_title, "children": []}
-    concepts = {
-        "video_tldr": summary.get("tldr", ""),
-        "key_concepts": summary.get("key_concepts", []),
-        "highlights": summary.get("highlights", []),
-    }
-    prompt = MERGE_PROMPT.format(
-        channel=channel_title,
-        tree=json.dumps(tree, ensure_ascii=False),
-        concepts=json.dumps(concepts, ensure_ascii=False),
-        max_nodes=config.MINDMAP_MAX_NODES,
-    )
-    try:
-        resp = _generate(
-            model=config.GEMINI_MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                temperature=0.2,
-            ),
-        )
-        new_tree = json.loads(resp.text)
-        if isinstance(new_tree, dict) and new_tree.get("name"):
-            return new_tree
-    except (json.JSONDecodeError, TypeError):
-        pass
-    return tree  # never lose the old tree on a bad response
-
-
-REBUILD_PROMPT = """You are building a knowledge tree for the YouTube channel "{channel}"
-from the briefings of ALL its videos, listed chronologically below.
-
-Tree shape: {{"name": <topic>, "children": [<same shape>...]}}. Root name must be
-"{channel}". Organize the channel's worldview into 4-7 top-level thematic branches,
-each with the key concepts and claims beneath it. Keep node names under 6 words
-(or 10 Chinese characters), written in the same language as the briefings. Keep the
-whole tree under {max_nodes} nodes. Return ONLY the JSON tree.
-
-Briefings:
-{concepts}
-"""
-
-
-def build_tree_from_scratch(channel_title: str, entries: list[dict]) -> dict | None:
-    concepts = [{
-        "date": e.get("published", "")[:10],
-        "tldr": e.get("data", {}).get("tldr", ""),
-        "key_concepts": e.get("data", {}).get("key_concepts", []),
-    } for e in entries]
-    prompt = REBUILD_PROMPT.format(
-        channel=channel_title,
-        concepts=json.dumps(concepts, ensure_ascii=False),
-        max_nodes=config.MINDMAP_MAX_NODES,
-    )
-    try:
-        resp = _generate(
-            model=config.GEMINI_MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                temperature=0.2,
-            ),
-        )
-        tree = json.loads(resp.text)
-        if isinstance(tree, dict) and tree.get("name"):
-            return tree
-    except (json.JSONDecodeError, TypeError):
-        pass
-    return None
-
-
-def summary_to_markdown(video: dict, channel_title: str, s: dict) -> str:
-    lines = [
-        f"# {video['title']}",
-        "",
-        f"**Channel:** {channel_title}  ",
-        f"**Published:** {video['published'][:10]}  ",
-        f"**Link:** {video['url']}",
-        "",
-        f"> **The Gist** — {s.get('tldr', '')}",
-        "",
-        "## Summary",
-        "",
-        s.get("summary", ""),
-        "",
-        "## Highlights",
-        "",
-    ]
-    lines += [f"- {h}" for h in s.get("highlights", [])]
-    lines += ["", "## Key Concepts", ""]
-    for kc in s.get("key_concepts", []):
-        lines.append(f"- **{kc.get('term', '')}** — {kc.get('explanation', '')}")
-    lines += ["", "## Why It Matters", "", s.get("why_it_matters", ""), ""]
-    return "\n".join(lines)
-
-
-def summary_to_telegram(video: dict, channel_title: str, s: dict) -> str:
-    parts = [
-        f"🎬 *{video['title']}*",
-        f"_{channel_title} · {video['published'][:10]}_",
-        "",
-        f"💡 *The Gist* — {s.get('tldr', '')}",
-        "",
-        s.get("summary", ""),
-        "",
-        "*Highlights*",
-    ]
-    parts += [f"• {h}" for h in s.get("highlights", [])]
-    kcs = s.get("key_concepts", [])
-    if kcs:
-        parts += ["", "*Key Concepts*"]
-        parts += [f"• *{k.get('term','')}* — {k.get('explanation','')}" for k in kcs]
-    parts += ["", f"🌍 {s.get('why_it_matters', '')}", "", video["url"]]
-    text = "\n".join(parts)
-    return text[:4000]  # Telegram hard limit is 4096
+def summary_to_telegram(video: dict, channel_title: str, summary: dict) -> str:
+    text = str(summary.get("summary", "")).strip()
+    if not text:
+        raise ValueError("Gemini returned an empty summary")
+    return (
+        f"🎬 *{video['title']}*\n"
+        f"_{channel_title} · {video['published'][:10]}_\n\n"
+        f"{text}\n\n{video['url']}"
+    )[:4000]
