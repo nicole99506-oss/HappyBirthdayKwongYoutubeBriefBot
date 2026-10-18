@@ -79,4 +79,4 @@ Historical backfills may enqueue many videos; they are processed slowly under th
 1. Keep the scheduled interval and daily cap conservative until several days of successful runs are observed.
 2. Do not add a second Gemini call for formatting or knowledge maps.
 3. Keep the summary prompt short and avoid processing the same video twice.
-4. Review the active `src/` code before deleting legacy root-level modules.
+4. Keep runtime changes under `src/`; the duplicate root-level Python modules have already been removed.
