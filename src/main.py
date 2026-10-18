@@ -5,7 +5,7 @@ no mind maps, summary archive, Google Drive sync, or reading site are generated.
 """
 import sys
 import traceback
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from . import commands, config
@@ -47,6 +47,17 @@ def process_queue(st: dict) -> None:
         print("[cap] daily summary cap reached; keeping the remaining queue")
         return
 
+    now = datetime.now(ZoneInfo("UTC"))
+    last_attempt = st.get("last_gemini_attempt_at")
+    if last_attempt:
+        try:
+            last_dt = datetime.fromisoformat(last_attempt)
+            if now - last_dt < timedelta(hours=config.MIN_HOURS_BETWEEN_GEMINI_REQUESTS):
+                print("[gemini] cooldown active; waiting before the next request")
+                return
+        except (TypeError, ValueError):
+            print("[gemini] could not parse last attempt timestamp; proceeding once")
+
     item = st["queue"][0]
     cid = item["channel_id"]
     ch = st["channels"].get(cid)
@@ -54,6 +65,9 @@ def process_queue(st: dict) -> None:
         st["queue"].pop(0)
         return
 
+    # Persist the attempt time before calling Gemini. Even failed non-429 requests
+    # will not be retried on the next hourly workflow run.
+    st["last_gemini_attempt_at"] = now.isoformat()
     try:
         data = summarizer.summarize_video(item["url"])
     except summarizer.QuotaExhausted as e:
