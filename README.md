@@ -47,7 +47,7 @@ Never commit API keys, Telegram tokens, service-account JSON, or a populated `.e
 ## Usage limits and failure handling
 
 - Scheduled workflow checks Telegram commands and YouTube RSS hourly.
-- Each run processes at most one video. Gemini requests are separated by a six-hour cooldown, including after failed non-quota requests.
+- Each run processes at most one video. Gemini requests are separated by a two-hour cooldown, including after failed non-quota requests.
 - No fixed daily summary cap is configured. Processing stops or pauses when Gemini returns a quota/rate-limit error.
 - The original detailed briefing prompt is preserved, including TL;DR, multi-paragraph summary, highlights, key concepts, and why-it-matters.
 - A quota/rate-limit response pauses further Gemini calls until the next Singapore day.
@@ -76,7 +76,7 @@ Historical backfills may enqueue many videos; they are processed gradually with 
 
 ## Maintenance principles
 
-1. Keep the scheduled interval and daily cap conservative until several days of successful runs are observed.
+1. Keep the two-hour request cooldown until several days of successful runs are observed.
 2. Do not add a second Gemini call for formatting or knowledge maps.
-3. Keep the summary prompt short and avoid processing the same video twice.
+3. Preserve the original detailed summary prompt and avoid processing the same video twice.
 4. Keep runtime changes under `src/`; the duplicate root-level Python modules have already been removed.
