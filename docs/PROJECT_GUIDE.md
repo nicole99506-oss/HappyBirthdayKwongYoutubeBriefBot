@@ -45,7 +45,7 @@ The active entry point is `python -m src.main`, launched by `.github/workflows/d
 - On other errors, keep the current video queued and do not retry immediately.
 - Only `data/state.json` is committed by the workflow.
 
-The two-hour cooldown and one-video-per-run setting reduce request frequency but cannot guarantee availability or prevent every quota error. A long video can still require substantial input processing even even though output length is not capped.
+The two-hour cooldown and one-video-per-run setting reduce request frequency but cannot guarantee availability or prevent every quota error. A long video can still require substantial input processing even though output length is not capped.
 
 ## Data retained
 
