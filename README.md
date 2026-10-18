@@ -40,14 +40,14 @@ In **Repository → Settings → Secrets and variables → Actions**, configure:
 | `GEMINI_API_KEY` | Gemini API key |
 | `YOUTUBE_API_KEY` | YouTube Data API key for channel lookup and historical backfill |
 
-Optional repository variable: `GEMINI_MODEL`. The default is `gemini-2.5-flash-lite`; if this model is not enabled for your API project, set this variable to a currently available model supported by your account.
+Optional repository variable: `GEMINI_MODEL`. The default is `gemini-2.5-flash-lite`; if this model is not enabled for your API project, set this variable to a currently available model supported by your account. Captions are fetched first where available; if unavailable, the bot falls back to Gemini's direct video input.
 
 Never commit API keys, Telegram tokens, service-account JSON, or a populated `.env` file.
 
 ## Usage limits and failure handling
 
 - Scheduled workflow checks Telegram commands and YouTube RSS hourly.
-- Each run processes at most one video. Gemini requests are separated by a two-hour cooldown, including after failed non-quota requests.
+- Each run processes at most one video. Gemini requests are separated by a two-hour cooldown, including after failed requests. There are no automatic in-run retries.
 - No fixed daily summary cap is configured. Processing stops or pauses when Gemini returns a quota/rate-limit error.
 - The original detailed briefing prompt is preserved, including TL;DR, multi-paragraph summary, highlights, key concepts, and why-it-matters.
 - A quota/rate-limit response pauses further Gemini calls until the next Singapore day.
