@@ -1,3 +1,12 @@
 __pycache__/
 *.pyc
 .env
+
+# Legacy generated outputs are no longer rebuilt by the bot.
+/data/summaries/
+/data/mindmaps/
+/docs/*.html
+/docs/mindmaps/
+/docs/packs/
+/index.html
+/guide.html
