@@ -3,7 +3,7 @@
 ## Current workflow
 
 ```text
-GitHub Actions (every 3 hours)
+GitHub Actions (hourly)
           |
           v
 Read Telegram commands + YouTube RSS
@@ -36,7 +36,7 @@ The active entry point is `python -m src.main`, launched by `.github/workflows/d
 
 ## Cost and rate-limit safeguards
 
-- Workflow polling: hourly; Gemini request cooldown: at least two hours, including after failed requests.
+- Workflow polling: hourly; Gemini request cooldown: at least two hours, including after failed requests; no automatic in-run retries.
 - Per-run cap: one video.
 - No fixed daily summary cap; quota/rate-limit errors pause further attempts until the next Singapore day.
 - Prompt/output: preserve the original detailed JSON briefing fields.
@@ -45,7 +45,7 @@ The active entry point is `python -m src.main`, launched by `.github/workflows/d
 - On other errors, keep the current video queued and do not retry immediately.
 - Only `data/state.json` is committed by the workflow.
 
-The two-hour cooldown and one-video-per-run setting reduce request frequency but cannot guarantee availability or prevent every quota error. A long video can still require substantial input processing even when the output is short.
+The two-hour cooldown and one-video-per-run setting reduce request frequency but cannot guarantee availability or prevent every quota error. A long video can still require substantial input processing even even though output length is not capped.
 
 ## Data retained
 
