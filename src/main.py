@@ -37,13 +37,13 @@ def _today() -> str:
 
 
 def process_queue(st: dict) -> None:
-    """Process no more than one video per run; pause for the rest of the day on 429."""
+    """Process one video per run and respect the configured request cooldown."""
     if st.get("gemini_pause_date") == _today():
         print("[gemini] paused for today after a quota/rate-limit response")
         return
     if not st["queue"]:
         return
-    if state_mod.daily_remaining(st) <= 0:
+    if config.FREE_MODE and state_mod.daily_remaining(st) <= 0:
         print("[cap] daily summary cap reached; keeping the remaining queue")
         return
 
