@@ -19,7 +19,7 @@ DEFAULT_STATE = {
     "awaiting_backfill": {},
     # FIFO queue of videos to summarize: {channel_id, video_id, title, published, url, backfill}
     "queue": [],
-    # daily counter for the free-mode cap
+    # daily summary counter (informational unless FREE_MODE is enabled)
     "daily": {"date": "", "count": 0},
     # set true once we've greeted the user
     "greeted": False,
