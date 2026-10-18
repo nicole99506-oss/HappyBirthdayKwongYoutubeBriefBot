@@ -1,3 +1,4 @@
 google-genai>=1.16.0
+youtube-transcript-api>=1.2.0
 requests>=2.32.0
 feedparser>=6.0.11
