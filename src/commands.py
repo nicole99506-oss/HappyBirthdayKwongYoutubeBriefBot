@@ -4,8 +4,8 @@ from . import config, state as state_mod, telegram_api as tg, youtube
 HELP = """*Happy Birthday Kwong* 🎂 — YouTube summary bot
 
 *Commands*
-/add <@handle or channel URL> — follow a channel
-/remove <@handle or number from /list> — unfollow
+/add @handle or channel URL — follow a channel
+/remove number or channel from /list — unfollow
 /list — channels being followed
 /status — queue and today's summary count
 /help — this message
