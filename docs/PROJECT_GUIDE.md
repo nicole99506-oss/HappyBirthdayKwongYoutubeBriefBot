@@ -29,23 +29,23 @@ The active entry point is `python -m src.main`, launched by `.github/workflows/d
 - `src/config.py`: environment variables, model selection, daily cap, timezone, and state path.
 - `src/commands.py`: channel-management Telegram commands.
 - `src/youtube.py`: RSS discovery and YouTube API channel lookup/backfill.
-- `src/summarizer.py`: one concise Gemini request per video; no automatic retries.
+- `src/summarizer.py`: caption-first Gemini briefing with the original full prompt; falls back to direct video input when captions are unavailable.
 - `src/telegram_api.py`: Telegram API calls.
 - `src/state.py`: tracked channels, seen video IDs, queue, and daily counters.
 - `.github/workflows/digest.yml`: schedule and deployment configuration.
 
 ## Cost and rate-limit safeguards
 
-- Workflow polling: hourly; Gemini request cooldown: at least six hours, including after failed requests.
+- Workflow polling: hourly; Gemini request cooldown: at least two hours, including after failed requests.
 - Per-run cap: one video.
-- Daily cap: four successful summaries per Singapore calendar day.
-- Prompt/output: one short JSON field, maximum 500 output tokens.
+- No fixed daily summary cap; quota/rate-limit errors pause further attempts until the next Singapore day.
+- Prompt/output: preserve the original detailed JSON briefing fields.
 - No second request for mind maps, formatting, archive generation, or a reading site.
 - On Gemini 429 / quota exhaustion, stop Gemini calls for the remainder of the Singapore day.
 - On other errors, keep the current video queued and do not retry immediately.
 - Only `data/state.json` is committed by the workflow.
 
-The caps are conservative controls, not a promise that every video will fit a provider's free-tier input/output limits. A long video can still require substantial input processing even when the output is short.
+The two-hour cooldown and one-video-per-run setting reduce request frequency but cannot guarantee availability or prevent every quota error. A long video can still require substantial input processing even when the output is short.
 
 ## Data retained
 
