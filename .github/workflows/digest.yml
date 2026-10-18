@@ -2,7 +2,7 @@ name: Digest run
 
 on:
   # Poll hourly for Telegram commands and new uploads. Python enforces a
-  # two-hour Gemini request cooldown; no fixed daily summary cap.
+  # one-hour Gemini request cooldown; no fixed daily summary cap.
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:
