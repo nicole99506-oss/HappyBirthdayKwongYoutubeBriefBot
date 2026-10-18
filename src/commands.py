@@ -1,20 +1,18 @@
 """Process incoming Telegram commands and inline-button callbacks."""
 from . import config, state as state_mod, telegram_api as tg, youtube
 
-HELP = """*Happy Birthday Kwong* 🎂 — your global political economy digest
+HELP = """*Happy Birthday Kwong* 🎂 — YouTube summary bot
 
 *Commands*
-/add `<@handle or channel URL>` — follow a channel
-/remove `<@handle or number from /list>` — unfollow
+/add <@handle or channel URL> — follow a channel
+/remove <@handle or number from /list> — unfollow
 /list — channels being followed
-/status — queue, quota and today's count
-/syncdrive — re-upload every past briefing to Google Drive
-/rebuildmap — rebuild every channel's knowledge map from all briefings
+/status — queue and today's summary count
 /help — this message
 
-When you add a channel I will ask how much history to backfill. New uploads are
-summarized automatically (checks run hourly) and delivered here, with an updated
-mind map of the channel's ideas."""
+New uploads are checked every three hours. To conserve Gemini's free quota,
+the bot processes at most one video per run and four summaries per Singapore day.
+Each video receives one concise summary; mind maps, archives, and Drive sync are disabled."""
 
 
 def allowed(chat_id) -> bool:
@@ -42,7 +40,7 @@ WELCOME = """🎂 Welcome, {name}!
 This is your private global political economy wire, built for you by Nicole.
 Every new video from your channels lands here as a two-minute briefing —
 The Gist, the argument, the numbers, the concepts worth keeping — followed by
-an evolving knowledge map of the channel's worldview.
+a concise summary of each new video.
 
 Scroll up to see everything it has already digested for you.
 Type /help to take the wheel, or just sit back: the briefings come to you."""
@@ -105,7 +103,7 @@ def _handle_message(st: dict, msg: dict) -> None:
         title = st["channels"][target]["title"]
         del st["channels"][target]
         st["queue"] = [q for q in st["queue"] if q["channel_id"] != target]
-        tg.send_message(chat_id, f"Removed *{title}*. Its archive stays in Drive/GitHub.")
+        tg.send_message(chat_id, f"Removed *{title}*. New uploads from this channel will no longer be processed.")
 
     elif cmd == "/list":
         if not st["channels"]:
@@ -116,18 +114,6 @@ def _handle_message(st: dict, msg: dict) -> None:
                                              key=lambda kv: kv[1]["title"].lower()), 1):
             lines.append(f"{i}. {ch['title']}  ({len(ch.get('seen', []))} videos digested)")
         tg.send_message(chat_id, "\n".join(lines))
-
-    elif cmd == "/syncdrive":
-        st["drive_full_sync"] = True
-        tg.send_message(chat_id,
-                        "🔄 Scheduled: every past briefing will be re-uploaded to "
-                        "Google Drive during this run. Large libraries take a few minutes.")
-
-    elif cmd == "/rebuildmap":
-        st["rebuild_maps"] = True
-        tg.send_message(chat_id,
-                        "🧠 Scheduled: knowledge maps will be rebuilt from all stored "
-                        "briefings during this run.")
 
     elif cmd == "/status":
         remaining = state_mod.daily_remaining(st)
