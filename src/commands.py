@@ -10,9 +10,10 @@ HELP = """*Happy Birthday Kwong* 🎂 — YouTube summary bot
 /status — queue and today's summary count
 /help — this message
 
-New uploads are checked hourly, but Gemini requests are spaced at least six hours apart. To conserve Gemini's free quota,
-the bot processes at most one video per run and four summaries per Singapore day.
-Each video receives one concise summary; mind maps, archives, and Drive sync are disabled."""
+New uploads and Telegram commands are checked hourly. Gemini requests are spaced
+at least two hours apart. There is no fixed daily summary cap, but Gemini's own
+free-tier quotas still apply. The bot preserves the original detailed briefing format.
+Mind maps, archives, and Drive sync are disabled."""
 
 
 def allowed(chat_id) -> bool:
@@ -119,7 +120,7 @@ def _handle_message(st: dict, msg: dict) -> None:
         lines = [
             f"Queue: {len(st['queue'])} video(s) waiting",
             f"Digested today: {st['daily'].get('count', 0)}",
-            f"Free-tier budget left today: {remaining if config.FREE_MODE else 'unlimited (paid mode)'}",
+            f"Fixed daily cap: {remaining if config.FREE_MODE else 'none (Gemini quota still applies)' }",
         ]
         tg.send_message(chat_id, "\n".join(lines), markdown=False)
 
@@ -190,8 +191,7 @@ def _handle_callback(st: dict, cb: dict) -> None:
     if config.FREE_MODE and len(videos) > config.DAILY_VIDEO_CAP:
         est_days = -(-len(videos) // config.DAILY_VIDEO_CAP)  # ceil
         note = (f"\n\n⏳ Free mode processes up to {config.DAILY_VIDEO_CAP} videos/day, "
-                f"so the full backfill will take ≈{est_days} days. This keeps everything "
-                "at $0 — no charges, ever, unless you attach billing yourself.")
+                f"so the full backfill will take ≈{est_days} days. ")
     tg.send_message(chat_id,
                     f"✅ Following *{pending['title']}* — {label}: "
                     f"{len(videos)} video(s) queued for digestion.{note}")
