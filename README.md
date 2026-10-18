@@ -2,7 +2,7 @@
 
 A small Telegram bot that follows YouTube channels, summarizes new videos with Gemini, and sends the summaries to Telegram.
 
-The current workflow is intentionally conservative: **one video per run, no more than four summaries per Singapore calendar day, hourly command checks, and at least six hours between Gemini attempts**. Gemini quota and rate limits vary by account and model, so these safeguards reduce risk but cannot guarantee that a provider will never return a limit error.
+The current workflow is intentionally conservative: **one video per run, hourly command checks, and at least two hours between Gemini attempts; there is no fixed daily summary cap**. Gemini quota and rate limits vary by account and model, so these safeguards reduce risk but cannot guarantee that a provider will never return a limit error.
 
 ## What it does
 
@@ -20,7 +20,7 @@ It no longer generates mind maps, saves per-video summary archives, syncs Google
 - `src/main.py` — orchestration and queue processing.
 - `src/config.py` — secrets, model, daily cap, timezone, and data paths.
 - `src/commands.py` — Telegram commands and channel management.
-- `src/summarizer.py` — one short Gemini request and Telegram formatting.
+- `src/summarizer.py` — original full briefing prompt, caption-first input, and Telegram formatting.
 - `src/telegram_api.py` — Telegram Bot API helper.
 - `src/youtube.py` — RSS polling and YouTube channel/backfill lookup.
 - `src/state.py` — persistent state only.
@@ -48,8 +48,8 @@ Never commit API keys, Telegram tokens, service-account JSON, or a populated `.e
 
 - Scheduled workflow checks Telegram commands and YouTube RSS hourly.
 - Each run processes at most one video. Gemini requests are separated by a six-hour cooldown, including after failed non-quota requests.
-- The workflow forces free mode and sets a maximum of four successful summaries per Singapore day.
-- The prompt and output are deliberately short.
+- No fixed daily summary cap is configured. Processing stops or pauses when Gemini returns a quota/rate-limit error.
+- The original detailed briefing prompt is preserved, including TL;DR, multi-paragraph summary, highlights, key concepts, and why-it-matters.
 - A quota/rate-limit response pauses further Gemini calls until the next Singapore day.
 - Other generation errors are not retried in a tight loop; the queued video remains for a later run.
 - A failed Telegram delivery leaves the video queued instead of marking it as successfully delivered.
@@ -64,13 +64,13 @@ These controls reduce requests and retry storms. They cannot override Google's a
 - `/status` — inspect queue and daily summary count.
 - `/help` — show help.
 
-Historical backfills may enqueue many videos; they are processed slowly under the same daily cap.
+Historical backfills may enqueue many videos; they are processed gradually with a two-hour minimum between Gemini attempts.
 
 ## Troubleshooting
 
 1. Open **GitHub → Actions → Digest run** and inspect the latest run logs.
 2. Confirm the required secrets are configured correctly.
-3. For Gemini 429 / `RESOURCE_EXHAUSTED`, wait until the next Singapore day and check the active quota in Google AI Studio.
+3. For Gemini 429 / `RESOURCE_EXHAUSTED`, wait for the quota window to reset and check the active quota in Google AI Studio.
 4. For model-not-found errors, verify `GEMINI_MODEL` is available to the API project.
 5. If a workflow run fails, inspect the first error in the logs; do not repeatedly click rerun after a quota error.
 
