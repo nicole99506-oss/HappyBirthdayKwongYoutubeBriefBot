@@ -40,8 +40,8 @@ WELCOME = """🎂 Welcome, {name}!
 
 This is your YouTube summary bot, built for you by Nicole.
 New videos from your tracked channels are checked automatically.
-To conserve Gemini's free quota, the bot sends concise summaries only,
-with conservative daily limits.
+The bot sends detailed video briefings with key points and concepts.
+Mind maps and archive generation are disabled.
 
 Type /help to see commands."""
 
