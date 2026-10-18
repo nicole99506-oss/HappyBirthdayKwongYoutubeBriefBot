@@ -1,7 +1,6 @@
 """Gemini-powered summarization, preferring available YouTube captions."""
 import json
 import re
-import time
 
 from google import genai
 from google.genai import types
@@ -56,21 +55,13 @@ SUMMARY_PROMPT = "You are writing a briefing for a sophisticated reader who foll
 
 
 def _generate(**kwargs):
-    """Retry transient server overloads only; quota errors are never retried."""
-    last = None
-    for attempt in range(3):
-        try:
-            return client().models.generate_content(**kwargs)
-        except genai_errors.ClientError as e:
-            if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
-                raise QuotaExhausted(str(e)) from e
-            raise
-        except genai_errors.ServerError as e:
-            last = e
-            print(f"[gemini] server error (attempt {attempt + 1}/3): {e}")
-            if attempt < 2:
-                time.sleep(20 * (attempt + 1))
-    raise last
+    """Make one Gemini request only; never retry inside a short time window."""
+    try:
+        return client().models.generate_content(**kwargs)
+    except genai_errors.ClientError as e:
+        if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
+            raise QuotaExhausted(str(e)) from e
+        raise
 
 
 def summarize_video(url: str) -> dict:
@@ -94,10 +85,6 @@ def summarize_video(url: str) -> dict:
                 temperature=0.3,
             ),
         )
-    except genai_errors.ClientError as e:
-        if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
-            raise QuotaExhausted(str(e)) from e
-        raise
     return json.loads(resp.text)
 
 
