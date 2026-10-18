@@ -10,7 +10,7 @@ HELP = """*Happy Birthday Kwong* 🎂 — YouTube summary bot
 /status — queue and today's summary count
 /help — this message
 
-New uploads are checked every three hours. To conserve Gemini's free quota,
+New uploads are checked hourly, but Gemini requests are spaced at least six hours apart. To conserve Gemini's free quota,
 the bot processes at most one video per run and four summaries per Singapore day.
 Each video receives one concise summary; mind maps, archives, and Drive sync are disabled."""
 
