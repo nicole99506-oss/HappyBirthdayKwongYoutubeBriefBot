@@ -53,7 +53,7 @@ Only `data/state.json` is actively updated. It is required to remember tracked c
 
 ## Safe future cleanup
 
-The repository contains legacy root-level Python files alongside the active `src/` package. The workflow imports `src.main`, so root-level copies are not used by the current scheduled entry point. Before deleting them, search for references and confirm no other workflow or manual command relies on them.
+The duplicate root-level Python modules and the disabled `src/site.py`, `src/mindmap.py`, and `src/drive_sync.py` modules have been removed. Previously generated HTML and archive files may remain in the repository, but the active workflow does not rebuild them.
 
 ## Troubleshooting
 
