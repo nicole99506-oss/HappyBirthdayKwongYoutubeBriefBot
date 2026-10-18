@@ -1,124 +1,64 @@
-# Project Structure and Maintenance Guide
+# Project Guide — Summary-only Telegram Bot
 
-This document is a practical map of the repository for future maintenance.
-
-## 1. Current architecture
+## Current workflow
 
 ```text
-YouTube channel RSS
-       |
-       v
-Discover new uploads -----> persistent queue/state
-       |                         |
-       +-------------------------+
-                                 v
-                         Gemini summarization
-                                 |
-                 +---------------+----------------+
-                 v               v                v
-             Telegram        Summary JSON      Knowledge tree
-                                                   |
-                                                   v
-                                              Mind-map image
-
-Saved summaries -----------------------> Static reading site
-Saved summaries -----------------------> Optional Google Drive sync
+GitHub Actions (every 3 hours)
+          |
+          v
+Read Telegram commands + YouTube RSS
+          |
+          v
+Persistent channel list and video queue
+          |
+          v
+At most one Gemini request for one video
+          |
+          v
+Send concise summary to Telegram
+          |
+          v
+Save bot state only
 ```
 
-This describes the intended flow visible in the code. Actual execution order is controlled by the GitHub Actions workflow and the active Python package.
+The active entry point is `python -m src.main`, launched by `.github/workflows/digest.yml`.
 
-## 2. Important modules
+## Modules
 
-- **`main.py`** — coordinates one run: Telegram command handling, RSS polling, queue processing, summary delivery, mind-map updates, Drive sync, and site generation.
-- **`config.py`** — central settings and environment-variable names. Check this before changing secrets, model names, paths, timezone, or free-tier caps.
-- **`commands.py`** — Telegram command handlers, including channel management and backfill actions.
-- **`youtube.py`** — reads YouTube RSS and uses the YouTube Data API for channel lookup or historical backfill.
-- **`summarizer.py`** — calls Gemini and formats structured summaries for Telegram and the reading site.
-- **`telegram_api.py`** — wraps Telegram API requests.
-- **`state.py`** — reads/writes the bot's persistent state, including tracked channels, seen IDs, queue, and daily counters.
-- **`mindmap.py`** — maintains the knowledge tree and renders a PNG.
-- **`site.py`** — generates the static reading site from stored summaries.
-- **`drive_sync.py`** — optional Google Drive synchronization.
+- `src/main.py`: workflow orchestration, queueing, conservative quota handling, and Telegram delivery.
+- `src/config.py`: environment variables, model selection, daily cap, timezone, and state path.
+- `src/commands.py`: channel-management Telegram commands.
+- `src/youtube.py`: RSS discovery and YouTube API channel lookup/backfill.
+- `src/summarizer.py`: one concise Gemini request per video; no automatic retries.
+- `src/telegram_api.py`: Telegram API calls.
+- `src/state.py`: tracked channels, seen video IDs, queue, and daily counters.
+- `.github/workflows/digest.yml`: schedule and deployment configuration.
 
-The repository currently has similarly named files at the root and under `src/`. The module descriptions apply to the corresponding files, but their implementations may differ.
+## Cost and rate-limit safeguards
 
-## 3. Highest-priority cleanup item: duplicated modules
+- Schedule spacing: three hours between scheduled runs.
+- Per-run cap: one video.
+- Daily cap: four successful summaries per Singapore calendar day.
+- Prompt/output: one short JSON field, maximum 500 output tokens.
+- No second request for mind maps, formatting, archive generation, or a reading site.
+- On Gemini 429 / quota exhaustion, stop Gemini calls for the remainder of the Singapore day.
+- On other errors, keep the current video queued and do not retry immediately.
+- Only `data/state.json` is committed by the workflow.
 
-Do **not** delete duplicates yet. Before cleanup:
+The caps are conservative controls, not a promise that every video will fit a provider's free-tier input/output limits. A long video can still require substantial input processing even when the output is short.
 
-1. Inspect `.github/workflows/*.yml` and record the exact command used to launch Python.
-2. Check imports and package layout. The relative imports (for example, `from . import config`) indicate that modules are intended to run as part of a package.
-3. Compare each root-level module with its `src/` counterpart, especially `main.py`, `config.py`, `summarizer.py`, and `state.py`.
-4. Identify which version contains the latest fixes.
-5. Keep one canonical implementation only after the workflow is confirmed and a test run succeeds.
+## Data retained
 
-Until then, this documentation intentionally records both locations rather than making a risky structural change.
+Only `data/state.json` is actively updated. It is required to remember tracked channels, video IDs already delivered, queued items, Telegram update offset, and daily counters. Existing summary archives, mind maps, and generated site files may remain in the repository as historical files but are no longer regenerated or synced.
 
-## 4. Configuration and secrets
+## Safe future cleanup
 
-The code reads credentials from environment variables. Configure them in GitHub repository settings, not in source files.
+The repository contains legacy root-level Python files alongside the active `src/` package. The workflow imports `src.main`, so root-level copies are not used by the current scheduled entry point. Before deleting them, search for references and confirm no other workflow or manual command relies on them.
 
-Required by the current startup checks:
+## Troubleshooting
 
-- `TELEGRAM_BOT_TOKEN`
-- `TELEGRAM_CHAT_ID`
-- `GEMINI_API_KEY`
-- `YOUTUBE_API_KEY`
-
-Optional Google Drive configuration:
-
-- `GDRIVE_SERVICE_ACCOUNT_JSON`
-- `GDRIVE_FOLDER_ID`
-
-Optional settings also include `GEMINI_MODEL` and `ALLOWED_CHAT_IDS`. Refer to the active `config.py` for exact defaults and the complete list.
-
-## 5. Persistent data and quota behaviour
-
-- State tracks channel metadata, seen video IDs, the pending queue, Telegram update offset, and daily processing counts.
-- Summary JSON files contain source video metadata and generated briefing content.
-- The processing loop limits work per run and defers work when the daily cap is reached.
-- Gemini quota exhaustion is handled separately from ordinary errors in the orchestration code.
-
-Before changing failure handling, verify whether a failed item is requeued, discarded, or marked as seen. That decision affects whether videos are retried or silently skipped.
-
-## 6. Operational troubleshooting
-
-When a scheduled run fails:
-
-1. Open **GitHub → Actions → the failed run → logs**.
-2. Find the first error, not only the final traceback.
-3. Identify the stage: RSS fetch, summarization, Telegram send, mind-map rendering, Drive sync, or site generation.
-4. Confirm the active entry point and config file.
-5. Make one change at a time and run the workflow again.
-6. Verify the Telegram message and generated artifacts, not just a green workflow status.
-
-## 7. Suggested future repository organization
-
-After confirming the active entry point, a clean target structure could look like this:
-
-```text
-.
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── .github/
-│   └── workflows/
-├── src/
-│   └── <canonical Python package modules>
-├── data/
-│   ├── summaries/
-│   └── state/
-├── site/                 # generated output, if applicable
-└── docs/
-    ├── PROJECT_GUIDE.md
-    └── OPERATIONS.md
-```
-
-This is a **future target**, not a description of the exact current tree. Do not move files or create empty data folders solely to match this sketch; first confirm paths used by the running workflow.
-
-## 8. What this documentation does not claim
-
-- It does not confirm that all integrations work end to end.
-- It does not verify current provider quota or billing status.
-- It does not prove which duplicate module set is used in production.
-- It does not recommend deleting any existing file before the workflow and import paths are checked.
+1. Open GitHub Actions and inspect the first error in the run log.
+2. Check that `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GEMINI_API_KEY`, and `YOUTUBE_API_KEY` exist.
+3. For quota/rate-limit errors, do not manually rerun repeatedly. The bot pauses Gemini calls until the next Singapore day.
+4. For model errors, confirm `GEMINI_MODEL` is available to the API project.
+5. Check `data/state.json` for the queue and daily count; do not delete it to "reset" the bot unless you intend to lose its tracking state.
