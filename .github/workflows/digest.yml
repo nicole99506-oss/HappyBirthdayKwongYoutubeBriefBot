@@ -1,10 +1,10 @@
 name: Digest run
 
 on:
-  # Spread requests six hours apart to avoid short-window rate limits.
-  # The Python daily cap limits actual summaries to four per Singapore day.
+  # Poll hourly for Telegram commands and new uploads. Python enforces a
+  # six-hour Gemini request cooldown and a four-summary Singapore-day cap.
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "23 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -39,6 +39,7 @@ jobs:
           FREE_MODE: "true"
           MAX_VIDEOS_PER_RUN: "1"
           DAILY_VIDEO_CAP: "4"
+          MIN_HOURS_BETWEEN_GEMINI_REQUESTS: "6"
         run: python -m src.main
 
       - name: Commit bot state only
