@@ -76,15 +76,14 @@ def summarize_video(url: str) -> dict:
             types.Part(text=SUMMARY_PROMPT),
         ])
         print(f"[captions] using Gemini direct-video fallback for {_video_id(url)}")
-    try:
-        resp = _generate(
-            model=config.GEMINI_MODEL,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                temperature=0.3,
-            ),
-        )
+    resp = _generate(
+        model=config.GEMINI_MODEL,
+        contents=contents,
+        config=types.GenerateContentConfig(
+            response_mime_type="application/json",
+            temperature=0.3,
+        ),
+    )
     return json.loads(resp.text)
 
 
