@@ -1,8 +1,10 @@
 name: Digest run
 
 on:
+  # Spread requests out to avoid short-window rate limits.
+  # The Python daily cap limits actual summaries to four per Singapore day.
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -15,7 +17,7 @@ permissions:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -23,9 +25,6 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-
-      - name: Install graphviz
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq graphviz
 
       - name: Install Python deps
         run: pip install -r requirements.txt
@@ -36,16 +35,16 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
-          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          FREE_MODE: ${{ vars.FREE_MODE }}
+          FREE_MODE: "true"
+          MAX_VIDEOS_PER_RUN: "1"
+          DAILY_VIDEO_CAP: "4"
         run: python -m src.main
 
-      - name: Commit state back
+      - name: Commit bot state only
         run: |
           git config user.name "digest-bot"
           git config user.email "digest-bot@users.noreply.github.com"
-          git add data docs
-          git diff --cached --quiet || git commit -m "digest: $(date -u +'%Y-%m-%d %H:%M')"
+          git add data/state.json
+          git diff --cached --quiet || git commit -m "digest: update bot state"
           git push
