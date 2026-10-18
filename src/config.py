@@ -16,7 +16,7 @@ ALLOWED_CHAT_IDS = [
 
 # Use a lightweight model by default. Override via GitHub Actions variable
 # GEMINI_MODEL only if this model is unavailable for your account.
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "").strip() or "gemini-2.5-flash-lite"
 
 # Conservative free-usage guardrails: one video per run and four per local day.
 FREE_MODE = os.environ.get("FREE_MODE", "true").lower() != "false"
