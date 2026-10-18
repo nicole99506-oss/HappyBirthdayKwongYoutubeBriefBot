@@ -1,10 +1,10 @@
 name: Digest run
 
 on:
-  # Spread requests out to avoid short-window rate limits.
+  # Spread requests six hours apart to avoid short-window rate limits.
   # The Python daily cap limits actual summaries to four per Singapore day.
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 concurrency:
