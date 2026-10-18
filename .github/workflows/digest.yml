@@ -2,7 +2,7 @@ name: Digest run
 
 on:
   # Poll hourly for Telegram commands and new uploads. Python enforces a
-  # six-hour Gemini request cooldown and a four-summary Singapore-day cap.
+  # two-hour Gemini request cooldown; no fixed daily summary cap.
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:
@@ -36,10 +36,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          FREE_MODE: "true"
+          FREE_MODE: "false"
           MAX_VIDEOS_PER_RUN: "1"
-          DAILY_VIDEO_CAP: "4"
-          MIN_HOURS_BETWEEN_GEMINI_REQUESTS: "6"
+          DAILY_VIDEO_CAP: "0"
+          MIN_HOURS_BETWEEN_GEMINI_REQUESTS: "2"
         run: python -m src.main
 
       - name: Commit bot state only
