@@ -2,7 +2,7 @@
 
 A small Telegram bot that follows YouTube channels, summarizes new videos with Gemini, and sends the summaries to Telegram.
 
-The current workflow is intentionally conservative: **one video per run, no more than four summaries per Singapore calendar day, and scheduled runs spaced six hours apart**. Gemini quota and rate limits vary by account and model, so these safeguards reduce risk but cannot guarantee that a provider will never return a limit error.
+The current workflow is intentionally conservative: **one video per run, no more than four summaries per Singapore calendar day, hourly command checks, and at least six hours between Gemini attempts**. Gemini quota and rate limits vary by account and model, so these safeguards reduce risk but cannot guarantee that a provider will never return a limit error.
 
 ## What it does
 
@@ -46,8 +46,8 @@ Never commit API keys, Telegram tokens, service-account JSON, or a populated `.e
 
 ## Usage limits and failure handling
 
-- Scheduled workflow runs every six hours.
-- Each run processes at most one video.
+- Scheduled workflow checks Telegram commands and YouTube RSS hourly.
+- Each run processes at most one video. Gemini requests are separated by a six-hour cooldown, including after failed non-quota requests.
 - The workflow forces free mode and sets a maximum of four successful summaries per Singapore day.
 - The prompt and output are deliberately short.
 - A quota/rate-limit response pauses further Gemini calls until the next Singapore day.
