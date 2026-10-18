@@ -27,7 +27,7 @@ It no longer generates mind maps, saves per-video summary archives, syncs Google
 - `requirements.txt` — minimal Python dependencies.
 - `data/state.json` — persistent bot state committed by the workflow.
 
-Some legacy Python modules and previously generated files may remain in the repository for now. The active workflow runs `python -m src.main`; legacy modules are not part of the active execution path. They can be removed after a separate review confirms they are not referenced elsewhere.
+The active runtime code lives under `src/`. Duplicate root-level Python modules and the disabled mind-map, Drive-sync, and reading-site modules have been removed. Previously generated website/archive files may remain as historical artifacts, but the bot no longer rebuilds or syncs them.
 
 ## Setup
 
