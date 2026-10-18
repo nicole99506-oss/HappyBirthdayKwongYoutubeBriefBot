@@ -22,6 +22,7 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "").strip() or "gemini-2.5-flash-l
 FREE_MODE = os.environ.get("FREE_MODE", "true").lower() != "false"
 MAX_VIDEOS_PER_RUN = int(os.environ.get("MAX_VIDEOS_PER_RUN", "1"))
 DAILY_VIDEO_CAP = int(os.environ.get("DAILY_VIDEO_CAP", "4"))
+MIN_HOURS_BETWEEN_GEMINI_REQUESTS = int(os.environ.get("MIN_HOURS_BETWEEN_GEMINI_REQUESTS", "6"))
 
 DATA_DIR = "data"
 STATE_PATH = os.path.join(DATA_DIR, "state.json")
