@@ -1,0 +1,68 @@
+name: Restore tracked channels to Cloudflare D1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  restore-channels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Import existing channel list into D1
+        env:
+          BOT_WORKER_URL: ${{ secrets.BOT_WORKER_URL }}
+          BOT_INTERNAL_TOKEN: ${{ secrets.BOT_INTERNAL_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          set +x
+          if [[ -z "${BOT_WORKER_URL:-}" || -z "${BOT_INTERNAL_TOKEN:-}" ]]; then
+            echo "Required GitHub Actions secrets BOT_WORKER_URL or BOT_INTERNAL_TOKEN are missing."
+            exit 1
+          fi
+          python - <<'PY'
+          import json, os, urllib.request, urllib.error
+
+          with open("data/state.json", "r", encoding="utf-8") as f:
+              state = json.load(f)
+          channels = [
+              {
+                  "channel_id": cid,
+                  "title": ch.get("title", cid),
+                  "thumb": ch.get("thumb", ""),
+                  "backfill": "none",
+              }
+              for cid, ch in state.get("channels", {}).items()
+          ]
+          if not channels:
+              raise SystemExit("No existing channels found in data/state.json; nothing imported.")
+
+          url = os.environ["BOT_WORKER_URL"].rstrip("/") + "/internal/bootstrap"
+          body = json.dumps({"channels": channels}).encode("utf-8")
+          req = urllib.request.Request(
+              url, data=body, method="POST",
+              headers={
+                  "Authorization": "Bearer " + os.environ["BOT_INTERNAL_TOKEN"],
+                  "Content-Type": "application/json",
+              },
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=20) as response:
+                  result = json.loads(response.read().decode("utf-8"))
+          except urllib.error.HTTPError as e:
+              raise SystemExit(f"Cloudflare Worker bootstrap failed with HTTP {e.code}. Check Worker secrets and logs.")
+          if not result.get("ok"):
+              raise SystemExit("Cloudflare Worker did not confirm the import.")
+          print("Cloudflare D1 channel restore request completed.")
+          print("Channels in repository state:", len(channels))
+          print("Channels imported by Worker:", result.get("imported", 0))
+          print("Already bootstrapped:", result.get("already_bootstrapped", False))
+          if result.get("already_bootstrapped") and result.get("imported", 0) == 0:
+              raise SystemExit("D1 says bootstrap already happened; no changes were made.")
+          PY
