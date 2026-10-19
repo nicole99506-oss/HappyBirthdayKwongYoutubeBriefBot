@@ -93,7 +93,7 @@ Send these messages to your bot:
 
 1. `add <YouTube channel name or URL>`
 2. Confirm that the bot resolves the channel and asks: `Please confirm add "..."` 
-3. Reply `confirm`; then select the historical-video range.
+3. Reply `confirm`; the channel is added immediately. Only videos published after that confirmation time will be sent; older videos are not backfilled.
 4. Send `list`; each tracked channel should have a remove button.
 5. Send `status`; after the next successful GitHub run, it should show queue and digest status.
 6. Try `cancel` after starting another add request to cancel it.
