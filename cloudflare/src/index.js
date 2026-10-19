@@ -28,7 +28,7 @@ export default {
       }
       if (request.method === "GET" && url.pathname === "/internal/channels") {
         const result = await env.DB.prepare(
-          "SELECT channel_id, title, thumb, backfill, initialized FROM channels ORDER BY title COLLATE NOCASE"
+          "SELECT channel_id, title, thumb, backfill, initialized, added_at FROM channels ORDER BY title COLLATE NOCASE"
         ).all();
         return json({ channels: result.results || [] });
       }
@@ -77,14 +77,6 @@ export default {
     return json({ ok: true });
   }
 };
-
-const BACKFILL = [
-  ["全部歷史影片", "all"],
-  ["最近 30 天", "30d"],
-  ["最近 6 個月", "180d"],
-  ["最近 12 個月", "365d"],
-  ["只追蹤新影片", "none"]
-];
 
 async function handleMessage(msg, env) {
   const chatId = String(msg.chat?.id ?? "");
@@ -137,11 +129,13 @@ async function handleMessage(msg, env) {
       await sendMessage(env, chatId, "沒有待確認的新增頻道。請先傳送 add 加上頻道名稱或連結。");
       return;
     }
-    await sendMessage(env, chatId, `確認新增「${pending.title}」後，要處理多少歷史影片？`, {
-      inline_keyboard: BACKFILL.map(([label, code]) => [{
-        text: label, callback_data: `bf|${pending.channel_id}|${code}`
-      }])
-    });
+    await env.DB.prepare(
+      "INSERT INTO channels (channel_id, title, thumb, backfill, initialized) VALUES (?, ?, ?, 'none', 0) " +
+      "ON CONFLICT(channel_id) DO NOTHING"
+    ).bind(pending.channel_id, pending.title, pending.thumb || "").run();
+    await env.DB.prepare("DELETE FROM pending_adds WHERE chat_id = ?").bind(chatId).run();
+    await sendMessage(env, chatId,
+      `✅ 已新增「${pending.title}」。從現在起只會推送加入後發布的新影片，不會補送歷史影片。`);
     return;
   }
 
@@ -192,28 +186,6 @@ async function handleCallback(cb, env) {
     await env.DB.prepare("DELETE FROM channels WHERE channel_id = ?").bind(parts[1]).run();
     await answerCallback(env, cb.id, row ? "已移除" : "頻道已不存在");
     if (row) await sendMessage(env, chatId, `已移除「${row.title}」。下次 GitHub 摘要執行時會同步更新。`);
-    return;
-  }
-  if (parts[0] === "bf" && parts.length === 3) {
-    const pending = await env.DB.prepare(
-      "SELECT channel_id, title, thumb FROM pending_adds WHERE chat_id = ? AND channel_id = ?"
-    ).bind(chatId, parts[1]).first();
-    if (!pending) {
-      await answerCallback(env, cb.id, "新增確認已過期，請重新傳送 add。");
-      return;
-    }
-    const valid = BACKFILL.find(([, code]) => code === parts[2]);
-    if (!valid) {
-      await answerCallback(env, cb.id, "無效選項");
-      return;
-    }
-    await env.DB.prepare(
-      "INSERT INTO channels (channel_id, title, thumb, backfill, initialized) VALUES (?, ?, ?, ?, 0) " +
-      "ON CONFLICT(channel_id) DO NOTHING"
-    ).bind(pending.channel_id, pending.title, pending.thumb || "", parts[2]).run();
-    await env.DB.prepare("DELETE FROM pending_adds WHERE chat_id = ?").bind(chatId).run();
-    await answerCallback(env, cb.id, "已確認");
-    await sendMessage(env, chatId, `✅ 已新增「${pending.title}」。${parts[2] === "none" ? "只處理之後的新影片。" : "歷史影片會由 GitHub 摘要工作逐步處理。"}`);
     return;
   }
   await answerCallback(env, cb.id);
