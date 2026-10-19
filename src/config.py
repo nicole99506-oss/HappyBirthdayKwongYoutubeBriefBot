@@ -7,6 +7,8 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
+BOT_WORKER_URL = os.environ.get("BOT_WORKER_URL", "").strip()
+BOT_INTERNAL_TOKEN = os.environ.get("BOT_INTERNAL_TOKEN", "")
 
 ALLOWED_CHAT_IDS = [
     c.strip() for c in os.environ.get(
