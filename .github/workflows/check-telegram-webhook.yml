@@ -1,0 +1,41 @@
+name: Check Telegram Webhook
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read webhook status safely
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        shell: bash
+        run: |
+          set +x
+          if [ -z "${BOT_TOKEN}" ]; then
+            echo "Missing GitHub Actions secret: TELEGRAM_BOT_TOKEN"
+            exit 1
+          fi
+
+          response="$(curl --silent --show-error --get "https://api.telegram.org/bot${BOT_TOKEN}/getWebhookInfo")"
+          ok="$(printf '%s' "$response" | jq -r '.ok // false')"
+
+          if [ "$ok" != "true" ]; then
+            echo "Telegram API did not return success. Safe response:"
+            printf '%s' "$response" | jq '{ok, description}'
+            exit 1
+          fi
+
+          echo "Webhook status (URL itself is intentionally hidden):"
+          printf '%s' "$response" | jq '{
+            ok,
+            url_configured: ((.result.url // "") != ""),
+            pending_update_count: .result.pending_update_count,
+            last_error_date: .result.last_error_date,
+            last_error_message: .result.last_error_message,
+            allowed_updates: .result.allowed_updates
+          }'
