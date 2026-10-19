@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS channels (
+  channel_id TEXT PRIMARY KEY,
+  title TEXT NOT NULL,
+  thumb TEXT NOT NULL DEFAULT '',
+  backfill TEXT NOT NULL DEFAULT 'none',
+  initialized INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS pending_adds (
+  chat_id TEXT PRIMARY KEY,
+  channel_id TEXT NOT NULL,
+  title TEXT NOT NULL,
+  thumb TEXT NOT NULL DEFAULT '',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS bot_status (
+  id INTEGER PRIMARY KEY CHECK (id = 1),
+  payload TEXT NOT NULL,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
