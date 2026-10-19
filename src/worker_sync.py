@@ -1,5 +1,7 @@
 """Sync command-managed channels and digest status with the Cloudflare Worker."""
 import requests
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 from . import config, youtube
 
@@ -90,7 +92,7 @@ def publish_status(st: dict) -> None:
         "queue": len(st.get("queue", [])),
         "daily_count": daily.get("count", 0),
         "last_run": st.get("last_run", "unknown"),
-        "gemini_paused": st.get("gemini_pause_date") == youtube.today_singapore(),
+        "gemini_paused": st.get("gemini_pause_date") == datetime.now(ZoneInfo(config.TIMEZONE)).strftime("%Y-%m-%d"),
     }
     response = requests.post(
         f"{config.BOT_WORKER_URL.rstrip('/')}/internal/status",
