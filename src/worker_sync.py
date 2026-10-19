@@ -1,6 +1,6 @@
 """Sync command-managed channels and digest status with the Cloudflare Worker."""
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 from . import config, youtube
@@ -16,7 +16,7 @@ def _headers() -> dict:
 
 
 def sync_remote_channels(st: dict) -> None:
-    """Worker/D1 is the source of truth for channel membership and backfill choices."""
+    """Worker/D1 is the source of truth for channel membership; new channels start from add time."""
     if not config.BOT_WORKER_URL:
         return
     base = config.BOT_WORKER_URL.rstrip("/")
@@ -26,7 +26,7 @@ def sync_remote_channels(st: dict) -> None:
             "channel_id": cid,
             "title": ch.get("title", cid),
             "thumb": ch.get("thumb", ""),
-            "backfill": ch.get("backfill", "none"),
+            "backfill": "none",
         }
         for cid, ch in st.get("channels", {}).items()
     ]
@@ -52,51 +52,58 @@ def sync_remote_channels(st: dict) -> None:
             local_channels[cid] = {
                 "title": row["title"],
                 "thumb": row.get("thumb", ""),
-                "added_at": "",
-                "backfill": row.get("backfill", "none"),
+                "added_at": row.get("added_at", ""),
+                "backfill": "none",
                 "seen": [],
             }
         else:
             local_channels[cid]["title"] = row["title"]
             local_channels[cid]["thumb"] = row.get("thumb", "")
-            local_channels[cid]["backfill"] = row.get("backfill", "none")
+            local_channels[cid]["backfill"] = "none"
+            if row.get("added_at"):
+                local_channels[cid]["added_at"] = row["added_at"]
 
         if int(row.get("initialized") or 0) == 1:
             continue
 
         channel = local_channels[cid]
-        backfill = row.get("backfill", "none")
-        if backfill == "none":
-            try:
-                channel["seen"] = list(dict.fromkeys(
-                    channel.get("seen", []) +
-                    [v["video_id"] for v in youtube.latest_from_rss(cid)]
-                ))
-            except Exception as exc:
-                print(f"[worker-sync] Could not mark current uploads seen for {channel['title']}: {exc}")
-                continue
-        else:
-            days = {"30d": 30, "180d": 180, "365d": 365}.get(backfill)
-            if backfill == "all":
-                days = None
-            try:
-                videos = youtube.backfill_videos(cid, days)
-                for video in videos:
+        # Queue only uploads published after the channel was added; never backfill older videos.
+        try:
+            videos = youtube.latest_from_rss(cid)
+            added_at_raw = row.get("added_at") or channel.get("added_at") or ""
+            added_at = datetime.fromisoformat(added_at_raw.replace("Z", "+00:00"))
+            if added_at.tzinfo is None:
+                added_at = added_at.replace(tzinfo=timezone.utc)
+            for video in videos:
+                try:
+                    published = datetime.fromisoformat(
+                        str(video.get("published", "")).replace("Z", "+00:00")
+                    )
+                    if published.tzinfo is None:
+                        published = published.replace(tzinfo=timezone.utc)
+                except (TypeError, ValueError):
+                    # Do not accidentally deliver a video with an unknown publication time.
+                    channel.setdefault("seen", []).append(video["video_id"])
+                    continue
+                if published > added_at:
                     if video["video_id"] in channel.get("seen", []) or video["video_id"] in queued_ids:
                         continue
                     video["channel_id"] = cid
                     st["queue"].append(video)
                     queued_ids.add(video["video_id"])
-            except Exception as exc:
-                print(f"[worker-sync] Backfill failed for {channel['title']}; will retry next run: {exc}")
-                continue
+                else:
+                    channel.setdefault("seen", []).append(video["video_id"])
+            channel["seen"] = list(dict.fromkeys(channel.get("seen", [])))
+        except Exception as exc:
+            print(f"[worker-sync] Could not initialize new channel {channel['title']}: {exc}")
+            continue
 
         mark = requests.post(
             f"{base}/internal/channels/initialized",
             headers=_headers(), json={"channel_id": cid}, timeout=20
         )
         mark.raise_for_status()
-        print(f"[worker-sync] Initialized channel: {channel['title']} ({backfill})")
+        print(f"[worker-sync] Initialized channel from add time: {channel['title']}")
 
 
 def publish_status(st: dict) -> None:
