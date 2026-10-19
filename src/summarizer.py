@@ -41,7 +41,7 @@ def fetch_transcript(url: str) -> str | None:
         # Use the original available transcript instead of preferring Chinese or English.
         transcript = _transcript_api.fetch(video_id)
         lines = [str(getattr(item, "text", "")).strip() for item in transcript]
-        text = "\\n".join(line for line in lines if line)
+        text = "\n".join(line for line in lines if line)
         return text or None
     except Exception as e:
         # Captions may be disabled, blocked, or unavailable; fall back to direct video input.
@@ -92,7 +92,7 @@ def summarize_video(url: str) -> dict:
     """Return a single full summary in the video's original language."""
     transcript = fetch_transcript(url)
     if transcript:
-        contents = "VIDEO TRANSCRIPT (captions fetched from YouTube; preserve the original language):\\n\\n" + transcript + "\\n\\n" + SUMMARY_PROMPT
+        contents = "VIDEO TRANSCRIPT (captions fetched from YouTube; preserve the original language):\n\n" + transcript + "\n\n" + SUMMARY_PROMPT
         print(f"[captions] summarizing transcript for {_video_id(url)} ({len(transcript)} characters)")
     else:
         contents = types.Content(parts=[
@@ -125,9 +125,9 @@ def summary_to_telegram(video: dict, channel_title: str, s: dict) -> str:
         "",
         video["url"],
     ]
-    message = "\\n".join(parts)
+    message = "\n".join(parts)
     # Leave a margin below Telegram's message-length limit.
     if len(message) > 4000:
-        suffix = "\\n\\n[摘要因 Telegram 訊息長度限制而截短]\\n\\n" + video["url"]
+        suffix = "\n\n[摘要因 Telegram 訊息長度限制而截短]\n\n" + video["url"]
         message = message[:4000 - len(suffix)] + suffix
     return message
