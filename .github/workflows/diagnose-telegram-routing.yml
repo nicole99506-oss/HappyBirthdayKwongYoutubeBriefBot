@@ -1,0 +1,48 @@
+name: Diagnose Telegram webhook routing
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Worker health and Telegram webhook target
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          BOT_WORKER_URL: ${{ secrets.BOT_WORKER_URL }}
+        run: |
+          set -euo pipefail
+          test -n "$TELEGRAM_BOT_TOKEN" || { echo "Missing TELEGRAM_BOT_TOKEN"; exit 1; }
+          test -n "$BOT_WORKER_URL" || { echo "Missing BOT_WORKER_URL"; exit 1; }
+
+          echo "Checking configured Worker health endpoint..."
+          health_code=$(curl -sS -o /tmp/health.json -w '%{http_code}' --max-time 20 "${BOT_WORKER_URL%/}/health")
+          echo "Worker health HTTP status: $health_code"
+          if [ "$health_code" = "200" ] && jq -e '.ok == true and .service == "telegram-webhook"' /tmp/health.json >/dev/null; then
+            echo "Worker health result: PASS"
+          else
+            echo "Worker health result: FAIL"
+            cat /tmp/health.json
+            exit 1
+          fi
+
+          echo "Checking Telegram's registered webhook target (URL path is hidden)..."
+          curl -fsS --max-time 20 "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getWebhookInfo" -o /tmp/webhook.json
+          jq -e '.ok == true' /tmp/webhook.json >/dev/null
+          registered_url=$(jq -r '.result.url // ""' /tmp/webhook.json)
+          expected_url="${BOT_WORKER_URL%/}/telegram"
+          registered_host=$(python -c 'import sys,urllib.parse; print(urllib.parse.urlparse(sys.argv[1]).netloc or "(empty)")' "$registered_url")
+          expected_host=$(python -c 'import sys,urllib.parse; print(urllib.parse.urlparse(sys.argv[1]).netloc or "(empty)")' "$expected_url")
+          echo "Telegram webhook host: $registered_host"
+          echo "Configured Worker host: $expected_host"
+          if [ "$registered_url" = "$expected_url" ]; then
+            echo "Webhook target match: PASS"
+          else
+            echo "Webhook target match: FAIL (full URL intentionally hidden)"
+          fi
+          jq '{pending_update_count: .result.pending_update_count, last_error_date: .result.last_error_date, last_error_message: .result.last_error_message, allowed_updates: .result.allowed_updates}' /tmp/webhook.json
+          if [ "$registered_url" != "$expected_url" ]; then exit 1; fi
