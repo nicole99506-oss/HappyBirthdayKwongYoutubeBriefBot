@@ -8,7 +8,7 @@ import traceback
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from . import commands, config
+from . import commands, config, worker_sync
 from . import state as state_mod
 from . import summarizer, telegram_api as tg, youtube
 
@@ -135,9 +135,13 @@ def main() -> int:
             print(f"[greet] {e}")
 
     try:
-        commands.process_updates(st)
+        if config.BOT_WORKER_URL:
+            worker_sync.sync_remote_channels(st)
+        else:
+            # Keep the existing polling path until the Cloudflare Worker is configured.
+            commands.process_updates(st)
     except Exception as e:
-        print(f"[commands] {e}")
+        print(f"[commands/worker-sync] {e}")
         traceback.print_exc()
 
     enqueue_new_uploads(st)
@@ -145,6 +149,10 @@ def main() -> int:
 
     st["last_run"] = datetime.now(ZoneInfo("UTC")).isoformat()
     state_mod.save(st)
+    try:
+        worker_sync.publish_status(st)
+    except Exception as e:
+        print(f"[worker-status] {e}")
     return 0
 
 
