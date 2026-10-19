@@ -56,7 +56,15 @@ jobs:
               with urllib.request.urlopen(req, timeout=20) as response:
                   result = json.loads(response.read().decode("utf-8"))
           except urllib.error.HTTPError as e:
-              raise SystemExit(f"Cloudflare Worker bootstrap failed with HTTP {e.code}. Check Worker secrets and logs.")
+              response_body = e.read(800).decode("utf-8", errors="replace")
+              print(f"Bootstrap HTTP status: {e.code}")
+              print(f"Response server: {e.headers.get('server', 'unknown')}")
+              print(f"Response content type: {e.headers.get('content-type', 'unknown')}")
+              print(f"Cloudflare Ray ID: {e.headers.get('cf-ray', 'not present')}")
+              if response_body:
+                  print("Response body excerpt (first 800 characters):")
+                  print(response_body[:800])
+              raise SystemExit("Bootstrap request was rejected. The response details above help identify which layer returned the error.")
           if not result.get("ok"):
               raise SystemExit("Cloudflare Worker did not confirm the import.")
           print("Cloudflare D1 channel restore request completed.")
