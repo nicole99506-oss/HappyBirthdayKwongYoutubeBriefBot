@@ -127,30 +127,6 @@ async function handleMessage(msg, env) {
     return;
   }
 
-  if (command === "confirm") {
-    const pending = await env.DB.prepare(
-      "SELECT channel_id, title, thumb FROM pending_adds WHERE chat_id = ?"
-    ).bind(chatId).first();
-    if (!pending) {
-      await sendMessage(env, chatId, "沒有待確認的新增頻道。請先傳送 add 加上頻道名稱或連結。");
-      return;
-    }
-    await env.DB.prepare(
-      "INSERT INTO channels (channel_id, title, thumb, backfill, initialized) VALUES (?, ?, ?, 'none', 0) " +
-      "ON CONFLICT(channel_id) DO NOTHING"
-    ).bind(pending.channel_id, pending.title, pending.thumb || "").run();
-    await env.DB.prepare("DELETE FROM pending_adds WHERE chat_id = ?").bind(chatId).run();
-    await sendMessage(env, chatId,
-      `✅ 已新增「${pending.title}」。從現在起只會推送加入後發布的新影片，不會補送歷史影片。`);
-    return;
-  }
-
-  if (command === "cancel") {
-    await env.DB.prepare("DELETE FROM pending_adds WHERE chat_id = ?").bind(chatId).run();
-    await sendMessage(env, chatId, "已取消新增頻道。");
-    return;
-  }
-
   if (command === "list") {
     await sendChannelList(env, chatId, "目前追蹤的頻道（點擊按鈕即可移除）：");
     return;
