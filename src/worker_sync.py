@@ -55,6 +55,7 @@ def sync_remote_channels(st: dict) -> None:
                 "added_at": row.get("added_at", ""),
                 "backfill": "none",
                 "seen": [],
+                "worker_initialized": int(row.get("initialized") or 0) == 1,
             }
         else:
             local_channels[cid]["title"] = row["title"]
@@ -63,10 +64,10 @@ def sync_remote_channels(st: dict) -> None:
             if row.get("added_at"):
                 local_channels[cid]["added_at"] = row["added_at"]
 
-        if int(row.get("initialized") or 0) == 1:
-            continue
-
         channel = local_channels[cid]
+        channel["worker_initialized"] = int(row.get("initialized") or 0) == 1
+        if channel["worker_initialized"]:
+            continue
         # Queue only uploads published after the channel was added; never backfill older videos.
         try:
             videos = youtube.latest_from_rss(cid)
@@ -103,6 +104,7 @@ def sync_remote_channels(st: dict) -> None:
             headers=_headers(), json={"channel_id": cid}, timeout=20
         )
         mark.raise_for_status()
+        channel["worker_initialized"] = True
         print(f"[worker-sync] Initialized channel from add time: {channel['title']}")
 
 
