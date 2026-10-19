@@ -14,6 +14,7 @@ jobs:
       - name: Configure Telegram webhook and slash-command menu
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_WEBHOOK_SECRET: ${{ secrets.TELEGRAM_WEBHOOK_SECRET }}
           BOT_WORKER_URL: ${{ secrets.BOT_WORKER_URL }}
         shell: bash
@@ -21,7 +22,7 @@ jobs:
           set -euo pipefail
           set +x
 
-          for name in TELEGRAM_BOT_TOKEN TELEGRAM_WEBHOOK_SECRET BOT_WORKER_URL; do
+          for name in TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID TELEGRAM_WEBHOOK_SECRET BOT_WORKER_URL; do
             if [[ -z "${!name:-}" ]]; then
               echo "Required GitHub Actions secret is missing: $name"
               exit 1
@@ -51,18 +52,26 @@ jobs:
 
           commands="$(jq -n '[
             {"command":"add","description":"新增 YouTube 頻道"},
-            {"command":"confirm","description":"確認新增頻道"},
-            {"command":"cancel","description":"取消新增頻道"},
             {"command":"list","description":"查看追蹤頻道／移除頻道"},
             {"command":"status","description":"查看摘要佇列與服務狀態"}
           ]')"
 
-          command_response="$(curl --silent --show-error --fail-with-body \
-            --request POST \
-            --header "Content-Type: application/json" \
-            --data "$commands" \
-            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setMyCommands")"
+          set_commands() {
+            local scope_json="$1"
+            local response
+            response="$(jq -n --argjson commands "$commands" --argjson scope "$scope_json" \
+              '{commands: $commands, scope: $scope}')"
+            local result
+            result="$(curl --silent --show-error --fail-with-body \
+              --request POST \
+              --header "Content-Type: application/json" \
+              --data "$response" \
+              "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setMyCommands")"
+            echo "$result" | jq .
+            echo "$result" | jq -e '.ok == true' >/dev/null
+          }
 
-          echo "$command_response" | jq .
-          echo "$command_response" | jq -e '.ok == true' >/dev/null
-          echo "Telegram slash-command menu updated successfully."
+          set_commands '{"type":"default"}'
+          set_commands '{"type":"all_private_chats"}'
+          set_commands "$(jq -n --argjson chat_id "$TELEGRAM_CHAT_ID" '{type:"chat", chat_id:$chat_id}')"
+          echo "Telegram slash-command menu updated for default, private chats, and configured chat."
