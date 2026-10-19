@@ -2,7 +2,7 @@
 
 A small Telegram bot that follows YouTube channels, summarizes new videos with Gemini, and sends the summaries to Telegram.
 
-The current workflow is intentionally conservative: **one video per run, hourly command checks, and at least two hours between Gemini attempts; there is no fixed daily summary cap**. Gemini quota and rate limits vary by account and model, so these safeguards reduce risk but cannot guarantee that a provider will never return a limit error.
+The current workflow processes at most one video per run, checks YouTube hourly, and enforces a one-hour minimum between Gemini attempts. There is no fixed daily summary cap. Telegram commands can be moved to a Cloudflare Worker webhook so GitHub Actions no longer polls Telegram. Gemini quota and rate limits vary by account and model, so these safeguards reduce risk but cannot guarantee that a provider will never return a limit error.
 
 ## What it does
 
@@ -29,6 +29,10 @@ It no longer generates mind maps, saves per-video summary archives, syncs Google
 
 The active runtime code lives under `src/`. Duplicate root-level Python modules and the disabled mind-map, Drive-sync, and reading-site modules have been removed. Previously generated website/archive files may remain as historical artifacts, but the bot no longer rebuilds or syncs them.
 
+## Cloudflare Worker command mode
+
+Files for the optional webhook implementation are under `cloudflare/`. The Worker uses D1 for channel membership and status; GitHub Actions remains responsible for video summaries. Before enabling webhook mode, create a Cloudflare D1 database and apply `cloudflare/schema.sql`, set the D1 database ID in `cloudflare/wrangler.toml`, configure Worker secrets (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `YOUTUBE_API_KEY`, `TELEGRAM_WEBHOOK_SECRET`, `BOT_INTERNAL_TOKEN`), deploy the Worker, and set Telegram's webhook to `https://YOUR-WORKER/telegram` with the same webhook secret. Then add GitHub Actions repository secrets `BOT_WORKER_URL` and `BOT_INTERNAL_TOKEN`. If those two GitHub secrets are empty, the existing polling path remains active, so do not set Telegram's webhook until the Worker is deployed and the GitHub secrets are ready. See `cloudflare/SETUP.md` for the step-by-step migration.
+
 ## Setup
 
 In **Repository → Settings → Secrets and variables → Actions**, configure:
@@ -46,8 +50,8 @@ Never commit API keys, Telegram tokens, service-account JSON, or a populated `.e
 
 ## Usage limits and failure handling
 
-- Scheduled workflow checks Telegram commands and YouTube RSS hourly.
-- Each run processes at most one video. Gemini requests are separated by a two-hour cooldown, including after failed requests. There are no automatic in-run retries.
+- Scheduled workflow checks YouTube RSS hourly. Once Cloudflare Worker webhook mode is configured with `BOT_WORKER_URL` and `BOT_INTERNAL_TOKEN`, Telegram commands are handled by the Worker instead of GitHub polling.
+- Each run processes at most one video. Gemini requests are separated by a one-hour cooldown, including after failed requests. There are no automatic in-run retries.
 - No fixed daily summary cap is configured. Processing stops or pauses when Gemini returns a quota/rate-limit error.
 - The original detailed briefing prompt is preserved, including TL;DR, multi-paragraph summary, highlights, key concepts, and why-it-matters.
 - A quota/rate-limit response pauses further Gemini calls until the next Singapore day.
@@ -58,13 +62,14 @@ These controls reduce requests and retry storms. They cannot override Google's a
 
 ## Telegram commands
 
-- `/add @handle` — follow a channel and choose how much history to backfill.
-- `/remove <number or channel>` — stop following a channel.
-- `/list` — list followed channels.
-- `/status` — inspect queue and daily summary count.
-- `/help` — show help.
+- `add <YouTube channel name or URL>` — request to add a channel; the bot asks for `confirm` before showing backfill choices.
+- `confirm` — confirm the pending channel addition.
+- `cancel` — cancel a pending addition.
+- `list` — list tracked channels and show a remove button for each.
+- `status` — inspect queue and daily summary count.
+- Commands may also be sent with a leading slash, e.g. `/add`.
 
-Historical backfills may enqueue many videos; they are processed gradually with a two-hour minimum between Gemini attempts.
+Historical backfills may enqueue many videos; they are processed gradually with a one-hour minimum between Gemini attempts.
 
 ## Troubleshooting
 
@@ -76,7 +81,7 @@ Historical backfills may enqueue many videos; they are processed gradually with 
 
 ## Maintenance principles
 
-1. Keep the two-hour request cooldown until several days of successful runs are observed.
+1. Keep the one-hour request cooldown and stop on Gemini quota errors.
 2. Do not add a second Gemini call for formatting or knowledge maps.
 3. Preserve the original detailed summary prompt and avoid processing the same video twice.
 4. Keep runtime changes under `src/`; the duplicate root-level Python modules have already been removed.
