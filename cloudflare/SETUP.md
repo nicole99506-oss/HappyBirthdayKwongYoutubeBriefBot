@@ -25,7 +25,7 @@ Copy the `database_id` returned by Wrangler. Open `cloudflare/wrangler.toml` and
 Create the tables:
 
 ```powershell
-npx wrangler d1 execute youtube-telegram-bot --remote --file=cloudflare/schema.sql
+npx wrangler d1 execute youtube-telegram-bot --remote --file=cloudflare/schema.sql --config cloudflare/wrangler.toml
 ```
 
 Run that command from the repository root. If you are already in the `cloudflare` directory, use `--file=schema.sql`.
