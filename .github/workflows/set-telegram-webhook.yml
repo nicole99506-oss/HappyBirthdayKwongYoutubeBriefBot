@@ -1,0 +1,50 @@
+name: Set Telegram webhook
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  set-webhook:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Configure Telegram webhook
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_WEBHOOK_SECRET: ${{ secrets.TELEGRAM_WEBHOOK_SECRET }}
+          BOT_WORKER_URL: ${{ secrets.BOT_WORKER_URL }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          set +x
+
+          for name in TELEGRAM_BOT_TOKEN TELEGRAM_WEBHOOK_SECRET BOT_WORKER_URL; do
+            if [[ -z "${!name:-}" ]]; then
+              echo "Required GitHub Actions secret is missing: $name"
+              exit 1
+            fi
+          done
+
+          worker_url="${BOT_WORKER_URL%/}"
+          if [[ "$worker_url" == */health || "$worker_url" == */telegram ]]; then
+            echo "BOT_WORKER_URL must be the base Worker URL, without /health or /telegram."
+            exit 1
+          fi
+
+          payload="$(jq -n \
+            --arg url "${worker_url}/telegram" \
+            --arg secret "$TELEGRAM_WEBHOOK_SECRET" \
+            '{url: $url, secret_token: $secret, allowed_updates: ["message", "callback_query"]}')"
+
+          response="$(curl --silent --show-error --fail-with-body \
+            --request POST \
+            --header "Content-Type: application/json" \
+            --data "$payload" \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook")"
+
+          echo "$response" | jq .
+          echo "$response" | jq -e '.ok == true' >/dev/null
+          echo "Telegram webhook configured successfully."
