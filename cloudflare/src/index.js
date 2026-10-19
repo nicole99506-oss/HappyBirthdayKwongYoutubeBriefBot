@@ -1,5 +1,5 @@
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     if (request.method === "GET" && url.pathname === "/health") {
       return json({ ok: true, service: "telegram-webhook" });
@@ -65,13 +65,15 @@ export default {
     try { update = await request.json(); }
     catch { return json({ error: "bad json" }, 400); }
 
-    // Telegram expects a quick 200. Processing is short and uses only Worker + D1.
-    try {
-      if (update.callback_query) await handleCallback(update.callback_query, env);
-      else if (update.message?.text) await handleMessage(update.message, env);
-    } catch (err) {
-      console.error("update handler failed", err?.stack || err);
-    }
+    // Acknowledge Telegram immediately; process API/D1 work in the background.
+    ctx.waitUntil((async () => {
+      try {
+        if (update.callback_query) await handleCallback(update.callback_query, env);
+        else if (update.message?.text) await handleMessage(update.message, env);
+      } catch (err) {
+        console.error("update handler failed", err?.stack || err);
+      }
+    })());
     return json({ ok: true });
   }
 };
