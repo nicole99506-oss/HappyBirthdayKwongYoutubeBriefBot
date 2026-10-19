@@ -108,17 +108,22 @@ async function handleMessage(msg, env) {
     const exists = await env.DB.prepare("SELECT title FROM channels WHERE channel_id = ?")
       .bind(channel.channel_id).first();
     if (exists) {
-      await sendMessage(env, chatId, `已經在追蹤「${exists.title}」了。`);
+      await sendChannelList(
+        env,
+        chatId,
+        `該頻道已經在追蹤中：「${exists.title}」\n\n目前追蹤的頻道（點擊按鈕即可移除）：`
+      );
       return;
     }
     await env.DB.prepare(
-      "INSERT INTO pending_adds (chat_id, channel_id, title, thumb, created_at) " +
-      "VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP) " +
-      "ON CONFLICT(chat_id) DO UPDATE SET channel_id=excluded.channel_id, title=excluded.title, " +
-      "thumb=excluded.thumb, created_at=CURRENT_TIMESTAMP"
-    ).bind(chatId, channel.channel_id, channel.title, channel.thumb || "").run();
-    await sendMessage(env, chatId,
-      `Please confirm add "${channel.title}" as a new channel?\n\n回覆 confirm 確認新增，或回覆 cancel 取消。`);
+      "INSERT INTO channels (channel_id, title, thumb, backfill, initialized) " +
+      "VALUES (?, ?, ?, 'none', 0) ON CONFLICT(channel_id) DO NOTHING"
+    ).bind(channel.channel_id, channel.title, channel.thumb || "").run();
+    await sendChannelList(
+      env,
+      chatId,
+      `該頻道已經新增成功：「${channel.title}」\n\n目前追蹤的頻道（點擊按鈕即可移除）：`
+    );
     return;
   }
 
@@ -147,19 +152,7 @@ async function handleMessage(msg, env) {
   }
 
   if (command === "list") {
-    const result = await env.DB.prepare(
-      "SELECT channel_id, title FROM channels ORDER BY title COLLATE NOCASE"
-    ).all();
-    const channels = result.results || [];
-    if (!channels.length) {
-      await sendMessage(env, chatId, "目前沒有追蹤中的頻道。傳送 add 加上頻道名稱或連結即可新增。");
-      return;
-    }
-    await sendMessage(env, chatId, "目前追蹤的頻道（點擊按鈕即可移除）：", {
-      inline_keyboard: channels.map(ch => [{
-        text: `移除：${ch.title}`, callback_data: `rm|${ch.channel_id}`
-      }])
-    });
+    await sendChannelList(env, chatId, "目前追蹤的頻道（點擊按鈕即可移除）：");
     return;
   }
 
@@ -172,6 +165,22 @@ async function handleMessage(msg, env) {
   }
 
   // Ignore unrelated ordinary chat; do not expose a help command.
+}
+
+async function sendChannelList(env, chatId, heading) {
+  const result = await env.DB.prepare(
+    "SELECT channel_id, title FROM channels ORDER BY title COLLATE NOCASE"
+  ).all();
+  const channels = result.results || [];
+  if (!channels.length) {
+    await sendMessage(env, chatId, `${heading}\n目前沒有追蹤中的頻道。傳送 /add 加上頻道名稱或連結即可新增。`);
+    return;
+  }
+  await sendMessage(env, chatId, heading, {
+    inline_keyboard: channels.map(ch => [{
+      text: `移除：${ch.title}`, callback_data: `rm|${ch.channel_id}`
+    }])
+  });
 }
 
 async function handleCallback(cb, env) {
