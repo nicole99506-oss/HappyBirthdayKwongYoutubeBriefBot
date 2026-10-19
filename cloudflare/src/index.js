@@ -10,6 +10,22 @@ export default {
           request.headers.get("Authorization") !== `Bearer ${env.BOT_INTERNAL_TOKEN}`) {
         return json({ error: "unauthorized" }, 401);
       }
+      if (request.method === "POST" && url.pathname === "/internal/bootstrap") {
+        const body = await request.json();
+        const marker = await env.DB.prepare("SELECT value FROM settings WHERE key = 'channels_bootstrapped'").first();
+        if (!marker) {
+          const channels = Array.isArray(body.channels) ? body.channels : [];
+          for (const ch of channels) {
+            await env.DB.prepare(
+              "INSERT OR IGNORE INTO channels (channel_id, title, thumb, backfill, initialized) VALUES (?, ?, ?, ?, 1)"
+            ).bind(String(ch.channel_id), String(ch.title || ch.channel_id), String(ch.thumb || ""),
+              String(ch.backfill || "none")).run();
+          }
+          await env.DB.prepare("INSERT INTO settings (key, value) VALUES ('channels_bootstrapped', '1')").run();
+          return json({ ok: true, imported: channels.length, already_bootstrapped: false });
+        }
+        return json({ ok: true, imported: 0, already_bootstrapped: true });
+      }
       if (request.method === "GET" && url.pathname === "/internal/channels") {
         const result = await env.DB.prepare(
           "SELECT channel_id, title, thumb, backfill, initialized FROM channels ORDER BY title COLLATE NOCASE"
@@ -82,7 +98,14 @@ async function handleMessage(msg, env) {
       await sendMessage(env, chatId, "請輸入：add YouTube 頻道名稱或連結");
       return;
     }
-    const channel = await resolveChannel(arg, env);
+    let channel;
+    try {
+      channel = await resolveChannel(arg, env);
+    } catch (err) {
+      console.error("YouTube channel lookup failed", err?.stack || err);
+      await sendMessage(env, chatId, "YouTube 頻道查詢失敗，請稍後再試；沒有新增任何頻道。");
+      return;
+    }
     if (!channel) {
       await sendMessage(env, chatId, `找不到 YouTube 頻道：${arg}`);
       return;
