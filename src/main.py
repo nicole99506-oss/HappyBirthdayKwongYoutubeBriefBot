@@ -17,6 +17,11 @@ def enqueue_new_uploads(st: dict) -> int:
     added = 0
     queued_ids = {q["video_id"] for q in st["queue"]}
     for cid, ch in st["channels"].items():
+        # In Worker mode, do not queue videos until the channel's add-time
+        # initialization succeeds. This prevents old RSS entries from slipping
+        # into the queue if D1 synchronization or initialization temporarily fails.
+        if config.BOT_WORKER_URL and not ch.get("worker_initialized", False):
+            continue
         try:
             latest = youtube.latest_from_rss(cid)
         except Exception as e:
