@@ -62,14 +62,14 @@ These controls reduce requests and retry storms. They cannot override Google's a
 
 ## Telegram commands
 
-- `add <YouTube channel name or URL>` — request to add a channel; the bot asks for `confirm` before showing backfill choices.
+- `add <YouTube channel name or URL>` — request to add a channel; the bot asks for `confirm`. After confirmation, it starts tracking from that moment and does not backfill older videos.
 - `confirm` — confirm the pending channel addition.
 - `cancel` — cancel a pending addition.
 - `list` — list tracked channels and show a remove button for each.
 - `status` — inspect queue and daily summary count.
 - Commands may also be sent with a leading slash, e.g. `/add`.
 
-Historical backfills may enqueue many videos; they are processed gradually with a one-hour minimum between Gemini attempts.
+New channels do not backfill historical videos. The first RSS sync only queues videos published after the channel's confirmation/add time.
 
 ## Troubleshooting
 
