@@ -1,0 +1,8 @@
+name = "youtube-telegram-command-bot"
+main = "src/index.js"
+compatibility_date = "2026-10-19"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "youtube-telegram-bot"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
