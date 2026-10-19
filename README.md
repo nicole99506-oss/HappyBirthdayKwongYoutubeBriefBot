@@ -9,8 +9,8 @@ The current workflow processes at most one video per run, checks YouTube hourly,
 1. Reads new-upload RSS feeds for tracked YouTube channels.
 2. Keeps a queue so videos can be processed gradually.
 3. Makes one Gemini generation request per video.
-4. Sends a concise summary to Telegram.
-5. Persists only the bot state needed to remember channels, seen video IDs, the queue, and daily counters.
+4. Sends one faithful, original-language summary to Telegram, targeting about 800 words while prioritizing coverage over a strict length limit.
+5. Persists only the bot state needed to remember channels, seen video IDs, the queue, and daily counters. Per-video summaries are not archived by the current workflow.
 
 It no longer generates mind maps, saves per-video summary archives, syncs Google Drive, or rebuilds a reading website.
 
@@ -20,7 +20,7 @@ It no longer generates mind maps, saves per-video summary archives, syncs Google
 - `src/main.py` — orchestration and queue processing.
 - `src/config.py` — secrets, model, daily cap, timezone, and data paths.
 - `src/commands.py` — Telegram commands and channel management.
-- `src/summarizer.py` — original full briefing prompt, caption-first input, and Telegram formatting.
+- `src/summarizer.py` — original-language full-summary prompt, caption-first input, one-field JSON parsing, and Telegram formatting.
 - `src/telegram_api.py` — Telegram Bot API helper.
 - `src/youtube.py` — RSS polling and YouTube channel/backfill lookup.
 - `src/state.py` — persistent state only.
