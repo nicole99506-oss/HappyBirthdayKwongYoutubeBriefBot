@@ -56,7 +56,8 @@ export default {
     if (url.pathname !== "/telegram" || request.method !== "POST") {
       return json({ error: "not found" }, 404);
     }
-    if (env.TELEGRAM_WEBHOOK_SECRET &&
+    // The webhook secret is mandatory. Never accept public webhook requests if it is unset.
+    if (!env.TELEGRAM_WEBHOOK_SECRET ||
         request.headers.get("X-Telegram-Bot-Api-Secret-Token") !== env.TELEGRAM_WEBHOOK_SECRET) {
       return json({ error: "unauthorized" }, 401);
     }
