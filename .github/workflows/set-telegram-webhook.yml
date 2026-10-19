@@ -1,4 +1,4 @@
-name: Set Telegram webhook
+name: Set Telegram webhook and command menu
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Configure Telegram webhook
+      - name: Configure Telegram webhook and slash-command menu
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_WEBHOOK_SECRET: ${{ secrets.TELEGRAM_WEBHOOK_SECRET }}
@@ -48,3 +48,21 @@ jobs:
           echo "$response" | jq .
           echo "$response" | jq -e '.ok == true' >/dev/null
           echo "Telegram webhook configured successfully."
+
+          commands="$(jq -n '[
+            {"command":"add","description":"新增 YouTube 頻道"},
+            {"command":"confirm","description":"確認新增頻道"},
+            {"command":"cancel","description":"取消新增頻道"},
+            {"command":"list","description":"查看追蹤頻道／移除頻道"},
+            {"command":"status","description":"查看摘要佇列與服務狀態"}
+          ]')"
+
+          command_response="$(curl --silent --show-error --fail-with-body \
+            --request POST \
+            --header "Content-Type: application/json" \
+            --data "$commands" \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setMyCommands")"
+
+          echo "$command_response" | jq .
+          echo "$command_response" | jq -e '.ok == true' >/dev/null
+          echo "Telegram slash-command menu updated successfully."
