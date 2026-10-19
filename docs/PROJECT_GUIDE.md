@@ -30,7 +30,7 @@ Until both `BOT_WORKER_URL` and `BOT_INTERNAL_TOKEN` are configured as GitHub Ac
 ## Telegram command interface
 
 - `add <YouTube channel name or URL>`: resolve the channel and ask for confirmation.
-- `confirm`: confirm the pending add, then choose the history backfill range.
+- `confirm`: add the pending channel immediately; only videos published after confirmation are eligible, with no historical backfill.
 - `cancel`: cancel a pending add.
 - `list`: show tracked channels with a remove button for each.
 - `status`: show queue size, today's summaries, last run, and whether Gemini is paused.
@@ -43,7 +43,7 @@ Until both `BOT_WORKER_URL` and `BOT_INTERNAL_TOKEN` are configured as GitHub Ac
 - `cloudflare/wrangler.toml`: Worker and D1 binding template.
 - `cloudflare/SETUP.md`: deployment and safe migration steps.
 - `src/main.py`: digest orchestration, queueing, quota handling, and Telegram delivery.
-- `src/worker_sync.py`: one-time migration of existing tracked channels and ongoing Worker/D1 sync.
+- `src/worker_sync.py`: one-time migration of existing tracked channels and ongoing Worker/D1 sync; new channels only queue uploads published after their D1 `added_at` timestamp.
 - `src/config.py`: environment variables, model, request cooldown, timezone, and state path.
 - `src/commands.py`: legacy polling command handler, used only until Worker mode is configured.
 - `src/youtube.py`: RSS discovery and YouTube API channel lookup/backfill.
