@@ -20,6 +20,21 @@ def sync_remote_channels(st: dict) -> None:
     if not config.BOT_WORKER_URL:
         return
     base = config.BOT_WORKER_URL.rstrip("/")
+    # One-time import preserves channels already tracked in data/state.json when migrating.
+    bootstrap_channels = [
+        {
+            "channel_id": cid,
+            "title": ch.get("title", cid),
+            "thumb": ch.get("thumb", ""),
+            "backfill": ch.get("backfill", "none"),
+        }
+        for cid, ch in st.get("channels", {}).items()
+    ]
+    bootstrap = requests.post(
+        f"{base}/internal/bootstrap",
+        headers=_headers(), json={"channels": bootstrap_channels}, timeout=20
+    )
+    bootstrap.raise_for_status()
     response = requests.get(f"{base}/internal/channels", headers=_headers(), timeout=20)
     response.raise_for_status()
     remote = response.json().get("channels", [])
