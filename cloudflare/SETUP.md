@@ -22,13 +22,20 @@ npx wrangler d1 create youtube-telegram-bot
 
 Copy the `database_id` returned by Wrangler. Open `cloudflare/wrangler.toml` and replace `REPLACE_WITH_YOUR_D1_DATABASE_ID` with that ID.
 
-Create the tables:
+Create the tables in the new, empty D1 database:
 
 ```powershell
+# Run from the repository root
 npx wrangler d1 execute youtube-telegram-bot --remote --file=cloudflare/schema.sql --config cloudflare/wrangler.toml
 ```
 
-Run that command from the repository root. If you are already in the `cloudflare` directory, use `--file=schema.sql`.
+If you are already inside the `cloudflare` directory, use:
+
+```powershell
+npx wrangler d1 execute youtube-telegram-bot --remote --file=schema.sql --config wrangler.toml
+```
+
+**Important:** these instructions assume this is a new, empty D1 database. If you already created or used a database, do not blindly rerun the schema: `CREATE TABLE IF NOT EXISTS` does not add missing columns to existing tables. Check the existing schema first and apply a deliberate migration if needed. Do not delete a database that may contain data.
 
 ## 2. Configure Worker secrets
 
@@ -45,7 +52,7 @@ npx wrangler secret put BOT_INTERNAL_TOKEN --config cloudflare/wrangler.toml
 - `TELEGRAM_BOT_TOKEN`: the existing Telegram bot token.
 - `TELEGRAM_CHAT_ID`: your allowed private chat ID.
 - `YOUTUBE_API_KEY`: the existing YouTube Data API key.
-- `TELEGRAM_WEBHOOK_SECRET`: create a new random string using only letters, numbers, underscores, and hyphens. Do not reuse the bot token.
+- `TELEGRAM_WEBHOOK_SECRET`: create a new random string using only letters, numbers, underscores, and hyphens. Do not reuse the bot token. The Worker rejects webhook requests if this secret is missing or does not match.
 - `BOT_INTERNAL_TOKEN`: create a separate long random string. This protects the private API used by GitHub Actions.
 
 Do not commit any of these values into GitHub files.
