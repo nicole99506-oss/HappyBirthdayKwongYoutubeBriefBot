@@ -30,6 +30,16 @@ jobs:
             exit 1
           fi
 
+          me="$(curl --silent --show-error --get "https://api.telegram.org/bot${BOT_TOKEN}/getMe")"
+          me_ok="$(printf '%s' "$me" | jq -r '.ok // false')"
+          if [ "$me_ok" != "true" ]; then
+            echo "Could not verify bot identity. Safe response:"
+            printf '%s' "$me" | jq '{ok, description}'
+            exit 1
+          fi
+          echo "Bot identity associated with TELEGRAM_BOT_TOKEN:"
+          printf '%s' "$me" | jq '{ok, username: .result.username, first_name: .result.first_name}'
+
           echo "Webhook status (URL itself is intentionally hidden):"
           printf '%s' "$response" | jq '{
             ok,
