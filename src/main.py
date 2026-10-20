@@ -110,7 +110,13 @@ def process_queue(st: dict) -> None:
     if not data:
         last_attempt = _parse_timestamp(st.get("last_gemini_attempt_at"))
         if last_attempt and now - last_attempt < timedelta(hours=config.MIN_HOURS_BETWEEN_GEMINI_REQUESTS):
-            print("[gemini] cooldown active; waiting before the next request")
+            ready_at = last_attempt + timedelta(hours=config.MIN_HOURS_BETWEEN_GEMINI_REQUESTS)
+            remaining = max(0, int((ready_at - now).total_seconds() // 60) + 1)
+            print(
+                f"[gemini] cooldown active; last attempt at {last_attempt.isoformat()}, "
+                f"next request allowed at {ready_at.isoformat()} UTC "
+                f"(about {remaining} minute(s) remaining)"
+            )
             return
 
         # Persist the attempt time before calling Gemini so repeated manual
