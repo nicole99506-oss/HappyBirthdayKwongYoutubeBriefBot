@@ -70,7 +70,9 @@ def _schedule_retry(item: dict, error: Exception) -> None:
 
 def process_queue(st: dict) -> None:
     """Process one ready video, preserving failed items and cached summaries."""
-    if st.get("gemini_pause_date") == _today():
+    if st.get("gemini_pause_date") == _today() and not any(
+        queued.get("summary_data") for queued in st.get("queue", [])
+    ):
         print("[gemini] paused for today after a quota/rate-limit response")
         return
     if not st["queue"]:
