@@ -79,13 +79,31 @@ Return only the JSON object."""
 
 
 def _generate(**kwargs):
-    """Make one Gemini request only; never retry inside a short time window."""
+    """Use one low-cost fallback model if the primary model is temporarily overloaded."""
     try:
         return client().models.generate_content(**kwargs)
     except genai_errors.ClientError as e:
         if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
             raise QuotaExhausted(str(e)) from e
         raise
+    except genai_errors.ServerError as e:
+        # 503 is temporary model overload, not a user quota error. Try one
+        # alternate stable Flash-Lite model, then let the queue retry next run.
+        if getattr(e, "code", None) != 503:
+            raise
+        fallback_model = "gemini-3.1-flash-lite"
+        primary_model = kwargs.get("model")
+        if not fallback_model or fallback_model == primary_model:
+            raise
+        print(f"[gemini] {primary_model} returned 503; trying fallback model {fallback_model} once")
+        fallback_kwargs = dict(kwargs)
+        fallback_kwargs["model"] = fallback_model
+        try:
+            return client().models.generate_content(**fallback_kwargs)
+        except genai_errors.ClientError as fallback_error:
+            if getattr(fallback_error, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(fallback_error):
+                raise QuotaExhausted(str(fallback_error)) from fallback_error
+            raise
 
 
 def summarize_video(url: str) -> dict:
