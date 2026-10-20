@@ -350,6 +350,13 @@
       "published": "2026-10-19T22:29:09+00:00",
       "url": "https://www.youtube.com/watch?v=8cEHEt9EGNk",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "0jQ9BGNP27M",
+      "title": "如果越南繼續用漢字？中國與越南的千年恩怨情仇｜胡志明去中國化的遠見？新一代越南人鍾情抖音？｜沈旭暉・平行時空・EP28 🇻🇳🇨🇳🇫🇷🇯🇵🇰🇷",
+      "published": "2026-10-20T10:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=0jQ9BGNP27M",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
@@ -357,7 +364,7 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-20T07:47:37.100926+00:00",
+  "last_run": "2026-10-20T13:43:00.598300+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-20T07:47:35.956470+00:00"
+  "last_gemini_attempt_at": "2026-10-20T13:42:59.271393+00:00"
 }
