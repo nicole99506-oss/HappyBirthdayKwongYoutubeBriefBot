@@ -37,7 +37,7 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           BOT_WORKER_URL: ${{ secrets.BOT_WORKER_URL }}
           BOT_INTERNAL_TOKEN: ${{ secrets.BOT_INTERNAL_TOKEN }}
-          GEMINI_MODEL: gemini-2.5-flash-lite
+          GEMINI_MODEL: gemini-3.5-flash-lite
           FREE_MODE: "false"
           MAX_VIDEOS_PER_RUN: "1"
           DAILY_VIDEO_CAP: "0"
