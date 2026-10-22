@@ -66,10 +66,12 @@ CONTENT AND FIDELITY:
 - Keep facts, opinions, allegations, predictions, and uncertain claims distinct. Do not turn uncertainty into certainty.
 - Do not invent or guess details that are unclear or unavailable.
 
-LENGTH:
-- Aim for approximately 800 words in the video's original language. This is a guideline, not a strict limit.
-- Use more words when necessary to cover a long or information-dense video faithfully. Completeness and accuracy take priority over the approximate length.
-- Use fewer words for short or simple videos when that is sufficient to cover their content.
+LENGTH AND PARAGRAPHS:
+- Keep each summary to a maximum of about a 3-minute read. Be concise rather than exhaustive.
+- As a rough guide, aim for around 350–450 English words, or a comparable length in the video's original language. Use judgment for languages with different reading speeds; do not mechanically match word counts across languages.
+- Prioritize the central thesis, key arguments, important evidence or examples, and the conclusion. Omit minor details and secondary digressions unless they are essential to understanding the main point.
+- Break the summary into 3–6 readable paragraphs, grouping related ideas together. Do not return one long block of text.
+- Short or simple videos should have shorter summaries. Never exceed the 3-minute-read target just to cover every detail; accuracy and the main message matter more than exhaustive coverage.
 
 OUTPUT:
 Return a valid JSON object with exactly one field: "summary".
