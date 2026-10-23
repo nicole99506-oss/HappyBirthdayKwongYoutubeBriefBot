@@ -251,7 +251,8 @@
         "kHcLWinr2QI",
         "HAmRlc5V-PY",
         "l4ZAZJ1ZLn0",
-        "d2k2nYYZ5M8"
+        "d2k2nYYZ5M8",
+        "GI7nXfvH3FY"
       ],
       "worker_initialized": true
     },
@@ -318,13 +319,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "GI7nXfvH3FY",
-      "title": "美國副總統點名微軟：印度人在美國為何這麼成功？  #國際關係",
-      "published": "2026-10-22T17:56:27+00:00",
-      "url": "https://www.youtube.com/watch?v=GI7nXfvH3FY",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "gkSN34mpD2c",
       "title": "美國公司全是印度人？印度族群的網絡，華人能做到嗎？｜移民族群｜Simon Lab｜國際關係101｜🇺🇸🇮🇳",
       "published": "2026-10-22T15:00:04+00:00",
@@ -365,14 +359,21 @@
       "published": "2026-10-23T13:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=dFcCJtCE4Ig",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "klNrHifqpqk",
+      "title": "Aircraft Carriers Are Basically Useless",
+      "published": "2026-10-23T16:46:48+00:00",
+      "url": "https://www.youtube.com/watch?v=klNrHifqpqk",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
-    "date": "2026-10-23",
-    "count": 5
+    "date": "2026-10-24",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-23T13:39:34.908989+00:00",
+  "last_run": "2026-10-23T18:31:55.929244+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-23T13:38:54.852665+00:00"
+  "last_gemini_attempt_at": "2026-10-23T18:31:49.855787+00:00"
 }
