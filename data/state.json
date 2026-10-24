@@ -254,7 +254,8 @@
         "d2k2nYYZ5M8",
         "GI7nXfvH3FY",
         "gkSN34mpD2c",
-        "njI2VhnIK3I"
+        "njI2VhnIK3I",
+        "GsF1wRVu3QE"
       ],
       "worker_initialized": true
     },
@@ -322,13 +323,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "GsF1wRVu3QE",
-      "title": "如果特朗普中期選舉大勝｜美國總統可以突破兩屆任期永續嗎？｜沈旭暉・平行時空・EP31 🇺🇸",
-      "published": "2026-10-23T10:00:26+00:00",
-      "url": "https://www.youtube.com/watch?v=GsF1wRVu3QE",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "0UCewcSvSAM",
       "title": "9/11 Fooled Us. Epstein Makes Us Finally Get It — Aaron Good & Bryce Greene",
       "published": "2026-10-23T10:53:06+00:00",
@@ -355,14 +349,28 @@
       "published": "2026-10-24T04:00:05+00:00",
       "url": "https://www.youtube.com/watch?v=9YkNlyHsoSQ",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "ZfrwCfmCp48",
+      "title": "冰上絲綢之路：中國乘虛而入俄屬北極？中國何時成為「近北極國家」？印度也在北極委員會？｜沈旭暉・平行時空・EP30 🇨🇳🇷🇺🇳🇴🇺🇸🇮🇸",
+      "published": "2026-10-24T10:00:24+00:00",
+      "url": "https://www.youtube.com/watch?v=ZfrwCfmCp48",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "uFe1W9pgPiA",
+      "title": "The US Is Going to Lose in Ukraine",
+      "published": "2026-10-24T12:18:42+00:00",
+      "url": "https://www.youtube.com/watch?v=uFe1W9pgPiA",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
     "date": "2026-10-24",
-    "count": 4
+    "count": 5
   },
   "greeted": true,
-  "last_run": "2026-10-24T07:29:33.257788+00:00",
+  "last_run": "2026-10-24T12:49:20.265157+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-24T07:28:13.103965+00:00"
+  "last_gemini_attempt_at": "2026-10-24T12:48:48.673028+00:00"
 }
