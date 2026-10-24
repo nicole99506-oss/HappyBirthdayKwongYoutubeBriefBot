@@ -316,20 +316,14 @@
         "8cEHEt9EGNk",
         "8MXCz1p-3Y0",
         "p70rlAUD__k",
-        "0rd5a06uScA"
+        "0rd5a06uScA",
+        "dFcCJtCE4Ig"
       ],
       "worker_initialized": true
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "dFcCJtCE4Ig",
-      "title": "Are Aircraft Carriers Obsolete? | Ask The Professor",
-      "published": "2026-10-23T13:00:06+00:00",
-      "url": "https://www.youtube.com/watch?v=dFcCJtCE4Ig",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
-    },
     {
       "video_id": "klNrHifqpqk",
       "title": "Aircraft Carriers Are Basically Useless",
@@ -361,10 +355,10 @@
   ],
   "daily": {
     "date": "2026-10-25",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-10-24T16:45:58.948032+00:00",
+  "last_run": "2026-10-24T19:36:53.857876+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-24T16:45:04.912757+00:00"
+  "last_gemini_attempt_at": "2026-10-24T19:36:01.538685+00:00"
 }
