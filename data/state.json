@@ -256,7 +256,8 @@
         "gkSN34mpD2c",
         "njI2VhnIK3I",
         "GsF1wRVu3QE",
-        "9YkNlyHsoSQ"
+        "9YkNlyHsoSQ",
+        "ZfrwCfmCp48"
       ],
       "worker_initialized": true
     },
@@ -327,13 +328,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "ZfrwCfmCp48",
-      "title": "冰上絲綢之路：中國乘虛而入俄屬北極？中國何時成為「近北極國家」？印度也在北極委員會？｜沈旭暉・平行時空・EP30 🇨🇳🇷🇺🇳🇴🇺🇸🇮🇸",
-      "published": "2026-10-24T10:00:24+00:00",
-      "url": "https://www.youtube.com/watch?v=ZfrwCfmCp48",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "uFe1W9pgPiA",
       "title": "The US Is Going to Lose in Ukraine",
       "published": "2026-10-24T12:18:42+00:00",
@@ -343,10 +337,10 @@
   ],
   "daily": {
     "date": "2026-10-25",
-    "count": 4
+    "count": 5
   },
   "greeted": true,
-  "last_run": "2026-10-25T01:21:13.122200+00:00",
+  "last_run": "2026-10-25T06:30:10.408319+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-25T01:20:55.213185+00:00"
+  "last_gemini_attempt_at": "2026-10-25T06:29:51.146456+00:00"
 }
