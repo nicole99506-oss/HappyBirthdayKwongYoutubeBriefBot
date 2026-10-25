@@ -320,7 +320,8 @@
         "p70rlAUD__k",
         "0rd5a06uScA",
         "dFcCJtCE4Ig",
-        "klNrHifqpqk"
+        "klNrHifqpqk",
+        "uFe1W9pgPiA"
       ],
       "worker_initialized": true
     }
@@ -328,19 +329,40 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "uFe1W9pgPiA",
-      "title": "The US Is Going to Lose in Ukraine",
-      "published": "2026-10-24T12:18:42+00:00",
-      "url": "https://www.youtube.com/watch?v=uFe1W9pgPiA",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+      "video_id": "nfqyIScR10k",
+      "title": "胡塞武裝是一個國家？！｜北也門神秘復國，紅海危機背後真相｜沈旭暉・平行時空・EP33 🇾🇪🇸🇦🇮🇷🇦🇪🇺🇸",
+      "published": "2026-10-25T10:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=nfqyIScR10k",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "dPXK91Kd2sE",
+      "title": "波蘭校園連橫兇案，為何舉國震驚？｜波蘭民族主義在當代歐洲｜最安全歐洲國家是哪個？｜沈旭暉 x 波蘭傳道人Connie｜校長會客室・國際部・EP27・字幕圖像版 🇵🇱🇪🇺",
+      "published": "2026-10-25T04:00:22+00:00",
+      "url": "https://www.youtube.com/watch?v=dPXK91Kd2sE",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "kgkGBwfKW24",
+      "title": "康乃爾大學兄弟會輪姦案｜七「兄弟」與美國名校文化·校方處分可取代刑責？｜沈旭暉 x Sunny Li 律師丨奇案101・EP02 🇺🇸🇬🇧🇬🇷🇭🇰🇹🇼",
+      "published": "2026-10-25T00:00:18+00:00",
+      "url": "https://www.youtube.com/watch?v=kgkGBwfKW24",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "UPUSvoZx-fc",
+      "title": "(EXCLUSIVE) Why Everyone You Follow Might Be a PSYOP— Kit Klarenberg",
+      "published": "2026-10-25T09:00:24+00:00",
+      "url": "https://www.youtube.com/watch?v=UPUSvoZx-fc",
+      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     }
   ],
   "daily": {
     "date": "2026-10-25",
-    "count": 5
+    "count": 6
   },
   "greeted": true,
-  "last_run": "2026-10-25T06:30:10.408319+00:00",
+  "last_run": "2026-10-25T12:39:57.094810+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-25T06:29:51.146456+00:00"
+  "last_gemini_attempt_at": "2026-10-25T12:39:52.217125+00:00"
 }
