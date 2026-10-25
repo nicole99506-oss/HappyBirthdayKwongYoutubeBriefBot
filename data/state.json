@@ -259,7 +259,8 @@
         "9YkNlyHsoSQ",
         "ZfrwCfmCp48",
         "nfqyIScR10k",
-        "dPXK91Kd2sE"
+        "dPXK91Kd2sE",
+        "kgkGBwfKW24"
       ],
       "worker_initialized": true
     },
@@ -331,13 +332,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "kgkGBwfKW24",
-      "title": "康乃爾大學兄弟會輪姦案｜七「兄弟」與美國名校文化·校方處分可取代刑責？｜沈旭暉 x Sunny Li 律師丨奇案101・EP02 🇺🇸🇬🇧🇬🇷🇭🇰🇹🇼",
-      "published": "2026-10-25T00:00:18+00:00",
-      "url": "https://www.youtube.com/watch?v=kgkGBwfKW24",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "UPUSvoZx-fc",
       "title": "(EXCLUSIVE) Why Everyone You Follow Might Be a PSYOP— Kit Klarenberg",
       "published": "2026-10-25T09:00:24+00:00",
@@ -368,10 +362,10 @@
   ],
   "daily": {
     "date": "2026-10-26",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-10-25T19:49:02.630576+00:00",
+  "last_run": "2026-10-25T22:42:37.826601+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-25T19:48:33.334778+00:00"
+  "last_gemini_attempt_at": "2026-10-25T22:41:10.789605+00:00"
 }
