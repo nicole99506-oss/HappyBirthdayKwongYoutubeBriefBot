@@ -267,7 +267,8 @@
         "SDv_dPlvFaI",
         "1AfOVNYiUmU",
         "MZ3L2Nyv1tU",
-        "phDZ60lFmpo"
+        "phDZ60lFmpo",
+        "kZdnUEt2JZo"
       ],
       "worker_initialized": true
     },
@@ -340,13 +341,35 @@
     }
   },
   "awaiting_backfill": {},
-  "queue": [],
+  "queue": [
+    {
+      "video_id": "FjI16ot02KI",
+      "title": "意大利為何出現法國式大示威？油價飆升、生活成本高企，當地人怎麼看？｜沈旭暉 x 意大利商人Sharpe｜校長會客室・國際部・EP30・字幕圖像版 🇮🇹🇫🇷",
+      "published": "2026-10-28T04:00:23+00:00",
+      "url": "https://www.youtube.com/watch?v=FjI16ot02KI",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "FSDIG_1QCvg",
+      "title": "性機械人滅絕人類婚姻？AI伴侶會否取代真人？｜沈旭暉・國際未來學・EP04 🤖",
+      "published": "2026-10-28T00:00:10+00:00",
+      "url": "https://www.youtube.com/watch?v=FSDIG_1QCvg",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "6T4cZvN4h2E",
+      "title": "Does Israel Win If the Gulf Burns? | Ask the Professor",
+      "published": "2026-10-28T13:00:04+00:00",
+      "url": "https://www.youtube.com/watch?v=6T4cZvN4h2E",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    }
+  ],
   "daily": {
     "date": "2026-10-28",
-    "count": 3
+    "count": 4
   },
   "greeted": true,
-  "last_run": "2026-10-28T05:58:49.991188+00:00",
+  "last_run": "2026-10-28T13:18:50.355732+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-28T05:58:30.903862+00:00"
+  "last_gemini_attempt_at": "2026-10-28T13:17:59.172217+00:00"
 }
