@@ -337,23 +337,14 @@
         "klNrHifqpqk",
         "uFe1W9pgPiA",
         "Uq5w88VDavQ",
-        "8wqreOOLpd4"
+        "8wqreOOLpd4",
+        "6T4cZvN4h2E"
       ],
       "worker_initialized": true
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "6T4cZvN4h2E",
-      "title": "Does Israel Win If the Gulf Burns? | Ask the Professor",
-      "published": "2026-10-28T13:00:04+00:00",
-      "url": "https://www.youtube.com/watch?v=6T4cZvN4h2E",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w",
-      "summary_attempts": 1,
-      "last_summary_error": "Server disconnected without sending a response.",
-      "next_retry_at": "2026-10-29T03:43:23.526959+00:00"
-    },
     {
       "video_id": "C7E8n9aPT1s",
       "title": "麥巴比沒說過「毛澤東」，為何要三語道歉？  #沈旭暉  #地緣政治  #國際關係",
@@ -374,14 +365,35 @@
       "published": "2026-10-28T15:13:44+00:00",
       "url": "https://www.youtube.com/watch?v=eOFWE96avUE",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "Js68dIiEByA",
+      "title": "中國在「巴基斯坦香港」：91%:9%的不平等條約｜瓜達爾港才是突破霍爾木茲海峽的秘密武器？｜沈旭暉・平行時空・EP37 🇵🇰🇨🇳🇴🇲🇸🇬🇮🇳🇮🇷",
+      "published": "2026-10-29T10:00:07+00:00",
+      "url": "https://www.youtube.com/watch?v=Js68dIiEByA",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "xSfk0reGZrw",
+      "title": "阿省脫離加拿大獨立公投，為何大失敗？｜沈旭暉 x 阿省香港人 Arnold、Ricky｜校長會客室・國際部・EP31・字幕圖像版 🇨🇦🇺🇸🇭🇰",
+      "published": "2026-10-29T04:00:16+00:00",
+      "url": "https://www.youtube.com/watch?v=xSfk0reGZrw",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "ecsjts752Z0",
+      "title": "Israel Wants Weak Neighbors",
+      "published": "2026-10-28T22:38:06+00:00",
+      "url": "https://www.youtube.com/watch?v=ecsjts752Z0",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
     "date": "2026-10-29",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-10-29T02:43:23.532446+00:00",
+  "last_run": "2026-10-29T10:15:54.305050+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-29T02:38:40.662902+00:00"
+  "last_gemini_attempt_at": "2026-10-29T10:15:30.906628+00:00"
 }
