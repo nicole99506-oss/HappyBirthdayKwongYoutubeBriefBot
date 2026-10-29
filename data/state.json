@@ -349,7 +349,10 @@
       "title": "Does Israel Win If the Gulf Burns? | Ask the Professor",
       "published": "2026-10-28T13:00:04+00:00",
       "url": "https://www.youtube.com/watch?v=6T4cZvN4h2E",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w",
+      "summary_attempts": 1,
+      "last_summary_error": "Server disconnected without sending a response.",
+      "next_retry_at": "2026-10-29T03:43:23.526959+00:00"
     },
     {
       "video_id": "C7E8n9aPT1s",
@@ -378,7 +381,7 @@
     "count": 2
   },
   "greeted": true,
-  "last_run": "2026-10-28T23:22:27.474186+00:00",
+  "last_run": "2026-10-29T02:43:23.532446+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-28T23:21:55.886343+00:00"
+  "last_gemini_attempt_at": "2026-10-29T02:38:40.662902+00:00"
 }
