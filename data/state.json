@@ -351,7 +351,10 @@
       "title": "麥巴比辱華引發抵制：當言論自由碰上中國政治禁忌，西方如何選擇？｜寒蟬效應｜Simon Lab・國際關係101｜🇨🇳",
       "published": "2026-10-28T14:49:14+00:00",
       "url": "https://www.youtube.com/watch?v=d6W3Ez2OhYw",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "summary_attempts": 1,
+      "last_summary_error": "Extra data: line 3 column 1 (char 3674)",
+      "next_retry_at": "2026-10-29T22:54:37.816821+00:00"
     },
     {
       "video_id": "eOFWE96avUE",
@@ -387,7 +390,7 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-10-29T17:01:33.104361+00:00",
+  "last_run": "2026-10-29T21:54:37.827765+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-29T17:00:08.517840+00:00"
+  "last_gemini_attempt_at": "2026-10-29T21:53:51.431761+00:00"
 }
