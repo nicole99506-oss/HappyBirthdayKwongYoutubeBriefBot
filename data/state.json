@@ -275,7 +275,8 @@
         "d6W3Ez2OhYw",
         "Js68dIiEByA",
         "xSfk0reGZrw",
-        "tE6Qqg11VbU"
+        "tE6Qqg11VbU",
+        "hCJ1G6mcb_s"
       ],
       "worker_initialized": true
     },
@@ -353,13 +354,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "hCJ1G6mcb_s",
-      "title": "李鄭屋古墓 2000年前預言今日移民歷史？｜沈旭暉 x 柴宇瀚｜校長會客室・歷史部・EP32・字幕圖像版 🇭🇰🇨🇳🇹🇼",
-      "published": "2026-10-30T04:00:20+00:00",
-      "url": "https://www.youtube.com/watch?v=hCJ1G6mcb_s",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "zc_7UpNjOsE",
       "title": "中國中產返貧？有樓有車有工，為何越來越窮困？｜馮敬恩・大學堂｜國際關係教室｜ 中國中產｜共同富裕｜中產返貧｜資產負債表衰退｜🇨🇳｜",
       "published": "2026-10-30T00:00:16+00:00",
@@ -379,14 +373,28 @@
       "published": "2026-10-31T04:00:32+00:00",
       "url": "https://www.youtube.com/watch?v=wOZyObzpakA",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "ZFMnWQkKHrQ",
+      "title": "中國小粉紅大戰Hello Kitty：Sanrio 辱華？｜粉紅全球化的滑鐵盧：中國市場如何改寫全球文化？｜沈旭暉・平行時空・EP39 🇨🇳🇯🇵🇺🇸🇭🇰",
+      "published": "2026-10-31T10:00:04+00:00",
+      "url": "https://www.youtube.com/watch?v=ZFMnWQkKHrQ",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "4ukwv29_TjU",
+      "title": "Liberals Are the Enemy — Carlos (Deculturation)",
+      "published": "2026-10-31T11:12:00+00:00",
+      "url": "https://www.youtube.com/watch?v=4ukwv29_TjU",
+      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     }
   ],
   "daily": {
     "date": "2026-10-31",
-    "count": 4
+    "count": 5
   },
   "greeted": true,
-  "last_run": "2026-10-31T07:11:36.794212+00:00",
+  "last_run": "2026-10-31T13:46:01.571773+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-31T07:09:59.625750+00:00"
+  "last_gemini_attempt_at": "2026-10-31T13:45:10.614136+00:00"
 }
