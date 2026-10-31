@@ -343,20 +343,14 @@
         "Uq5w88VDavQ",
         "8wqreOOLpd4",
         "6T4cZvN4h2E",
-        "eOFWE96avUE"
+        "eOFWE96avUE",
+        "ecsjts752Z0"
       ],
       "worker_initialized": true
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "ecsjts752Z0",
-      "title": "Israel Wants Weak Neighbors",
-      "published": "2026-10-28T22:38:06+00:00",
-      "url": "https://www.youtube.com/watch?v=ecsjts752Z0",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
-    },
     {
       "video_id": "tE6Qqg11VbU",
       "title": "以色列為何愈來愈激？｜哈拉迪猶太人如何騎劫內塔尼亞胡？｜沈旭暉・平行時空・EP37 🇮🇱🇵🇸",
@@ -388,10 +382,10 @@
   ],
   "daily": {
     "date": "2026-10-31",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-10-30T20:57:48.034596+00:00",
+  "last_run": "2026-10-31T00:54:26.752421+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-30T20:55:51.840128+00:00"
+  "last_gemini_attempt_at": "2026-10-31T00:54:19.791214+00:00"
 }
