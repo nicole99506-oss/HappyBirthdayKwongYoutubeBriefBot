@@ -277,7 +277,8 @@
         "xSfk0reGZrw",
         "tE6Qqg11VbU",
         "hCJ1G6mcb_s",
-        "zc_7UpNjOsE"
+        "zc_7UpNjOsE",
+        "wOZyObzpakA"
       ],
       "worker_initialized": true
     },
@@ -356,13 +357,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "wOZyObzpakA",
-      "title": "澳洲如何在中國稀土壟斷打開缺口？中國稀土武器只剩5年？從礦石到磁鐵的地緣經濟戰｜沈旭暉 x 張大寶｜校長會客室・國際部・EP33・字幕圖像版 🇦🇺🇨🇳",
-      "published": "2026-10-31T04:00:32+00:00",
-      "url": "https://www.youtube.com/watch?v=wOZyObzpakA",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "ZFMnWQkKHrQ",
       "title": "中國小粉紅大戰Hello Kitty：Sanrio 辱華？｜粉紅全球化的滑鐵盧：中國市場如何改寫全球文化？｜沈旭暉・平行時空・EP39 🇨🇳🇯🇵🇺🇸🇭🇰",
       "published": "2026-10-31T10:00:04+00:00",
@@ -400,10 +394,10 @@
   ],
   "daily": {
     "date": "2026-11-01",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-10-31T22:39:23.299974+00:00",
+  "last_run": "2026-11-01T02:23:33.603475+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-10-31T22:37:51.426525+00:00"
+  "last_gemini_attempt_at": "2026-11-01T02:23:01.352879+00:00"
 }
