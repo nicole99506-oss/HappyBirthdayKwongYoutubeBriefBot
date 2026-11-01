@@ -279,7 +279,8 @@
         "hCJ1G6mcb_s",
         "zc_7UpNjOsE",
         "wOZyObzpakA",
-        "ZFMnWQkKHrQ"
+        "ZFMnWQkKHrQ",
+        "tskSZvItsbQ"
       ],
       "worker_initialized": true
     },
@@ -359,13 +360,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "tskSZvItsbQ",
-      "title": "歐洲反俄最前線一夜「政變」？波蘭總統專機掉頭  #國際關係  #沈旭暉",
-      "published": "2026-10-31T15:05:27+00:00",
-      "url": "https://www.youtube.com/watch?v=tskSZvItsbQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "UiUnJ0qJoxY",
       "title": "波蘭政變？總統專機緊急折返，歐洲反俄前線會否動搖？｜憲政危機｜Simon Lab｜國際關係101｜🇵🇱",
       "published": "2026-10-31T15:00:32+00:00",
@@ -424,10 +418,10 @@
   ],
   "daily": {
     "date": "2026-11-02",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-01T16:54:27.280143+00:00",
+  "last_run": "2026-11-01T21:17:57.901259+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-01T16:52:26.172880+00:00"
+  "last_gemini_attempt_at": "2026-11-01T21:17:53.800289+00:00"
 }
