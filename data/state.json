@@ -58,7 +58,8 @@
         "6nFBYxAzZGw",
         "8gFALSRqKxg",
         "XnnyR9NYA44",
-        "nYSIJ7Zx6qs"
+        "nYSIJ7Zx6qs",
+        "HHW-OrZTpRk"
       ],
       "worker_initialized": true
     },
@@ -365,13 +366,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "HHW-OrZTpRk",
-      "title": "AI is Alive! Its Alive! and earnings for FTNT, AXTI, GOOG, AMZN and INTC",
-      "published": "2026-11-01T14:39:07+00:00",
-      "url": "https://www.youtube.com/watch?v=HHW-OrZTpRk",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
-    },
-    {
       "video_id": "6DCh9nc01xE",
       "title": "中國企業工程，引發塞爾維亞政治變天？一帶一路現信任危機？｜蝴蝶效應｜Simon Universe｜國際關係教室｜🇷🇸🇨🇳",
       "published": "2026-11-01T15:00:21+00:00",
@@ -433,14 +427,21 @@
       "published": "2026-11-03T04:00:39+00:00",
       "url": "https://www.youtube.com/watch?v=EpIUkghSdDc",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "tjuHre6OT6c",
+      "title": "美國選舉非真正民主？選票多未必贏？  #國際關係",
+      "published": "2026-11-03T16:00:19+00:00",
+      "url": "https://www.youtube.com/watch?v=tjuHre6OT6c",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-11-03",
-    "count": 3
+    "date": "2026-11-04",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-03T09:46:25.684586+00:00",
+  "last_run": "2026-11-03T17:57:50.970334+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-03T09:46:08.135032+00:00"
+  "last_gemini_attempt_at": "2026-11-03T17:56:29.782796+00:00"
 }
