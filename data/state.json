@@ -286,7 +286,8 @@
         "Ygur1S8q96I",
         "PCDZTu0jLQc",
         "6DCh9nc01xE",
-        "HqY7OQdby9s"
+        "HqY7OQdby9s",
+        "zzDeMXLUIto"
       ],
       "worker_initialized": true
     },
@@ -368,16 +369,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "zzDeMXLUIto",
-      "title": "2026美國選舉懶人包：票多未必贏？全面拆解參眾兩院、選舉人團與紅藍州｜美國民主｜Simon Lab｜國際關係101｜🇺🇸",
-      "published": "2026-11-02T15:00:09+00:00",
-      "url": "https://www.youtube.com/watch?v=zzDeMXLUIto",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "summary_attempts": 1,
-      "last_summary_error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-      "next_retry_at": "2026-11-04T16:37:54.999676+00:00"
-    },
-    {
       "video_id": "jbpChlcI52k",
       "title": "北韓黑客帝國｜誰偷走幣安幾百億？金正恩如何訓練世界級網軍？｜沈旭暉・平行時空・EP41 🇰🇵🇨🇳🇷🇺🇺🇸💰",
       "published": "2026-11-02T10:00:09+00:00",
@@ -442,11 +433,11 @@
     }
   ],
   "daily": {
-    "date": "2026-11-04",
-    "count": 3
+    "date": "2026-11-05",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-04T15:37:55.003982+00:00",
+  "last_run": "2026-11-04T22:01:21.456238+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-04T15:36:04.913379+00:00"
+  "last_gemini_attempt_at": "2026-11-04T22:00:42.335340+00:00"
 }
