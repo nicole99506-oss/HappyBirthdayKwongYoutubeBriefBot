@@ -288,7 +288,8 @@
         "6DCh9nc01xE",
         "HqY7OQdby9s",
         "zzDeMXLUIto",
-        "jbpChlcI52k"
+        "jbpChlcI52k",
+        "Ya5yAXzyN78"
       ],
       "worker_initialized": true
     },
@@ -370,13 +371,6 @@
   "awaiting_backfill": {},
   "queue": [
     {
-      "video_id": "Ya5yAXzyN78",
-      "title": "特朗普為何未眾叛親離？美國中期選舉前瞻｜一個反特朗普美國律師的十年心路歷程｜沈旭暉 x 鄧偉鈞大律師｜校長會客室・國際部・EP35・字幕圖像版 🇺🇸🇭🇰",
-      "published": "2026-11-02T04:00:38+00:00",
-      "url": "https://www.youtube.com/watch?v=Ya5yAXzyN78",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
-    {
       "video_id": "-wR21hBlYhY",
       "title": "一座火車站倒塌，為何可以推翻一個政權？  #國際關係",
       "published": "2026-11-02T00:15:23+00:00",
@@ -424,14 +418,49 @@
       "published": "2026-11-04T00:11:57+00:00",
       "url": "https://www.youtube.com/watch?v=i15HLCMLISU",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "rilH0SzMGNQ",
+      "title": "特朗普大敗外交後遺症：全球對美國集體走數？｜日本、歐盟不再懼怕關稅戰？伊朗戰爭終局可期？烏克蘭得到透氣口？｜沈旭暉・平行時空・EP44 🇺🇸🇪🇺🇨🇳🇯🇵🇨🇦🇮🇷🇮🇱🇺🇦🇷🇺",
+      "published": "2026-11-05T10:00:10+00:00",
+      "url": "https://www.youtube.com/watch?v=rilH0SzMGNQ",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "VfoTiS68lNY",
+      "title": "特朗普慘敗？民主黨重奪兩院，美國政局正式變天？🇺🇸",
+      "published": "2026-11-05T07:42:28+00:00",
+      "url": "https://www.youtube.com/watch?v=VfoTiS68lNY",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "7wR2Ry4gugI",
+      "title": "共和黨最大票倉德州變天｜州長、參議員失守，布殊家族漁人得利？德州香港人深度解讀｜沈旭暉 x 德州港人Victor｜校長會客室・國際部・EP39・字幕圖像版 🇺🇸",
+      "published": "2026-11-05T04:00:08+00:00",
+      "url": "https://www.youtube.com/watch?v=7wR2Ry4gugI",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "6abmJ14r5V8",
+      "title": "美國中期選舉 喬治亞州變天 共和黨全面失守：中間選民為何轉向？喬治亞州教授深度解讀｜沈旭暉 x Issac Fung 教授｜校長會客室・國際部・EP38・字幕圖像版 🇺🇸",
+      "published": "2026-11-05T00:00:10+00:00",
+      "url": "https://www.youtube.com/watch?v=6abmJ14r5V8",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "0LuEIMzUMcM",
+      "title": "Nuke Pickaxe Mountain, Then What?",
+      "published": "2026-11-04T22:00:03+00:00",
+      "url": "https://www.youtube.com/watch?v=0LuEIMzUMcM",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
     "date": "2026-11-05",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-11-05T02:38:29.549716+00:00",
+  "last_run": "2026-11-05T11:16:26.303842+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-05T02:37:50.131888+00:00"
+  "last_gemini_attempt_at": "2026-11-05T11:15:49.224461+00:00"
 }
