@@ -294,7 +294,8 @@
         "rd5blOmhT0E",
         "EpIUkghSdDc",
         "tjuHre6OT6c",
-        "jCyaAzcQDQ4"
+        "jCyaAzcQDQ4",
+        "rilH0SzMGNQ"
       ],
       "worker_initialized": true
     },
@@ -377,13 +378,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "rilH0SzMGNQ",
-      "title": "特朗普大敗外交後遺症：全球對美國集體走數？｜日本、歐盟不再懼怕關稅戰？伊朗戰爭終局可期？烏克蘭得到透氣口？｜沈旭暉・平行時空・EP44 🇺🇸🇪🇺🇨🇳🇯🇵🇨🇦🇮🇷🇮🇱🇺🇦🇷🇺",
-      "published": "2026-11-05T10:00:10+00:00",
-      "url": "https://www.youtube.com/watch?v=rilH0SzMGNQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "VfoTiS68lNY",
       "title": "特朗普慘敗？民主黨重奪兩院，美國政局正式變天？🇺🇸",
@@ -481,14 +475,28 @@
       "published": "2026-11-07T00:00:24+00:00",
       "url": "https://www.youtube.com/watch?v=bM7Q9iXJGLw",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "TzCeWJ_xBGU",
+      "title": "大法官之戰：控制美國未來40年在此一舉？最高法院大法官才是美國最有權力的人？如何令終身制大法官離場？｜沈旭暉・平行時空・EP46 🇺🇸",
+      "published": "2026-11-07T10:00:15+00:00",
+      "url": "https://www.youtube.com/watch?v=TzCeWJ_xBGU",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "EMnVUOPBEnE",
+      "title": "The Princess and the TerrOr!st",
+      "published": "2026-11-07T09:00:15+00:00",
+      "url": "https://www.youtube.com/watch?v=EMnVUOPBEnE",
+      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     }
   ],
   "daily": {
     "date": "2026-11-07",
-    "count": 4
+    "count": 5
   },
   "greeted": true,
-  "last_run": "2026-11-07T09:00:00.515058+00:00",
+  "last_run": "2026-11-07T15:48:32.473390+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-07T08:58:37.762522+00:00"
+  "last_gemini_attempt_at": "2026-11-07T15:47:52.927692+00:00"
 }
