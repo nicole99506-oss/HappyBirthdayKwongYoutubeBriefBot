@@ -298,7 +298,8 @@
         "rilH0SzMGNQ",
         "VfoTiS68lNY",
         "7wR2Ry4gugI",
-        "6abmJ14r5V8"
+        "6abmJ14r5V8",
+        "-5HmLSKIwIQ"
       ],
       "worker_initialized": true
     },
@@ -382,13 +383,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "-5HmLSKIwIQ",
-      "title": "英國永居5年變10年，BNO可獲豁免？一切仍有暗湧？｜移民政治｜Simon Lab｜國際關係101｜🇬🇧",
-      "published": "2026-11-05T15:00:09+00:00",
-      "url": "https://www.youtube.com/watch?v=-5HmLSKIwIQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "HY5gLMi9KiY",
       "title": "特朗普2.0 失去了多少國際盟友？中期選舉與美國外交｜美國與加拿大、英國、歐盟、丹麥、格陵蘭的博弈｜沈旭暉 x 張崑陽｜校長會客室・國際部・EP37・字幕圖像修復版 🇺🇸🇨🇦🇬🇧🇪🇺🇩🇰🇬🇱",
@@ -500,14 +494,35 @@
       "published": "2026-11-08T09:00:32+00:00",
       "url": "https://www.youtube.com/watch?v=SHKGRPRerQ0",
       "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
+    },
+    {
+      "video_id": "91HpmjjWHEw",
+      "title": "AI over-reaction and earnings for LITE, FN, AMD, QCOM, and COHR",
+      "published": "2026-11-08T15:57:08+00:00",
+      "url": "https://www.youtube.com/watch?v=91HpmjjWHEw",
+      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
+    },
+    {
+      "video_id": "JmZGHqs5R5k",
+      "title": "NVIDIA一日蒸發4000億，民主黨要禁超級AI？  #國際關係",
+      "published": "2026-11-08T18:00:28+00:00",
+      "url": "https://www.youtube.com/watch?v=JmZGHqs5R5k",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "2-3MHSPUNqA",
+      "title": "美股暴跌，民主黨大勝後提出AI禁令，中國會漁人得利？｜AI競賽｜Simon Lab｜國際關係101｜🇺🇸🇨🇳",
+      "published": "2026-11-08T15:00:08+00:00",
+      "url": "https://www.youtube.com/watch?v=2-3MHSPUNqA",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-11-08",
-    "count": 4
+    "date": "2026-11-09",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-08T14:24:08.566690+00:00",
+  "last_run": "2026-11-08T19:49:39.212852+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-08T14:23:44.775398+00:00"
+  "last_gemini_attempt_at": "2026-11-08T19:49:23.867356+00:00"
 }
