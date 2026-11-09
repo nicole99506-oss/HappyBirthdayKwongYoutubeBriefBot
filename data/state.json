@@ -301,7 +301,8 @@
         "6abmJ14r5V8",
         "-5HmLSKIwIQ",
         "HY5gLMi9KiY",
-        "69XM2F4TkCQ"
+        "69XM2F4TkCQ",
+        "8TqZBPoAq-I"
       ],
       "worker_initialized": true
     },
@@ -385,13 +386,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "8TqZBPoAq-I",
-      "title": "共和黨大敗，特朗普路線更堅定？伊朗戰爭不會終結，台灣不會有危機？｜美國中期選舉結果深度分析｜沈旭暉 x 練乙錚教授｜校長會客室・國際部・EP40・字幕圖像版 🇺🇸🇮🇷🇺🇦🇹🇼🇨🇳",
-      "published": "2026-11-06T04:07:37+00:00",
-      "url": "https://www.youtube.com/watch?v=8TqZBPoAq-I",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "mWaez4AuGWs",
       "title": "Trump Waited Until After the Election",
@@ -503,14 +497,49 @@
       "published": "2026-11-08T15:00:08+00:00",
       "url": "https://www.youtube.com/watch?v=2-3MHSPUNqA",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "Ly9iTsUGNvk",
+      "title": "黃仁勳出軌涉中國間諜，美國早已得知？美國國會介入調查？｜中美科技戰｜Simon Lab｜國際關係101｜🇺🇸🇨🇳",
+      "published": "2026-11-09T15:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=Ly9iTsUGNvk",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "jiuESzRS_fM",
+      "title": "民主黨極左派抬頭？AOC成為美國第48任總統？｜2028總統前哨戰：中期選舉進步派／極左派為何突破基本盤？DSA 成為民主黨MAGA？丨沈旭暉・平行時空・EP48 🇺🇸🇨🇳🇷🇺🇺🇦🇹🇼",
+      "published": "2026-11-09T10:00:07+00:00",
+      "url": "https://www.youtube.com/watch?v=jiuESzRS_fM",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "vWSGtWvETOo",
+      "title": "如何調查特朗普涉嫌利益衝突？拆解家族生意、內幕交易與總統豁免權｜沈旭暉 x 紐約州律師 David Tang｜校長會客室・國際部・EP44・字幕圖像版 🇺🇸",
+      "published": "2026-11-09T04:00:17+00:00",
+      "url": "https://www.youtube.com/watch?v=vWSGtWvETOo",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "b2cnxRsz0io",
+      "title": "Iran isn't Nazi Germany",
+      "published": "2026-11-09T14:00:34+00:00",
+      "url": "https://www.youtube.com/watch?v=b2cnxRsz0io",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "rS8qwomoDYs",
+      "title": "Have “Antisemitic” and “Communist” Lost Their Meaning? | Ask the Professor",
+      "published": "2026-11-09T13:00:14+00:00",
+      "url": "https://www.youtube.com/watch?v=rS8qwomoDYs",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
-    "date": "2026-11-09",
-    "count": 3
+    "date": "2026-11-10",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-09T06:56:42.502003+00:00",
+  "last_run": "2026-11-09T17:43:44.799419+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-09T06:56:10.505019+00:00"
+  "last_gemini_attempt_at": "2026-11-09T17:41:52.027722+00:00"
 }
