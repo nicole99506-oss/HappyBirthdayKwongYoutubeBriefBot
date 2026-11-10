@@ -379,20 +379,14 @@
         "_-Dfhh1bNH0",
         "z7JtiVQQPqs",
         "i15HLCMLISU",
-        "0LuEIMzUMcM"
+        "0LuEIMzUMcM",
+        "mWaez4AuGWs"
       ],
       "worker_initialized": true
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "mWaez4AuGWs",
-      "title": "Trump Waited Until After the Election",
-      "published": "2026-11-05T22:00:16+00:00",
-      "url": "https://www.youtube.com/watch?v=mWaez4AuGWs",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
-    },
     {
       "video_id": "QHgofBrfvRw",
       "title": "\"Protests Are a Dead End\": Serbia, Gen Z & Europe's Youth Revolt | Biljana Vankovska",
@@ -536,10 +530,10 @@
   ],
   "daily": {
     "date": "2026-11-10",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-09T17:43:44.799419+00:00",
+  "last_run": "2026-11-10T01:40:29.867860+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-09T17:41:52.027722+00:00"
+  "last_gemini_attempt_at": "2026-11-10T01:40:22.526259+00:00"
 }
