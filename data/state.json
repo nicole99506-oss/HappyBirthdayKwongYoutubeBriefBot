@@ -381,20 +381,14 @@
         "z7JtiVQQPqs",
         "i15HLCMLISU",
         "0LuEIMzUMcM",
-        "mWaez4AuGWs"
+        "mWaez4AuGWs",
+        "YuTdZpqqXNc"
       ],
       "worker_initialized": true
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "YuTdZpqqXNc",
-      "title": "Would Israel Nuke Iran?",
-      "published": "2026-11-06T15:00:02+00:00",
-      "url": "https://www.youtube.com/watch?v=YuTdZpqqXNc",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
-    },
     {
       "video_id": "BNHkcBM5FT0",
       "title": "The Danger of a Nuclear Middle East  | Ask the Professor",
@@ -541,14 +535,28 @@
       "published": "2026-11-09T18:38:32+00:00",
       "url": "https://www.youtube.com/watch?v=KGKM0IMZtlE",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "VD3AxTT87dg",
+      "title": "黃仁勳預言：整水喉月入十萬？AI時代藍領反超白領？未來世界哪些職業能避免淘汰？｜沈旭暉・國際未來學・EP05 🇺🇸🇭🇰🇬🇧",
+      "published": "2026-11-10T17:08:12+00:00",
+      "url": "https://www.youtube.com/watch?v=VD3AxTT87dg",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "R1zrBvg_5Pw",
+      "title": "黃仁勳間諜揭背後中資背景｜黃樂代表中國在海外購買GPU 的商業模式｜馮敬恩・大學堂｜國際關係教室｜ 艷諜｜輝達｜黃仁勳｜Nvidia｜SOXL｜俾返啲錢我啊！｜🇺🇸🇨🇳",
+      "published": "2026-11-10T15:00:14+00:00",
+      "url": "https://www.youtube.com/watch?v=R1zrBvg_5Pw",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-11-10",
-    "count": 3
+    "date": "2026-11-11",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-10T10:09:13.368536+00:00",
+  "last_run": "2026-11-10T18:00:26.556679+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-10T10:08:02.340678+00:00"
+  "last_gemini_attempt_at": "2026-11-10T18:00:20.185354+00:00"
 }
