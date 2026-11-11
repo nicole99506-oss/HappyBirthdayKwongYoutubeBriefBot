@@ -303,7 +303,8 @@
         "HY5gLMi9KiY",
         "69XM2F4TkCQ",
         "8TqZBPoAq-I",
-        "13slh_hPld0"
+        "13slh_hPld0",
+        "bM7Q9iXJGLw"
       ],
       "worker_initialized": true
     },
@@ -391,13 +392,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "bM7Q9iXJGLw",
-      "title": "索馬里難民高票連任美國眾議員，奧巴馬聲援｜特朗普政府啟動入籍調查，反捧紅奧馬爾？如果證實違法，下場如何？｜沈旭暉 x Sunny Li 律師｜奇案101・EP04 🇺🇸🇸🇴🇰🇪⚖️",
-      "published": "2026-11-07T00:00:24+00:00",
-      "url": "https://www.youtube.com/watch?v=bM7Q9iXJGLw",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "TzCeWJ_xBGU",
       "title": "大法官之戰：控制美國未來40年在此一舉？最高法院大法官才是美國最有權力的人？如何令終身制大法官離場？｜沈旭暉・平行時空・EP46 🇺🇸",
@@ -537,14 +531,49 @@
       "published": "2026-11-10T15:00:14+00:00",
       "url": "https://www.youtube.com/watch?v=R1zrBvg_5Pw",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "TD_wcUMKUpw",
+      "title": "11月11日不是購物節？英國百年紅花傳統、香港重光紀念日的消失，悼念惹起爭議？｜集體記憶｜Simon Lab｜國際關係101 ｜🇬🇧🇭🇰",
+      "published": "2026-11-11T15:00:00+00:00",
+      "url": "https://www.youtube.com/watch?v=TD_wcUMKUpw",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "_cBFlZAISKk",
+      "title": "如果印度擊敗中國？! 中印戰爭1962年結局如果逆轉｜亞洲版圖改寫？文革不會出現？中國失去崛起機遇？｜沈旭暉・平行時空・EP50 🇮🇳🇨🇳🇺🇸🇷🇺🇵🇰",
+      "published": "2026-11-11T10:00:15+00:00",
+      "url": "https://www.youtube.com/watch?v=_cBFlZAISKk",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "S3wrVY-I410",
+      "title": "紐西蘭大選 前總理為何出走澳洲？澳洲、美國、中國如何博弈？關鍵小黨忽然左右大局？｜沈旭暉 x 紐西蘭港人 German｜校長會客室・國際部・EP46 🇳🇿🇦🇺🇬🇧🇺🇸🇨🇳🇭🇰",
+      "published": "2026-11-11T04:00:26+00:00",
+      "url": "https://www.youtube.com/watch?v=S3wrVY-I410",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "qsgYfdcPCcs",
+      "title": "America Is Not a Neutral Mediator",
+      "published": "2026-11-11T15:00:15+00:00",
+      "url": "https://www.youtube.com/watch?v=qsgYfdcPCcs",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "tdDLnVkRR7k",
+      "title": "No Guarantees, No Peace for Ukraine | Episode 15",
+      "published": "2026-11-11T14:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=tdDLnVkRR7k",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
     "date": "2026-11-11",
-    "count": 3
+    "count": 4
   },
   "greeted": true,
-  "last_run": "2026-11-11T06:52:00.327105+00:00",
+  "last_run": "2026-11-11T15:29:44.150581+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-11T06:50:33.097651+00:00"
+  "last_gemini_attempt_at": "2026-11-11T15:28:50.725798+00:00"
 }
