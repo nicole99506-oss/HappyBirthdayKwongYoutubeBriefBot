@@ -305,7 +305,8 @@
         "8TqZBPoAq-I",
         "13slh_hPld0",
         "bM7Q9iXJGLw",
-        "TzCeWJ_xBGU"
+        "TzCeWJ_xBGU",
+        "g_jqzy8EVuM"
       ],
       "worker_initialized": true
     },
@@ -394,13 +395,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "g_jqzy8EVuM",
-      "title": "特朗普夫人促成俄烏局部停火？斯洛文尼亞艷星終獲認同，梅拉尼婭為何做得到？｜烏克蘭總統澤連斯基頒授勳章的計算｜美國第一夫人歷代角色｜沈旭暉・平行時空・EP47 🇺🇸🇺🇦🇷🇺🇸🇮🇪🇺",
-      "published": "2026-11-08T10:00:17+00:00",
-      "url": "https://www.youtube.com/watch?v=g_jqzy8EVuM",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "TjlaK6vlryk",
       "title": "永居五變十，BNO 避過一劫？ #國際關係",
@@ -554,14 +548,49 @@
       "published": "2026-11-11T14:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=tdDLnVkRR7k",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "2t4JVpkOJoA",
+      "title": "以色列新總理大熱「鐵脊骨熊啤啤」，鷹派還是鴿派？艾森科特能終結內塔尼亞胡時代？｜沈旭暉・平行時空・EP51 🇮🇱🇵🇸🇮🇷🇱🇧🇺🇸",
+      "published": "2026-11-12T10:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=2t4JVpkOJoA",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "6dgC4VSd-BU",
+      "title": "特朗普強迫俄烏和談，烏軍怎樣看？｜冬天臨近，雙方如何部署？烏克蘭外籍兵團有新成員嗎？沈旭暉 x 烏克蘭前線華裔軍人 Edwin｜校長會客室・國際部・EP47 🇺🇦🇷🇺🇺🇸",
+      "published": "2026-11-12T04:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=6dgC4VSd-BU",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "HpyKIkOdEXM",
+      "title": "黑客入侵雪櫃？從歐洲國家呼籲囤糧，到網絡安全隱患｜馮敬恩・大學堂｜國際關係教室｜ 不對稱戰爭｜網絡安全｜糧食危機｜自給自足比率｜🇪🇺｜",
+      "published": "2026-11-12T00:00:13+00:00",
+      "url": "https://www.youtube.com/watch?v=HpyKIkOdEXM",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "v6GXbb8sM4U",
+      "title": "11月11日不只是購物節？一朵紅花紀念戰爭超過100年  #國際關係",
+      "published": "2026-11-11T23:30:38+00:00",
+      "url": "https://www.youtube.com/watch?v=v6GXbb8sM4U",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "Wj8OBsoGbZY",
+      "title": "Russia Will Win an Ugly Victory",
+      "published": "2026-11-12T00:00:16+00:00",
+      "url": "https://www.youtube.com/watch?v=Wj8OBsoGbZY",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
     "date": "2026-11-12",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-11-12T03:58:20.923574+00:00",
+  "last_run": "2026-11-12T13:01:03.548363+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-12T03:57:13.354282+00:00"
+  "last_gemini_attempt_at": "2026-11-12T12:59:53.559068+00:00"
 }
