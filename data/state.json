@@ -347,7 +347,8 @@
         "yBcWERUip4E",
         "N_Ybpcszw_8",
         "QHgofBrfvRw",
-        "EMnVUOPBEnE"
+        "EMnVUOPBEnE",
+        "SHKGRPRerQ0"
       ],
       "worker_initialized": true
     },
@@ -398,13 +399,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "SHKGRPRerQ0",
-      "title": "How Empire Colonizes Your Mind | David Hundeyin & Kit Klarenberg",
-      "published": "2026-11-08T09:00:32+00:00",
-      "url": "https://www.youtube.com/watch?v=SHKGRPRerQ0",
-      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
-    },
     {
       "video_id": "91HpmjjWHEw",
       "title": "AI over-reaction and earnings for LITE, FN, AMD, QCOM, and COHR",
@@ -586,14 +580,49 @@
       "published": "2026-11-13T04:00:33+00:00",
       "url": "https://www.youtube.com/watch?v=ReQqylkjKFQ",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "MzRkgbnZzfA",
+      "title": "黃仁勳案白手套破功？新加坡「新香港化」？如何在中美之間繼續左右逢源？｜沈旭暉・平行時空・EP53 🇸🇬🇲🇾🇭🇰🇺🇸🇨🇳",
+      "published": "2026-11-13T17:31:54+00:00",
+      "url": "https://www.youtube.com/watch?v=MzRkgbnZzfA",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "gYFuF9DWwTQ",
+      "title": "香港人一覺醒來 Claude 帳號被封？香港會變成 AI 沙漠嗎 #Shortshkai Short  #國際關係",
+      "published": "2026-11-13T15:45:23+00:00",
+      "url": "https://www.youtube.com/watch?v=gYFuF9DWwTQ",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "PrfodiMh8-Q",
+      "title": "中美角力下，香港變成AI沙漠？｜Claude停用香港用戶｜科技戰｜Simon Lab｜國際關係101｜🇭🇰",
+      "published": "2026-11-13T15:00:13+00:00",
+      "url": "https://www.youtube.com/watch?v=PrfodiMh8-Q",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "NFRqu492kIw",
+      "title": "Patton Was Dead Wrong",
+      "published": "2026-11-13T15:32:09+00:00",
+      "url": "https://www.youtube.com/watch?v=NFRqu492kIw",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "aHkFh6Wi8To",
+      "title": "81,000 Dead: Why America Let Stalin Take Berlin | Ask the Professor",
+      "published": "2026-11-13T14:00:02+00:00",
+      "url": "https://www.youtube.com/watch?v=aHkFh6Wi8To",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
-    "date": "2026-11-13",
-    "count": 3
+    "date": "2026-11-14",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-13T09:47:42.330461+00:00",
+  "last_run": "2026-11-13T17:56:20.084047+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-13T09:47:18.103131+00:00"
+  "last_gemini_attempt_at": "2026-11-13T17:55:18.725677+00:00"
 }
