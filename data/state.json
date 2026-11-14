@@ -312,7 +312,8 @@
         "sVJfMScLv7M",
         "3zD8IioVY_4",
         "JmZGHqs5R5k",
-        "2-3MHSPUNqA"
+        "2-3MHSPUNqA",
+        "Ly9iTsUGNvk"
       ],
       "worker_initialized": true
     },
@@ -402,13 +403,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "Ly9iTsUGNvk",
-      "title": "黃仁勳出軌涉中國間諜，美國早已得知？美國國會介入調查？｜中美科技戰｜Simon Lab｜國際關係101｜🇺🇸🇨🇳",
-      "published": "2026-11-09T15:00:35+00:00",
-      "url": "https://www.youtube.com/watch?v=Ly9iTsUGNvk",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "jiuESzRS_fM",
       "title": "民主黨極左派抬頭？AOC成為美國第48任總統？｜2028總統前哨戰：中期選舉進步派／極左派為何突破基本盤？DSA 成為民主黨MAGA？丨沈旭暉・平行時空・EP48 🇺🇸🇨🇳🇷🇺🇺🇦🇹🇼",
@@ -643,10 +637,10 @@
   ],
   "daily": {
     "date": "2026-11-15",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-14T19:23:05.591473+00:00",
+  "last_run": "2026-11-14T23:15:00.555858+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-14T19:22:42.012354+00:00"
+  "last_gemini_attempt_at": "2026-11-14T23:14:46.964917+00:00"
 }
