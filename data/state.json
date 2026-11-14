@@ -311,7 +311,8 @@
         "TjlaK6vlryk",
         "sVJfMScLv7M",
         "3zD8IioVY_4",
-        "JmZGHqs5R5k"
+        "JmZGHqs5R5k",
+        "2-3MHSPUNqA"
       ],
       "worker_initialized": true
     },
@@ -401,13 +402,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "2-3MHSPUNqA",
-      "title": "美股暴跌，民主黨大勝後提出AI禁令，中國會漁人得利？｜AI競賽｜Simon Lab｜國際關係101｜🇺🇸🇨🇳",
-      "published": "2026-11-08T15:00:08+00:00",
-      "url": "https://www.youtube.com/watch?v=2-3MHSPUNqA",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "Ly9iTsUGNvk",
       "title": "黃仁勳出軌涉中國間諜，美國早已得知？美國國會介入調查？｜中美科技戰｜Simon Lab｜國際關係101｜🇺🇸🇨🇳",
@@ -638,14 +632,21 @@
       "published": "2026-11-14T09:00:31+00:00",
       "url": "https://www.youtube.com/watch?v=7tz0Vy3T_Rc",
       "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
+    },
+    {
+      "video_id": "dIdnnGfPhP8",
+      "title": "加拿大總理：與中國合作風險遠低於美國？加拿大開始親中？｜對沖外交｜Simon Lab｜國際關係101｜🇨🇦🇨🇳🇺🇸",
+      "published": "2026-11-14T15:00:32+00:00",
+      "url": "https://www.youtube.com/watch?v=dIdnnGfPhP8",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-11-14",
-    "count": 3
+    "date": "2026-11-15",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-14T14:22:00.613696+00:00",
+  "last_run": "2026-11-14T19:23:05.591473+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-14T14:21:53.042999+00:00"
+  "last_gemini_attempt_at": "2026-11-14T19:22:42.012354+00:00"
 }
