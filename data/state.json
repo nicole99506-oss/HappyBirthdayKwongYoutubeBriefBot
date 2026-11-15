@@ -399,20 +399,14 @@
         "mWaez4AuGWs",
         "YuTdZpqqXNc",
         "BNHkcBM5FT0",
-        "b2cnxRsz0io"
+        "b2cnxRsz0io",
+        "rS8qwomoDYs"
       ],
       "worker_initialized": true
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "rS8qwomoDYs",
-      "title": "Have “Antisemitic” and “Communist” Lost Their Meaning? | Ask the Professor",
-      "published": "2026-11-09T13:00:14+00:00",
-      "url": "https://www.youtube.com/watch?v=rS8qwomoDYs",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
-    },
     {
       "video_id": "KoHsVYyV-G4",
       "title": "黃仁勳艷諜疑案｜揭開美國權力地圖 40山頭大鬥法？｜沈旭暉・平行時空・EP49 🇺🇸🇹🇼🇨🇳🇸🇬",
@@ -643,14 +637,21 @@
       "published": "2026-11-15T00:00:29+00:00",
       "url": "https://www.youtube.com/watch?v=NpZ7VV18fGo",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "mzJLCDwHYr8",
+      "title": "加拿大開始親中？  #國際關係",
+      "published": "2026-11-15T18:27:55+00:00",
+      "url": "https://www.youtube.com/watch?v=mzJLCDwHYr8",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
     "date": "2026-11-16",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-15T17:53:31.411731+00:00",
+  "last_run": "2026-11-15T23:01:51.905445+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-15T17:53:24.278454+00:00"
+  "last_gemini_attempt_at": "2026-11-15T23:01:24.820259+00:00"
 }
