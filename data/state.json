@@ -318,7 +318,8 @@
         "vWSGtWvETOo",
         "KoHsVYyV-G4",
         "7_xq9ZFjydc",
-        "KGKM0IMZtlE"
+        "KGKM0IMZtlE",
+        "VD3AxTT87dg"
       ],
       "worker_initialized": true
     },
@@ -410,13 +411,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "VD3AxTT87dg",
-      "title": "黃仁勳預言：整水喉月入十萬？AI時代藍領反超白領？未來世界哪些職業能避免淘汰？｜沈旭暉・國際未來學・EP05 🇺🇸🇭🇰🇬🇧",
-      "published": "2026-11-10T17:08:12+00:00",
-      "url": "https://www.youtube.com/watch?v=VD3AxTT87dg",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "R1zrBvg_5Pw",
       "title": "黃仁勳間諜揭背後中資背景｜黃樂代表中國在海外購買GPU 的商業模式｜馮敬恩・大學堂｜國際關係教室｜ 艷諜｜輝達｜黃仁勳｜Nvidia｜SOXL｜俾返啲錢我啊！｜🇺🇸🇨🇳",
@@ -689,14 +683,21 @@
       "published": "2026-11-16T14:00:19+00:00",
       "url": "https://www.youtube.com/watch?v=9J1l7aX-hqU",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "lB0CdQlI_KI",
+      "title": "俄烏談判 普京開天殺價：「歐洲和平」10條款有多荒謬？｜北約退回1997年：Mearsheimer 到杜金的理論基礎｜沈旭暉・平行時空・EP56 🇷🇺🇺🇦🇺🇸🇪🇺🇵🇱🇫🇮🇸🇪🇪🇪🇱🇻🇪🇪🇲🇩",
+      "published": "2026-11-17T10:00:10+00:00",
+      "url": "https://www.youtube.com/watch?v=lB0CdQlI_KI",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
     "date": "2026-11-17",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-17T04:42:58.195988+00:00",
+  "last_run": "2026-11-17T14:45:22.286449+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-17T04:42:38.880092+00:00"
+  "last_gemini_attempt_at": "2026-11-17T14:44:08.276069+00:00"
 }
