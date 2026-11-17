@@ -319,7 +319,8 @@
         "KoHsVYyV-G4",
         "7_xq9ZFjydc",
         "KGKM0IMZtlE",
-        "VD3AxTT87dg"
+        "VD3AxTT87dg",
+        "R1zrBvg_5Pw"
       ],
       "worker_initialized": true
     },
@@ -411,13 +412,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "R1zrBvg_5Pw",
-      "title": "黃仁勳間諜揭背後中資背景｜黃樂代表中國在海外購買GPU 的商業模式｜馮敬恩・大學堂｜國際關係教室｜ 艷諜｜輝達｜黃仁勳｜Nvidia｜SOXL｜俾返啲錢我啊！｜🇺🇸🇨🇳",
-      "published": "2026-11-10T15:00:14+00:00",
-      "url": "https://www.youtube.com/watch?v=R1zrBvg_5Pw",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "TD_wcUMKUpw",
       "title": "11月11日不是購物節？英國百年紅花傳統、香港重光紀念日的消失，悼念惹起爭議？｜集體記憶｜Simon Lab｜國際關係101 ｜🇬🇧🇭🇰",
@@ -690,14 +684,21 @@
       "published": "2026-11-17T10:00:10+00:00",
       "url": "https://www.youtube.com/watch?v=lB0CdQlI_KI",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "oIw32O3LhjM",
+      "title": "特朗普、習近平、普京深圳會面：中國或成最大贏家？｜APEC深圳峰會｜Simon Lab｜國際關係101｜🇨🇳🇺🇸🇷🇺",
+      "published": "2026-11-17T15:00:15+00:00",
+      "url": "https://www.youtube.com/watch?v=oIw32O3LhjM",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-11-17",
-    "count": 2
+    "date": "2026-11-18",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-17T14:45:22.286449+00:00",
+  "last_run": "2026-11-17T23:03:01.332074+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-17T14:44:08.276069+00:00"
+  "last_gemini_attempt_at": "2026-11-17T23:01:56.673364+00:00"
 }
