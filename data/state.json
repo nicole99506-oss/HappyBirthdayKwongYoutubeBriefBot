@@ -321,7 +321,8 @@
         "KGKM0IMZtlE",
         "VD3AxTT87dg",
         "R1zrBvg_5Pw",
-        "TD_wcUMKUpw"
+        "TD_wcUMKUpw",
+        "_cBFlZAISKk"
       ],
       "worker_initialized": true
     },
@@ -413,17 +414,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "_cBFlZAISKk",
-      "title": "如果印度擊敗中國？! 中印戰爭1962年結局如果逆轉｜亞洲版圖改寫？文革不會出現？中國失去崛起機遇？｜沈旭暉・平行時空・EP50 🇮🇳🇨🇳🇺🇸🇷🇺🇵🇰",
-      "published": "2026-11-11T10:00:15+00:00",
-      "url": "https://www.youtube.com/watch?v=_cBFlZAISKk",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "summary_data": {
-        "summary": "這段影片探討了如果1962年中印邊境戰爭的結果發生逆轉，即印度獲勝，世界局勢可能出現的平行時空變化。影片首先分析了這場戰爭對中國內部政治的影響，指出若中國戰敗，毛澤東的威望將受挫，可能導致劉少奇等人的權力鬥爭提前爆發，甚至影響文化大革命的進程。同時，這也可能改變林彪在軍中的地位與責任歸屬。在國際層面上，印度若獲勝，將可能成為冷戰中除美蘇之外的「第三極」，進而改變全球冷戰格局，並對中印兩國的國際關係產生深遠影響。\n\n影片進一步探討了西藏問題與達賴喇嘛的流亡。若印度獲勝，流亡藏人可能更積極地評估重返西藏的可能性，而印度對達賴喇嘛的收容與支持，將成為中印關係中的關鍵變數。此外，影片分析了台灣蔣介石政權當時的反攻大陸計畫（國光計畫），指出若印度獲勝，台灣可能獲得更多反攻大陸的機會，甚至可能影響美國對越戰的策略選擇。印度若在區域內展現強勢，將可能改變南亞的權力平衡，影響巴基斯坦與中國的結盟關係，甚至可能阻止孟加拉的獨立。\n\n最後，影片討論了核武發展的先後順序。若印度在1962年獲勝，可能促使印度更早發展核武，甚至可能獲得美國的技術援助，進而改變中印兩國的核武競賽進程。影片總結認為，這場戰爭對印度而言是深刻的民族創傷，至今仍影響著印度的民族主義情緒。雖然這些假設屬於平行時空的想像，但透過這些假設，可以更深入理解當時國際關係的複雜性，以及這場戰爭對各國政治與外交策略的深遠影響。"
-      },
-      "last_telegram_error": "502 Server Error: Bad Gateway for url: https://api.telegram.org/bot8937466216:AAGXOP9rm2LKEBBdVrA2GzxFBpTMPaRxdyU/sendMessage"
-    },
     {
       "video_id": "S3wrVY-I410",
       "title": "紐西蘭大選 前總理為何出走澳洲？澳洲、美國、中國如何博弈？關鍵小黨忽然左右大局？｜沈旭暉 x 紐西蘭港人 German｜校長會客室・國際部・EP46 🇳🇿🇦🇺🇬🇧🇺🇸🇨🇳🇭🇰",
@@ -724,14 +714,28 @@
       "published": "2026-11-18T14:00:27+00:00",
       "url": "https://www.youtube.com/watch?v=xR-kl0d1dNM",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "lwVjpm93vJ0",
+      "title": "特朗普會成為第二個張伯倫？俄烏停戰重演慕尼黑協定，普京會否得寸進尺？｜俄烏和談｜Simon Lab｜國際關係101 🇺🇸🇷🇺🇺🇦🇪🇺",
+      "published": "2026-11-18T15:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=lwVjpm93vJ0",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "FUbYAm_swzk",
+      "title": "Why NATO Needs Weak Allies",
+      "published": "2026-11-18T15:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=FUbYAm_swzk",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
-    "date": "2026-11-18",
-    "count": 2
+    "date": "2026-11-19",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-18T14:24:18.232547+00:00",
+  "last_run": "2026-11-18T22:13:40.531842+00:00",
   "last_error_notified": "2026-10-16",
   "last_gemini_attempt_at": "2026-11-18T14:22:17.725070+00:00"
 }
