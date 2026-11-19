@@ -322,7 +322,8 @@
         "VD3AxTT87dg",
         "R1zrBvg_5Pw",
         "TD_wcUMKUpw",
-        "_cBFlZAISKk"
+        "_cBFlZAISKk",
+        "S3wrVY-I410"
       ],
       "worker_initialized": true
     },
@@ -414,13 +415,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "S3wrVY-I410",
-      "title": "紐西蘭大選 前總理為何出走澳洲？澳洲、美國、中國如何博弈？關鍵小黨忽然左右大局？｜沈旭暉 x 紐西蘭港人 German｜校長會客室・國際部・EP46 🇳🇿🇦🇺🇬🇧🇺🇸🇨🇳🇭🇰",
-      "published": "2026-11-11T04:00:26+00:00",
-      "url": "https://www.youtube.com/watch?v=S3wrVY-I410",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "qsgYfdcPCcs",
       "title": "America Is Not a Neutral Mediator",
@@ -728,14 +722,28 @@
       "published": "2026-11-18T15:00:30+00:00",
       "url": "https://www.youtube.com/watch?v=FUbYAm_swzk",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "4JgWM49I6Fg",
+      "title": "黃仁勳攬炒5大晶片白手套：美國最新審查令 星馬泰印是無辜的？｜沈旭暉・國際未來學・EP09 🇺🇸🇸🇬🇲🇾🇹🇭🇮🇩🇧🇷🇨🇳",
+      "published": "2026-11-19T00:00:27+00:00",
+      "url": "https://www.youtube.com/watch?v=4JgWM49I6Fg",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "Ub-DS8jueWE",
+      "title": "Germany Will Want the Bomb",
+      "published": "2026-11-19T00:00:28+00:00",
+      "url": "https://www.youtube.com/watch?v=Ub-DS8jueWE",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
     "date": "2026-11-19",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-18T22:13:40.531842+00:00",
+  "last_run": "2026-11-19T03:44:07.271477+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-18T14:22:17.725070+00:00"
+  "last_gemini_attempt_at": "2026-11-19T03:42:48.828100+00:00"
 }
