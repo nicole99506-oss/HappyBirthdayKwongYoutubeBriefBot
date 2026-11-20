@@ -323,7 +323,8 @@
         "R1zrBvg_5Pw",
         "TD_wcUMKUpw",
         "_cBFlZAISKk",
-        "S3wrVY-I410"
+        "S3wrVY-I410",
+        "2t4JVpkOJoA"
       ],
       "worker_initialized": true
     },
@@ -417,16 +418,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "2t4JVpkOJoA",
-      "title": "以色列新總理大熱「鐵脊骨熊啤啤」，鷹派還是鴿派？艾森科特能終結內塔尼亞胡時代？｜沈旭暉・平行時空・EP51 🇮🇱🇵🇸🇮🇷🇱🇧🇺🇸",
-      "published": "2026-11-12T10:00:06+00:00",
-      "url": "https://www.youtube.com/watch?v=2t4JVpkOJoA",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "summary_attempts": 1,
-      "last_summary_error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-      "next_retry_at": "2026-11-20T04:39:54.865123+00:00"
-    },
     {
       "video_id": "6dgC4VSd-BU",
       "title": "特朗普強迫俄烏和談，烏軍怎樣看？｜冬天臨近，雙方如何部署？烏克蘭外籍兵團有新成員嗎？沈旭暉 x 烏克蘭前線華裔軍人 Edwin｜校長會客室・國際部・EP47 🇺🇦🇷🇺🇺🇸",
@@ -755,14 +746,56 @@
       "published": "2026-11-20T00:00:39+00:00",
       "url": "https://www.youtube.com/watch?v=tGyKIvKhUrk",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "LQIeUtg5_Y8",
+      "title": "Elon Musk：香港人很快會消失？  #國際關係",
+      "published": "2026-11-20T13:00:16+00:00",
+      "url": "https://www.youtube.com/watch?v=LQIeUtg5_Y8",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "E6bKcgVsnYA",
+      "title": "文盲10萬鎊買「獲獎藝術家」身份 成功移民英國？｜BBC臥底揭「全球人才簽證」漏洞，法律如何堵塞？｜沈旭暉 x Sunny Li 律師｜奇案101・EP06 🇬🇧🇨🇳🇳🇬",
+      "published": "2026-11-20T11:03:11+00:00",
+      "url": "https://www.youtube.com/watch?v=E6bKcgVsnYA",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "BOysrROxL2E",
+      "title": "APEC中國迎賓禮儀4大反常｜習近平親迎特朗普 真正贏家是誰？普京斯人獨憔悴？越南國家主席獲禮尚往來嗎？｜沈旭暉・平行時空・EP59 🇨🇳🇺🇸🇷🇺🇻🇳🇲🇾🇯🇵🇹🇼🇭🇰",
+      "published": "2026-11-20T10:00:07+00:00",
+      "url": "https://www.youtube.com/watch?v=BOysrROxL2E",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "I8oQoWqXiLA",
+      "title": "《1984》42年前早預言中美俄峰會？！｜三大國瓜分世界 下一步還會怎樣？戰爭部、真理部、仁愛部的現實諷刺｜沈旭暉・平行時空・EP60 🇨🇳🇺🇸🇷🇺",
+      "published": "2026-11-20T05:20:00+00:00",
+      "url": "https://www.youtube.com/watch?v=I8oQoWqXiLA",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "E-ovBpveDZI",
+      "title": "習近平封殺高市早苗 成效評估報告｜APEC 中日領袖如何互動？｜校長會客室・國際部・EP55 🇨🇳🇯🇵",
+      "published": "2026-11-20T04:00:14+00:00",
+      "url": "https://www.youtube.com/watch?v=E-ovBpveDZI",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "FAoRxX6D4-o",
+      "title": "How Long Will You Keep Falling for This PSYOP? | BettBeat x Revolutionary Change",
+      "published": "2026-11-20T09:00:01+00:00",
+      "url": "https://www.youtube.com/watch?v=FAoRxX6D4-o",
+      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     }
   ],
   "daily": {
     "date": "2026-11-20",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-20T03:39:54.867839+00:00",
+  "last_run": "2026-11-20T13:20:32.834254+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-20T03:37:39.404704+00:00"
+  "last_gemini_attempt_at": "2026-11-20T13:19:02.002408+00:00"
 }
