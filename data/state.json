@@ -422,7 +422,10 @@
       "title": "以色列新總理大熱「鐵脊骨熊啤啤」，鷹派還是鴿派？艾森科特能終結內塔尼亞胡時代？｜沈旭暉・平行時空・EP51 🇮🇱🇵🇸🇮🇷🇱🇧🇺🇸",
       "published": "2026-11-12T10:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=2t4JVpkOJoA",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "summary_attempts": 1,
+      "last_summary_error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "next_retry_at": "2026-11-20T04:39:54.865123+00:00"
     },
     {
       "video_id": "6dgC4VSd-BU",
@@ -745,6 +748,13 @@
       "published": "2026-11-19T15:00:13+00:00",
       "url": "https://www.youtube.com/watch?v=bjZ29x3BFG0",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "tGyKIvKhUrk",
+      "title": "APEC 為何在深圳，不在廣州？世界各國AI 園區取代舊商港？｜古加拉特邦・水源・新竹・宿務・矽谷｜沈旭暉・國際未來學・EP10 🇨🇳🇹🇼🇰🇷🇵🇭🇮🇳🇺🇸",
+      "published": "2026-11-20T00:00:39+00:00",
+      "url": "https://www.youtube.com/watch?v=tGyKIvKhUrk",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
@@ -752,7 +762,7 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-19T22:20:55.368416+00:00",
+  "last_run": "2026-11-20T03:39:54.867839+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-19T22:19:47.926404+00:00"
+  "last_gemini_attempt_at": "2026-11-20T03:37:39.404704+00:00"
 }
