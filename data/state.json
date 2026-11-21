@@ -425,7 +425,10 @@
       "title": "11月11日不只是購物節？一朵紅花紀念戰爭超過100年  #國際關係",
       "published": "2026-11-11T23:30:38+00:00",
       "url": "https://www.youtube.com/watch?v=v6GXbb8sM4U",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "summary_attempts": 1,
+      "last_summary_error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "next_retry_at": "2026-11-21T12:29:47.912544+00:00"
     },
     {
       "video_id": "Wj8OBsoGbZY",
@@ -811,6 +814,20 @@
       "published": "2026-11-21T00:00:35+00:00",
       "url": "https://www.youtube.com/watch?v=urVCHlBg-EI",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "os2ObBQNMcY",
+      "title": "垃圾桶伯爵，英國人驕傲！英國選舉另類候選人有存在價值嗎？挑戰法拉奇的奇人背後的政治理念｜沈旭暉 x 英國傳媒人 Clement｜校長會客室國際部・EP56 🇬🇧🇭🇰",
+      "published": "2026-11-21T04:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=os2ObBQNMcY",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "2CHCWlyUdQY",
+      "title": "Cancelled for Criticizing Israel | Julian Sayarer & Kit Klarenberg",
+      "published": "2026-11-21T09:00:18+00:00",
+      "url": "https://www.youtube.com/watch?v=2CHCWlyUdQY",
+      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     }
   ],
   "daily": {
@@ -818,7 +835,7 @@
     "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-21T02:43:49.477638+00:00",
+  "last_run": "2026-11-21T11:29:47.915197+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-21T02:41:12.788073+00:00"
+  "last_gemini_attempt_at": "2026-11-21T11:29:38.995786+00:00"
 }
