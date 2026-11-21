@@ -325,7 +325,8 @@
         "_cBFlZAISKk",
         "S3wrVY-I410",
         "2t4JVpkOJoA",
-        "6dgC4VSd-BU"
+        "6dgC4VSd-BU",
+        "HpyKIkOdEXM"
       ],
       "worker_initialized": true
     },
@@ -419,13 +420,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "HpyKIkOdEXM",
-      "title": "黑客入侵雪櫃？從歐洲國家呼籲囤糧，到網絡安全隱患｜馮敬恩・大學堂｜國際關係教室｜ 不對稱戰爭｜網絡安全｜糧食危機｜自給自足比率｜🇪🇺｜",
-      "published": "2026-11-12T00:00:13+00:00",
-      "url": "https://www.youtube.com/watch?v=HpyKIkOdEXM",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "v6GXbb8sM4U",
       "title": "11月11日不只是購物節？一朵紅花紀念戰爭超過100年  #國際關係",
@@ -810,14 +804,21 @@
       "published": "2026-11-20T15:00:25+00:00",
       "url": "https://www.youtube.com/watch?v=qBh7kcV31qA",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "urVCHlBg-EI",
+      "title": "馬來西亞黃仁勳之劫：AI樂園見財化水？柔佛如何亡羊補牢？美國限制令動真格？大馬白手套如何逃出生天？｜沈旭暉・國際未來學・EP11 🇲🇾🇸🇬🇺🇸🇨🇳🇰🇵",
+      "published": "2026-11-21T00:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=urVCHlBg-EI",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
     "date": "2026-11-21",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-20T21:23:35.436879+00:00",
+  "last_run": "2026-11-21T02:43:49.477638+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-20T21:22:51.088561+00:00"
+  "last_gemini_attempt_at": "2026-11-21T02:41:12.788073+00:00"
 }
