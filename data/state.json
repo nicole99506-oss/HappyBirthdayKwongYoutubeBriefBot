@@ -328,7 +328,8 @@
         "6dgC4VSd-BU",
         "HpyKIkOdEXM",
         "v6GXbb8sM4U",
-        "nZq9L7CRPqk"
+        "nZq9L7CRPqk",
+        "ReQqylkjKFQ"
       ],
       "worker_initialized": true
     },
@@ -424,13 +425,6 @@
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "ReQqylkjKFQ",
-      "title": "以色列人怎樣迎接後內塔尼亞胡時代？新總理大熱艾森科特是甚麼人？以色列會對哈瑪斯讓步嗎？｜沈旭暉 x 以色列學者 Dotan Rousso 博士｜校長會客室・國際部・EP48 🇮🇱🇵🇸🇮🇷🇱🇧",
-      "published": "2026-11-13T04:00:33+00:00",
-      "url": "https://www.youtube.com/watch?v=ReQqylkjKFQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
-    },
     {
       "video_id": "MzRkgbnZzfA",
       "title": "黃仁勳案白手套破功？新加坡「新香港化」？如何在中美之間繼續左右逢源？｜沈旭暉・平行時空・EP53 🇸🇬🇲🇾🇭🇰🇺🇸🇨🇳",
@@ -854,10 +848,10 @@
   ],
   "daily": {
     "date": "2026-11-23",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-22T16:30:09.023810+00:00",
+  "last_run": "2026-11-22T22:38:28.625252+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-22T16:29:12.019480+00:00"
+  "last_gemini_attempt_at": "2026-11-22T22:37:29.929772+00:00"
 }
