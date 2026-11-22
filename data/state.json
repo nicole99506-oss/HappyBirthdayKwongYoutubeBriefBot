@@ -415,20 +415,14 @@
         "rS8qwomoDYs",
         "qsgYfdcPCcs",
         "tdDLnVkRR7k",
-        "Wj8OBsoGbZY"
+        "Wj8OBsoGbZY",
+        "eWwxh1PV7-w"
       ],
       "worker_initialized": true
     }
   },
   "awaiting_backfill": {},
   "queue": [
-    {
-      "video_id": "eWwxh1PV7-w",
-      "title": "Russia Wants a Veto on Ukraine’s Defense",
-      "published": "2026-11-12T15:00:26+00:00",
-      "url": "https://www.youtube.com/watch?v=eWwxh1PV7-w",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
-    },
     {
       "video_id": "nZq9L7CRPqk",
       "title": "伊戰 vs 越戰｜兩代學霸國防部長 誰應被彈劾？赫格塞斯與麥南馬拉的跨世紀輪廻｜沈旭暉・平行時空・EP52 🇺🇸🇮🇷🇻🇳",
@@ -834,14 +828,21 @@
       "published": "2026-11-21T22:00:17+00:00",
       "url": "https://www.youtube.com/watch?v=ysQ_30nh9Nw",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "dlFD9AXm8KQ",
+      "title": "劉備的大外宣：十姓家奴如何變身一代仁君？｜三國人物國際關係系列｜沈旭暉博士 x 黎智豐博士｜校長會客室・歷史部・EP57",
+      "published": "2026-11-22T04:00:24+00:00",
+      "url": "https://www.youtube.com/watch?v=dlFD9AXm8KQ",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
     "date": "2026-11-22",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-11-22T00:31:44.930717+00:00",
+  "last_run": "2026-11-22T08:18:21.237549+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-22T00:31:39.767493+00:00"
+  "last_gemini_attempt_at": "2026-11-22T08:18:14.851722+00:00"
 }
