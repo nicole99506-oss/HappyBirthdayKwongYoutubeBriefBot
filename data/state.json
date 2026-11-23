@@ -430,7 +430,10 @@
       "title": "黃仁勳案白手套破功？新加坡「新香港化」？如何在中美之間繼續左右逢源？｜沈旭暉・平行時空・EP53 🇸🇬🇲🇾🇭🇰🇺🇸🇨🇳",
       "published": "2026-11-13T17:31:54+00:00",
       "url": "https://www.youtube.com/watch?v=MzRkgbnZzfA",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
+      "summary_attempts": 1,
+      "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
+      "next_retry_at": "2026-11-23T04:50:55.918587+00:00"
     },
     {
       "video_id": "gYFuF9DWwTQ",
@@ -844,6 +847,13 @@
       "published": "2026-11-22T10:29:29+00:00",
       "url": "https://www.youtube.com/watch?v=1ZM_-lvFbDE",
       "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
+    },
+    {
+      "video_id": "WfbVmBIk7FU",
+      "title": "G20大崩潰？當一張大合照也難產｜G20前世今生，今天還有存在價值？哪些G20成員名不副實？｜沈旭暉・國際未來學・EP12 🇺🇸🇨🇳🇷🇺🇪🇺🇬🇧🇯🇵🇰🇷🇸🇦🇮🇩🇿🇦🇧🇷🇮🇳🇲🇽🇹🇷🇦🇷🇦🇺🇨🇦🇺🇦🇵🇱",
+      "published": "2026-11-23T00:00:03+00:00",
+      "url": "https://www.youtube.com/watch?v=WfbVmBIk7FU",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
@@ -851,7 +861,7 @@
     "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-22T22:38:28.625252+00:00",
+  "last_run": "2026-11-23T03:50:55.921098+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-22T22:37:29.929772+00:00"
+  "last_gemini_attempt_at": "2026-11-23T03:50:55.285261+00:00"
 }
