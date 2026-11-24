@@ -329,7 +329,8 @@
         "HpyKIkOdEXM",
         "v6GXbb8sM4U",
         "nZq9L7CRPqk",
-        "ReQqylkjKFQ"
+        "ReQqylkjKFQ",
+        "gYFuF9DWwTQ"
       ],
       "worker_initialized": true
     },
@@ -434,13 +435,6 @@
       "summary_attempts": 3,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
       "next_retry_at": "2026-11-25T02:26:18.609461+00:00"
-    },
-    {
-      "video_id": "gYFuF9DWwTQ",
-      "title": "香港人一覺醒來 Claude 帳號被封？香港會變成 AI 沙漠嗎 #Shortshkai Short  #國際關係",
-      "published": "2026-11-13T15:45:23+00:00",
-      "url": "https://www.youtube.com/watch?v=gYFuF9DWwTQ",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     },
     {
       "video_id": "PrfodiMh8-Q",
@@ -882,14 +876,28 @@
       "published": "2026-11-23T15:15:20+00:00",
       "url": "https://www.youtube.com/watch?v=jjxKeajTxBw",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "Eg2rwFY2iqU",
+      "title": "黃仁勳復職・特朗普即日狂賺千萬：美國法律如何監督利益衝突？｜feat. 美國紐約州律師 David Tang｜沈旭暉・平行時空・EP63 🇺🇸🇨🇳🇹🇼",
+      "published": "2026-11-24T10:00:11+00:00",
+      "url": "https://www.youtube.com/watch?v=Eg2rwFY2iqU",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "Hsh2F9Jl-qc",
+      "title": "法式教育戰場：全國大示威的源頭｜從法國示威讀經典《無知的教師》｜沈旭暉 x 林慎｜校長會客室・國際部・EP59 🇫🇷",
+      "published": "2026-11-24T04:00:23+00:00",
+      "url": "https://www.youtube.com/watch?v=Hsh2F9Jl-qc",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-11-23",
-    "count": 2
+    "date": "2026-11-24",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-24T02:26:18.611968+00:00",
+  "last_run": "2026-11-24T14:02:07.064545+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-24T02:26:18.024857+00:00"
+  "last_gemini_attempt_at": "2026-11-24T14:02:01.749539+00:00"
 }
