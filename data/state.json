@@ -330,7 +330,8 @@
         "v6GXbb8sM4U",
         "nZq9L7CRPqk",
         "ReQqylkjKFQ",
-        "gYFuF9DWwTQ"
+        "gYFuF9DWwTQ",
+        "PrfodiMh8-Q"
       ],
       "worker_initialized": true
     },
@@ -435,13 +436,6 @@
       "summary_attempts": 3,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
       "next_retry_at": "2026-11-25T02:26:18.609461+00:00"
-    },
-    {
-      "video_id": "PrfodiMh8-Q",
-      "title": "中美角力下，香港變成AI沙漠？｜Claude停用香港用戶｜科技戰｜Simon Lab｜國際關係101｜🇭🇰",
-      "published": "2026-11-13T15:00:13+00:00",
-      "url": "https://www.youtube.com/watch?v=PrfodiMh8-Q",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     },
     {
       "video_id": "NFRqu492kIw",
@@ -890,14 +884,28 @@
       "published": "2026-11-24T04:00:23+00:00",
       "url": "https://www.youtube.com/watch?v=Hsh2F9Jl-qc",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "lt8FwgqdcPE",
+      "title": "台灣選市長會影響國策？九合一選舉留意重點  #國際關係",
+      "published": "2026-11-24T16:00:07+00:00",
+      "url": "https://www.youtube.com/watch?v=lt8FwgqdcPE",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "Vkpzabv-nCQ",
+      "title": "黃仁勳重掌 Nvidia 全靠特朗普？民主黨下一步查白宮？｜政企關係｜Simon Lab｜國際關係101｜🇺🇸",
+      "published": "2026-11-24T15:00:08+00:00",
+      "url": "https://www.youtube.com/watch?v=Vkpzabv-nCQ",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-24T14:02:07.064545+00:00",
+  "last_run": "2026-11-24T23:34:01.567624+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-24T14:02:01.749539+00:00"
+  "last_gemini_attempt_at": "2026-11-24T23:33:45.160510+00:00"
 }
