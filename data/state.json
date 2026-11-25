@@ -433,9 +433,9 @@
       "published": "2026-11-13T17:31:54+00:00",
       "url": "https://www.youtube.com/watch?v=MzRkgbnZzfA",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ",
-      "summary_attempts": 3,
+      "summary_attempts": 4,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
-      "next_retry_at": "2026-11-25T02:26:18.609461+00:00"
+      "next_retry_at": "2026-12-02T08:55:10.424122+00:00"
     },
     {
       "video_id": "NFRqu492kIw",
@@ -898,6 +898,34 @@
       "published": "2026-11-24T15:00:08+00:00",
       "url": "https://www.youtube.com/watch?v=Vkpzabv-nCQ",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "2cBSp7qDAbU",
+      "title": "墨西哥總統：捱民航經濟艙飛深圳開APEC峰會・權力背後大精算｜總統專機有需要嗎？領導人坐經濟艙不合體統？｜沈旭暉・平行時空・EP64 🇲🇽🇺🇸🇨🇳",
+      "published": "2026-11-25T06:06:33+00:00",
+      "url": "https://www.youtube.com/watch?v=2cBSp7qDAbU",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "nTC1AgEluLU",
+      "title": "史瓦帝尼對台邦交可永續嗎？｜中華民國的非洲最後邦交國，如何各取所需？北京可以爭取過去嗎？｜沈旭暉 x 傅立言｜校長會客室・國際部・EP60 🇹🇼🇸🇿🇿🇦🇨🇳",
+      "published": "2026-11-25T04:00:01+00:00",
+      "url": "https://www.youtube.com/watch?v=nTC1AgEluLU",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "ri44qb4M93I",
+      "title": "中國率38國組「晶片丐幫」VS 美國「晶片北約」？｜一國一票能否換來AI話語權・農村包圍城市的AI戰場｜沈旭暉・國際未來學・EP14 🇨🇳🇺🇸",
+      "published": "2026-11-25T00:00:31+00:00",
+      "url": "https://www.youtube.com/watch?v=ri44qb4M93I",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "Qn9nGI52JmU",
+      "title": "俄軍空襲波及使館，俄方：後果自負",
+      "published": "2026-11-24T23:30:02+00:00",
+      "url": "https://www.youtube.com/watch?v=Qn9nGI52JmU",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
@@ -905,7 +933,7 @@
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-24T23:34:01.567624+00:00",
+  "last_run": "2026-11-25T08:55:10.427571+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-24T23:33:45.160510+00:00"
+  "last_gemini_attempt_at": "2026-11-25T08:55:10.001248+00:00"
 }
