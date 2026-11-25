@@ -420,7 +420,8 @@
         "qsgYfdcPCcs",
         "tdDLnVkRR7k",
         "Wj8OBsoGbZY",
-        "eWwxh1PV7-w"
+        "eWwxh1PV7-w",
+        "NFRqu492kIw"
       ],
       "worker_initialized": true
     }
@@ -436,13 +437,6 @@
       "summary_attempts": 4,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
       "next_retry_at": "2026-12-02T08:55:10.424122+00:00"
-    },
-    {
-      "video_id": "NFRqu492kIw",
-      "title": "Patton Was Dead Wrong",
-      "published": "2026-11-13T15:32:09+00:00",
-      "url": "https://www.youtube.com/watch?v=NFRqu492kIw",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     },
     {
       "video_id": "aHkFh6Wi8To",
@@ -926,14 +920,35 @@
       "published": "2026-11-24T23:30:02+00:00",
       "url": "https://www.youtube.com/watch?v=Qn9nGI52JmU",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "2X6wZWBx-C8",
+      "title": "越融合，越折墮？外勞真的會搶走本地工人飯碗？｜德國和捷克的跨境融合・新加坡與柔佛・ 香港與深圳｜馮敬恩・大學堂 🇪🇺🇩🇪🇨🇿🇩🇰🇨🇭🇬🇧🇸🇬🇲🇾🇭🇰🇨🇳",
+      "published": "2026-11-25T15:19:23+00:00",
+      "url": "https://www.youtube.com/watch?v=2X6wZWBx-C8",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "RiGvYZomfGI",
+      "title": "Trump Is Playing A Weak Hand",
+      "published": "2026-11-25T15:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=RiGvYZomfGI",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "gEM88StBZLQ",
+      "title": "A Humbled Trump Meets Putin and Xi | Episode 17",
+      "published": "2026-11-25T14:00:29+00:00",
+      "url": "https://www.youtube.com/watch?v=gEM88StBZLQ",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-25T08:55:10.427571+00:00",
+  "last_run": "2026-11-25T19:28:44.421239+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-25T08:55:10.001248+00:00"
+  "last_gemini_attempt_at": "2026-11-25T19:28:39.479510+00:00"
 }
