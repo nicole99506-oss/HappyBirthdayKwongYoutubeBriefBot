@@ -421,7 +421,8 @@
         "tdDLnVkRR7k",
         "Wj8OBsoGbZY",
         "eWwxh1PV7-w",
-        "NFRqu492kIw"
+        "NFRqu492kIw",
+        "aHkFh6Wi8To"
       ],
       "worker_initialized": true
     }
@@ -437,13 +438,6 @@
       "summary_attempts": 4,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
       "next_retry_at": "2026-12-02T08:55:10.424122+00:00"
-    },
-    {
-      "video_id": "aHkFh6Wi8To",
-      "title": "81,000 Dead: Why America Let Stalin Take Berlin | Ask the Professor",
-      "published": "2026-11-13T14:00:02+00:00",
-      "url": "https://www.youtube.com/watch?v=aHkFh6Wi8To",
-      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     },
     {
       "video_id": "O7DU5_2u5Gk",
@@ -941,14 +935,21 @@
       "published": "2026-11-25T14:00:29+00:00",
       "url": "https://www.youtube.com/watch?v=gEM88StBZLQ",
       "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "bEsx7X0GvZ4",
+      "title": "黃仁勳晶片助中國攻台？｜紐約時報的邏輯推論嚴謹嗎？圍繞黃仁勳的美國權力鬥爭，水有多深？｜沈旭暉・國際未來學・EP15 🇺🇸🇨🇳🇹🇼",
+      "published": "2026-11-26T00:00:32+00:00",
+      "url": "https://www.youtube.com/watch?v=bEsx7X0GvZ4",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     }
   ],
   "daily": {
     "date": "2026-11-26",
-    "count": 1
+    "count": 2
   },
   "greeted": true,
-  "last_run": "2026-11-25T19:28:44.421239+00:00",
+  "last_run": "2026-11-26T02:56:58.024111+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-25T19:28:39.479510+00:00"
+  "last_gemini_attempt_at": "2026-11-26T02:56:45.645533+00:00"
 }
