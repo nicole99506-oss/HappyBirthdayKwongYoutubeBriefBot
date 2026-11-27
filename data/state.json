@@ -333,7 +333,8 @@
         "gYFuF9DWwTQ",
         "PrfodiMh8-Q",
         "y_0hkuYHEHI",
-        "O4nZTqfZAug"
+        "O4nZTqfZAug",
+        "zRxwHRk9G_0"
       ],
       "worker_initialized": true
     },
@@ -441,13 +442,6 @@
       "summary_attempts": 4,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
       "next_retry_at": "2026-12-02T08:55:10.424122+00:00"
-    },
-    {
-      "video_id": "zRxwHRk9G_0",
-      "title": "英國叫全民儲糧？歐洲準備出事？｜未來應急手冊101：真正危機一旦出現，應如何求生？｜沈旭暉・國際未來學・EP06 🇬🇧🇪🇺🇫🇮🇸🇪🇪🇪🇱🇹🇱🇻🇩🇪🇵🇱🇹🇼",
-      "published": "2026-11-14T00:00:29+00:00",
-      "url": "https://www.youtube.com/watch?v=zRxwHRk9G_0",
-      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
     },
     {
       "video_id": "7tz0Vy3T_Rc",
@@ -966,14 +960,35 @@
       "published": "2026-11-26T09:34:53+00:00",
       "url": "https://www.youtube.com/watch?v=L2c66T4ekjw",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "C5NOmyuQTg4",
+      "title": "中國汽車領先全球？出口暴升成全球第一？｜產能過剩｜Simon Lab｜國際關係101｜🇨🇳🇪🇺🇲🇽🇷🇺🇨🇦",
+      "published": "2026-11-27T15:00:24+00:00",
+      "url": "https://www.youtube.com/watch?v=C5NOmyuQTg4",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "ff_XIpjnEig",
+      "title": "Air Power Can't Topple A Regime",
+      "published": "2026-11-27T15:00:22+00:00",
+      "url": "https://www.youtube.com/watch?v=ff_XIpjnEig",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
+    },
+    {
+      "video_id": "iWF6AbiictA",
+      "title": "Regime Change Always Fails | Ask the Professor",
+      "published": "2026-11-27T14:00:33+00:00",
+      "url": "https://www.youtube.com/watch?v=iWF6AbiictA",
+      "channel_id": "UCEaoODAZJF5w20lzcX1v03w"
     }
   ],
   "daily": {
     "date": "2026-11-27",
-    "count": 2
+    "count": 3
   },
   "greeted": true,
-  "last_run": "2026-11-27T05:12:53.211901+00:00",
+  "last_run": "2026-11-27T15:24:41.009667+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-27T05:12:16.854720+00:00"
+  "last_gemini_attempt_at": "2026-11-27T15:24:03.836407+00:00"
 }
