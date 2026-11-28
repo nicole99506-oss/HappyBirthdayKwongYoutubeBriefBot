@@ -373,7 +373,8 @@
         "N_Ybpcszw_8",
         "QHgofBrfvRw",
         "EMnVUOPBEnE",
-        "SHKGRPRerQ0"
+        "SHKGRPRerQ0",
+        "7tz0Vy3T_Rc"
       ],
       "worker_initialized": true
     },
@@ -442,13 +443,6 @@
       "summary_attempts": 4,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
       "next_retry_at": "2026-12-02T08:55:10.424122+00:00"
-    },
-    {
-      "video_id": "7tz0Vy3T_Rc",
-      "title": "Blue Tsunami, Same Capitalist Dictatorship | Ajamu Baraka & Dimitri Lascaris",
-      "published": "2026-11-14T09:00:31+00:00",
-      "url": "https://www.youtube.com/watch?v=7tz0Vy3T_Rc",
-      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     },
     {
       "video_id": "dIdnnGfPhP8",
@@ -984,11 +978,11 @@
     }
   ],
   "daily": {
-    "date": "2026-11-27",
-    "count": 3
+    "date": "2026-11-28",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-27T15:24:41.009667+00:00",
+  "last_run": "2026-11-28T00:09:17.249766+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-27T15:24:03.836407+00:00"
+  "last_gemini_attempt_at": "2026-11-28T00:08:24.884106+00:00"
 }
