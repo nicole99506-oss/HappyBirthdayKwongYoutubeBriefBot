@@ -60,7 +60,8 @@
         "XnnyR9NYA44",
         "nYSIJ7Zx6qs",
         "HHW-OrZTpRk",
-        "91HpmjjWHEw"
+        "91HpmjjWHEw",
+        "SsVepUjxDlY"
       ],
       "worker_initialized": true
     },
@@ -444,13 +445,6 @@
       "summary_attempts": 4,
       "last_summary_error": "403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'The caller does not have permission', 'status': 'PERMISSION_DENIED'}}",
       "next_retry_at": "2026-12-02T08:55:10.424122+00:00"
-    },
-    {
-      "video_id": "SsVepUjxDlY",
-      "title": "CRWV Earnings, NVDA assessment, plus stuff.",
-      "published": "2026-11-15T06:54:14+00:00",
-      "url": "https://www.youtube.com/watch?v=SsVepUjxDlY",
-      "channel_id": "UCAHr-sT0AjrD3sBwr1eRUNg"
     },
     {
       "video_id": "cCMcy4MU0po",
@@ -983,14 +977,35 @@
       "published": "2026-11-28T00:00:32+00:00",
       "url": "https://www.youtube.com/watch?v=zq1MJnzPpj0",
       "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "21bczUiZq6Y",
+      "title": "藍綠平手・洋流敗選：誰是最大贏家？台灣九合一選舉結果40點分析｜沈旭暉・平行時空・EP67 🇹🇼🇨🇳🇺🇸",
+      "published": "2026-11-28T14:46:58+00:00",
+      "url": "https://www.youtube.com/watch?v=21bczUiZq6Y",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "-4HFco46XmY",
+      "title": "台灣里長成中共統戰基地？反滲透法防不勝防？｜基層統戰｜Simon Lab｜國際關係101｜🇹🇼🇨🇳",
+      "published": "2026-11-28T10:00:31+00:00",
+      "url": "https://www.youtube.com/watch?v=-4HFco46XmY",
+      "channel_id": "UCXf8jlTSP9kp6g4ROCfgvbQ"
+    },
+    {
+      "video_id": "3R8Sv2zumfw",
+      "title": "The Most Important Wars Are the Ones You Don't Hear About | Leila Hatoum",
+      "published": "2026-11-28T11:25:33+00:00",
+      "url": "https://www.youtube.com/watch?v=3R8Sv2zumfw",
+      "channel_id": "UCVlAELI2OVTx03PvpXoLCWQ"
     }
   ],
   "daily": {
-    "date": "2026-11-28",
-    "count": 2
+    "date": "2026-11-29",
+    "count": 1
   },
   "greeted": true,
-  "last_run": "2026-11-28T08:11:08.210259+00:00",
+  "last_run": "2026-11-28T17:02:09.965060+00:00",
   "last_error_notified": "2026-10-16",
-  "last_gemini_attempt_at": "2026-11-28T08:10:55.925710+00:00"
+  "last_gemini_attempt_at": "2026-11-28T17:01:43.994793+00:00"
 }
